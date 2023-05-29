@@ -19,4 +19,3 @@ jobs:
       - uses: helaili/jekyll-action@2.5.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          target_branch: 'jekyll-website'
