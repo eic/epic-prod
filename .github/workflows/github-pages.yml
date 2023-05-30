@@ -1,11 +1,30 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Nightly Update to Data Display
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron:  '0 0 * * *'
+
+env:
+  time: "1d"
+  root: "S3/eictest/EPIC/RECO/"
 
 jobs:
+  update_data:
+    runs-on: ubuntu-latest
+    container:
+      image: minio/mc:latest
+    steps:
+    - name: Search the database and save the file names as a list
+      shell: bash
+      run: |
+        mc config host add S3 ${S3_HOST} ${S3_ACCESS_KEY} ${S3_SECRET_KEY}
+        text=$(mc find ${root} | grep -v '/CI/' | grep -v '/TEST/' | sed 's|S3/eictest/EPIC/\(.*\)/[^/]*/[^/]*|\1|' | sort | uniq --count)
+        echo $text > ./filenames.html
+      env:
+        S3_HOST: ${{secrets.S3_HOST}}
+        S3_ACCESS_KEY: ${{secrets.S3_ACCESS_KEY}}
+        S3_SECRET_KEY: ${{secrets.S3_SECRET_KEY}}
+
   github-pages:
     runs-on: ubuntu-latest
     steps:
