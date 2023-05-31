@@ -14,17 +14,18 @@ jobs:
     container:
       image: minio/mc:latest
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
     - name: Search the database and save the file names as a list
       shell: bash
       run: |
         mc config host add S3 ${S3_HOST} ${S3_ACCESS_KEY} ${S3_SECRET_KEY}
-        ./list_s3.sh > s3_content.yml
-        cp s3_content.yml ../../docs/_data
+        .github/workflows/list_s3.sh > docs/_data/s3_content.yml
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add ../../s3_content.yml
+        git add docs/_data/s3_content.yml
         git commit -m "Update list in s3_content.yml" || echo "No changes to commit"
-        git push
+        git push origin website
       env:
         S3_HOST: ${{secrets.S3_HOST}}
         S3_ACCESS_KEY: ${{secrets.S3_ACCESS_KEY}}
