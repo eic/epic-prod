@@ -8,7 +8,7 @@ layout: default
 {% include layouts/title.md %}
 
 <ul>
-{% for line in site.data.data.txt %}
+{% for line in site.data.s3_content.txt %}
   <li>{{ line }}</li>
 {% endfor %}
 </ul>
