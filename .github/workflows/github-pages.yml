@@ -18,12 +18,16 @@ jobs:
       shell: bash
       run: |
         mc config host add S3 ${S3_HOST} ${S3_ACCESS_KEY} ${S3_SECRET_KEY}
-        text=$(mc find ${root} | grep -v '/CI/' | grep -v '/TEST/' | sed 's|S3/eictest/EPIC/\(.*\)/[^/]*/[^/]*|\1|' | sort | uniq --count)
-        echo $text > ./filenames.html
+        ./list_s3.sh > s3_objects.txt
       env:
         S3_HOST: ${{secrets.S3_HOST}}
         S3_ACCESS_KEY: ${{secrets.S3_ACCESS_KEY}}
         S3_SECRET_KEY: ${{secrets.S3_SECRET_KEY}}
+    - name: Upload S3 objects file
+      uses: actions/upload-artifact@v2
+      with:
+        name: s3-objects
+        path: s3_objects.txt
 
   github-pages:
     runs-on: ubuntu-latest
