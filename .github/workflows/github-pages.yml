@@ -2,7 +2,7 @@ name: Nightly Update to Data Display
 
 on:
   schedule:
-    - cron:  '0 21 * * *'
+    - cron:  '30 21 * * *'
 
 env:
   root: "S3/eictest/EPIC/RECO/"
@@ -22,6 +22,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add s3_objects.txt
         git commit -m "Update list in s3_objects.txt" || echo "No changes to commit"
+        git push
       env:
         S3_HOST: ${{secrets.S3_HOST}}
         S3_ACCESS_KEY: ${{secrets.S3_ACCESS_KEY}}
