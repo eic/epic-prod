@@ -19,5 +19,11 @@
 
     - name: faq
       full: FAQ
+      
+- name: campaigns
+  full: Campaign History 
+  submenus:
 
+    - name: campaigns
+      full: Current
 
