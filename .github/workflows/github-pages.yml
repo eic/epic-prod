@@ -18,11 +18,12 @@ jobs:
       shell: bash
       run: |
         mc config host add S3 ${S3_HOST} ${S3_ACCESS_KEY} ${S3_SECRET_KEY}
-        ./list_s3.sh > s3_objects.txt
+        ./list_s3.sh > s3_content.yml
+        cp s3_objects.yml ../../_data
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add s3_objects.txt
-        git commit -m "Update list in s3_objects.txt" || echo "No changes to commit"
+        git add ../../s3_content.yml
+        git commit -m "Update list in s3_content.yml" || echo "No changes to commit"
         git push
       env:
         S3_HOST: ${{secrets.S3_HOST}}
