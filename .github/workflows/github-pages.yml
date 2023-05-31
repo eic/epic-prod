@@ -2,7 +2,8 @@ name: Nightly Update to Data Display
 
 on:
   schedule:
-    - cron:  '30 21 * * *'
+    - cron:  '0 0 * * *'
+  workflow_dispatch:
 
 env:
   root: "S3/eictest/EPIC/RECO/"
