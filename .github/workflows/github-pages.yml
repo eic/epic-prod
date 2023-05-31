@@ -2,7 +2,7 @@ name: Nightly Update to Data Display
 
 on:
   schedule:
-    - cron:  '50 15 * * *'
+    - cron:  '50 20 * * *'
 
 env:
   root: "S3/eictest/EPIC/RECO/"
