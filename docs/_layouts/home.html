@@ -13,8 +13,8 @@ layout: default
         <div class="col-md-5">
           <p class="lead">
 	    <h4>Purpose of this site</h4>
-	    This portal documents the output from ePIC simulation production campaigns.  
-		The following list contains the current output from the production campaigns (number of files, location).
+	    This is the main portal to the EIC software, repositories, documentation and resources.
+	    It is developed and maintained by the EICUG and the ePIC Collaboration.
 	    <!-- 
 	    <hr/>
 	    Questions? Contact the EICUG Software Working Group Conveners:<br/><a href="mailto:eicug-software-conveners@eicug.org">eicug-software-conveners@eicug.org</a>
@@ -25,7 +25,9 @@ layout: default
 
     </center> <!-- class sm12 blog main -->
     <hr/>
-    <iframe src="https://raw.githubusercontent.com/eic/epic-prod/website/.github/workflows/filenames.html" width="100%"></iframe>
+    {% if site.display_news %}
+    {% include news/homenews.md %}
+    {% endif %}
     <hr/>
 
     <table width="100%"><tr>

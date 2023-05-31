@@ -53,21 +53,6 @@ plugins:
 
 #
 collections:
-  software:
-    output: true
-    permalink: /software/:title.html
-  resources:
-    output: true
-    permalink: /resources/:title.html
-  activities:
-    output: true
-    permalink: /activities/:title.html
-  organization:
-    output: true
-    permalink: /organization/:title.html
   documentation:
     output: true
     permalink: /documentation/:title.html
-  about:
-    output: true
-    permalink: /about/:title.html
