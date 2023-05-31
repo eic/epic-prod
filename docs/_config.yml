@@ -56,3 +56,6 @@ collections:
   documentation:
     output: true
     permalink: /documentation/:title.html
+  campaigns:
+    output: true
+    permalink: /campaigns/:title.html
