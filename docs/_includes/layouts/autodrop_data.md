@@ -1,6 +1,7 @@
 {% case include.what %}
 
 {% when "documentation" %}{% assign theCollection=site.documentation %}{% assign icon=site.documentation_icon %}
+{% when "campaigns" %}{% assign theCollection=site.campaigns %}{% assign icon=site.documentation_icon %}
 
 {% endcase %}
 
