@@ -39,7 +39,6 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: s3_content
-        path: ./docs/_data/s3_content.yml
     - name: Commit s3_content.yml
       shell: bash
       run: |
