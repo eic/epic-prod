@@ -35,10 +35,15 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+    - name: Remove old s3_content
+      shell: bash
+      run: |
+        rm ./docs/_data/s3_content.yml
     - name: Download s3_content
       uses: actions/download-artifact@v3
       with:
         name: s3_content
+        path: ./docs/_data/s3_content.yml
     - name: Commit s3_content.yml
       shell: bash
       run: |
