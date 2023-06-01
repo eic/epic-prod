@@ -20,7 +20,7 @@ jobs:
       shell: bash
       run: |
         mc config host add S3 ${S3_HOST} ${S3_ACCESS_KEY} ${S3_SECRET_KEY}
-        $GITHUB_WORKSPACE/docs/_data/list_s3.sh > $GITHUB_WORKSPACE/docs/_data/s3_content.yml
+        /docs/_data/list_S3.sh > /docs/_data/s3_content.yml
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add docs/_data/s3_content.yml
