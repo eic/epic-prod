@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List all objects in the S3 bucket
-OBJECTS=$(mc ls --recursive S3/eictest/EPIC/EVGEN)
+OBJECTS=$(mc ls --recursive  S3/eictest/EPIC/RECO/23.05.2)
 
 # Iterate over the objects and print their names
 while IFS= read -r object; do
