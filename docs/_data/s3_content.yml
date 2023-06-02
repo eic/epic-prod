@@ -105,7 +105,6 @@
 - [2022-11-30 18:21:40 UTC] 1.6GiB STANDARD DIS/CC/5x41/minQ2=100/pythia8CCDIS_5x41_minQ2=100_beamEffects_xAngle=-0.025_hiDiv_4.hepmc3.tree.root
 - [2022-11-30 02:36:50 UTC] 2.2GiB STANDARD DIS/CC/5x41/minQ2=100/pythia8CCDIS_5x41_minQ2=100_beamEffects_xAngle=-0.025_hiDiv_5.hepmc.gz
 - [2022-11-30 18:19:20 UTC] 1.6GiB STANDARD DIS/CC/5x41/minQ2=100/pythia8CCDIS_5x41_minQ2=100_beamEffects_xAngle=-0.025_hiDiv_5.hepmc3.tree.root
-- [2023-02-26 23:06:19 UTC]   102B STANDARD DIS/Djangoh/eD/.screen.ifarm1801
 - [2023-05-30 06:26:12 UTC] 9.5GiB STANDARD DIS/Djangoh/eD/erhic-cc-yrad-floff_eD_18_137_q2_1_evt.hepmc3
 - [2022-12-13 18:44:03 UTC] 9.4KiB STANDARD DIS/Djangoh/eD/erhic-cc-yrad-floff_eD_18_137_q2_1_evt.hepmc3.tree.root
 - [2023-05-30 06:18:05 UTC] 5.4GiB STANDARD DIS/Djangoh/eD/erhic-cc-yrad-floff_eD_18_137_q2_1_evt.root
@@ -10381,7 +10380,6 @@
 - [2022-12-05 00:46:13 UTC] 1.0GiB STANDARD EXCLUSIVE/TCS/TCS_BH_TCS+BH/5x41/hel_plus/tcs_bh_int_5x41_7.hepmc
 - [2022-12-05 00:46:42 UTC] 1.0GiB STANDARD EXCLUSIVE/TCS/TCS_BH_TCS+BH/5x41/hel_plus/tcs_bh_int_5x41_8.hepmc
 - [2022-12-05 00:46:14 UTC] 1.0GiB STANDARD EXCLUSIVE/TCS/TCS_BH_TCS+BH/5x41/hel_plus/tcs_bh_int_5x41_9.hepmc
-- [2023-02-27 01:10:37 UTC]   138B STANDARD EXCLUSIVE/TCS_ABCONV/.screen.ifarm1801
 - [2022-12-05 00:46:09 UTC] 125MiB STANDARD EXCLUSIVE/TCS_ABCONV/10x100/hel_minus/TCS_gen_ab_hiAcc_10x100m_s100.hepmc
 - [2022-12-05 00:46:11 UTC]  42MiB STANDARD EXCLUSIVE/TCS_ABCONV/10x100/hel_minus/TCS_gen_ab_hiAcc_10x100m_s100.hepmc.gz
 - [2023-02-27 01:13:03 UTC]  40MiB STANDARD EXCLUSIVE/TCS_ABCONV/10x100/hel_minus/TCS_gen_ab_hiAcc_10x100m_s100.hepmc3.tree.root
@@ -11686,7 +11684,6 @@
 - [2022-12-01 22:37:01 UTC]  42MiB STANDARD SIDIS/Lambda_ABCONV/hepmc_Lambda4_ab_hiDiv_18x275_37.hepmc.gz
 - [2022-12-01 22:37:11 UTC]  42MiB STANDARD SIDIS/Lambda_ABCONV/hepmc_Lambda4_ab_hiDiv_18x275_38.hepmc.gz
 - [2022-12-01 22:37:03 UTC]  34MiB STANDARD SIDIS/Lambda_ABCONV/hepmc_Lambda4_ab_hiDiv_18x275_39.hepmc.gz
-- [2023-05-30 05:57:09 UTC]    99B STANDARD SIDIS/pythia6/.screen.ifarm1802
 - [2023-02-27 16:43:47 UTC] 4.6GiB STANDARD SIDIS/pythia6/ep_10x100/ep_noradcor.10x100_run001.root
 - [2023-02-27 17:03:02 UTC] 4.6GiB STANDARD SIDIS/pythia6/ep_10x100/ep_noradcor.10x100_run002.root
 - [2023-02-27 17:24:27 UTC] 4.6GiB STANDARD SIDIS/pythia6/ep_10x100/ep_noradcor.10x100_run003.root
