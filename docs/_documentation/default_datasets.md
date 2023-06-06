@@ -1,0 +1,140 @@
+---
+title: Default Datasets
+description: Default Datasets
+name: defaultdatasets
+layout: default
+---
+
+{% include layouts/title.md %}
+
+# Available Datasets
+- BACKGROUNDS
+  - 10x100
+    - merged_lowstat
+- DIS
+  - CC
+    - 10x100
+      - minQ2=100
+      - minQ2=1000
+    - 10x275
+      - minQ2=100
+      - minQ2=1000
+    - 18x275
+      - minQ2=100
+      - minQ2=1000
+    - 5x100
+      - minQ2=100
+      - minQ2=1000
+    - 5x41
+      - minQ2=100
+  - NC
+    - 10x100
+      - minQ2=1
+      - minQ2=10
+      - minQ2=100
+      - minQ2=1000
+    - 10x275
+      - minQ2=1
+      - minQ2=10
+      - minQ2=100
+      - minQ2=1000
+    - 18x275
+      - minQ2=1
+      - minQ2=10
+      - minQ2=100
+      - minQ2=1000
+    - 5x100
+      - minQ2=1
+      - minQ2=10
+      - minQ2=100
+      - minQ2=1000
+    - 5x41
+      - minQ2=1
+      - minQ2=10
+      - minQ2=100
+- EXCLUSIVE
+  - DEMP
+  - DIFFRACTIVE_JPSI
+    - BeAGLE
+  - DIFFRACTIVE_PHI
+    - BeAGLE
+  - DIFFRACTIVE_RHO
+  - DVCS
+  - OMEGA
+  - RHO
+  - SPECTROSCOPY
+  - TCS
+- SIDIS
+  - pythia6
+    - 10x100
+      - noradcor
+    - 18x275
+      - noradcor
+      - radcor
+    - 5x41
+      - noradcor
+      - radcor
+- SINGLE
+  - 130to177deg
+  - 3to50deg
+  - 45to135deg
+  - energy_eta_scan
+- SR
+
+# Default Campaign Datasets
+- BACKGROUNDS
+  - 10x100
+    - merged_lowstat
+- DIS
+  - CC
+    - 10x100
+      - minQ2=100
+      - minQ2=1000
+    - 10x275
+      - minQ2=100
+      - minQ2=1000
+    - 18x275
+      - minQ2=100
+      - minQ2=1000
+    - 5x100
+      - minQ2=100
+      - minQ2=1000
+    - 5x41
+      - minQ2=100
+  - NC
+    - 10x100
+      - minQ2=1
+      - minQ2=10
+      - minQ2=100
+      - minQ2=1000
+    - 10x275
+      - minQ2=1
+      - minQ2=10
+      - minQ2=100
+      - minQ2=1000
+    - 18x275
+      - minQ2=1
+      - minQ2=10
+      - minQ2=100
+      - minQ2=1000
+    - 5x100
+      - minQ2=1
+      - minQ2=10
+      - minQ2=100
+      - minQ2=1000
+    - 5x41
+      - minQ2=1
+      - minQ2=10
+      - minQ2=100
+- EXCLUSIVE
+  - DEMP
+  - DVCS
+  - TCS
+- SIDIS
+  - pythia6
+    - 10x100
+      - noradcor
+    - 18x275
+      - noradcor
+    - 5x41
+      - noradcor
