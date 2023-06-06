@@ -1,22 +1,69 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Nightly Update to Data Display
 
 on:
-  push:
-    branches:
-      - jekyll-website
+  schedule:
+    - cron:  '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  github-pages:
+  update_data:
+    runs-on: ubuntu-latest
+    container:
+      image: minio/mc:latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    - name: Search the database and save the file names as a list
+      shell: bash
+      run: |
+        mc config host add S3 ${S3_HOST} ${S3_ACCESS_KEY} ${S3_SECRET_KEY}
+        chmod +x ./docs/_data/list_S3.sh
+        ./docs/_data/list_S3.sh > ./docs/_data/s3_content.yml
+      env:
+        S3_HOST: ${{secrets.S3_HOST}}
+        S3_ACCESS_KEY: ${{secrets.S3_ACCESS_KEY}}
+        S3_SECRET_KEY: ${{secrets.S3_SECRET_KEY}}
+    - name: Upload s3_content
+      uses: actions/upload-artifact@v3
+      with:
+        name: s3_content
+        path: ./docs/_data/s3_content.yml
+        
+  commit_data:
+    needs: update_data
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      - uses: helaili/jekyll-action@2.5.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          target_branch: 'jekyll-website'
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    - name: Remove old s3_content
+      shell: bash
+      run: |
+        rm ./docs/_data/s3_content.yml
+    - name: Download s3_content
+      uses: actions/download-artifact@v3
+      with:
+        name: s3_content
+        path: ./docs/_data/
+    - name: Commit s3_content.yml
+      shell: bash
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add ./docs/_data/s3_content.yml
+        git commit -m "Update list in s3_content.yml" || echo "No changes to commit"
+        git push origin website
+
+#  github-pages:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v3
+#      - uses: actions/cache@v3
+#        with:
+#          path: vendor/bundle
+#          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+#          restore-keys: |
+#            ${{ runner.os }}-gems-
+#      - uses: helaili/jekyll-action@2.5.0
+#        with:
+#          target_branch: 'website'
+#          token: ${{ secrets.GITHUB_TOKEN }}

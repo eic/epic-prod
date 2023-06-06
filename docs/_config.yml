@@ -1,55 +1,62 @@
-# Welcome to Jekyll!
+name: The EIC ePIC Simulation Production Campaign Website
+title: The EIC ePIC Simulation Production Campaign Website
+description: The EIC ePIC Simulation Production Campaign Website
+repository: eic/epic-prod
+url: https://eic.github.io/epic-prod
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+excerpt_separator: <!--more-->
+timezone: America/New_York
+highlighter: rouge
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+markdown: kramdown
+future: true
+exclude: [vendor]
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+##################################################################################
+# Important if we are not serving from the top folder - baseurl: /web            #
+# In that case, please make sure you use the "relative_path" directive           #
+# everywhere you include various site URLs in your pages.                        #
+#                                                                                #
+# Currently serving from the top folder i.e.                                     #
+# in this case this does not apply until further notice.                         #
+##################################################################################
 
-# Build settings
-theme: minima
+# Custom helper variables:
+blank: 'target="_blank"'
+
+
+# Layout
+tablepadding: ' '
+
+# Decorative elements
+eic_logo: https://raw.githubusercontent.com/eic/eic.github.io/master/assets/images/site/EIClogo_small.png
+splash: https://raw.githubusercontent.com/eic/eic.github.io/master/assets/images/site/ion-collision-xparent-cropped.png
+
+# Icons:
+home_icon: https://raw.githubusercontent.com/eic/eic.github.io/master/assets/images/site/icons/house-32.png
+external_icon: https://raw.githubusercontent.com/eic/eic.github.io/master/assets/images/site/icons/external-link-32.png
+
+software_icon: https://raw.githubusercontent.com/eic/eic.github.io/master/assets/images/site/icons/console-32.png
+resources_icon: https://raw.githubusercontent.com/eic/eic.github.io/master/assets/images/site/icons/cog-32.png
+activities_icon: https://raw.githubusercontent.com/eic/eic.github.io/master/assets/images/site/icons/light-bulb-5-32.png
+organization_icon: https://raw.githubusercontent.com/eic/eic.github.io/master/assets/images/site/icons/flow-chart-32.png
+documentation_icon: https://raw.githubusercontent.com/eic/eic.github.io/master/assets/images/site/icons/literature-32.png
+about_icon: https://raw.githubusercontent.com/eic/eic.github.io/master/assets/images/site/icons/light-bulb-5-32.png
+
+
+# Development:
+display_news: yes
+#
 plugins:
-  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-redirect-from
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
 #
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+collections:
+  documentation:
+    output: true
+    permalink: /documentation/:title.html
+  campaigns:
+    output: true
+    permalink: /campaigns/:title.html
