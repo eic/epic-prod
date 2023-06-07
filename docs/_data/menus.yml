@@ -19,6 +19,9 @@
 
     - name: faq
       full: FAQ
+
+    - name: defaultdatasets
+      full: Campaign Datasets
       
 - name: campaigns
   full: Campaign History 
