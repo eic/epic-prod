@@ -16,7 +16,9 @@ Input files provided for production running should follow the following nomencla
 ```
 
 Example:
-pythia6_DIS-NC_10x100_q2_10_100_run001.hepmc
+```
+pythia6_DIS-NC_10x100_q2_10_100_<version>_run001.hepmc
+```
 
 ### Conversion to hepmc3.tree.root
 
@@ -30,7 +32,10 @@ If placing the hepmc and hepmc3.tree.root on S3 or JLAB xrootd, follow appropria
 EPIC/EVGEN/<physics WG>/<physics processes>/<version>/<electron momentum>x<proton momentum>/<file name>
 ```
 
-Example: EPIC/EVGEN/<physics WG>/DIS-NC/<version>/10x100/pythia6_DIS-NC_10x100_q2_10_100_<version>_run001.hepmc3.tree.root
+Example: 
+```
+EPIC/EVGEN/<physics WG>/DIS-NC/<version>/10x100/pythia6_DIS-NC_10x100_q2_10_100_<version>_run001.hepmc3.tree.root
+```
 
 Provide a README file under the <physics processes> subdirectory on how the dataset was produced and explain its purpose. Update it as new versions of the dataset are generated.
 
