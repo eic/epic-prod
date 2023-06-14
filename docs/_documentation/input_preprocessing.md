@@ -39,3 +39,6 @@ EPIC/EVGEN/<physics WG>/DIS-NC/<version>/10x100/pythia6_DIS-NC_10x100_q2_10_100_
 
 Provide a README file under the <physics processes> subdirectory on how the dataset was produced and explain its purpose. Update it as new versions of the dataset are generated.
 
+### Acceptable Formats
+We will accept either hepmc or hepmc3.tree.root files (later is peferred). 
+
