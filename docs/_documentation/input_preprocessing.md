@@ -20,7 +20,7 @@ Example:
 pythia6_DIS-NC_10x100_q2_10_100_<config ID>_run001.hepmc
 ```
 
-The <config ID> should correspond to the release tag of the generator at https://gitlab.com/eic/mceg. 
+The `<config ID>` should correspond to the release tag of the generator at https://gitlab.com/eic/mceg. 
 
 ### Conversion to hepmc3.tree.root
 
