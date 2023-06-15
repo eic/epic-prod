@@ -20,6 +20,8 @@ Example:
 pythia6_DIS-NC_10x100_q2_10_100_<config ID>_run001.hepmc
 ```
 
+The <config ID> should correspond to the release tag of the generator at https://gitlab.com/eic/mceg. 
+
 ### Conversion to hepmc3.tree.root
 
 Use the [hepmc3 to root converter](https://github.com/eic/hepmc3ascii2root) to preprocess the hepmc file into a root file with hepmc3.tree.root suffix. 
