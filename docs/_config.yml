@@ -2,7 +2,8 @@ name: The EIC ePIC Simulation Production Campaign Website
 title: The EIC ePIC Simulation Production Campaign Website
 description: The EIC ePIC Simulation Production Campaign Website
 repository: eic/epic-prod
-url: https://eic.github.io/epic-prod
+url: https://eic.github.io
+baseurl: epic-prod
 #
 excerpt_separator: <!--more-->
 timezone: America/New_York
