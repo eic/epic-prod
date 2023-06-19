@@ -4,7 +4,6 @@ author: Sakib Rahman
 layout: default
 symbol: glyphicon-calendar
 until: 2023-12-31
-categories: epic-prod
 ---
 <p/>
 
