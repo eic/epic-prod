@@ -34,9 +34,11 @@ If placing the hepmc and hepmc3.tree.root on S3 or JLAB xrootd, follow appropria
 EPIC/EVGEN/<physics WG>/<physics processes>/<config ID>/<electron momentum>x<proton momentum>/<file name>
 ```
 
+If applicable, place subprocesses in their own subdirectory under processes. 
+
 Example: 
 ```
-EPIC/EVGEN/<physics WG>/DIS-NC/<config ID>/10x100/pythia6_DIS-NC_10x100_q2_10_100_<config ID>_run001.hepmc3.tree.root
+EPIC/EVGEN/<physics WG>/DIS/NC/<config ID>/10x100/pythia6_DIS-NC_10x100_q2_10_100_<config ID>_run001.hepmc3.tree.root
 ```
 
 Provide a README file under the <config ID> subdirectory on how the dataset was produced and explain its purpose. Update it as new versions of the dataset are generated.
