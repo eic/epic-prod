@@ -11,7 +11,7 @@
 ### Documentation
 
 - name: documentation
-  full: Documentation 
+  full: Documentation
   submenus:
 
     - name: landingpage
@@ -30,3 +30,11 @@
     - name: campaigns
       full: Current
 
+- name: about 
+  full: About
+  right: yes
+  submenus:
+  
+    - name: contact
+      full: Contact Us
+  

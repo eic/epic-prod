@@ -60,3 +60,6 @@ collections:
   campaigns:
     output: true
     permalink: /campaigns/:title.html
+  about:
+    output: true
+    permalink: /about/:title.html
