@@ -4,7 +4,7 @@ author: Sakib Rahman
 layout: default
 symbol: glyphicon-calendar
 until: 2023-12-31
-permalink: /2023/05/31/train-summary.html
+permalink: /epic-prod/2023/05/31/train-summary.html
 ---
 <p/>
 
