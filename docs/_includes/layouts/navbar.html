@@ -21,8 +21,8 @@
   {% if menu.right %}</ul><ul class="navbar-nav  text-right"><li>
 
       {% include layouts/autodrop_data.md what=menu.name %}
-      <a class="navbar-brand mr-auto" href="{{ 'https://github.com/eic' | relative_url }}" target="_blank">
-      <img src="{{ '/assets/images/site/GitHub-Mark-Light-32px.png' | relative_url }}" height="32" ></a></li>
+      <a class="navbar-brand mr-auto" href="{{ 'https://github.com/eic' | absolute_url }}" target="_blank">
+      <img src="{{ 'https://raw.githubusercontent.com/eic/eic.github.io/master/assets/images/site/GitHub-Mark-Light-32px.png' | absolute_url }}" height="32" ></a></li>
 
   {% else %}
 
