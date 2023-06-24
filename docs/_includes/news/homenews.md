@@ -11,7 +11,7 @@
   <td>
 <!-- div class="row alert alert-news" -->
   <!-- p class="lead event-announce" -->
-    <a href="{{ post.url }}">
+    <a href="/epic-prod{{ post.url }}">
       <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }}
     </a>
   <!-- /p -->
