@@ -3,6 +3,6 @@ layout: default
 ---
 <ul>
 {% for line in site.data.s3_content %}
-  <li>{{ line }}</li>
+  <li><a href="{{ line.url }}">{{ line.text }}</a></li>
 {% endfor %}
 </ul>
