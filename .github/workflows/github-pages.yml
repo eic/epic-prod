@@ -16,7 +16,7 @@ jobs:
     - name: Search the database and save the file names as a list
       shell: bash
       run: |
-        rm -R .docs/_data/LOG/
+        rm -R ./docs/_data/LOG/
         mc config host add S3 ${S3_HOST} ${S3_ACCESS_KEY} ${S3_SECRET_KEY}
         chmod +x ./docs/_data/list_S3.sh
         ./docs/_data/list_S3.sh > ./docs/_data/s3_content.yml
