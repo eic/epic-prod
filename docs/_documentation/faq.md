@@ -10,7 +10,7 @@ layout: default
 #### How to access input datasets and simulated results
 ##### Install minio client 
 ```
-mkdir -p ~/bin
+mkdir --parent ~/bin
 curl https://dl.min.io/client/mc/release/linux-amd64/mc --create-dirs -o ~/bin/mc
 chmod +x ~/bin/mc
 ```
