@@ -46,6 +46,7 @@ jobs:
       run: |
         rm ./docs/_data/s3_content.yml
         rm -R ./docs/_data/LOG/
+        mkdir ./docs/_data/LOG/
     - name: Download s3_content
       uses: actions/download-artifact@v3
       with:
@@ -55,7 +56,7 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: LOG
-        path: ./docs/_data/
+        path: ./docs/_data/LOG/
     - name: Commit updates
       shell: bash
       run: |
