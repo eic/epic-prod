@@ -15,8 +15,9 @@ curl https://dl.min.io/client/mc/release/linux-amd64/mc --create-dirs -o ~/bin/m
 chmod +x ~/bin/mc
 ```
 ##### Setup read permissions (Only do this once)
+To get credential, contact production WG on mattermost. 
 ```
-~/bin/mc config host add S3 https://eics3.sdcc.bnl.gov:9000 eicS3read eicS3read
+~/bin/mc config host add S3 https://eics3.sdcc.bnl.gov:9000 <credential> <credential>
 ```
 ##### To view content
 ```
