@@ -38,6 +38,8 @@ The preferred way to access a specific rootfile is to open it in root directly:
 ```
 auto f = TFile::Open("root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon/DIS/NC/18x275/minQ2=1/pythia8NCDIS_18x275_minQ2=1_beamEffects_xAngle=-0.025_hiDiv_5.1663.eicrecon.tree.edm4eic.root")
 ```
+N.B. The above command needs to be executed after opening root. Make sure to use `TFile::Open("filename")` because `new TFile("filename")` will not work. You can try doing `root "filename"` to load the file on startup. 
+
 It is also possible copy the file and open it locally:
 ```
 xrdcp root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon/DIS/NC/18x275/minQ2=1/pythia8NCDIS_18x275_minQ2=1_beamEffects_xAngle=-0.025_hiDiv_5.1663.eicrecon.tree.edm4eic.root .
