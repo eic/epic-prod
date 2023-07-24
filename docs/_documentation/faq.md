@@ -15,29 +15,26 @@ xrdfs root://dtc-eic.jlab.org
 Then the relevant directories (EVGEN, RECO, and FULL) can be found in /work/eic2/EPIC directory
 ```
 [dtn-eic.jlab.org:1094] / > ls /work/eic2/EPIC
-/work/eic2/EPIC/Campaigns
 /work/eic2/EPIC/EVGEN
 /work/eic2/EPIC/FULL
-/work/eic2/EPIC/LOG
-/work/eic2/EPIC/MC_input
-/work/eic2/EPIC/PRODUCTION
 /work/eic2/EPIC/RECO
-/work/eic2/EPIC/Tutorials
-/work/eic2/EPIC/main
+....................
+....................
 ```
+- EVGEN: hepmc3 rootfiles for input datasets
+- FULL: Full geant4 simulation root files 
+- RECO: Reconstructed root files 
 
-The hepmc3 rootfiles for input datasets, full geant4 simulation root files and reconstructed root files can be found in the EVGEN, RECO, and FULL directories respectively and are accessibled under tagged folders that correlate to the campaigns. Example:
+The rootfiles are organized under the categories in tagged folders that correlate to the campaigns and detector configs. To list the directories and exit out of the filesystem:
 ```
 [dtn-eic.jlab.org:1094] / > ls /work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon
 /work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon/DIS
 /work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon/SIDIS
-```
 
-It is possible to copy specific files from xrootd onto local machine using the xrdcp command. First exit out of the file system:
-```
 [dtn-eic.jlab.org:1094] / > exit
 Goodbye.
 ```
+
 Then copy the file and open it locally
 ```
 xrdcp root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon/DIS/NC/18x275/minQ2=1/pythia8NCDIS_18x275_minQ2=1_beamEffects_xAngle=-0.025_hiDiv_5.1663.eicrecon.tree.edm4eic.root .
