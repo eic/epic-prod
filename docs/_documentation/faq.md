@@ -7,6 +7,8 @@ layout: default
 
 {% include layouts/title.md %}
 
+The following documentation assumes that users have completed the basic training on the [ePIC landing page](https://eic.github.io/documentation/landingpage.html) or atleast have rudimentary understanding of the [eic-shell](https://eic.github.io/tutorial-setting-up-environment/02-eic-shell/index.html) container and [ROOT](https://root.cern.ch/) analysis package. 
+
 #### How to access input datasets and simulated results from Jefferson Lab xrootd (PREFERRED METHOD)
 First open `eic-shell` and connect to the xrootd filesystem
 ```
