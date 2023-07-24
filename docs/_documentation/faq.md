@@ -8,7 +8,7 @@ layout: default
 {% include layouts/title.md %}
 
 #### How to access input datasets and simulated results from Jefferson Lab xrootd (PREFERRED METHOD)
-First open eic-shell and connect to the xrootd filesystem
+First open `eic-shell` and connect to the xrootd filesystem
 ```
 xrdfs root://dtc-eic.jlab.org
 ```
