@@ -36,9 +36,9 @@ Goodbye.
 ```
 The preferred way to access a specific rootfile is to open it in root directly:
 ```
-auto f = new TNetXNGFile("root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon/DIS/NC/18x275/minQ2=1/pythia8NCDIS_18x275_minQ2=1_beamEffects_xAngle=-0.025_hiDiv_5.1663.eicrecon.tree.edm4eic.root")
+auto f = TFile::Open("root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon/DIS/NC/18x275/minQ2=1/pythia8NCDIS_18x275_minQ2=1_beamEffects_xAngle=-0.025_hiDiv_5.1663.eicrecon.tree.edm4eic.root")
 ```
-It is also possible copy the file and open it locally
+It is also possible copy the file and open it locally:
 ```
 xrdcp root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon/DIS/NC/18x275/minQ2=1/pythia8NCDIS_18x275_minQ2=1_beamEffects_xAngle=-0.025_hiDiv_5.1663.eicrecon.tree.edm4eic.root .
 root pythia8NCDIS_18x275_minQ2=1_beamEffects_xAngle=-0.025_hiDiv_5.1663.eicrecon.tree.edm4eic.root
