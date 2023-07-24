@@ -28,9 +28,9 @@ Then the relevant directories (EVGEN, RECO, and FULL) can be found in /work/eic2
 
 The hepmc3 rootfiles for input datasets, full geant4 simulation root files and reconstructed root files can be found in the EVGEN, RECO, and FULL directories respectively and are accessibled under tagged folders that correlate to the campaigns. Example:
 ```
-[dtn-eic.jlab.org:1094] / > ls /work/eic2/EPIC/FULL/23.06.1/epic_brycecanyon
-/work/eic2/EPIC/FULL/23.06.1/epic_brycecanyon/DIS
-/work/eic2/EPIC/FULL/23.06.1/epic_brycecanyon/SIDIS
+[dtn-eic.jlab.org:1094] / > ls /work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon
+/work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon/DIS
+/work/eic2/EPIC/RECO/23.06.1/epic_brycecanyon/SIDIS
 ```
 
 It is possible to copy specific files from xrootd onto local machine using the xrdcp command. First exit out of the file system:
