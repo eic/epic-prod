@@ -12,7 +12,7 @@ The following documentation assumes that users have completed the basic training
 #### How to access input datasets and simulated results from Jefferson Lab xrootd (PREFERRED METHOD)
 First open `eic-shell` and connect to the xrootd filesystem
 ```
-xrdfs root://dtc-eic.jlab.org
+xrdfs root://dtn-eic.jlab.org
 ```
 Then the relevant directories (EVGEN, RECO, and FULL) can be found in /work/eic2/EPIC directory
 ```
