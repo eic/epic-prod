@@ -46,6 +46,7 @@ root pythia8NCDIS_18x275_minQ2=1_beamEffects_xAngle=-0.025_hiDiv_5.1663.eicrecon
 
 
 #### How to access input datasets and simulated results from BNL S3
+This method should not be used unless you cannot find what you need in xrootd. The S3 and xrootd servers are synced but sometimes there may be lags. If it is not time-critical, give it a day and check again on xrootd before trying this.
 ##### Install minio client 
 ```
 mkdir --parent ~/bin
