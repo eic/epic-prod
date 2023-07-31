@@ -9,5 +9,5 @@ while IFS= read -r object; do
   mkdir -p ./docs/LOG/"${name_only}"
   touch ./docs/LOG/"${name_only}"index.md
   mc tree S3/eictest/EPIC/LOG/"${name_only}" > ./docs/LOG/"${name_only}"index.md
-  echo -e "- text: "$name_only"\n  url: "/LOG/$name_only""
+  echo -e "- text: "$name_only"\n  url: "/epic-prod/LOG/$name_only""
 done <<< "$OBJECTS"
