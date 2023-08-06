@@ -1,5 +1,8 @@
 S3/eictest/EPIC/LOG/23.07.2/
 └─ epic_craterlake
+   ├─ BACKGROUNDS
+   │  └─ 10x100
+   │     └─ merged_lowstat
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
