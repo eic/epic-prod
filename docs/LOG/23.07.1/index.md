@@ -1,4 +1,9 @@
 S3/eictest/EPIC/LOG/23.07.1/
+├─ brycecanyon
+│  └─ DIS
+│     └─ NC
+│        └─ 5x41
+│           └─ minQ2=10
 ├─ epic_brycecanyon
 │  ├─ BACKGROUNDS
 │  │  └─ 10x100
