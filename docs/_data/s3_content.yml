@@ -24,6 +24,8 @@
   url: /epic-prod/LOG/23.07.1/
 - text: 23.07.2/
   url: /epic-prod/LOG/23.07.2/
+- text: 23.08.0/
+  url: /epic-prod/LOG/23.08.0/
 - text: CONDOR/
   url: /epic-prod/LOG/CONDOR/
 - text: alternative-geometries-img-ecal/
