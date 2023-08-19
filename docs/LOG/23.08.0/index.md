@@ -2,8 +2,12 @@ S3/eictest/EPIC/LOG/23.08.0/
 ├─ epic_brycecanyon
 │  └─ DIS
 │     ├─ CC
+│     │  ├─ 10x100
+│     │  │  ├─ minQ2=100
+│     │  │  └─ minQ2=1000
 │     │  └─ 18x275
-│     │     └─ minQ2=100
+│     │     ├─ minQ2=100
+│     │     └─ minQ2=1000
 │     └─ NC
 │        ├─ 10x100
 │        │  ├─ minQ2=1
@@ -22,9 +26,14 @@ S3/eictest/EPIC/LOG/23.08.0/
 └─ epic_craterlake
    └─ DIS
       ├─ CC
-      │  └─ 18x275
-      │     ├─ minQ2=100
-      │     └─ minQ2=1000
+      │  ├─ 10x100
+      │  │  ├─ minQ2=100
+      │  │  └─ minQ2=1000
+      │  ├─ 18x275
+      │  │  ├─ minQ2=100
+      │  │  └─ minQ2=1000
+      │  └─ 5x41
+      │     └─ minQ2=100
       └─ NC
          ├─ 10x100
          │  ├─ minQ2=1
