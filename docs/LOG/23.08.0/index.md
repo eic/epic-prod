@@ -31,7 +31,10 @@ S3/eictest/EPIC/LOG/23.08.0/
 │  │     └─ 18on275
 │  └─ SIDIS
 │     └─ pythia6
-│        └─ ep_18x275
+│        ├─ ep_18x275
+│        │  └─ hepmc_ip6
+│        │     └─ noradcor
+│        └─ ep_5x41
 │           └─ hepmc_ip6
 │              └─ noradcor
 └─ epic_craterlake
@@ -67,7 +70,10 @@ S3/eictest/EPIC/LOG/23.08.0/
    │     └─ 5on41
    └─ SIDIS
       └─ pythia6
-         └─ ep_18x275
+         ├─ ep_18x275
+         │  └─ hepmc_ip6
+         │     └─ noradcor
+         └─ ep_5x41
             └─ hepmc_ip6
                └─ noradcor
 ```
