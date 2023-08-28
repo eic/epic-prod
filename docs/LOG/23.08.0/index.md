@@ -27,8 +27,12 @@ S3/eictest/EPIC/LOG/23.08.0/
 │  │        ├─ minQ2=10
 │  │        └─ minQ2=100
 │  ├─ EXCLUSIVE
-│  │  └─ DEMP
-│  │     └─ 18on275
+│  │  ├─ DEMP
+│  │  │  └─ 18on275
+│  │  ├─ UCHANNEL_PI0
+│  │  │  └─ 18x275
+│  │  └─ UCHANNEL_RHO
+│  │     └─ 10x100
 │  └─ SIDIS
 │     └─ pythia6
 │        ├─ ep_18x275
@@ -64,10 +68,14 @@ S3/eictest/EPIC/LOG/23.08.0/
    │        ├─ minQ2=10
    │        └─ minQ2=100
    ├─ EXCLUSIVE
-   │  └─ DEMP
-   │     ├─ 10on100
-   │     ├─ 18on275
-   │     └─ 5on41
+   │  ├─ DEMP
+   │  │  ├─ 10on100
+   │  │  ├─ 18on275
+   │  │  └─ 5on41
+   │  ├─ UCHANNEL_PI0
+   │  │  └─ 18x275
+   │  └─ UCHANNEL_RHO
+   │     └─ 10x100
    └─ SIDIS
       └─ pythia6
          ├─ ep_18x275
