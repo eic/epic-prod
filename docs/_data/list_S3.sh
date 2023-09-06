@@ -9,7 +9,7 @@ while IFS= read -r object; do
   mkdir -p ./docs/LOG/"${name_only}"
   touch ./docs/LOG/"${name_only}"index.md
   echo '```' > ./docs/LOG/"${name_only}"index.md
-  mc tree --files S3/eictest/EPIC/LOG/"${name_only}" | sed 's/.*\.root$//g' | uniq -c | sed 's/.*1 //' >> ./docs/LOG/"${name_only}"index.md # contructs tree diagram with count of files in each directory
+  mc tree --files S3/eictest/EPIC/LOG/"${name_only}" | sed 's/.*\.out$//g' | uniq -c | sed 's/.*1 //' >> ./docs/LOG/"${name_only}"index.md # contructs tree diagram with count of files in each directory
   echo '```' >> ./docs/LOG/"${name_only}"index.md
   echo -e "- text: "$name_only"\n  url: "/epic-prod/LOG/$name_only""
 done <<< "$OBJECTS"
