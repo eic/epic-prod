@@ -15,7 +15,7 @@
   submenus:
 
     - name: landingpage
-      full: About
+      full: Quick Links
 
     - name: faq
       full: FAQ
