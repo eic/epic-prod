@@ -48,12 +48,12 @@ S3/eictest/EPIC/RECO/23.09.1/
    1090 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-   2288 
+   2292 
    │  │  │  └─ minQ2=1000
-
+   2074 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
-   1182 
+   1184 
    │  └─ NC
    │     ├─ 10x100
    │     │  ├─ minQ2=10
@@ -73,7 +73,7 @@ S3/eictest/EPIC/RECO/23.09.1/
 
    │     └─ 5x41
    │        ├─ minQ2=1
-   2978 
+   2980 
    │        ├─ minQ2=10
 
    │        └─ minQ2=100
@@ -83,7 +83,7 @@ S3/eictest/EPIC/RECO/23.09.1/
          ├─ ep_18x275
          │  └─ hepmc_ip6
          │     └─ noradcor
-    610 
+    617 
          └─ ep_5x41
             └─ hepmc_ip6
                └─ noradcor
