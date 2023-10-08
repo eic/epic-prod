@@ -14,8 +14,8 @@
   full: Documentation
   submenus:
 
-    - name: landingpage
-      full: About
+    - name: quicklinks
+      full: Quick Links
 
     - name: faq
       full: FAQ
