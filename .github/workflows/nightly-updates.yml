@@ -17,23 +17,35 @@ jobs:
       shell: bash
       run: |
         if [ -d ./docs/RECO ]; then rm -rf ./docs/RECO; fi
+        if [ -d ./docs/FULL ]; then rm -rf ./docs/FULL; fi
         mc config host add S3 ${S3_HOST} ${S3_ACCESS_KEY} ${S3_SECRET_KEY}
         chmod +x ./docs/_data/list_S3.sh
-        ./docs/_data/list_S3.sh > ./docs/_data/s3_content.yml
+        ./docs/_data/list_S3.sh RECO > ./docs/_data/reco_content.yml
+        ./docs/_data/list_S3.sh FULL > ./docs/_data/full_content.yml
       env:
         S3_HOST: ${{secrets.S3_HOST}}
         S3_ACCESS_KEY: ${{secrets.S3_ACCESS_KEY}}
         S3_SECRET_KEY: ${{secrets.S3_SECRET_KEY}}
-    - name: Upload s3_content
+    - name: Upload reco_content
       uses: actions/upload-artifact@v3
       with:
-        name: s3_content
-        path: ./docs/_data/s3_content.yml
+        name: reco_content
+        path: ./docs/_data/reco_content.yml
+    - name: Upload full_content
+      uses: actions/upload-artifact@v3
+      with:
+        name: full_content
+        path: ./docs/_data/full_content.yml
     - name: Upload RECO
       uses: actions/upload-artifact@v3
       with:
         name: RECO
         path: ./docs/RECO/
+    - name: Upload FULL
+      uses: actions/upload-artifact@v3
+      with:
+        name: FULL
+        path: ./docs/FULL/
         
   commit_data:
     needs: update_data
@@ -44,24 +56,37 @@ jobs:
     - name: Remove old s3_content
       shell: bash
       run: |
-        rm ./docs/_data/s3_content.yml
+        if [ -f ./docs/_data/reco_content.yml ]; then rm -f ./docs/_data/reco_content.yml; fi
+        if [ -f ./docs/_data/full_content.yml ]; then rm -f ./docs/_data/full_content.yml; fi
         if [ -d ./docs/RECO ]; then rm -rf ./docs/RECO; fi
+        if [ -d ./docs/FULL ]; then rm -rf ./docs/FULL; fi
         mkdir ./docs/RECO/
-    - name: Download s3_content
+        mkdir ./docs/FULL/
+    - name: Download reco_content
       uses: actions/download-artifact@v3
       with:
-        name: s3_content
+        name: reco_content
+        path: ./docs/_data/
+    - name: Download full_content
+      uses: actions/download-artifact@v3
+      with:
+        name: full_content
         path: ./docs/_data/
     - name: Download RECO
       uses: actions/download-artifact@v3
       with:
         name: RECO
         path: ./docs/RECO/
+    - name: Download FULL
+      uses: actions/download-artifact@v3
+      with:
+        name: FULL
+        path: ./docs/FULL/
     - name: Commit updates
       shell: bash
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add ./docs/
-        git commit -m "Update list in s3_content.yml and RECO/ directory" || echo "No changes to commit"
+        git commit -m "Update summary lists in RECO and FULL directory" || echo "No changes to commit"
         git push origin main

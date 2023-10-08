@@ -27,8 +27,12 @@
   full: Campaign History 
   submenus:
 
-    - name: campaigns
-      full: Current
+    - name: campaigns_reco
+      full: Reconstructed Outputs
+
+    - name: campaigns_full
+      full: Geant4 Simulation Outputs
+      
 
 - name: about 
   full: About
