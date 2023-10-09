@@ -11,7 +11,7 @@ until: 2023-10-31
 
 # September Campaigns Summary
 ## Software Progress
-For a bird's eye view of what's new in the September campaign, please review the [ePIC](https://github.com/eic/epic/releases/) and [EICrecon](https://github.com/eic/eicrecon/releases/) release notes.
+For a bird's eye view of what's new in the September campaign, please review the [ePIC 23.09](https://github.com/eic/epic/releases/) and [EICrecon 1.5](https://github.com/eic/eicrecon/releases/) release notes and change logs.
 
 ## Description of Detector Configs
 
