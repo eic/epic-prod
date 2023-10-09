@@ -9,8 +9,7 @@ while IFS= read -r object; do
   mkdir -p ./docs/$1/"${name_only}"
   touch ./docs/$1/"${name_only}"index.md
   echo '```' > ./docs/$1/"${name_only}"index.md
-  mc tree --files S3/eictest/EPIC/$1/"${name_only}" | sed 's/.*\.root$//g' | uniq -c | sed 's/.*1 //' | sed 's%S3/eictest%root://dtn-eic.jlab.org//work/eic2%g'
- >> ./docs/$1/"${name_only}"index.md # contructs tree diagram with count of files in each directory
+  mc tree --files S3/eictest/EPIC/$1/"${name_only}" | sed 's/.*\.root$//g' | uniq -c | sed 's/.*1 //' | sed 's%S3/eictest%root://dtn-eic.jlab.org//work/eic2%g' >> ./docs/$1/"${name_only}"index.md # contructs tree diagram with count of files in each directory
   echo '```' >> ./docs/$1/"${name_only}"index.md
   echo -e "- text: "$name_only"\n  url: "/epic-prod/$1/$name_only""
 done <<< "$OBJECTS"
