@@ -1,18 +1,971 @@
+root://dtn-eic.jlab.org//work/eic2/EPIC/FULL/23.03.0/
+└─ epic_brycecanyon
+   └─ DIS
+      └─ NC
+         └─ 10x100
+            └─ minQ2=1
+   3225 
 - text: 23.03.0/
   url: /epic-prod/FULL/23.03.0/
+root://dtn-eic.jlab.org//work/eic2/EPIC/FULL/23.05.2/
+├─ epic_arches
+│  └─ DIS
+│     └─ NC
+│        ├─ 10x100
+│        │  ├─ minQ2=10
+
+│        │  └─ minQ2=100
+    156 
+│        ├─ 18x275
+│        │  ├─ minQ2=10
+
+│        │  └─ minQ2=100
+
+│        └─ 5x41
+│           ├─ minQ2=10
+
+│           └─ minQ2=100
+    144 
+└─ epic_brycecanyon
+   └─ DIS
+      └─ NC
+         ├─ 10x100
+         │  ├─ minQ2=10
+   1013 
+         │  └─ minQ2=100
+    167 
+         ├─ 18x275
+         │  ├─ minQ2=10
+    763 
+         │  └─ minQ2=100
+    189 
+         └─ 5x41
+            ├─ minQ2=10
+    488 
+            └─ minQ2=100
+    140 
 - text: 23.05.2/
   url: /epic-prod/FULL/23.05.2/
+root://dtn-eic.jlab.org//work/eic2/EPIC/FULL/23.06.0/
+└─ epic_brycecanyon
+   └─ DIS
+      └─ NC
+         ├─ 10x100
+         │  └─ minQ2=10
+
+         ├─ 18x275
+         │  └─ minQ2=10
+   1012 
+         └─ 5x41
+            └─ minQ2=10
+    796 
 - text: 23.06.0/
   url: /epic-prod/FULL/23.06.0/
+root://dtn-eic.jlab.org//work/eic2/EPIC/FULL/23.06.1/
+└─ epic_brycecanyon
+   ├─ DIS
+   │  └─ NC
+   │     ├─ 10x100
+   │     │  └─ minQ2=10
+    445 
+   │     ├─ 18x275
+   │     │  └─ minQ2=10
+    496 
+   │     └─ 5x41
+   │        └─ minQ2=10
+    456 
+   └─ SIDIS
+      └─ pythia6
+         ├─ ep_10x100
+         │  └─ hepmc_ip6
+         │     └─ noradcor
+  14748 
+         ├─ ep_18x275
+         │  └─ hepmc_ip6
+  20243 
+         │     └─ noradcor
+  12429 
+         └─ ep_5x41
+            └─ hepmc_ip6
+               └─ noradcor
+  19880 
 - text: 23.06.1/
   url: /epic-prod/FULL/23.06.1/
+root://dtn-eic.jlab.org//work/eic2/EPIC/FULL/23.07.1/
+└─ epic_brycecanyon
+   ├─ BACKGROUNDS
+   │  └─ 10x100
+   │     └─ merged_lowstat
+     14 
+   ├─ DIS
+   │  └─ NC
+   │     ├─ 10x100
+   │     │  └─ minQ2=10
+    106 
+   │     ├─ 18x275
+   │     │  └─ minQ2=10
+     79 
+   │     └─ 5x41
+   │        └─ minQ2=10
+
+   └─ SIDIS
+      └─ pythia6
+         ├─ ep_18x275
+         │  └─ hepmc_ip6
+         │     └─ noradcor
+   2493 
+         └─ ep_5x41
+            └─ hepmc_ip6
+               └─ noradcor
+   2043 
 - text: 23.07.1/
   url: /epic-prod/FULL/23.07.1/
+root://dtn-eic.jlab.org//work/eic2/EPIC/FULL/23.07.2/
+└─ epic_craterlake
+   ├─ BACKGROUNDS
+   │  └─ 10x100
+   │     └─ merged_lowstat
+     14 
+   ├─ DIS
+   │  └─ NC
+   │     ├─ 10x100
+   │     │  └─ minQ2=10
+    119 
+   │     ├─ 18x275
+   │     │  └─ minQ2=10
+     98 
+   │     └─ 5x41
+   │        └─ minQ2=10
+
+   └─ SIDIS
+      └─ pythia6
+         ├─ ep_18x275
+         │  └─ hepmc_ip6
+         │     └─ noradcor
+   2516 
+         └─ ep_5x41
+            └─ hepmc_ip6
+               └─ noradcor
+   2098 
 - text: 23.07.2/
   url: /epic-prod/FULL/23.07.2/
+root://dtn-eic.jlab.org//work/eic2/EPIC/FULL/23.08.0/
+├─ epic_brycecanyon
+│  ├─ DIS
+│  │  └─ NC
+│  │     ├─ 10x100
+│  │     │  └─ minQ2=10
+    542 
+│  │     ├─ 18x275
+│  │     │  └─ minQ2=10
+    524 
+│  │     └─ 5x41
+│  │        └─ minQ2=10
+    475 
+│  ├─ EXCLUSIVE
+│  │  ├─ DIFFRACTIVE_PHI_ABCONV
+│  │  │  └─ Sartre
+│  │  │     └─ Coherent
+   1658 
+│  │  ├─ UCHANNEL_PI0
+│  │  │  └─ 18x275
+    240 
+│  │  └─ UCHANNEL_RHO
+│  │     └─ 10x100
+     60 
+│  └─ SIDIS
+│     └─ pythia6
+│        ├─ ep_18x275
+│        │  └─ hepmc_ip6
+│        │     └─ noradcor
+   1952 
+│        └─ ep_5x41
+│           └─ hepmc_ip6
+│              └─ noradcor
+   2167 
+└─ epic_craterlake
+   ├─ DIS
+   │  └─ NC
+   │     ├─ 10x100
+   │     │  └─ minQ2=10
+
+   │     ├─ 18x275
+   │     │  └─ minQ2=10
+    500 
+   │     └─ 5x41
+   │        └─ minQ2=10
+    474 
+   ├─ EXCLUSIVE
+   │  ├─ DIFFRACTIVE_PHI_ABCONV
+   │  │  └─ Sartre
+   │  │     └─ Coherent
+   1827 
+   │  ├─ UCHANNEL_PI0
+   │  │  └─ 18x275
+    240 
+   │  └─ UCHANNEL_RHO
+   │     └─ 10x100
+     60 
+   └─ SIDIS
+      └─ pythia6
+         ├─ ep_18x275
+         │  └─ hepmc_ip6
+         │     └─ noradcor
+   2039 
+         └─ ep_5x41
+            └─ hepmc_ip6
+               └─ noradcor
+    870 
 - text: 23.08.0/
   url: /epic-prod/FULL/23.08.0/
+root://dtn-eic.jlab.org//work/eic2/EPIC/FULL/23.09.1/
+└─ epic_craterlake
+   ├─ BACKGROUNDS
+   │  └─ 10x100
+   │     └─ merged_lowstat
+     13 
+   ├─ DIS
+   │  └─ NC
+   │     ├─ 10x100
+   │     │  └─ minQ2=10
+     84 
+   │     ├─ 18x275
+   │     │  └─ minQ2=10
+    122 
+   │     └─ 5x41
+   │        └─ minQ2=10
+     60 
+   └─ SIDIS
+      └─ pythia6
+         ├─ ep_18x275
+         │  └─ hepmc_ip6
+         │     └─ noradcor
+    735 
+         └─ ep_5x41
+            └─ hepmc_ip6
+               └─ noradcor
+    364 
 - text: 23.09.1/
   url: /epic-prod/FULL/23.09.1/
+root://dtn-eic.jlab.org//work/eic2/EPIC/FULL/main/
+├─ CI
+│  └─ SINGLE
+│     ├─ e+
+│     │  ├─ 100MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 5GeV
+│     │     ├─ 130to177deg
+      2 
+│     │     ├─ 3to50deg
+      2 
+│     │     └─ 45to135deg
+      2 
+│     ├─ e-
+│     │  ├─ 100MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 5GeV
+│     │     ├─ 130to177deg
+      2 
+│     │     ├─ 3to50deg
+      2 
+│     │     └─ 45to135deg
+      2 
+│     ├─ gamma
+│     │  ├─ 100MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 40GeV
+│     │  │  └─ 3to50deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 5GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 60GeV
+│     │     └─ 3to50deg
+      2 
+│     ├─ kaon+
+│     │  ├─ 100MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 5GeV
+│     │     ├─ 130to177deg
+      2 
+│     │     ├─ 3to50deg
+      2 
+│     │     └─ 45to135deg
+      2 
+│     ├─ kaon-
+│     │  ├─ 100MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 5GeV
+│     │     ├─ 130to177deg
+      2 
+│     │     ├─ 3to50deg
+      2 
+│     │     └─ 45to135deg
+      2 
+│     ├─ kaon0L
+│     │  ├─ 100MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 5GeV
+│     │     ├─ 130to177deg
+      2 
+│     │     ├─ 3to50deg
+      2 
+│     │     └─ 45to135deg
+      2 
+│     ├─ mu+
+│     │  ├─ 100MeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 5GeV
+│     │     ├─ 3to50deg
+      2 
+│     │     └─ 45to135deg
+      2 
+│     ├─ mu-
+│     │  ├─ 100MeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 5GeV
+│     │     ├─ 3to50deg
+      2 
+│     │     └─ 45to135deg
+      2 
+│     ├─ neutron
+│     │  ├─ 100MeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 5GeV
+│     │     ├─ 3to50deg
+      2 
+│     │     └─ 45to135deg
+      2 
+│     ├─ pi+
+│     │  ├─ 100MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      4 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 5GeV
+│     │     ├─ 130to177deg
+      2 
+│     │     ├─ 3to50deg
+      2 
+│     │     └─ 45to135deg
+      2 
+│     ├─ pi-
+│     │  ├─ 100MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 5GeV
+│     │     ├─ 130to177deg
+      2 
+│     │     ├─ 3to50deg
+      2 
+│     │     └─ 45to135deg
+      2 
+│     ├─ pi0
+│     │  ├─ 100MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 10GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 1GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 200MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 20GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 2GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 40GeV
+│     │  │  └─ 3to50deg
+      2 
+│     │  ├─ 500MeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  ├─ 5GeV
+│     │  │  ├─ 130to177deg
+      2 
+│     │  │  ├─ 3to50deg
+      2 
+│     │  │  └─ 45to135deg
+      2 
+│     │  └─ 60GeV
+│     │     └─ 3to50deg
+      2 
+│     └─ proton
+│        ├─ 100MeV
+│        │  ├─ 130to177deg
+      2 
+│        │  ├─ 3to50deg
+      2 
+│        │  └─ 45to135deg
+      2 
+│        ├─ 10GeV
+│        │  ├─ 130to177deg
+      2 
+│        │  ├─ 3to50deg
+      2 
+│        │  └─ 45to135deg
+      2 
+│        ├─ 1GeV
+│        │  ├─ 130to177deg
+      2 
+│        │  ├─ 3to50deg
+      2 
+│        │  └─ 45to135deg
+      2 
+│        ├─ 200MeV
+│        │  ├─ 130to177deg
+      2 
+│        │  ├─ 3to50deg
+      2 
+│        │  └─ 45to135deg
+      2 
+│        ├─ 20GeV
+│        │  ├─ 130to177deg
+      2 
+│        │  ├─ 3to50deg
+      2 
+│        │  └─ 45to135deg
+      2 
+│        ├─ 2GeV
+│        │  ├─ 130to177deg
+      2 
+│        │  ├─ 3to50deg
+      2 
+│        │  └─ 45to135deg
+      2 
+│        ├─ 500MeV
+│        │  ├─ 130to177deg
+      2 
+│        │  ├─ 3to50deg
+      2 
+│        │  └─ 45to135deg
+      2 
+│        └─ 5GeV
+│           ├─ 130to177deg
+      2 
+│           ├─ 3to50deg
+      2 
+│           └─ 45to135deg
+      2 
+├─ epic_brycecanyon
+│  └─ DIS
+│     └─ NC
+│        └─ 10x100
+│           └─ minQ2=100
+   3732 
+└─ epic_craterlake
+   └─ DIS
+      └─ NC
+         └─ 5x41
+            └─ minQ2=10
+    127 
 - text: main/
   url: /epic-prod/FULL/main/
