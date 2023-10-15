@@ -14,9 +14,9 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
    4840 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-  11226 
+  11389 
    │  │  │  └─ minQ2=1000
-   9469 
+  10965 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
    2775 
@@ -25,11 +25,11 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
    │     │  ├─ minQ2=1
    4524 
    │     │  ├─ minQ2=10
-   4926 
+   4930 
    │     │  ├─ minQ2=100
-   6823 
+   6825 
    │     │  └─ minQ2=1000
-   8212 
+   8214 
    │     ├─ 18x275
    │     │  ├─ minQ2=1
   10080 
@@ -38,7 +38,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
    │     │  ├─ minQ2=100
   12790 
    │     │  └─ minQ2=1000
-  14925 
+  14975 
    │     └─ 5x41
    │        ├─ minQ2=1
    2800 
@@ -47,6 +47,24 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
    │        └─ minQ2=100
    3870 
    ├─ EXCLUSIVE
+   │  ├─ DEMP
+   │  │  ├─ 10on100
+     96 
+   │  │  ├─ 18on275
+    200 
+   │  │  └─ 5on41
+   1072 
+   │  ├─ DIFFRACTIVE_PHI_ABCONV
+   │  │  └─ Sartre
+   │  │     └─ Coherent
+   1525 
+   │  ├─ DVCS_ABCONV
+   │  │  ├─ 10x100
+   1295 
+   │  │  ├─ 18x275
+   1556 
+   │  │  └─ 5x41
+   2072 
    │  ├─ UCHANNEL_PI0
    │  │  └─ 18x275
     256 
@@ -58,9 +76,9 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
          ├─ ep_18x275
          │  └─ hepmc_ip6
          │     └─ noradcor
-   4530 
+  19542 
          └─ ep_5x41
             └─ hepmc_ip6
                └─ noradcor
-   1000 
+   8400 
 ```
