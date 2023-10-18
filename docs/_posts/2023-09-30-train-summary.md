@@ -22,6 +22,7 @@ The list of what's included in each detector config can be found in the followin
 They are each run with 3 different beam energy (GeV) combinations 5x41, 10x100 and 18x275.
 
 ## Output Completion Status for Campaign Datasets
+The number of files (nfiles) and number of events per file (nevents_perfile)  that is available for each of the datasets is shown as well as the total number of targetted events (nevents_target) and what percentage of that goal was accomplished (completion percentage) in the campaign. No additional output files will be available for this  campaign.  
 ```
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.09.1/
 ├─ epic_brycecanyon
