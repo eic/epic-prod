@@ -57,7 +57,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
    │  ├─ DIFFRACTIVE_PHI_ABCONV
    │  │  └─ Sartre
    │  │     └─ Coherent
-  11814 
+  23015 
    │  ├─ DVCS_ABCONV
    │  │  ├─ 10x100
    1305 
@@ -85,14 +85,63 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
    │  └─ UCHANNEL_RHO
    │     └─ 10x100
      69 
-   └─ SIDIS
-      └─ pythia6
-         ├─ ep_18x275
-         │  └─ hepmc_ip6
-         │     └─ noradcor
+   ├─ SIDIS
+   │  └─ pythia6
+   │     ├─ ep_18x275
+   │     │  └─ hepmc_ip6
+   │     │     └─ noradcor
   26169 
-         └─ ep_5x41
-            └─ hepmc_ip6
-               └─ noradcor
+   │     └─ ep_5x41
+   │        └─ hepmc_ip6
+   │           └─ noradcor
    8400 
+   └─ SINGLE
+      ├─ e-
+      │  ├─ 100MeV
+      │  │  └─ 130to177deg
+      2 
+      │  ├─ 10GeV
+      │  │  └─ 130to177deg
+    156 
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+    385 
+      │  ├─ 2GeV
+      │  │  └─ 130to177deg
+     36 
+      │  ├─ 500MeV
+      │  │  └─ 130to177deg
+
+      │  └─ 5GeV
+      │     └─ 130to177deg
+
+      ├─ gamma
+      │  ├─ 100MeV
+      │  │  └─ 130to177deg
+      3 
+      │  ├─ 10GeV
+      │  │  └─ 130to177deg
+    197 
+      │  ├─ 1GeV
+      │  │  └─ 130to177deg
+     15 
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+    369 
+      │  ├─ 2GeV
+      │  │  └─ 130to177deg
+     30 
+      │  └─ 5GeV
+      │     └─ 130to177deg
+     97 
+      └─ pi-
+         ├─ 10GeV
+         │  └─ 130to177deg
+      2 
+         ├─ 20GeV
+         │  └─ 130to177deg
+     97 
+         └─ 5GeV
+            └─ 130to177deg
+      2 
 ```
