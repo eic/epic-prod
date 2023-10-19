@@ -4,23 +4,20 @@ layout: default
 <div class="row">
   <div class="col-md-10 blog-main">
 
-    <hr>
-    <center>
-      <div class=row>
-	
-        <div class="col-md-5"><iframe src="https://snapshots.raintank.io/dashboard-solo/snapshot/uoSZBL9gVMvPFa3x8Xg119DfrQD7bWjr?orgId=2&from=1672531200000&to=1704067199999&panelId=6" width="450" height="200" frameborder="0"></iframe></div>
-	
-        <div class="col-md-5">
-          <p class="lead">
-	    <h4>Purpose of this site</h4>
-	    This portal summarizes all the information related to monthly simulation production campaigns for the ePIC collaboration. 
-	    It is developed and maintained by the ePIC production WG.
-	  </p>
-	</div> <!-- class md5 -->
-      </div> <!-- class row -->
+  <hr>
+    <div style="display: flex; justify-content: center;">
+      <div class="col-md-5" style="flex: 1;">
+      <iframe src="https://snapshots.raintank.io/dashboard-solo/snapshot/uoSZBL9gVMvPFa3x8Xg119DfrQD7bWjr?orgId=2&from=1672531200000&to=1704067199999&panelId=6" width="450" height="200" frameborder="0"></iframe>
+    </div>
+    <div class="col-md-5" style="flex: 1;">
+      <p class="lead">
+        <h4>Purpose of this site</h4>
+        This portal summarizes all the information related to monthly simulation production campaigns for the ePIC collaboration. It is developed and maintained by the ePIC production WG.
+      </p>
+    </div>
+    </div>
+  <hr>
 
-    </center> <!-- class sm12 blog main -->
-    <hr/>
     {% if site.display_news %}
     {% include news/homenews.md %}
     {% endif %}
