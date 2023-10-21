@@ -111,7 +111,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
     385 
       │  ├─ 2GeV
       │  │  └─ 130to177deg
-     37 
+     38 
       │  ├─ 500MeV
       │  │  └─ 130to177deg
 
@@ -137,26 +137,79 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
       │  └─ 5GeV
       │     └─ 130to177deg
      97 
-      └─ pi-
+      ├─ kaon-
+      │  ├─ 100MeV
+      │  │  └─ 130to177deg
+    406 
+      │  ├─ 10GeV
+      │  │  └─ 130to177deg
+    559 
+      │  ├─ 1GeV
+      │  │  └─ 130to177deg
+    146 
+      │  ├─ 200MeV
+      │  │  └─ 130to177deg
+    162 
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+    344 
+      │  ├─ 2GeV
+      │  │  └─ 130to177deg
+    176 
+      │  ├─ 500MeV
+      │  │  └─ 130to177deg
+    172 
+      │  └─ 5GeV
+      │     └─ 130to177deg
+    226 
+      ├─ pi-
+      │  ├─ 100MeV
+      │  │  └─ 130to177deg
+     19 
+      │  ├─ 10GeV
+      │  │  └─ 130to177deg
+     63 
+      │  ├─ 1GeV
+      │  │  └─ 130to177deg
+     12 
+      │  ├─ 200MeV
+      │  │  └─ 130to177deg
+      6 
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+    149 
+      │  ├─ 2GeV
+      │  │  └─ 130to177deg
+     10 
+      │  ├─ 500MeV
+      │  │  └─ 130to177deg
+      7 
+      │  └─ 5GeV
+      │     └─ 130to177deg
+     42 
+      └─ proton
          ├─ 100MeV
          │  └─ 130to177deg
-     19 
+    385 
          ├─ 10GeV
          │  └─ 130to177deg
-     63 
+    253 
          ├─ 1GeV
          │  └─ 130to177deg
-      7 
+    165 
          ├─ 200MeV
          │  └─ 130to177deg
-      4 
+
          ├─ 20GeV
          │  └─ 130to177deg
-    149 
+    318 
          ├─ 2GeV
          │  └─ 130to177deg
-      3 
+    170 
+         ├─ 500MeV
+         │  └─ 130to177deg
+    160 
          └─ 5GeV
             └─ 130to177deg
-     42 
+    107 
 ```
