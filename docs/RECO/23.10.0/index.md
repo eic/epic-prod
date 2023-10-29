@@ -166,18 +166,22 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
     156 
       │  │  ├─ 3to50deg
 
-      │  │  └─ 45to135deg
+      │  │  ├─ 45to135deg
     377 
+      │  │  └─ etaScan
+     10 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
      15 
       │  │  ├─ 3to50deg
     145 
-      │  │  └─ 45to135deg
+      │  │  ├─ 45to135deg
     158 
+      │  │  └─ etaScan
+      8 
       │  ├─ 200MeV
       │  │  ├─ 130to177deg
-     10 
+     12 
       │  │  ├─ 3to50deg
 
       │  │  └─ 45to135deg
@@ -194,8 +198,10 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
      38 
       │  │  ├─ 3to50deg
     207 
-      │  │  └─ 45to135deg
+      │  │  ├─ 45to135deg
     192 
+      │  │  └─ etaScan
+      9 
       │  ├─ 500MeV
       │  │  ├─ 130to177deg
      14 
@@ -216,8 +222,10 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
      26 
       │  │  ├─ 3to50deg
     137 
-      │  │  └─ 45to135deg
+      │  │  ├─ 45to135deg
 
+      │  │  └─ etaScan
+     10 
       │  ├─ 10GeV
       │  │  ├─ 130to177deg
     197 
@@ -387,6 +395,10 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
     176 
       │     └─ 45to135deg
     207 
+      ├─ mu-
+      │  └─ 10GeV
+      │     └─ etaScan
+     10 
       ├─ pi+
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
@@ -468,7 +480,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
     145 
       │  ├─ 200MeV
       │  │  ├─ 130to177deg
-
+     12 
       │  │  ├─ 3to50deg
     172 
       │  │  └─ 45to135deg
