@@ -181,7 +181,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
       8 
       │  ├─ 200MeV
       │  │  ├─ 130to177deg
-     12 
+     14 
       │  │  ├─ 3to50deg
 
       │  │  └─ 45to135deg
