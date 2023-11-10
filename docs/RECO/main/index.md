@@ -1844,8 +1844,12 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/main/
    │        └─ minQ2=10
     748 
    └─ SINGLE
-      └─ e+
-         └─ 100MeV
-            └─ 130to177deg
+      ├─ e+
+      │  └─ 100MeV
+      │     └─ 130to177deg
       6 
+      └─ gamma
+         └─ 100MeV
+            └─ etaScan
+    145 
 ```
