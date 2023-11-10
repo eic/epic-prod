@@ -9,7 +9,7 @@ until: 2023-11-30
 
 {% include images/image.md name='news_banner' width='800' %}
 
-# September Campaigns Summary
+# October Campaigns Summary
 ## Software Progress
 For a bird's eye view of what's new in the September campaign, please review the [ePIC 23.10](https://github.com/eic/epic/releases/) and [EICrecon 1.6](https://github.com/eic/eicrecon/releases/) release notes and change logs.
 
