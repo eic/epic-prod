@@ -5,16 +5,20 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.11.0/
    │  └─ NC
    │     ├─ 18x275
    │     │  ├─ minQ2=1
-   6599 
-   │     │  └─ minQ2=10
-   1583 
+  12683 
+   │     │  ├─ minQ2=10
+  13566 
+   │     │  ├─ minQ2=100
+  15677 
+   │     │  └─ minQ2=1000
+
    │     └─ 5x41
    │        ├─ minQ2=1
-   3376 
+   3385 
    │        ├─ minQ2=10
-   4885 
+   4890 
    │        └─ minQ2=100
-   5146 
+   5149 
    └─ SINGLE
       ├─ e-
       │  ├─ 10GeV
@@ -29,5 +33,5 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.11.0/
       └─ gamma
          └─ 100MeV
             └─ etaScan
-
+    192 
 ```
