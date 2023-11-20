@@ -5,14 +5,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.11.0/
    │  ├─ CC
    │  │  ├─ 10x100
    │  │  │  ├─ minQ2=100
-   5185 
+   5190 
    │  │  │  └─ minQ2=1000
    4885 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-  10680 
+  10964 
    │  │  │  └─ minQ2=1000
-   6622 
+  10727 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
    2335 
@@ -42,6 +42,10 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.11.0/
    4890 
    │        └─ minQ2=100
    5149 
+   ├─ EXCLUSIVE
+   │  └─ UCHANNEL_RHO
+   │     └─ 10x100
+    113 
    └─ SINGLE
       ├─ e-
       │  ├─ 10GeV
@@ -53,11 +57,15 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.11.0/
       │  └─ 2GeV
       │     └─ etaScan
     908 
-      └─ gamma
-         ├─ 100MeV
-         │  └─ etaScan
+      ├─ gamma
+      │  ├─ 100MeV
+      │  │  └─ etaScan
     299 
-         └─ 1GeV
-            └─ etaScan
+      │  └─ 1GeV
+      │     └─ etaScan
 
+      └─ mu-
+         └─ 10GeV
+            └─ etaScan
+    886 
 ```
