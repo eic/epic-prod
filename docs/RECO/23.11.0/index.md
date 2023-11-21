@@ -10,7 +10,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.11.0/
    4885 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-  10964 
+  10965 
    │  │  │  └─ minQ2=1000
   10727 
    │  │  └─ 5x41
@@ -43,6 +43,9 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.11.0/
    │        └─ minQ2=100
    5149 
    ├─ EXCLUSIVE
+   │  ├─ UCHANNEL_PI0
+   │  │  └─ 18x275
+    320 
    │  └─ UCHANNEL_RHO
    │     └─ 10x100
     113 
