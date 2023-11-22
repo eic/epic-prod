@@ -27,7 +27,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
    │     │  ├─ minQ2=10
    4930 
    │     │  ├─ minQ2=100
-   2000 
+   6825 
    │     │  └─ minQ2=1000
    8214 
    │     ├─ 18x275
