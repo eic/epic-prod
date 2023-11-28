@@ -12,7 +12,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.11.0/
    │  │  │  ├─ minQ2=100
   10965 
    │  │  │  └─ minQ2=1000
-  10727 
+  10728 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
    2335 
@@ -46,8 +46,10 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.11.0/
    │  ├─ DEMP
    │  │  ├─ 10on100
     120 
-   │  │  └─ 18on275
+   │  │  ├─ 18on275
     200 
+   │  │  └─ 5on41
+   1023 
    │  ├─ DVCS_ABCONV
    │  │  ├─ 10x100
    1842 
@@ -76,23 +78,85 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.11.0/
    │     └─ 10x100
     113 
    └─ SINGLE
-      ├─ e-
+      ├─ e+
+      │  ├─ 100MeV
+      │  │  └─ 130to177deg
+     67 
       │  ├─ 10GeV
+      │  │  └─ 130to177deg
+    214 
+      │  ├─ 1GeV
+      │  │  └─ 130to177deg
+     76 
+      │  ├─ 200MeV
+      │  │  └─ 130to177deg
+     43 
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+
+      │  ├─ 2GeV
+      │  │  └─ 130to177deg
+    128 
+      │  ├─ 500MeV
+      │  │  └─ 130to177deg
+    122 
+      │  └─ 5GeV
+      │     └─ 130to177deg
+    105 
+      ├─ e-
+      │  ├─ 100MeV
+      │  │  └─ 130to177deg
+
+      │  ├─ 10GeV
+      │  │  ├─ 130to177deg
+     52 
       │  │  └─ etaScan
    1856 
       │  ├─ 1GeV
+      │  │  ├─ 130to177deg
+     54 
       │  │  └─ etaScan
     650 
-      │  └─ 2GeV
-      │     └─ etaScan
+      │  ├─ 200MeV
+      │  │  └─ 130to177deg
+     90 
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+    286 
+      │  ├─ 2GeV
+      │  │  ├─ 130to177deg
+     93 
+      │  │  └─ etaScan
     908 
+      │  ├─ 500MeV
+      │  │  └─ 130to177deg
+    122 
+      │  └─ 5GeV
+      │     └─ 130to177deg
+    157 
       ├─ gamma
       │  ├─ 100MeV
+      │  │  ├─ 130to177deg
+      2 
       │  │  └─ etaScan
     299 
-      │  └─ 1GeV
-      │     └─ etaScan
+      │  ├─ 10GeV
+      │  │  └─ 130to177deg
+     98 
+      │  ├─ 1GeV
+      │  │  ├─ 130to177deg
+     46 
+      │  │  └─ etaScan
 
+      │  ├─ 200MeV
+      │  │  └─ 130to177deg
+
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+
+      │  └─ 2GeV
+      │     └─ 130to177deg
+     33 
       └─ mu-
          └─ 10GeV
             └─ etaScan
