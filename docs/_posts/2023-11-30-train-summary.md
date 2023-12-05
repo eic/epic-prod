@@ -27,65 +27,57 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
 epic_craterlake
    ├─ BACKGROUNDS
    │  └─ 10x100
-   │     └─ merged_lowstat (nfiles=16, neventsperfile=625, ntotaltargetevents=10000 , percentage=100)
+   │     └─ merged_lowstat (nfiles=15, neventsperfile=666, ntotaltargetevents=10000, percentage=100)
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
-   │  │  │  ├─ minQ2=100 (nfiles=5245, neventsperfile=953, ntotaltargetevents=5e6 , percentage=100) 
-   │  │  │  └─ minQ2=1000 (nfiles=4840, neventsperfile=1033, ntotaltargetevents=5e6 , percentage=100) 
+   │  │  │  ├─ minQ2=100 (nfiles=5190, neventsperfile=963, ntotaltargetevents=5e6, percentage=100) 
+   │  │  │  └─ minQ2=1000 (nfiles=4885, neventsperfile=1023, ntotaltargetevents=5e6, percentage=100) 
    │  │  ├─ 18x275
-   │  │  │  ├─ minQ2=100 (nfiles=11390, neventsperfile=438, ntotaltargetevents=5e6 , percentage=100) 
-   │  │  │  └─ minQ2=1000 (nfiles=10965, neventsperfile=455, ntotaltargetevents=5e6 , percentage=100) 
+   │  │  │  ├─ minQ2=100 (nfiles=10965, neventsperfile=455, ntotaltargetevents=5e6, percentage=100) 
+   │  │  │  └─ minQ2=1000 (nfiles=10728, neventsperfile=465, ntotaltargetevents=5e6, percentage=100) 
    │  │  └─ 5x41
-   │  │     └─ minQ2=100 (nfiles=2775, neventsperfile=1801, ntotaltargetevents=5e6 , percentage=100) 
+   │  │     └─ minQ2=100 (nfiles=2335, neventsperfile=2141, ntotaltargetevents=5e6, percentage=100) 
    │  └─ NC
    │     ├─ 10x100
-   │     │  ├─ minQ2=1 (nfiles=4524, neventsperfile=1104, ntotaltargetevents=5e6 , percentage=100) 
-   │     │  ├─ minQ2=10 (nfiles=4930, neventsperfile=1014, ntotaltargetevents=5e6 , percentage=100) 
-   │     │  ├─ minQ2=100 (nfiles=6825, neventsperfile=732, ntotaltargetevents=5e6 , percentage=100) 
-   │     │  └─ minQ2=1000 (nfiles=8214, neventsperfile=608, ntotaltargetevents=5e6 , percentage=100) 
+   │     │  ├─ minQ2=1 (nfiles=6824, neventsperfile=731, ntotaltargetevents=5e6, percentage=100) 
+   │     │  ├─ minQ2=10 (nfiles=6205, neventsperfile=805, ntotaltargetevents=5e6, percentage=100) 
+   │     │  ├─ minQ2=100 (nfiles=7290, neventsperfile=685, ntotaltargetevents=5e6, percentage=100) 
+   │     │  └─ minQ2=1000 (nfiles=10144, neventsperfile=492, ntotaltargetevents=5e6, percentage=100) 
    │     ├─ 18x275
-   │     │  ├─ minQ2=1 (nfiles=10080, neventsperfile=495, ntotaltargetevents=5e6 , percentage=100) 
-   │     │  ├─ minQ2=10 (nfiles=10755, neventsperfile=464, ntotaltargetevents=5e6 , percentage=100) 
-   │     │  ├─ minQ2=100 (nfiles=12790, neventsperfile=390, ntotaltargetevents=5e6, percentage=100) 
-   │     │  └─ minQ2=1000 (nfiles=14975, neventsperfile=333, ntotaltargetevents=5e6 , percentage=100) 
+   │     │  ├─ minQ2=1 (nfiles=12685, neventsperfile=393, ntotaltargetevents=5e6, percentage=100) 
+   │     │  ├─ minQ2=10 (nfiles=13590, neventsperfile=367, ntotaltargetevents=5e6, percentage=100) 
+   │     │  ├─ minQ2=100 (nfiles=15925, neventsperfile=313, ntotaltargetevents=5e6, percentage=100) 
+   │     │  └─ minQ2=1000 (nfiles=19764, neventsperfile=252, ntotaltargetevents=5e6, percentage=100) 
    │     └─ 5x41
-   │        ├─ minQ2=1 (nfiles=2800, neventsperfile=1783, ntotaltargetevents=5e6 , percentage=100) 
-   │        ├─ minQ2=10 (nfiles=3775, neventsperfile=1324, ntotaltargetevents=5e6 , percentage=100) 
-   │        └─ minQ2=100 (nfiles=3870, neventsperfile=1291, ntotaltargetevents=5e6 , percentage=100) 
+   │        ├─ minQ2=1 (nfiles=3385, neventsperfile=1475, ntotaltargetevents=5e6, percentage=100) 
+   │        ├─ minQ2=10 (nfiles=4890, neventsperfile=1022, ntotaltargetevents=5e6, percentage=100) 
+   │        └─ minQ2=100 (nfiles=5149, neventsperfile=970, ntotaltargetevents=5e6, percentage=100) 
    ├─ EXCLUSIVE
    │  ├─ DEMP
-   │  │  ├─ 10on100 (nfiles=98, neventsperfile=1328, ntotaltargetevents= , percentage=) 
+   │  │  ├─ 10on100 (nfiles=120, neventsperfile=1328, ntotaltargetevents= , percentage=) 
    │  │  ├─ 18on275 (nfiles=200, neventsperfile=26, ntotaltargetevents= , percentage=) 
-   │  │  └─ 5on41 (nfiles=1082, neventsperfile=2091, ntotaltargetevents= , percentage=) 
+   │  │  └─ 5on41 (nfiles=1120, neventsperfile=2091, ntotaltargetevents= , percentage=) 
    │  ├─ DIFFRACTIVE_PHI_ABCONV
    │  │  └─ Sartre
-   │  │     └─ Coherent (nfiles=23026, neventsperfile=960, ntotaltargetevents= , percentage=) 
+   │  │     └─ Coherent (nfiles=13696, neventsperfile=, ntotaltargetevents= , percentage=) 
    │  ├─ DVCS_ABCONV
-   │  │  ├─ 10x100 (nfiles=1305, neventsperfile=1512, ntotaltargetevents= , percentage=) 
-   │  │  ├─ 18x275 (nfiles=1573, neventsperfile=1242, ntotaltargetevents= , percentage=) 
-   │  │  └─ 5x41 (nfiles=2171, neventsperfile=2747, ntotaltargetevents= , percentage=) 
+   │  │  ├─ 10x100 (nfiles=1842, neventsperfile=, ntotaltargetevents= , percentage=) 
+   │  │  ├─ 18x275 (nfiles=2219, neventsperfile=, ntotaltargetevents= , percentage=) 
+   │  │  └─ 5x41 (nfiles=3324, neventsperfile=, ntotaltargetevents= , percentage=) 
    │  ├─ TCS_ABCONV
    │  │  ├─ 10x100
-   │  │  │  └─ hel_minus (nfiles=7500, neventsperfile=1562, ntotaltargetevents= , percentage=) 
+   │  │  │  └─ hel_minus (nfiles=12360, neventsperfile=, ntotaltargetevents= , percentage=) 
    │  │  ├─ 18x275
-   │  │  │  ├─ hel_minus (nfiles=1340, neventsperfile=2777, ntotaltargetevents= , percentage=) 
-   │  │  │  └─ hel_plus (nfiles=1340, neventsperfile=2777, ntotaltargetevents= , percentage=) 
+   │  │  │  ├─ hel_minus (nfiles=2119, neventsperfile=, ntotaltargetevents= , percentage=) 
+   │  │  │  └─ hel_plus (nfiles=2115, neventsperfile=, ntotaltargetevents= , percentage=) 
    │  │  └─ 5x41
-   │  │     ├─ hel_minus (nfiles=1400, neventsperfile=2857, ntotaltargetevents= , percentage=) 
-   │  │     └─ hel_plus (nfiles=1400, neventsperfile=2857, ntotaltargetevents= , percentage=) 
+   │  │     ├─ hel_minus (nfiles=2300, neventsperfile=, ntotaltargetevents= , percentage=) 
+   │  │     └─ hel_plus (nfiles=2300, neventsperfile=, ntotaltargetevents= , percentage=) 
    │  ├─ UCHANNEL_PI0
-   │  │  └─ 18x275 (nfiles=256, neventsperfile=390, ntotaltargetevents=1e5 , percentage=100) 
+   │  │  └─ 18x275 (nfiles=320, neventsperfile=312, ntotaltargetevents=1e5, percentage=100) 
    │  └─ UCHANNEL_RHO
-   │     └─ 10x100 (nfiles=69, neventsperfile=1449, ntotaltargetevents=1e5 , percentage=100) 
-   ├─ SIDIS
-   │  └─ pythia6
-   │     ├─ ep_18x275
-   │     │  └─ hepmc_ip6
-   │     │     └─ noradcor (nfiles=26169, neventsperfile=69, ntotaltargetevents=2e6 , percentage=100) 
-   │     └─ ep_5x41
-   │        └─ hepmc_ip6
-   │           └─ noradcor (nfiles=8400, neventsperfile=2706, ntotaltargetevents=2e6 , percentage=100) 
+   │     └─ 10x100 (nfiles=113, neventsperfile=884, ntotaltargetevents=1e5, percentage=100) 
    └─ SINGLE
       ├─ e+
       │  ├─ 100MeV
