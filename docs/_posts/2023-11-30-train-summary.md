@@ -23,7 +23,7 @@ They are each run with 3 different beam energy (GeV) combinations 5x41, 10x100 a
 ## Output Completion Status for Campaign Datasets
 The number of files (nfiles) and number of events per file (nevents_perfile)  that is available for each of the datasets is shown as well as the total number of targetted events (nevents_target) and what percentage of that goal was accomplished (completion percentage) in the campaign. No additional output files will be available for this  campaign.  
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.10.0/
+root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.11.0/
 epic_craterlake
    ├─ BACKGROUNDS
    │  └─ 10x100
