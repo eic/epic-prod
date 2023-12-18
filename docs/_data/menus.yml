@@ -23,6 +23,9 @@
     - name: defaultdatasets
       full: Campaign Datasets
       
+    - name: inputpreprocessing
+      full: Input Preprocessing
+      
 - name: campaigns
   full: Campaign History 
   submenus:
