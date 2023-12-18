@@ -28,7 +28,7 @@ Use the [hepmc3 to root converter](https://github.com/eic/hepmc3ascii2root) to p
 
 ### Subdirectory Structure
 
-If placing the hepmc and hepmc3.tree.root on S3 or JLAB xrootd, follow appropriate subdirectory structure.
+If placing the hepmc and hepmc3.tree.root on S3 or JLab xrootd, follow appropriate subdirectory structure.
 
 ```
 EPIC/EVGEN/<physics WG>/<physics processes>/<config ID>/<electron momentum>x<proton momentum>/<file name>
