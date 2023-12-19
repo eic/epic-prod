@@ -9,28 +9,28 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    │     │  ├─ minQ2=10
    5522 
    │     │  ├─ minQ2=100
-   6537 
+   6706 
    │     │  └─ minQ2=1000
-   1112 
+   8098 
    │     ├─ 18x275
    │     │  ├─ minQ2=1
   10349 
    │     │  ├─ minQ2=10
-  10264 
+  11195 
    │     │  ├─ minQ2=100
-   8693 
+  12978 
    │     │  └─ minQ2=1000
-  15677 
+  15907 
    │     └─ 5x41
    │        ├─ minQ2=1
-   2788 
+   2969 
    │        ├─ minQ2=10
-   2314 
+   2643 
    │        └─ minQ2=100
-   3119 
+   3225 
    └─ EXCLUSIVE
       └─ DIFFRACTIVE_PHI_ABCONV
          └─ Sartre
             └─ Coherent
-  14795 
+  14900 
 ```
