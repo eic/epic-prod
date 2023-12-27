@@ -27,7 +27,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    │     │  ├─ minQ2=10
    5680 
    │     │  ├─ minQ2=100
-   6779 
+   6780 
    │     │  └─ minQ2=1000
    8104 
    │     ├─ 18x275
@@ -51,20 +51,23 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    │  │  └─ Sartre
    │  │     └─ Coherent
   14914 
+   │  ├─ DVMP
+   │  │  └─ EpIC1.0.0-1.0
+     86 
    │  ├─ TCS_ABCONV
    │  │  ├─ 10x100
    │  │  │  └─ hel_minus
-   4230 
+   6034 
    │  │  ├─ 18x275
    │  │  │  ├─ hel_minus
-    567 
+
    │  │  │  └─ hel_plus
-    554 
+   1295 
    │  │  └─ 5x41
    │  │     ├─ hel_minus
-   1054 
+   1335 
    │  │     └─ hel_plus
-    795 
+   1336 
    │  ├─ UCHANNEL_PI0
    │  │  └─ 18x275
     220 
@@ -197,7 +200,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
       │  │  ├─ 130to177deg
      27 
       │  │  ├─ 3to50deg
-     27 
+     28 
       │  │  ├─ 45to135deg
      30 
       │  │  └─ etaScan
