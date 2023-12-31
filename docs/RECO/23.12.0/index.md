@@ -16,7 +16,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    │  │  │  ├─ minQ2=100
   14164 
    │  │  │  └─ minQ2=1000
-  13624 
+  13625 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
    3044 
@@ -60,12 +60,12 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    6060 
    │  │  ├─ 18x275
    │  │  │  ├─ hel_minus
-   1366 
+   1380 
    │  │  │  └─ hel_plus
-
+   1379 
    │  │  └─ 5x41
    │  │     ├─ hel_minus
-   1339 
+   1340 
    │  │     └─ hel_plus
    1340 
    │  ├─ UCHANNEL_PI0
