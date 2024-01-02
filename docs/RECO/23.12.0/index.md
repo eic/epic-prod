@@ -47,6 +47,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    │        └─ minQ2=100
    3274 
    ├─ EXCLUSIVE
+   │  ├─ DEMP
+   │  │  └─ DEMPgen-1.1.0
+   │  │     ├─ 10x100
+   │  │     │  └─ pi+
+   1440 
+   │  │     └─ 5x41
+   │  │        └─ pi+
+   1017 
    │  ├─ DIFFRACTIVE_PHI_ABCONV
    │  │  └─ Sartre
    │  │     └─ Coherent
