@@ -50,9 +50,15 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    │  ├─ DEMP
    │  │  └─ DEMPgen-1.1.0
    │  │     ├─ 10x100
+   │  │     │  ├─ K+Sigma0
+    844 
    │  │     │  └─ pi+
    1500 
    │  │     └─ 5x41
+   │  │        ├─ K+Lambda
+
+   │  │        ├─ K+Sigma0
+   1407 
    │  │        └─ pi+
    1020 
    │  ├─ DIFFRACTIVE_PHI_ABCONV
