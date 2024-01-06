@@ -19,7 +19,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
   13625 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
-   3044 
+   3045 
    │  └─ NC
    │     ├─ 10x100
    │     │  ├─ minQ2=1
@@ -50,15 +50,17 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    │  ├─ DEMP
    │  │  └─ DEMPgen-1.1.0
    │  │     ├─ 10x100
+   │  │     │  ├─ K+Lambda
+   2467 
    │  │     │  ├─ K+Sigma0
-    844 
+   2623 
    │  │     │  └─ pi+
    1500 
    │  │     └─ 5x41
    │  │        ├─ K+Lambda
-
+   2160 
    │  │        ├─ K+Sigma0
-   1407 
+   2098 
    │  │        └─ pi+
    1020 
    │  ├─ DIFFRACTIVE_PHI_ABCONV
@@ -88,6 +90,15 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    │  └─ UCHANNEL_RHO
    │     └─ 10x100
      62 
+   ├─ SIDIS
+   │  └─ pythia6-eic
+   │     └─ 1.0.0
+   │        ├─ 10x100
+   │        │  └─ q2_0to1
+   2602 
+   │        └─ 5x41
+   │           └─ q2_0to1
+    163 
    └─ SINGLE
       ├─ e+
       │  ├─ 100MeV
@@ -461,7 +472,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
      58 
       │  ├─ 10GeV
       │  │  ├─ 130to177deg
-
+    232 
       │  │  ├─ 3to50deg
     257 
       │  │  └─ 45to135deg
