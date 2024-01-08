@@ -51,7 +51,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    │  │  └─ DEMPgen-1.1.0
    │  │     ├─ 10x100
    │  │     │  ├─ K+Lambda
-   2517 
+   2518 
    │  │     │  ├─ K+Sigma0
    2627 
    │  │     │  └─ pi+
@@ -95,13 +95,13 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    │     └─ 1.0.0
    │        ├─ 10x100
    │        │  └─ q2_0to1
-  17358 
+  33913 
    │        ├─ 18x275
    │        │  └─ q2_0to1
-    943 
+   1000 
    │        └─ 5x41
    │           └─ q2_0to1
-   3662 
+   5509 
    └─ SINGLE
       ├─ e+
       │  ├─ 100MeV
