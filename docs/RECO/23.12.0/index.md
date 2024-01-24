@@ -2,9 +2,16 @@
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
 └─ epic_craterlake
    ├─ BACKGROUNDS
-   │  └─ 10x100
-   │     └─ merged_lowstat
+   │  ├─ 10x100
+   │  │  └─ merged_lowstat
      15 
+   │  └─ BEAMGAS
+   │     └─ proton
+   │        └─ pythia8.306-1.0
+   │           ├─ 100GeV
+   4213 
+   │           └─ 275GeV
+   4110 
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
