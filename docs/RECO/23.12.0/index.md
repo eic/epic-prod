@@ -9,9 +9,9 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
    │     └─ proton
    │        └─ pythia8.306-1.0
    │           ├─ 100GeV
-   4213 
+   4399 
    │           └─ 275GeV
-   4110 
+  15687 
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
