@@ -27,7 +27,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.12.0/
 epic_craterlake
    ├─ BACKGROUNDS
    │  ├─ 10x100
-   │  │  └─ merged_lowstat (nfiles = 15  , neventsperfile = 666  , ntotaltargetevents =  , percentage = 100 )
+   │  │  └─ merged_lowstat (nfiles = 15  , neventsperfile = 666  , ntotaltargetevents = 10000 , percentage = 100 )
    │  └─ BEAMGAS
    │     └─ proton
    │        └─ pythia8.306-1.0
@@ -36,28 +36,28 @@ epic_craterlake
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
-   │  │  │  ├─ minQ2=100 (nfiles = 5695 , neventsperfile =877  , ntotaltargetevents =  , percentage = 100 )
-   │  │  │  └─ minQ2=1000 (nfiles = 5488  , neventsperfile =910  , ntotaltargetevents =  , percentage = 100 )
+   │  │  │  ├─ minQ2=100 (nfiles = 5695 , neventsperfile = 877  , ntotaltargetevents = 5e6 , percentage = 100 )
+   │  │  │  └─ minQ2=1000 (nfiles = 5488  , neventsperfile = 910  , ntotaltargetevents = 5e6 , percentage = 100 )
    │  │  ├─ 18x275
-   │  │  │  ├─ minQ2=100 (nfiles =14164  , neventsperfile =352  , ntotaltargetevents =  , percentage = 100)
-   │  │  │  └─ minQ2=1000 (nfiles =13625  , neventsperfile =366  , ntotaltargetevents =  , percentage = 100 )
+   │  │  │  ├─ minQ2=100 (nfiles =14164  , neventsperfile =352  , ntotaltargetevents = 5e6 , percentage = 100)
+   │  │  │  └─ minQ2=1000 (nfiles =13625  , neventsperfile =366  , ntotaltargetevents = 5e6 , percentage = 100 )
    │  │  └─ 5x41
-   │  │     └─ minQ2=100 (nfiles =3045  , neventsperfile =1642  , ntotaltargetevents =  , percentage =100 )
+   │  │     └─ minQ2=100 (nfiles =3045  , neventsperfile =1642  , ntotaltargetevents = 5e6 , percentage =100 )
    │  └─ NC
    │     ├─ 10x100
-   │     │  ├─ minQ2=1 (nfiles =4960  , neventsperfile =1007  , ntotaltargetevents =  , percentage = 100 )
-   │     │  ├─ minQ2=10 (nfiles =5680  , neventsperfile =880  , ntotaltargetevents =  , percentage = 100 )
-   │     │  ├─ minQ2=100 (nfiles =6780  , neventsperfile =737  , ntotaltargetevents =  , percentage = 100 )
-   │     │  └─ minQ2=1000 (nfiles =8104  , neventsperfile =616  , ntotaltargetevents =  , percentage = 100 )
+   │     │  ├─ minQ2=1 (nfiles =4960  , neventsperfile =1007  , ntotaltargetevents = 5e6 , percentage = 100 )
+   │     │  ├─ minQ2=10 (nfiles =5680  , neventsperfile =880  , ntotaltargetevents = 5e6 , percentage = 100 )
+   │     │  ├─ minQ2=100 (nfiles =6780  , neventsperfile =737  , ntotaltargetevents = 5e6 , percentage = 100 )
+   │     │  └─ minQ2=1000 (nfiles =8104  , neventsperfile =616  , ntotaltargetevents = 5e6 , percentage = 100 )
    │     ├─ 18x275
-   │     │  ├─ minQ2=1 (nfiles =10350  , neventsperfile =482  , ntotaltargetevents =  , percentage = 100 )
-   │     │  ├─ minQ2=10 (nfiles =11265  , neventsperfile =443  , ntotaltargetevents =  , percentage = 100 )
-   │     │  ├─ minQ2=100 (nfiles =13300  , neventsperfile =375  , ntotaltargetevents =  , percentage = 100)
-   │     │  └─ minQ2=1000 (nfiles =16130  , neventsperfile =309  , ntotaltargetevents =  , percentage = 100 )
+   │     │  ├─ minQ2=1 (nfiles =10350  , neventsperfile =482  , ntotaltargetevents = 5e6 , percentage = 100 )
+   │     │  ├─ minQ2=10 (nfiles =11265  , neventsperfile =443  , ntotaltargetevents = 5e6 , percentage = 100 )
+   │     │  ├─ minQ2=100 (nfiles =13300  , neventsperfile =375  , ntotaltargetevents = 5e6 , percentage = 100)
+   │     │  └─ minQ2=1000 (nfiles =16130  , neventsperfile =309  , ntotaltargetevents = 5e6 , percentage = 100 )
    │     └─ 5x41
-   │        ├─ minQ2=1 (nfiles =2970  , neventsperfile =1681  , ntotaltargetevents =  , percentage =100 )
-   │        ├─ minQ2=10 (nfiles =2780  , neventsperfile =1798  , ntotaltargetevents =  , percentage = 100 )
-   │        └─ minQ2=100 (nfiles =3274  , neventsperfile =1526  , ntotaltargetevents =  , percentage = 100 )
+   │        ├─ minQ2=1 (nfiles =2970  , neventsperfile =1681  , ntotaltargetevents = 5e6 , percentage =100 )
+   │        ├─ minQ2=10 (nfiles =2780  , neventsperfile =1798  , ntotaltargetevents = 5e6 , percentage = 100 )
+   │        └─ minQ2=100 (nfiles =3274  , neventsperfile =1526  , ntotaltargetevents = 5e6 , percentage = 100 )
    ├─ EXCLUSIVE
    │  ├─ DEMP
    │  │  └─ DEMPgen-1.1.0
@@ -91,11 +91,11 @@ epic_craterlake
    │  └─ pythia6-eic
    │     └─ 1.0.0
    │        ├─ 10x100
-   │        │  └─ q2_0to1 (nfiles =34100  , neventsperfile =1466  , ntotaltargetevents =  , percentage =100 )
+   │        │  └─ q2_0to1 (nfiles =34100  , neventsperfile =1466  , ntotaltargetevents = 50e6 , percentage =100 )
    │        ├─ 18x275
-   │        │  └─ q2_0to1 (nfiles =64600  , neventsperfile =773  , ntotaltargetevents =  , percentage =100 )
+   │        │  └─ q2_0to1 (nfiles =64600  , neventsperfile =773  , ntotaltargetevents = 50e6 , percentage =100 )
    │        └─ 5x41
-   │           └─ q2_0to1 (nfiles =22149  , neventsperfile =2257  , ntotaltargetevents =  , percentage =100 )
+   │           └─ q2_0to1 (nfiles =22149  , neventsperfile =2257  , ntotaltargetevents = 50e6 , percentage =100 )
    └─ SINGLE
       ├─ e+
       │  ├─ 100MeV
