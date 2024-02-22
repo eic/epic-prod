@@ -3,14 +3,17 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
 └─ epic_craterlake
    ├─ DIS
    │  ├─ CC
+   │  │  ├─ 10x100
+   │  │  │  └─ minQ2=100
+    980 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-   1000 
+   2233 
    │  │  │  └─ minQ2=1000
-   1000 
+   2046 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
-   1713 
+
    │  └─ NC
    │     ├─ 10x100
    │     │  ├─ minQ2=1
@@ -18,7 +21,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │     │  ├─ minQ2=10
 
    │     │  ├─ minQ2=100
-   2446 
+   2852 
    │     │  └─ minQ2=1000
    6928 
    │     ├─ 18x275
@@ -27,16 +30,16 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │     │  ├─ minQ2=10
 
    │     │  ├─ minQ2=100
-  10746 
+  10748 
    │     │  └─ minQ2=1000
-  10017 
+  10025 
    │     └─ 5x41
    │        ├─ minQ2=1
    3025 
    │        ├─ minQ2=10
-   3557 
+   3559 
    │        └─ minQ2=100
-   3786 
+   3822 
    ├─ EXCLUSIVE
    │  └─ DVCS_ABCONV
    │     ├─ 10x100
