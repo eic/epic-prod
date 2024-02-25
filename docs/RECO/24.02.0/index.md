@@ -10,7 +10,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    4178 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-   2233 
+   2234 
    │  │  │  └─ minQ2=1000
    2049 
    │  │  └─ 5x41
@@ -43,13 +43,17 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │        └─ minQ2=100
    3822 
    ├─ EXCLUSIVE
-   │  └─ DVCS_ABCONV
-   │     ├─ 10x100
+   │  ├─ DVCS_ABCONV
+   │  │  ├─ 10x100
    1240 
-   │     ├─ 18x275
-
-   │     └─ 5x41
-   1216 
+   │  │  ├─ 18x275
+   1512 
+   │  │  └─ 5x41
+   2158 
+   │  └─ TCS_ABCONV
+   │     └─ 10x100
+   │        └─ hel_minus
+   3166 
    └─ SIDIS
       └─ pythia6-eic
          └─ 1.0.0
@@ -58,8 +62,8 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    8259 
             ├─ 18x275
             │  └─ q2_0to1
-   6679 
+   7493 
             └─ 5x41
                └─ q2_0to1
-    530 
+   6299 
 ```
