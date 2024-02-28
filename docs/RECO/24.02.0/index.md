@@ -5,17 +5,17 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │  ├─ CC
    │  │  ├─ 10x100
    │  │  │  ├─ minQ2=100
-
+   4890 
    │  │  │  └─ minQ2=1000
-   4178 
+   4394 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-   2422 
+   2429 
    │  │  │  └─ minQ2=1000
-   2159 
+   3390 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
-   2630 
+
    │  └─ NC
    │     ├─ 10x100
    │     │  ├─ minQ2=1
@@ -23,7 +23,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │     │  ├─ minQ2=10
    4200 
    │     │  ├─ minQ2=100
-   3840 
+
    │     │  └─ minQ2=1000
    6930 
    │     ├─ 18x275
@@ -63,16 +63,16 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │        ├─ hel_minus
    2502 
    │        └─ hel_plus
-   2466 
+   2468 
    └─ SIDIS
       └─ pythia6-eic
          └─ 1.0.0
             ├─ 10x100
             │  └─ q2_0to1
-   8259 
+  14710 
             ├─ 18x275
             │  └─ q2_0to1
-   7493 
+   7495 
             └─ 5x41
                └─ q2_0to1
    6299 
