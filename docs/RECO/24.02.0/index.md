@@ -7,7 +7,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │  │  │  ├─ minQ2=100
    4890 
    │  │  │  └─ minQ2=1000
-   4394 
+   4408 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
    2429 
@@ -69,11 +69,11 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
          └─ 1.0.0
             ├─ 10x100
             │  └─ q2_0to1
-  14710 
+
             ├─ 18x275
             │  └─ q2_0to1
-   7495 
+
             └─ 5x41
                └─ q2_0to1
-   6299 
+
 ```
