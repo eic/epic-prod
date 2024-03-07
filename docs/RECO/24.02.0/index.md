@@ -7,12 +7,12 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │  │  │  ├─ minQ2=100
    4940 
    │  │  │  └─ minQ2=1000
-
+   4443 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-   9790 
+  10040 
    │  │  │  └─ minQ2=1000
-   6100 
+   8879 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
    2645 
@@ -47,11 +47,11 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │  │  └─ DEMPgen-1.1.0
    │  │     ├─ 10x100
    │  │     │  ├─ K+Lambda
-    976 
+    977 
    │  │     │  ├─ K+Sigma0
     980 
    │  │     │  └─ pi+
-    967 
+    968 
    │  │     └─ 5x41
    │  │        ├─ K+Lambda
     966 
@@ -85,7 +85,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
          └─ 1.0.0
             ├─ 10x100
             │  └─ q2_0to1
-
+  35889 
             ├─ 18x275
             │  └─ q2_0to1
   32553 
