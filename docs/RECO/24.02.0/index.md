@@ -12,7 +12,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │  │  │  ├─ minQ2=100
   10040 
    │  │  │  └─ minQ2=1000
-   8879 
+   8880 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
    2645 
@@ -85,10 +85,10 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
          └─ 1.0.0
             ├─ 10x100
             │  └─ q2_0to1
-  35889 
+  36377 
             ├─ 18x275
             │  └─ q2_0to1
-  32553 
+  40353 
             └─ 5x41
                └─ q2_0to1
   12462 
