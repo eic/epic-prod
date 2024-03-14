@@ -40,6 +40,8 @@
   url: /epic-prod/RECO/24.02.0/
 - text: 24.02.1/
   url: /epic-prod/RECO/24.02.1/
+- text: 24.03.1/
+  url: /epic-prod/RECO/24.03.1/
 - text: alternative-geometries-img-ecal/
   url: /epic-prod/RECO/alternative-geometries-img-ecal/
 - text: main/
