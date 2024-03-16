@@ -3,9 +3,15 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
 └─ epic_craterlake
    └─ SINGLE
       ├─ e-
-      │  └─ 10GeV
+      │  ├─ 10GeV
+      │  │  └─ etaScan
+
+      │  ├─ 1GeV
+      │  │  └─ etaScan
+    589 
+      │  └─ 2GeV
       │     └─ etaScan
-   1000 
+    870 
       ├─ gamma
       │  ├─ 100MeV
       │  │  └─ etaScan
