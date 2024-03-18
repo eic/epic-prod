@@ -5,9 +5,13 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
    │  └─ NC
    │     └─ 10x100
    │        ├─ minQ2=1
-    665 
-   │        └─ minQ2=10
-
+    668 
+   │        ├─ minQ2=10
+    640 
+   │        ├─ minQ2=100
+    744 
+   │        └─ minQ2=1000
+   1975 
    └─ SINGLE
       ├─ e-
       │  ├─ 10GeV
