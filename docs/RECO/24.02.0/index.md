@@ -12,7 +12,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │  │  │  ├─ minQ2=100
   10065 
    │  │  │  └─ minQ2=1000
-   9182 
+   9185 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
    2645 
@@ -69,7 +69,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │  └─ TCS_ABCONV
    │     ├─ 10x100
    │     │  └─ hel_minus
-  11517 
+  11519 
    │     ├─ 18x275
    │     │  ├─ hel_minus
    2680 
@@ -88,8 +88,8 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
   36548 
             ├─ 18x275
             │  └─ q2_0to1
-  57057 
+  59240 
             └─ 5x41
                └─ q2_0to1
-  23475 
+  23490 
 ```
