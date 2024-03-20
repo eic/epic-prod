@@ -5,9 +5,9 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
    │  └─ NC
    │     ├─ 10x100
    │     │  ├─ minQ2=1
-    668 
+    982 
    │     │  ├─ minQ2=10
-    644 
+    820 
    │     │  ├─ minQ2=100
     775 
    │     │  └─ minQ2=1000
@@ -16,7 +16,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
    │        ├─ minQ2=10
       7 
    │        ├─ minQ2=100
-    598 
+    602 
    │        └─ minQ2=1000
    1250 
    └─ SINGLE
