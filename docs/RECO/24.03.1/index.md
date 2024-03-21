@@ -5,11 +5,11 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
    │  └─ NC
    │     ├─ 10x100
    │     │  ├─ minQ2=1
-    982 
+    989 
    │     │  ├─ minQ2=10
-    820 
+
    │     │  ├─ minQ2=100
-    775 
+   1240 
    │     │  └─ minQ2=1000
    2925 
    │     └─ 18x275
