@@ -49,7 +49,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    │  │     │  ├─ K+Lambda
    2329 
    │  │     │  ├─ K+Sigma0
-   2404 
+   2405 
    │  │     │  └─ pi+
    1500 
    │  │     └─ 5x41
@@ -88,7 +88,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
   36549 
             ├─ 18x275
             │  └─ q2_0to1
-  63295 
+  65847 
             └─ 5x41
                └─ q2_0to1
   23497 
