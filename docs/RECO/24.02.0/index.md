@@ -77,7 +77,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
    2680 
    │     └─ 5x41
    │        ├─ hel_minus
-   2679 
+   2680 
    │        └─ hel_plus
    2680 
    └─ SIDIS
@@ -88,7 +88,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0/
   36549 
             ├─ 18x275
             │  └─ q2_0to1
-  66314 
+  66345 
             └─ 5x41
                └─ q2_0to1
   23500 
