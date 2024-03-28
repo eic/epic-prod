@@ -5,62 +5,62 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
    │  ├─ CC
    │  │  ├─ 10x100
    │  │  │  ├─ minQ2=100
-    948 
+    952 
    │  │  │  └─ minQ2=1000
-    917 
+    930 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-   1693 
+   1945 
    │  │  │  └─ minQ2=1000
-    999 
+   1000 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
-    630 
+    633 
    │  └─ NC
    │     ├─ 10x100
    │     │  ├─ minQ2=1
-   3518 
-   │     │  ├─ minQ2=10
-   2635 
-   │     │  ├─ minQ2=100
-   4412 
-   │     │  └─ minQ2=1000
 
+   │     │  ├─ minQ2=10
+   2640 
+   │     │  ├─ minQ2=100
+   4414 
+   │     │  └─ minQ2=1000
+   6495 
    │     ├─ 18x275
    │     │  ├─ minQ2=1
-   1790 
+   1792 
    │     │  ├─ minQ2=10
-      7 
+   1732 
    │     │  ├─ minQ2=100
-   1400 
+   1645 
    │     │  └─ minQ2=1000
-   2656 
+   2666 
    │     └─ 5x41
    │        ├─ minQ2=1
-    577 
+    604 
    │        ├─ minQ2=10
-    570 
+    677 
    │        └─ minQ2=100
-    610 
+    795 
    ├─ EXCLUSIVE
    │  └─ DVCS_ABCONV
    │     ├─ 10x100
    1083 
    │     └─ 18x275
-   1439 
+   1440 
    └─ SINGLE
       ├─ e-
       │  ├─ 100MeV
       │  │  └─ 130to177deg
-     27 
+     29 
       │  ├─ 10GeV
       │  │  ├─ 130to177deg
-    296 
+    363 
       │  │  └─ etaScan
    1836 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
-    157 
+    160 
       │  │  └─ etaScan
     638 
       │  ├─ 200MeV
@@ -68,17 +68,33 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
      16 
       │  ├─ 20GeV
       │  │  └─ 130to177deg
-    199 
+
       │  └─ 2GeV
       │     └─ etaScan
     877 
       ├─ gamma
       │  ├─ 100MeV
+      │  │  ├─ 130to177deg
+      6 
       │  │  └─ etaScan
      96 
-      │  └─ 1GeV
-      │     └─ etaScan
+      │  ├─ 10GeV
+      │  │  └─ 130to177deg
+    136 
+      │  ├─ 1GeV
+      │  │  ├─ 130to177deg
+     23 
+      │  │  └─ etaScan
     475 
+      │  ├─ 200MeV
+      │  │  └─ 130to177deg
+      7 
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+    176 
+      │  └─ 2GeV
+      │     └─ 130to177deg
+     38 
       ├─ kaon+
       │  ├─ 100MeV
       │  │  └─ 130to177deg
@@ -88,24 +104,68 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
     223 
       │  ├─ 1GeV
       │  │  └─ 130to177deg
-    143 
+    147 
       │  ├─ 200MeV
       │  │  └─ 130to177deg
      16 
       │  ├─ 20GeV
       │  │  └─ 130to177deg
-    304 
+    309 
       │  ├─ 2GeV
       │  │  └─ 130to177deg
-    153 
+    166 
       │  ├─ 500MeV
       │  │  └─ 130to177deg
-     79 
+
       │  └─ 5GeV
       │     └─ 130to177deg
-     65 
-      └─ mu-
-         └─ 10GeV
-            └─ etaScan
+    187 
+      ├─ mu-
+      │  └─ 10GeV
+      │     └─ etaScan
     766 
+      ├─ pi+
+      │  ├─ 100MeV
+      │  │  └─ 130to177deg
+     28 
+      │  ├─ 10GeV
+      │  │  └─ 130to177deg
+    203 
+      │  ├─ 1GeV
+      │  │  └─ 130to177deg
+    135 
+      │  ├─ 200MeV
+      │  │  └─ 130to177deg
+     16 
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+    183 
+      │  ├─ 2GeV
+      │  │  └─ 130to177deg
+     60 
+      │  └─ 500MeV
+      │     └─ 130to177deg
+     74 
+      └─ pi-
+         ├─ 100MeV
+         │  └─ 130to177deg
+     29 
+         ├─ 10GeV
+         │  └─ 130to177deg
+    244 
+         ├─ 1GeV
+         │  └─ 130to177deg
+    159 
+         ├─ 200MeV
+         │  └─ 130to177deg
+     13 
+         ├─ 20GeV
+         │  └─ 130to177deg
+    283 
+         ├─ 2GeV
+         │  └─ 130to177deg
+    169 
+         └─ 500MeV
+            └─ 130to177deg
+     78 
 ```
