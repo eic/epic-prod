@@ -10,7 +10,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
     930 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-   1945 
+   2108 
    │  │  │  └─ minQ2=1000
    1000 
    │  │  └─ 5x41
@@ -19,35 +19,35 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
    │  └─ NC
    │     ├─ 10x100
    │     │  ├─ minQ2=1
-
+   3642 
    │     │  ├─ minQ2=10
-   2640 
+   4454 
    │     │  ├─ minQ2=100
-   4414 
+   5398 
    │     │  └─ minQ2=1000
-   6495 
+   6779 
    │     ├─ 18x275
    │     │  ├─ minQ2=1
-   1792 
+   2564 
    │     │  ├─ minQ2=10
-   1732 
+   1880 
    │     │  ├─ minQ2=100
-   1645 
+   1782 
    │     │  └─ minQ2=1000
-   2666 
+   3200 
    │     └─ 5x41
    │        ├─ minQ2=1
-    604 
+   1213 
    │        ├─ minQ2=10
-    677 
+   1129 
    │        └─ minQ2=100
-    795 
+    800 
    ├─ EXCLUSIVE
    │  └─ DVCS_ABCONV
    │     ├─ 10x100
    1083 
    │     └─ 18x275
-   1440 
+
    └─ SINGLE
       ├─ e-
       │  ├─ 100MeV
@@ -55,7 +55,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
      29 
       │  ├─ 10GeV
       │  │  ├─ 130to177deg
-    363 
+    369 
       │  │  └─ etaScan
    1836 
       │  ├─ 1GeV
@@ -68,33 +68,41 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
      16 
       │  ├─ 20GeV
       │  │  └─ 130to177deg
-
-      │  └─ 2GeV
-      │     └─ etaScan
+    567 
+      │  ├─ 2GeV
+      │  │  ├─ 130to177deg
+    194 
+      │  │  └─ etaScan
     877 
+      │  ├─ 500MeV
+      │  │  └─ 130to177deg
+    133 
+      │  └─ 5GeV
+      │     └─ 130to177deg
+     96 
       ├─ gamma
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
-      6 
+     29 
       │  │  └─ etaScan
      96 
       │  ├─ 10GeV
       │  │  └─ 130to177deg
-    136 
+    317 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
-     23 
+     83 
       │  │  └─ etaScan
     475 
       │  ├─ 200MeV
       │  │  └─ 130to177deg
-      7 
+     16 
       │  ├─ 20GeV
       │  │  └─ 130to177deg
-    176 
+    500 
       │  └─ 2GeV
       │     └─ 130to177deg
-     38 
+     70 
       ├─ kaon+
       │  ├─ 100MeV
       │  │  └─ 130to177deg
@@ -119,7 +127,26 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
 
       │  └─ 5GeV
       │     └─ 130to177deg
-    187 
+    188 
+      ├─ kaon-
+      │  ├─ 100MeV
+      │  │  └─ 130to177deg
+     29 
+      │  ├─ 10GeV
+      │  │  └─ 130to177deg
+    230 
+      │  ├─ 1GeV
+      │  │  └─ 130to177deg
+     62 
+      │  ├─ 200MeV
+      │  │  └─ 130to177deg
+      3 
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+     95 
+      │  └─ 2GeV
+      │     └─ 130to177deg
+      3 
       ├─ mu-
       │  └─ 10GeV
       │     └─ etaScan
@@ -130,42 +157,77 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
      28 
       │  ├─ 10GeV
       │  │  └─ 130to177deg
-    203 
+    243 
       │  ├─ 1GeV
       │  │  └─ 130to177deg
-    135 
+
       │  ├─ 200MeV
       │  │  └─ 130to177deg
      16 
       │  ├─ 20GeV
       │  │  └─ 130to177deg
-    183 
+    310 
       │  ├─ 2GeV
       │  │  └─ 130to177deg
-     60 
+    166 
       │  └─ 500MeV
       │     └─ 130to177deg
-     74 
-      └─ pi-
+    104 
+      ├─ pi-
+      │  ├─ 100MeV
+      │  │  └─ 130to177deg
+     29 
+      │  ├─ 10GeV
+      │  │  └─ 130to177deg
+    249 
+      │  ├─ 1GeV
+      │  │  └─ 130to177deg
+    159 
+      │  ├─ 200MeV
+      │  │  └─ 130to177deg
+     15 
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+    312 
+      │  ├─ 2GeV
+      │  │  └─ 130to177deg
+    174 
+      │  └─ 500MeV
+      │     └─ 130to177deg
+
+      ├─ pi0
+      │  ├─ 10GeV
+      │  │  └─ 130to177deg
+      5 
+      │  ├─ 1GeV
+      │  │  └─ 130to177deg
+
+      │  ├─ 20GeV
+      │  │  └─ 130to177deg
+    135 
+      │  └─ 2GeV
+      │     └─ 130to177deg
+     26 
+      └─ proton
          ├─ 100MeV
          │  └─ 130to177deg
-     29 
+
          ├─ 10GeV
          │  └─ 130to177deg
-    244 
+    126 
          ├─ 1GeV
          │  └─ 130to177deg
-    159 
+     10 
          ├─ 200MeV
          │  └─ 130to177deg
-     13 
+      2 
          ├─ 20GeV
          │  └─ 130to177deg
-    283 
+    130 
          ├─ 2GeV
          │  └─ 130to177deg
-    169 
+      6 
          └─ 500MeV
             └─ 130to177deg
-     78 
+      3 
 ```
