@@ -5,12 +5,12 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
    │  ├─ CC
    │  │  ├─ 10x100
    │  │  │  ├─ minQ2=100
-    952 
+   4302 
    │  │  │  └─ minQ2=1000
-    930 
+   2813 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-   2110 
+
    │  │  │  └─ minQ2=1000
    1000 
    │  │  └─ 5x41
@@ -19,35 +19,37 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
    │  └─ NC
    │     ├─ 10x100
    │     │  ├─ minQ2=1
-   3707 
+   3708 
    │     │  ├─ minQ2=10
-   4704 
+   4705 
    │     │  ├─ minQ2=100
-   5829 
+   5830 
    │     │  └─ minQ2=1000
-   6896 
+   6897 
    │     ├─ 18x275
    │     │  ├─ minQ2=1
-   5147 
+   8852 
    │     │  ├─ minQ2=10
-   5139 
+   8976 
    │     │  ├─ minQ2=100
-   5483 
+
    │     │  └─ minQ2=1000
-   6597 
+   6904 
    │     └─ 5x41
    │        ├─ minQ2=1
-   1397 
+   2927 
    │        ├─ minQ2=10
-   1317 
+
    │        └─ minQ2=100
-    800 
+
    ├─ EXCLUSIVE
    │  └─ DVCS_ABCONV
    │     ├─ 10x100
    1083 
-   │     └─ 18x275
+   │     ├─ 18x275
 
+   │     └─ 5x41
+   2150 
    └─ SINGLE
       ├─ e-
       │  ├─ 100MeV
@@ -143,7 +145,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
      16 
       │  ├─ 20GeV
       │  │  └─ 130to177deg
-
+    315 
       │  ├─ 2GeV
       │  │  └─ 130to177deg
     179 
@@ -213,7 +215,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
      16 
       │  ├─ 20GeV
       │  │  └─ 130to177deg
-    448 
+    452 
       │  └─ 2GeV
       │     └─ 130to177deg
      82 
@@ -232,7 +234,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
      16 
          ├─ 20GeV
          │  └─ 130to177deg
-    279 
+
          ├─ 2GeV
          │  └─ 130to177deg
     142 
