@@ -2,13 +2,16 @@
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
 └─ epic_craterlake
    ├─ BACKGROUNDS
+   │  ├─ 10x100
+   │  │  └─ merged_lowstat
+     16 
    │  └─ BEAMGAS
    │     └─ proton
    │        └─ pythia8.306-1.0
    │           ├─ 100GeV
-   4895 
+   4899 
    │           └─ 275GeV
-  10538 
+  11094 
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
@@ -55,16 +58,16 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
    │  │  └─ DEMPgen-1.1.0
    │  │     ├─ 10x100
    │  │     │  ├─ K+Lambda
-   2329 
+   2330 
    │  │     │  ├─ K+Sigma0
-   2400 
+   2405 
    │  │     │  └─ pi+
-   1498 
+   1500 
    │  │     └─ 5x41
    │  │        ├─ K+Lambda
    2040 
    │  │        ├─ K+Sigma0
-   2038 
+   2039 
    │  │        └─ pi+
     900 
    │  ├─ DIFFRACTIVE_PHI_ABCONV
@@ -81,20 +84,26 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.03.1/
    │  ├─ DVMP
    │  │  └─ EpIC1.0.0-1.0
      66 
-   │  └─ TCS_ABCONV
-   │     ├─ 10x100
-   │     │  └─ hel_minus
-   6643 
-   │     ├─ 18x275
-   │     │  ├─ hel_minus
-   1470 
-   │     │  └─ hel_plus
-   1408 
-   │     └─ 5x41
-   │        ├─ hel_minus
-   1456 
-   │        └─ hel_plus
-   1363 
+   │  ├─ TCS_ABCONV
+   │  │  ├─ 10x100
+   │  │  │  └─ hel_minus
+   7188 
+   │  │  ├─ 18x275
+   │  │  │  ├─ hel_minus
+   1577 
+   │  │  │  └─ hel_plus
+   1575 
+   │  │  └─ 5x41
+   │  │     ├─ hel_minus
+   1540 
+   │  │     └─ hel_plus
+   1537 
+   │  ├─ UCHANNEL_PI0
+   │  │  └─ 18x275
+    249 
+   │  └─ UCHANNEL_RHO
+   │     └─ 10x100
+     69 
    └─ SINGLE
       ├─ e+
       │  ├─ 100MeV
