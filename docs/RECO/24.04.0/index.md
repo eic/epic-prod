@@ -2,6 +2,10 @@
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
 └─ epic_craterlake
    └─ DIS
+      ├─ CC
+      │  └─ 18x275
+      │     └─ minQ2=1000
+    119 
       └─ NC
          ├─ 10x100
          │  ├─ minQ2=1
@@ -14,11 +18,13 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
    6910 
          ├─ 18x275
          │  ├─ minQ2=1
-   8959 
+   8960 
          │  ├─ minQ2=10
-   7919 
-         │  └─ minQ2=100
-   1129 
+   9520 
+         │  ├─ minQ2=100
+   5987 
+         │  └─ minQ2=1000
+    888 
          └─ 5x41
             ├─ minQ2=1
    3020 
