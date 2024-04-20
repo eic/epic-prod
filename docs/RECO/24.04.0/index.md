@@ -5,14 +5,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
       ├─ CC
       │  ├─ 10x100
       │  │  ├─ minQ2=100
-    677 
+    858 
       │  │  └─ minQ2=1000
-    886 
+    930 
       │  ├─ 18x275
       │  │  ├─ minQ2=100
-    980 
+    996 
       │  │  └─ minQ2=1000
-    845 
+
       │  └─ 5x41
       │     └─ minQ2=100
     633 
@@ -32,9 +32,9 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
          │  ├─ minQ2=10
    9542 
          │  ├─ minQ2=100
-   8208 
+   9267 
          │  └─ minQ2=1000
-   1870 
+   2718 
          └─ 5x41
             ├─ minQ2=1
    3020 
