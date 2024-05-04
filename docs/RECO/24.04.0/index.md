@@ -5,14 +5,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
    │  ├─ CC
    │  │  ├─ 10x100
    │  │  │  ├─ minQ2=100
-   4759 
+   4760 
    │  │  │  └─ minQ2=1000
    4649 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-  10547 
+  10550 
    │  │  │  └─ minQ2=1000
-  10089 
+
    │  │  └─ 5x41
    │  │     └─ minQ2=100
    3165 
@@ -34,7 +34,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
    │     │  ├─ minQ2=100
   11549 
    │     │  └─ minQ2=1000
-  13607 
+  13625 
    │     └─ 5x41
    │        ├─ minQ2=1
    3020 
@@ -45,9 +45,20 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
    ├─ EXCLUSIVE
    │  ├─ DEMP
    │  │  └─ DEMPgen-1.1.0
-   │  │     └─ 10x100
-   │  │        └─ K+Lambda
-    473 
+   │  │     ├─ 10x100
+   │  │     │  ├─ K+Lambda
+
+   │  │     │  ├─ K+Sigma0
+   2838 
+   │  │     │  └─ pi+
+   1695 
+   │  │     └─ 5x41
+   │  │        ├─ K+Lambda
+   1804 
+   │  │        ├─ K+Sigma0
+   2388 
+   │  │        └─ pi+
+    910 
    │  ├─ DIFFRACTIVE_PHI_ABCONV
    │  │  └─ Sartre
    │  │     └─ Coherent
@@ -61,20 +72,20 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
    2233 
    │  └─ DVMP
    │     └─ EpIC1.0.0-1.1
-     64 
+     78 
    └─ SIDIS
       └─ pythia6-eic
          └─ 1.0.0
             ├─ 10x100
             │  └─ q2_0to1
-  31209 
+  33009 
             ├─ 10x275
             │  └─ q2_0to1
-   9018 
+
             ├─ 18x275
             │  └─ q2_0to1
-  20639 
+  20687 
             └─ 5x41
                └─ q2_0to1
-  12907 
+  13035 
 ```
