@@ -12,7 +12,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
    │  │  │  ├─ minQ2=100
   10550 
    │  │  │  └─ minQ2=1000
-
+  10165 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
    3165 
@@ -32,7 +32,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
    │     │  ├─ minQ2=10
    9545 
    │     │  ├─ minQ2=100
-  11549 
+  11550 
    │     │  └─ minQ2=1000
   13625 
    │     └─ 5x41
@@ -49,16 +49,16 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
    │  │     │  ├─ K+Lambda
 
    │  │     │  ├─ K+Sigma0
-   2838 
+   2934 
    │  │     │  └─ pi+
-   1695 
+   1944 
    │  │     └─ 5x41
    │  │        ├─ K+Lambda
-   1804 
+   2726 
    │  │        ├─ K+Sigma0
-   2388 
+
    │  │        └─ pi+
-    910 
+   1344 
    │  ├─ DIFFRACTIVE_PHI_ABCONV
    │  │  └─ Sartre
    │  │     └─ Coherent
@@ -78,14 +78,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
          └─ 1.0.0
             ├─ 10x100
             │  └─ q2_0to1
-  33009 
+  36760 
             ├─ 10x275
             │  └─ q2_0to1
-
+  15912 
             ├─ 18x275
             │  └─ q2_0to1
-  20687 
+  25408 
             └─ 5x41
                └─ q2_0to1
-  13035 
+  15362 
 ```
