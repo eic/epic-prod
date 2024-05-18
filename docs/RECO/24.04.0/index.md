@@ -9,16 +9,16 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
    │     └─ proton
    │        └─ pythia8.306-1.0
    │           ├─ 100GeV
-   5196 
+   5594 
    │           └─ 275GeV
-  11222 
+  14994 
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
    │  │  │  ├─ minQ2=100
    4760 
    │  │  │  └─ minQ2=1000
-   4649 
+   4650 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
   10550 
@@ -126,7 +126,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0/
   37850 
    │        ├─ 10x275
    │        │  └─ q2_0to1
-  72793 
+  72798 
    │        ├─ 18x275
    │        │  └─ q2_0to1
   72500 
