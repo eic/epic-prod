@@ -5,27 +5,27 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │  ├─ CC
    │  │  ├─ 10x100
    │  │  │  ├─ minQ2=100
-
+    889 
    │  │  │  └─ minQ2=1000
-    477 
+    885 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-    450 
+   1000 
    │  │  │  └─ minQ2=1000
-
+   1000 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
-    490 
+    508 
    │  └─ NC
    │     ├─ 10x100
    │     │  ├─ minQ2=1
    6086 
    │     │  ├─ minQ2=10
-   7764 
+   7765 
    │     │  ├─ minQ2=100
-   8919 
+   8927 
    │     │  └─ minQ2=1000
-  10202 
+  10203 
    │     ├─ 18x275
    │     │  ├─ minQ2=1
   12014 
@@ -42,16 +42,21 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    3035 
    │        └─ minQ2=100
    3975 
+   ├─ EXCLUSIVE
+   │  └─ DIFFRACTIVE_PHI_ABCONV
+   │     └─ Sartre
+   │        └─ Coherent
+     39 
    └─ SIDIS
       └─ pythia6-eic
          └─ 1.0.0
             ├─ 10x100
             │  └─ q2_0to1
-  31109 
+  31153 
             ├─ 10x275
             │  └─ q2_0to1
-  51102 
+
             └─ 18x275
                └─ q2_0to1
-  25308 
+  26708 
 ```
