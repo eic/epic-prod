@@ -16,7 +16,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │  │  │  ├─ minQ2=100
    1500 
    │  │  │  └─ minQ2=1000
-   1938 
+   3464 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
     508 
@@ -50,17 +50,20 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │  ├─ DIFFRACTIVE_PHI_ABCONV
    │  │  └─ Sartre
    │  │     └─ Coherent
-  22352 
+  22355 
    │  ├─ DVCS_ABCONV
    │  │  ├─ 10x100
-   1356 
+   1365 
    │  │  ├─ 18x275
-   5003 
+
    │  │  └─ 5x41
-    208 
-   │  └─ UCHANNEL_PI0
-   │     └─ 18x275
-    167 
+
+   │  ├─ UCHANNEL_PI0
+   │  │  └─ 18x275
+    175 
+   │  └─ UCHANNEL_RHO
+   │     └─ 10x100
+     72 
    └─ SIDIS
       └─ pythia6-eic
          └─ 1.0.0
@@ -69,8 +72,8 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
   31153 
             ├─ 10x275
             │  └─ q2_0to1
-  90936 
+  90938 
             └─ 18x275
                └─ q2_0to1
-  51579 
+  90959 
 ```
