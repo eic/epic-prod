@@ -58,6 +58,20 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
 
    │  │  └─ 5x41
 
+   │  ├─ TCS_ABCONV
+   │  │  ├─ 10x100
+   │  │  │  └─ hel_minus
+   8458 
+   │  │  ├─ 18x275
+   │  │  │  ├─ hel_minus
+
+   │  │  │  └─ hel_plus
+   7470 
+   │  │  └─ 5x41
+   │  │     ├─ hel_minus
+    919 
+   │  │     └─ hel_plus
+    919 
    │  ├─ UCHANNEL_PI0
    │  │  └─ 18x275
     175 
