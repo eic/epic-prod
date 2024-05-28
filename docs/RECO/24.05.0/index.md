@@ -2,24 +2,29 @@
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
 └─ epic_craterlake
    ├─ BACKGROUNDS
-   │  └─ 10x100
-   │     └─ merged_lowstat
+   │  ├─ 10x100
+   │  │  └─ merged_lowstat
      27 
+   │  └─ BEAMGAS
+   │     └─ proton
+   │        └─ pythia8.306-1.0
+   │           └─ 275GeV
+
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
    │  │  │  ├─ minQ2=100
-   4309 
+   4444 
    │  │  │  └─ minQ2=1000
-   4226 
+   4424 
    │  │  ├─ 18x275
    │  │  │  ├─ minQ2=100
-   9262 
+   9578 
    │  │  │  └─ minQ2=1000
-  10326 
+  10335 
    │  │  └─ 5x41
    │  │     └─ minQ2=100
-   2235 
+   2540 
    │  └─ NC
    │     ├─ 10x100
    │     │  ├─ minQ2=1
@@ -64,12 +69,12 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    8458 
    │  │  ├─ 18x275
    │  │  │  ├─ hel_minus
-
+   7472 
    │  │  │  └─ hel_plus
    7470 
    │  │  └─ 5x41
    │  │     ├─ hel_minus
-    919 
+    920 
    │  │     └─ hel_plus
     919 
    │  ├─ UCHANNEL_PI0
@@ -89,5 +94,5 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
   90938 
             └─ 18x275
                └─ q2_0to1
-  94527 
+  94547 
 ```
