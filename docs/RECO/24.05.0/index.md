@@ -8,8 +8,10 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │  └─ BEAMGAS
    │     └─ proton
    │        └─ pythia8.306-1.0
+   │           ├─ 100GeV
+   4025 
    │           └─ 275GeV
-
+  15780 
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
@@ -52,6 +54,22 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │        └─ minQ2=100
    3975 
    ├─ EXCLUSIVE
+   │  ├─ DEMP
+   │  │  └─ DEMPgen-1.1.0
+   │  │     ├─ 10x100
+   │  │     │  ├─ K+Lambda
+   2098 
+   │  │     │  ├─ K+Sigma0
+   2397 
+   │  │     │  └─ pi+
+   1436 
+   │  │     └─ 5x41
+   │  │        ├─ K+Lambda
+   2454 
+   │  │        ├─ K+Sigma0
+   1864 
+   │  │        └─ pi+
+   1028 
    │  ├─ DIFFRACTIVE_PHI_ABCONV
    │  │  └─ Sartre
    │  │     └─ Coherent
@@ -66,17 +84,17 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │  ├─ TCS_ABCONV
    │  │  ├─ 10x100
    │  │  │  └─ hel_minus
-   8458 
+   8460 
    │  │  ├─ 18x275
    │  │  │  ├─ hel_minus
-   7472 
+   7476 
    │  │  │  └─ hel_plus
-   7470 
+   7480 
    │  │  └─ 5x41
    │  │     ├─ hel_minus
     920 
    │  │     └─ hel_plus
-    919 
+    920 
    │  ├─ UCHANNEL_PI0
    │  │  └─ 18x275
     175 
