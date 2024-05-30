@@ -9,9 +9,9 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │     └─ proton
    │        └─ pythia8.306-1.0
    │           ├─ 100GeV
-   4025 
+   4550 
    │           └─ 275GeV
-  15780 
+  15799 
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
@@ -58,18 +58,18 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │  │  └─ DEMPgen-1.1.0
    │  │     ├─ 10x100
    │  │     │  ├─ K+Lambda
-   2098 
+   2368 
    │  │     │  ├─ K+Sigma0
-   2397 
+   2506 
    │  │     │  └─ pi+
-   1436 
+   1497 
    │  │     └─ 5x41
    │  │        ├─ K+Lambda
-   2454 
+   2908 
    │  │        ├─ K+Sigma0
-   1864 
+
    │  │        └─ pi+
-   1028 
+   1103 
    │  ├─ DIFFRACTIVE_PHI_ABCONV
    │  │  └─ Sartre
    │  │     └─ Coherent
