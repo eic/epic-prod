@@ -6,6 +6,10 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │  │  └─ merged_lowstat
      27 
    │  └─ BEAMGAS
+   │     ├─ electron
+   │     │  └─ GETaLM1.0.0-1.0
+   │     │     └─ 10GeV
+    500 
    │     └─ proton
    │        └─ pythia8.306-1.0
    │           ├─ 100GeV
@@ -58,9 +62,9 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │  │  └─ DEMPgen-1.1.0
    │  │     ├─ 10x100
    │  │     │  ├─ K+Lambda
-   2369 
+
    │  │     │  ├─ K+Sigma0
-   2506 
+   2519 
    │  │     │  └─ pi+
    1497 
    │  │     └─ 5x41
@@ -102,6 +106,20 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │     └─ 10x100
      72 
    └─ SIDIS
+      ├─ D0_ABCONV
+      │  └─ pythia8.306-1.0
+      │     └─ 18x275
+      │        ├─ hiAcc
+
+      │        └─ hiDiv
+
+      ├─ Lambda_ABCONV
+      │  └─ pythia8.306-1.0
+      │     └─ 18x275
+      │        ├─ hiAcc
+    452 
+      │        └─ hiDiv
+    434 
       └─ pythia6-eic
          └─ 1.0.0
             ├─ 10x100
