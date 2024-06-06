@@ -13,7 +13,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │  │  └─ proton
    │  │     └─ pythia8.306-1.0
    │  │        ├─ 100GeV
-   4599 
+   4600 
    │  │        └─ 275GeV
   15799 
    │  └─ MERGED
@@ -71,7 +71,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
    │  │     │  ├─ K+Lambda
    2396 
    │  │     │  ├─ K+Sigma0
-   2519 
+   2520 
    │  │     │  └─ pi+
    1500 
    │  │     └─ 5x41
@@ -92,6 +92,9 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
 
    │  │  └─ 5x41
 
+   │  ├─ DVMP
+   │  │  └─ EpIC1.0.0-1.1
+     92 
    │  ├─ TCS_ABCONV
    │  │  ├─ 10x100
    │  │  │  └─ hel_minus
@@ -117,16 +120,16 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
       │  └─ pythia8.306-1.0
       │     └─ 18x275
       │        ├─ hiAcc
-   1712 
+   1849 
       │        └─ hiDiv
-   1093 
+   1486 
       ├─ Lambda_ABCONV
       │  └─ pythia8.306-1.0
       │     └─ 18x275
       │        ├─ hiAcc
-    770 
+   3440 
       │        └─ hiDiv
-   2978 
+   3328 
       └─ pythia6-eic
          └─ 1.0.0
             ├─ 10x100
