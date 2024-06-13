@@ -1847,6 +1847,10 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/main/
    │     └─ 5x41
    │        └─ minQ2=10
     748 
+   ├─ EXCLUSIVE
+   │  └─ DVMP
+   │     └─ EpIC1.0.0-1.1
+     48 
    └─ SINGLE
       ├─ e+
       │  └─ 100MeV
