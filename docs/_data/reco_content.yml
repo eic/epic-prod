@@ -48,6 +48,8 @@
   url: /epic-prod/RECO/24.05.0/
 - text: 24.06.0/
   url: /epic-prod/RECO/24.06.0/
+- text: 24.07.0/
+  url: /epic-prod/RECO/24.07.0/
 - text: alternative-geometries-img-ecal/
   url: /epic-prod/RECO/alternative-geometries-img-ecal/
 - text: main/
