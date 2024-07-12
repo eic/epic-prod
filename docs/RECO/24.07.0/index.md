@@ -1,6 +1,23 @@
 ```
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
 └─ epic_craterlake
+   ├─ BACKGROUNDS
+   │  ├─ BEAMGAS
+   │  │  ├─ electron
+   │  │  │  └─ GETaLM1.0.0-1.0
+   │  │  │     └─ 10GeV
+   2690 
+   │  │  └─ proton
+   │  │     └─ pythia8.306-1.0
+   │  │        ├─ 100GeV
+
+   │  │        └─ 275GeV
+
+   │  └─ MERGED
+   │     └─ HEPMC_merger-1.0.2
+   │        └─ 10x100
+   │           └─ RealisticSignalPerFrame
+     15 
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
@@ -30,11 +47,11 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
    │     │  ├─ minQ2=1
    8590 
    │     │  ├─ minQ2=10
-   9259 
+   9260 
    │     │  ├─ minQ2=100
   10527 
    │     │  └─ minQ2=1000
-  13369 
+  13370 
    │     └─ 5x41
    │        ├─ minQ2=1
    2520 
@@ -47,14 +64,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
    │  │  └─ DEMPgen-1.1.0
    │  │     ├─ 10x100
    │  │     │  ├─ K+Lambda
-   2393 
+   2395 
    │  │     │  ├─ K+Sigma0
-   2543 
+   2544 
    │  │     │  └─ pi+
    1500 
    │  │     └─ 5x41
    │  │        ├─ K+Lambda
-   2932 
+   2939 
    │  │        ├─ K+Sigma0
    2158 
    │  │        └─ pi+
@@ -70,11 +87,11 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
          └─ 1.0.0
             ├─ 10x100
             │  └─ q2_0to1
-  17323 
+  18894 
             ├─ 18x275
             │  └─ q2_0to1
-   1090 
+   2170 
             └─ 5x41
                └─ q2_0to1
-   8143 
+   8638 
 ```
