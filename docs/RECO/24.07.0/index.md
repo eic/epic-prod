@@ -6,18 +6,20 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
    │  │  ├─ electron
    │  │  │  └─ GETaLM1.0.0-1.0
    │  │  │     └─ 10GeV
-   2690 
+   2736 
    │  │  └─ proton
    │  │     └─ pythia8.306-1.0
    │  │        ├─ 100GeV
-
+   4789 
    │  │        └─ 275GeV
-
+  14214 
    │  └─ MERGED
    │     └─ HEPMC_merger-1.0.2
    │        └─ 10x100
+   │           ├─ 1SignalPerFrame
+     12 
    │           └─ RealisticSignalPerFrame
-     15 
+     29 
    ├─ DIS
    │  ├─ CC
    │  │  ├─ 10x100
@@ -87,11 +89,11 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
          └─ 1.0.0
             ├─ 10x100
             │  └─ q2_0to1
-  18894 
+  19424 
             ├─ 18x275
             │  └─ q2_0to1
-   2170 
+  25749 
             └─ 5x41
                └─ q2_0to1
-   8638 
+   8838 
 ```
