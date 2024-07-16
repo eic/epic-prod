@@ -10,9 +10,9 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
    │  │  └─ proton
    │  │     └─ pythia8.306-1.0
    │  │        ├─ 100GeV
-   4789 
+
    │  │        └─ 275GeV
-  14593 
+  14675 
    │  └─ MERGED
    │     └─ HEPMC_merger-1.0.2
    │        └─ 10x100
@@ -44,7 +44,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
    │     │  ├─ minQ2=100
    5970 
    │     │  └─ minQ2=1000
-   7887 
+   7888 
    │     ├─ 18x275
    │     │  ├─ minQ2=1
    8590 
@@ -89,10 +89,10 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
          └─ 1.0.0
             ├─ 10x100
             │  └─ q2_0to1
-  20062 
+  20086 
             ├─ 18x275
             │  └─ q2_0to1
-  31624 
+  32643 
             └─ 5x41
                └─ q2_0to1
    8838 
