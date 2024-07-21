@@ -12,7 +12,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
    │  │        ├─ 100GeV
    4799 
    │  │        └─ 275GeV
-  14699 
+  14700 
    │  └─ MERGED
    │     └─ HEPMC_merger-1.0.2
    │        └─ 10x100
@@ -51,7 +51,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
    │     │  ├─ minQ2=10
    9260 
    │     │  ├─ minQ2=100
-  10527 
+  10529 
    │     │  └─ minQ2=1000
   13370 
    │     └─ 5x41
@@ -78,6 +78,13 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
    2158 
    │  │        └─ pi+
    1136 
+   │  ├─ TCS_ABCONV
+   │  │  ├─ 10x100
+   │  │  │  └─ hel_minus
+    322 
+   │  │  └─ 18x275
+   │  │     └─ hel_minus
+    172 
    │  ├─ UCHANNEL_PI0
    │  │  └─ 18x275
     114 
@@ -92,8 +99,8 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
   30348 
             ├─ 18x275
             │  └─ q2_0to1
-  79444 
+  79460 
             └─ 5x41
                └─ q2_0to1
-  10540 
+  11459 
 ```
