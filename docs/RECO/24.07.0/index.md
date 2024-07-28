@@ -81,7 +81,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
    │  ├─ DIFFRACTIVE_PHI_ABCONV
    │  │  └─ Sartre
    │  │     └─ Coherent
-  17505 
+  18810 
    │  ├─ DVCS_ABCONV
    │  │  ├─ 10x100
    1324 
@@ -131,7 +131,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
   30350 
    │        ├─ 10x275
    │        │  └─ q2_0to1
-  59308 
+  74196 
    │        ├─ 18x275
    │        │  └─ q2_0to1
   79650 
@@ -153,7 +153,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
     155 
       │  │  └─ 45to135deg
-    215 
+    216 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
      22 
@@ -174,28 +174,28 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
 
       │  │  └─ 45to135deg
-    407 
+    436 
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
      44 
       │  │  ├─ 3to50deg
      36 
       │  │  └─ 45to135deg
-     50 
+     56 
       │  ├─ 500MeV
       │  │  ├─ 130to177deg
      22 
       │  │  ├─ 3to50deg
      22 
       │  │  └─ 45to135deg
-     19 
+     22 
       │  └─ 5GeV
       │     ├─ 130to177deg
      94 
       │     ├─ 3to50deg
      90 
       │     └─ 45to135deg
-    124 
+    143 
       ├─ e-
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
@@ -210,7 +210,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
     177 
       │  │  ├─ 45to135deg
-    217 
+    218 
       │  │  └─ etaScan
    1007 
       │  ├─ 1GeV
@@ -235,14 +235,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
     318 
       │  │  └─ 45to135deg
-    399 
+    419 
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
      44 
       │  │  ├─ 3to50deg
      25 
       │  │  ├─ 45to135deg
-
+     53 
       │  │  └─ etaScan
     220 
       │  ├─ 500MeV
@@ -251,14 +251,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
      22 
       │  │  └─ 45to135deg
-     19 
+     22 
       │  └─ 5GeV
       │     ├─ 130to177deg
     104 
       │     ├─ 3to50deg
      85 
       │     └─ 45to135deg
-     94 
+
       ├─ gamma
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
@@ -298,14 +298,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
     315 
       │  │  └─ 45to135deg
-    383 
+    415 
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
      42 
       │  │  ├─ 3to50deg
      30 
       │  │  └─ 45to135deg
-     44 
+     47 
       │  ├─ 40GeV
       │  │  └─ 3to50deg
     622 
@@ -315,14 +315,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
      22 
       │  │  └─ 45to135deg
-     22 
+     24 
       │  ├─ 5GeV
       │  │  ├─ 130to177deg
      96 
       │  │  ├─ 3to50deg
      76 
       │  │  └─ 45to135deg
-     89 
+    108 
       │  └─ 60GeV
       │     └─ 3to50deg
     868 
@@ -439,7 +439,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │     ├─ 3to50deg
      56 
       │     └─ 45to135deg
-     57 
+     58 
       ├─ mu-
       │  └─ 10GeV
       │     └─ etaScan
@@ -458,7 +458,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
      93 
       │  │  └─ 45to135deg
-
+    104 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
      22 
@@ -479,7 +479,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
     160 
       │  │  └─ 45to135deg
-    200 
+    203 
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
      24 
@@ -572,7 +572,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
     176 
       │  │  └─ 45to135deg
-    214 
+    215 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
      22 
@@ -593,14 +593,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
     290 
       │  │  └─ 45to135deg
-    392 
+    423 
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
 
       │  │  ├─ 3to50deg
      33 
       │  │  └─ 45to135deg
-     40 
+     43 
       │  ├─ 40GeV
       │  │  └─ 3to50deg
     639 
@@ -610,14 +610,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
       │  │  ├─ 3to50deg
      22 
       │  │  └─ 45to135deg
-     20 
+     22 
       │  ├─ 5GeV
       │  │  ├─ 130to177deg
      94 
       │  │  ├─ 3to50deg
      84 
       │  │  └─ 45to135deg
-    103 
+    119 
       │  └─ 60GeV
       │     └─ 3to50deg
     902 
