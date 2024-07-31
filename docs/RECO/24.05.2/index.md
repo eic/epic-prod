@@ -1,681 +1,519 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
+root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.2/
 └─ epic_craterlake
-   ├─ BACKGROUNDS
-   │  ├─ BEAMGAS
-   │  │  ├─ electron
-   │  │  │  └─ GETaLM1.0.0-1.0
-   │  │  │     └─ 10GeV
-   2736 
-   │  │  └─ proton
-   │  │     └─ pythia8.306-1.0
-   │  │        ├─ 100GeV
-   4800 
-   │  │        └─ 275GeV
-  14700 
-   │  └─ MERGED
-   │     └─ HEPMC_merger-1.0.2
-   │        └─ 10x100
-   │           ├─ 1SignalPerFrame
-     12 
-   │           └─ RealisticSignalPerFrame
-     29 
-   ├─ DIS
-   │  ├─ CC
-   │  │  ├─ 10x100
-   │  │  │  ├─ minQ2=100
-   4520 
-   │  │  │  └─ minQ2=1000
-   5125 
-   │  │  ├─ 18x275
-   │  │  │  ├─ minQ2=100
-   9295 
-   │  │  │  └─ minQ2=1000
-  10085 
-   │  │  └─ 5x41
-   │  │     └─ minQ2=100
-   2715 
-   │  └─ NC
-   │     ├─ 10x100
-   │     │  ├─ minQ2=1
-   3705 
-   │     │  ├─ minQ2=10
-   4970 
-   │     │  ├─ minQ2=100
-   5970 
-   │     │  └─ minQ2=1000
-   7890 
-   │     ├─ 18x275
-   │     │  ├─ minQ2=1
-   8590 
-   │     │  ├─ minQ2=10
-   9260 
-   │     │  ├─ minQ2=100
-  10529 
-   │     │  └─ minQ2=1000
-  13370 
-   │     └─ 5x41
-   │        ├─ minQ2=1
-   2520 
-   │        ├─ minQ2=10
-   3040 
-   │        └─ minQ2=100
-   3970 
-   ├─ EXCLUSIVE
-   │  ├─ DEMP
-   │  │  └─ DEMPgen-1.1.0
-   │  │     ├─ 10x100
-   │  │     │  ├─ K+Lambda
-   2400 
-   │  │     │  ├─ K+Sigma0
-   2544 
-   │  │     │  └─ pi+
-   1500 
-   │  │     └─ 5x41
-   │  │        ├─ K+Lambda
-   2939 
-   │  │        ├─ K+Sigma0
-   2158 
-   │  │        └─ pi+
-   1136 
-   │  ├─ DIFFRACTIVE_PHI_ABCONV
-   │  │  └─ Sartre
-   │  │     └─ Coherent
-  18828 
-   │  ├─ DVCS_ABCONV
-   │  │  ├─ 10x100
-   1324 
-   │  │  ├─ 18x275
-   3534 
-   │  │  └─ 5x41
-   2235 
-   │  ├─ TCS_ABCONV
-   │  │  ├─ 10x100
-   │  │  │  └─ hel_minus
-   8093 
-   │  │  ├─ 18x275
-   │  │  │  ├─ hel_minus
-   6377 
-   │  │  │  └─ hel_plus
-   6377 
-   │  │  └─ 5x41
-   │  │     ├─ hel_minus
-    959 
-   │  │     └─ hel_plus
-    959 
-   │  ├─ UCHANNEL_PI0
-   │  │  └─ 18x275
-    114 
-   │  └─ UCHANNEL_RHO
-   │     └─ 10x100
-     49 
-   ├─ SIDIS
-   │  ├─ D0_ABCONV
-   │  │  └─ pythia8.306-1.0
-   │  │     └─ 18x275
-   │  │        ├─ hiAcc
-
-   │  │        └─ hiDiv
-   1668 
-   │  ├─ Lambda_ABCONV
-   │  │  └─ pythia8.306-1.0
-   │  │     └─ 18x275
-   │  │        ├─ hiAcc
-   3557 
-   │  │        └─ hiDiv
-   3605 
-   │  └─ pythia6-eic
-   │     └─ 1.0.0
-   │        ├─ 10x100
-   │        │  └─ q2_0to1
-  30350 
-   │        ├─ 10x275
-   │        │  └─ q2_0to1
-  74447 
-   │        ├─ 18x275
-   │        │  └─ q2_0to1
-  79650 
-   │        └─ 5x41
-   │           └─ q2_0to1
-  15399 
    └─ SINGLE
       ├─ e+
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
-     22 
+     87 
       │  │  ├─ 3to50deg
-     23 
+     17 
       │  │  └─ 45to135deg
      22 
       │  ├─ 10GeV
       │  │  ├─ 130to177deg
-    180 
+    148 
       │  │  ├─ 3to50deg
-    155 
+    105 
       │  │  └─ 45to135deg
-    216 
+    169 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
      22 
       │  │  ├─ 3to50deg
-     22 
+     20 
       │  │  └─ 45to135deg
-
+     27 
       │  ├─ 200MeV
       │  │  ├─ 130to177deg
      22 
       │  │  ├─ 3to50deg
-     22 
+     20 
       │  │  └─ 45to135deg
-     22 
+     24 
       │  ├─ 20GeV
       │  │  ├─ 130to177deg
-    376 
+    338 
       │  │  ├─ 3to50deg
-
+    255 
       │  │  └─ 45to135deg
-    437 
+    333 
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
-     44 
+     38 
       │  │  ├─ 3to50deg
-     36 
+     38 
       │  │  └─ 45to135deg
-     56 
+
       │  ├─ 500MeV
       │  │  ├─ 130to177deg
-     22 
+     24 
       │  │  ├─ 3to50deg
-     22 
+     20 
       │  │  └─ 45to135deg
-     22 
+
       │  └─ 5GeV
       │     ├─ 130to177deg
-     94 
+     93 
       │     ├─ 3to50deg
-     90 
+    149 
       │     └─ 45to135deg
-    143 
+
       ├─ e-
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
-     22 
+
       │  │  ├─ 3to50deg
-     23 
+     18 
       │  │  └─ 45to135deg
-     22 
+     16 
       │  ├─ 10GeV
       │  │  ├─ 130to177deg
     186 
       │  │  ├─ 3to50deg
-    177 
+    154 
       │  │  ├─ 45to135deg
-    218 
+     96 
       │  │  └─ etaScan
-   1007 
+    996 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
-     25 
+     33 
       │  │  ├─ 3to50deg
-     25 
-      │  │  ├─ 45to135deg
-     24 
-      │  │  └─ etaScan
 
+      │  │  ├─ 45to135deg
+     34 
+      │  │  └─ etaScan
+    137 
       │  ├─ 200MeV
       │  │  ├─ 130to177deg
-     22 
+
       │  │  ├─ 3to50deg
-     22 
+     24 
       │  │  └─ 45to135deg
      22 
       │  ├─ 20GeV
       │  │  ├─ 130to177deg
-    347 
+    314 
       │  │  ├─ 3to50deg
-    318 
+    273 
       │  │  └─ 45to135deg
-
+    382 
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
-     44 
+     47 
       │  │  ├─ 3to50deg
-     25 
+    147 
       │  │  ├─ 45to135deg
-     53 
+    117 
       │  │  └─ etaScan
-    220 
+    227 
       │  ├─ 500MeV
       │  │  ├─ 130to177deg
      22 
       │  │  ├─ 3to50deg
-     22 
+     23 
       │  │  └─ 45to135deg
-     22 
+
       │  └─ 5GeV
       │     ├─ 130to177deg
-    104 
+    125 
       │     ├─ 3to50deg
-     85 
+
       │     └─ 45to135deg
-    113 
+     84 
       ├─ gamma
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
-     22 
+     17 
       │  │  ├─ 3to50deg
-     23 
+
       │  │  ├─ 45to135deg
      22 
       │  │  └─ etaScan
-    110 
+    112 
       │  ├─ 10GeV
       │  │  ├─ 130to177deg
-
+    183 
       │  │  ├─ 3to50deg
-    213 
+     95 
       │  │  └─ 45to135deg
-
+    188 
       │  ├─ 1GeV
+      │  │  ├─ 130to177deg
+     38 
+      │  │  ├─ 3to50deg
+     14 
+      │  │  ├─ 45to135deg
+
+      │  │  └─ etaScan
+    108 
+      │  ├─ 200MeV
       │  │  ├─ 130to177deg
      23 
       │  │  ├─ 3to50deg
      22 
-      │  │  ├─ 45to135deg
-     29 
-      │  │  └─ etaScan
-    116 
-      │  ├─ 200MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
       │  │  └─ 45to135deg
-     22 
+     18 
       │  ├─ 20GeV
       │  │  ├─ 130to177deg
-    377 
+    298 
       │  │  ├─ 3to50deg
-    315 
+     96 
       │  │  └─ 45to135deg
-    415 
+    303 
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
-     42 
+     18 
       │  │  ├─ 3to50deg
-     30 
+      5 
       │  │  └─ 45to135deg
-     47 
+     33 
       │  ├─ 40GeV
       │  │  └─ 3to50deg
-    622 
+     27 
       │  ├─ 500MeV
       │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
+     26 
       │  │  └─ 45to135deg
-     24 
-      │  ├─ 5GeV
-      │  │  ├─ 130to177deg
-     96 
-      │  │  ├─ 3to50deg
-     76 
-      │  │  └─ 45to135deg
-    108 
-      │  └─ 60GeV
-      │     └─ 3to50deg
-    868 
+     19 
+      │  └─ 5GeV
+      │     ├─ 130to177deg
+     82 
+      │     └─ 45to135deg
+    106 
       ├─ kaon+
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
-     22 
+     62 
       │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 10GeV
-      │  │  ├─ 130to177deg
-     93 
-      │  │  ├─ 3to50deg
-     68 
+     10 
       │  │  └─ 45to135deg
 
+      │  ├─ 10GeV
+      │  │  ├─ 130to177deg
+     73 
+      │  │  ├─ 3to50deg
+     75 
+      │  │  └─ 45to135deg
+     82 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
-     22 
+      2 
       │  │  ├─ 3to50deg
-     22 
+     12 
       │  │  └─ 45to135deg
-     22 
+    118 
       │  ├─ 200MeV
       │  │  ├─ 130to177deg
-     22 
+
       │  │  ├─ 3to50deg
-     22 
+     17 
       │  │  └─ 45to135deg
      22 
       │  ├─ 20GeV
       │  │  ├─ 130to177deg
-    186 
-      │  │  ├─ 3to50deg
     176 
+      │  │  ├─ 3to50deg
+     75 
       │  │  └─ 45to135deg
-    209 
+    212 
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
-     23 
+
       │  │  ├─ 3to50deg
-     27 
+
       │  │  └─ 45to135deg
-     28 
+     24 
       │  ├─ 500MeV
       │  │  ├─ 130to177deg
-     22 
+     19 
       │  │  ├─ 3to50deg
-     22 
+     19 
       │  │  └─ 45to135deg
-     22 
+
       │  └─ 5GeV
       │     ├─ 130to177deg
-     47 
-      │     ├─ 3to50deg
-     46 
+     37 
       │     └─ 45to135deg
 
       ├─ kaon-
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
-     22 
+
       │  │  ├─ 3to50deg
-     27 
+     19 
       │  │  └─ 45to135deg
-     22 
+     69 
       │  ├─ 10GeV
       │  │  ├─ 130to177deg
-    106 
+     73 
       │  │  ├─ 3to50deg
-    100 
+     34 
       │  │  └─ 45to135deg
-    114 
+     98 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
-     22 
+     35 
       │  │  ├─ 3to50deg
-     24 
+     19 
       │  │  └─ 45to135deg
-     23 
+
       │  ├─ 200MeV
       │  │  ├─ 130to177deg
-     22 
+     15 
       │  │  ├─ 3to50deg
-     22 
+      8 
       │  │  └─ 45to135deg
-     22 
+     19 
       │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-    199 
-      │  │  ├─ 3to50deg
-    194 
-      │  │  └─ 45to135deg
-    213 
-      │  ├─ 2GeV
       │  │  ├─ 130to177deg
 
       │  │  ├─ 3to50deg
-     28 
+     83 
       │  │  └─ 45to135deg
-     34 
+     99 
+      │  ├─ 2GeV
+      │  │  ├─ 130to177deg
+     25 
+      │  │  ├─ 3to50deg
+     97 
+      │  │  └─ 45to135deg
+     87 
       │  ├─ 500MeV
       │  │  ├─ 130to177deg
-     22 
+     17 
       │  │  ├─ 3to50deg
-     22 
+     16 
       │  │  └─ 45to135deg
-     22 
+     24 
       │  └─ 5GeV
       │     ├─ 130to177deg
-     50 
+     37 
       │     ├─ 3to50deg
-     56 
+     49 
       │     └─ 45to135deg
-     58 
+     49 
       ├─ mu-
       │  └─ 10GeV
       │     └─ etaScan
-    110 
+    134 
       ├─ pi+
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
-     22 
+
       │  │  ├─ 3to50deg
-     22 
+     16 
       │  │  └─ 45to135deg
-     23 
+     20 
       │  ├─ 10GeV
       │  │  ├─ 130to177deg
-     98 
+     78 
       │  │  ├─ 3to50deg
-     93 
+    199 
       │  │  └─ 45to135deg
-    104 
+     66 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
-     22 
+     16 
       │  │  ├─ 3to50deg
-     22 
+     17 
       │  │  └─ 45to135deg
-     22 
+     18 
       │  ├─ 200MeV
       │  │  ├─ 130to177deg
-     22 
+      8 
       │  │  ├─ 3to50deg
      22 
       │  │  └─ 45to135deg
-     22 
+     20 
       │  ├─ 20GeV
       │  │  ├─ 130to177deg
-    192 
+    168 
       │  │  ├─ 3to50deg
-    160 
+     29 
       │  │  └─ 45to135deg
-    203 
+
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
-     24 
+     30 
       │  │  ├─ 3to50deg
-     25 
+      7 
       │  │  └─ 45to135deg
-     28 
+     22 
       │  ├─ 500MeV
       │  │  ├─ 130to177deg
-     22 
+     30 
       │  │  ├─ 3to50deg
-     22 
+
       │  │  └─ 45to135deg
-     22 
+     20 
       │  └─ 5GeV
       │     ├─ 130to177deg
-     49 
+     37 
       │     ├─ 3to50deg
-     50 
+      7 
       │     └─ 45to135deg
-     28 
+     53 
       ├─ pi-
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
-
+     22 
       │  │  ├─ 3to50deg
-     23 
+     22 
       │  │  └─ 45to135deg
      22 
       │  ├─ 10GeV
       │  │  ├─ 130to177deg
-    106 
+     84 
       │  │  ├─ 3to50deg
-    104 
+     89 
       │  │  └─ 45to135deg
-    108 
+     69 
       │  ├─ 1GeV
       │  │  ├─ 130to177deg
      22 
       │  │  ├─ 3to50deg
-     22 
+     26 
       │  │  └─ 45to135deg
-     22 
+     19 
       │  ├─ 200MeV
       │  │  ├─ 130to177deg
-     22 
+     24 
       │  │  ├─ 3to50deg
-     22 
+     16 
       │  │  └─ 45to135deg
-     22 
+     44 
       │  ├─ 20GeV
       │  │  ├─ 130to177deg
-    184 
+    142 
       │  │  ├─ 3to50deg
-    177 
+    135 
       │  │  └─ 45to135deg
-
+    176 
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
-     23 
+
       │  │  ├─ 3to50deg
-     29 
+     16 
       │  │  └─ 45to135deg
-     24 
+     33 
       │  ├─ 500MeV
       │  │  ├─ 130to177deg
-     22 
+
       │  │  ├─ 3to50deg
-     22 
+     26 
       │  │  └─ 45to135deg
-     22 
+     24 
       │  └─ 5GeV
       │     ├─ 130to177deg
-     54 
+     83 
       │     ├─ 3to50deg
-     52 
+     46 
       │     └─ 45to135deg
-     54 
+     50 
       ├─ pi0
       │  ├─ 100MeV
       │  │  ├─ 130to177deg
-     22 
+
       │  │  ├─ 3to50deg
-     23 
-      │  │  └─ 45to135deg
      22 
+      │  │  └─ 45to135deg
+     26 
       │  ├─ 10GeV
-      │  │  ├─ 130to177deg
-    174 
-      │  │  ├─ 3to50deg
-    176 
-      │  │  └─ 45to135deg
-    215 
-      │  ├─ 1GeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     24 
-      │  │  └─ 45to135deg
-     29 
-      │  ├─ 200MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     23 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-    370 
-      │  │  ├─ 3to50deg
-    290 
-      │  │  └─ 45to135deg
-    423 
-      │  ├─ 2GeV
       │  │  ├─ 130to177deg
 
       │  │  ├─ 3to50deg
+    133 
+      │  │  └─ 45to135deg
+    190 
+      │  ├─ 1GeV
+      │  │  ├─ 130to177deg
+     33 
+      │  │  ├─ 3to50deg
      33 
       │  │  └─ 45to135deg
-     43 
+      8 
+      │  ├─ 200MeV
+      │  │  ├─ 130to177deg
+     25 
+      │  │  ├─ 3to50deg
+     20 
+      │  │  └─ 45to135deg
+     24 
+      │  ├─ 20GeV
+      │  │  ├─ 130to177deg
+    327 
+      │  │  ├─ 3to50deg
+    178 
+      │  │  └─ 45to135deg
+    303 
+      │  ├─ 2GeV
+      │  │  ├─ 130to177deg
+     18 
+      │  │  ├─ 3to50deg
+
+      │  │  └─ 45to135deg
+     46 
       │  ├─ 40GeV
       │  │  └─ 3to50deg
-    639 
+    463 
       │  ├─ 500MeV
       │  │  ├─ 130to177deg
-     22 
+     25 
       │  │  ├─ 3to50deg
-     22 
+     17 
       │  │  └─ 45to135deg
      22 
       │  ├─ 5GeV
       │  │  ├─ 130to177deg
-     94 
+
       │  │  ├─ 3to50deg
-     84 
+     59 
       │  │  └─ 45to135deg
-    119 
+     84 
       │  └─ 60GeV
       │     └─ 3to50deg
-    902 
+    655 
       └─ proton
          ├─ 100MeV
          │  ├─ 130to177deg
      22 
-         │  ├─ 3to50deg
-     23 
          │  └─ 45to135deg
      22 
          ├─ 10GeV
          │  ├─ 130to177deg
-
-         │  ├─ 3to50deg
-     82 
+     43 
          │  └─ 45to135deg
-     90 
+    154 
          ├─ 1GeV
          │  ├─ 130to177deg
-     22 
-         │  ├─ 3to50deg
-     22 
+     17 
          │  └─ 45to135deg
-     22 
+     20 
          ├─ 200MeV
          │  ├─ 130to177deg
-     22 
-         │  ├─ 3to50deg
-     22 
+     23 
          │  └─ 45to135deg
-     22 
+     26 
          ├─ 20GeV
          │  ├─ 130to177deg
-    169 
-         │  ├─ 3to50deg
-    157 
+    149 
          │  └─ 45to135deg
-    185 
+    157 
          ├─ 2GeV
          │  ├─ 130to177deg
-     69 
-         │  ├─ 3to50deg
-     22 
+     18 
          │  └─ 45to135deg
      22 
          ├─ 500MeV
          │  ├─ 130to177deg
-     22 
-         │  ├─ 3to50deg
-     22 
+
          │  └─ 45to135deg
-     26 
+     22 
          └─ 5GeV
             ├─ 130to177deg
-     47 
-            ├─ 3to50deg
-     39 
+     34 
             └─ 45to135deg
-     45 
+     79 
 ```
