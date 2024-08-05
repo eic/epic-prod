@@ -100,7 +100,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
    │  │  │  ├─ hel_minus
    6380 
    │  │  │  └─ hel_plus
-   6378 
+   6380 
    │  │  └─ 5x41
    │  │     ├─ hel_minus
     960 
@@ -424,7 +424,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
     213 
       │  ├─ 2GeV
       │  │  ├─ 130to177deg
-
+     32 
       │  │  ├─ 3to50deg
      28 
       │  │  └─ 45to135deg
@@ -535,7 +535,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
      22 
       │  ├─ 20GeV
       │  │  ├─ 130to177deg
-    184 
+    186 
       │  │  ├─ 3to50deg
     177 
       │  │  └─ 45to135deg
@@ -571,7 +571,7 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.07.0/
      22 
       │  ├─ 10GeV
       │  │  ├─ 130to177deg
-    174 
+    175 
       │  │  ├─ 3to50deg
     176 
       │  │  └─ 45to135deg
