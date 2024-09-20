@@ -1,11 +1,51 @@
 name: Nightly Update to Data Display
 
-on:
+on: 
   schedule:
     - cron:  '0 0 * * *'
   workflow_dispatch:
+  pull_request:
+
+env:
+  RECO: "/work/eic2/EPIC/RECO"
+  FULL: "/work/eic2/EPIC/FULL"
+  XROOTD_HOST: root://dtn-eic.jlab.org
+  REPOSITORY: "${{github.repository}}"
 
 jobs:
+  campaigns:
+    runs-on: ubuntu-latest
+    outputs:
+      campaigns_reco: ${{steps.campaigns.outputs.campaigns_reco}}
+      campaigns_full: ${{steps.campaigns.outputs.campaigns_full}}
+    container:
+      image: rucio/xrootd
+    steps:
+      - name: List campaigns
+        id: campaigns
+        shell: bash
+        run: |
+          campaigns_reco=$(xrdfs ${XROOTD_HOST} ls ${RECO} | awk -F'/' '{print $NF}' | sort -n)
+          campaigns_full=$(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
+
+          # Output reco campaigns
+          echo "campaigns_reco<<END" >> $GITHUB_OUTPUT
+          echo "$campaigns_reco" >> $GITHUB_OUTPUT
+          echo "END" >> $GITHUB_OUTPUT
+
+          # Output full campaigns
+          echo "campaigns_full<<END" >> $GITHUB_OUTPUT
+          echo "$campaigns_full" >> $GITHUB_OUTPUT
+          echo "END" >> $GITHUB_OUTPUT
+
+      - name: Print outputs
+        run: |
+          echo "Reco campaigns:"
+          echo "${{steps.campaigns.outputs.campaigns_reco}}"
+
+          echo "Full campaigns:"
+          echo "${{steps.campaigns.outputs.campaigns_full}}"
+        
   update_data:
     runs-on: ubuntu-latest
     container:
