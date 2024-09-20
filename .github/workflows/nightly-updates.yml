@@ -63,22 +63,22 @@ jobs:
         mkdir ./docs/RECO/
         mkdir ./docs/FULL/
     - name: Download reco_content
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: reco_content
         path: ./docs/_data/
     - name: Download full_content
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: full_content
         path: ./docs/_data/
     - name: Download RECO
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: RECO
         path: ./docs/RECO/
     - name: Download FULL
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: FULL
         path: ./docs/FULL/
