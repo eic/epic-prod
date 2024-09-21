@@ -50,20 +50,7 @@ jobs:
           else
             echo "${{ env.CAMPAIGNS_full }}"
           fi
-          
-  print_reco_list:
-    needs: campaigns
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        type: ${{ fromJson(env.CAMPAIGNS_reco) }}
-    steps:
-      - name: Print reco list
-        run: |
-          echo "{{matrix.type}}"
-  
-          
-        
+                 
   update_data:
     runs-on: ubuntu-latest
     container:
