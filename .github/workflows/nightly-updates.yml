@@ -47,7 +47,9 @@ jobs:
       - name: Print outputs
         run: |
           echo "${{ matrix.type }} campaigns:"
-          echo "${{ steps.campaigns.outputs.campaigns }}"
+          for campaign in ${{ env.CAMPAIGNS_${{ matrix.type }}[@] }}; do
+            echo "$campaign"
+          done
         
   update_data:
     runs-on: ubuntu-latest
