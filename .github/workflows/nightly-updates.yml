@@ -56,7 +56,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        type: ${{ env.CAMPAIGNS_reco }}
+        type: ${{ fromJson(env.CAMPAIGNS_reco) }}
     steps:
       - name: Print reco list
         run: |
