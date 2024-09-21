@@ -36,6 +36,9 @@ jobs:
             campaigns=$(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
           fi
 
+          # Store campaigns in global environment variable
+          echo "CAMPAIGNS_${{ matrix.type }}=$campaigns" >> $GITHUB_ENV
+          
           # Output campaigns
           echo "campaigns<<EOF" >> $GITHUB_OUTPUT
           echo "$campaigns" >> $GITHUB_OUTPUT
