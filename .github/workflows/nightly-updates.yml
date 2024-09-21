@@ -21,7 +21,7 @@ jobs:
         type: [reco, full]
 
     outputs:
-      campaigns_matrix: ${{ toJson(steps.campaigns.outputs) }}
+      campaigns: ${{ steps.campaigns.outputs.campaigns }}
 
     container:
       image: rucio/xrootd
@@ -37,15 +37,15 @@ jobs:
             campaigns=$(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
           fi
 
-          echo "${{ matrix.type }}_campaigns<<END" >> $GITHUB_OUTPUT
+          # Output campaigns
+          echo "campaigns<<EOF" >> $GITHUB_OUTPUT
           echo "$campaigns" >> $GITHUB_OUTPUT
-          echo "END" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Print outputs
         run: |
           echo "${{ matrix.type }} campaigns:"
-          echo "${{ steps.campaigns.outputs.campaigns_matrix[matrix.type + '_campaigns'] }}"
-
+          echo "${{ steps.campaigns.outputs.campaigns }}"
 
   last_campaign_reco:
     runs-on: ubuntu-latest
