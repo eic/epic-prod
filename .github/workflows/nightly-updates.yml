@@ -13,11 +13,6 @@ env:
   XROOTD_HOST: root://dtn-eic.jlab.org
   REPOSITORY: "${{github.repository}}"
 
-name: Campaign Matrix Workflow
-
-on:
-  workflow_dispatch:
-
 jobs:
   campaigns:
     runs-on: ubuntu-latest
