@@ -41,9 +41,9 @@ jobs:
           fi
 
           # Output campaigns
-          echo "campaigns<<EOF" >> $GITHUB_OUTPUT
+          echo "campaigns<<END" >> $GITHUB_OUTPUT
           echo "$campaigns" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          echo "END" >> $GITHUB_OUTPUT
 
       - name: Print outputs
         run: |
@@ -57,7 +57,7 @@ jobs:
     env:
       CAMPAIGNS: ${{ env.RECODIR }}
     outputs:
-      last_campaign: ${{steps.last_campaign_reco.outputs.last_campaign}}
+      last_campaign: ${{steps.last_campaign.outputs.last_campaign}}
     steps:
     - name: Print inputs
       id: inputs
@@ -75,7 +75,7 @@ jobs:
     - name: Print outputs
       id: outputs
       run: |
-        echo "${{steps.last_campaign_reco.outputs.last_campaign}}"
+        echo "${{steps.last_campaign.outputs.last_campaign}}"
         
   update_data:
     runs-on: ubuntu-latest
