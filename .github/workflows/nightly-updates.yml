@@ -36,8 +36,16 @@ jobs:
             mapfile -t campaigns < <(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
           fi
 
-          # Store campaigns in a single environment variable
-          echo "CAMPAIGNS_${{ matrix.type }}=$(echo '[\"${campaigns[*]// /\", \"}\"]')" >> $GITHUB_ENV
+          # Check if campaigns are found
+          if [ ${#campaigns[@]} -eq 0 ]; then
+            echo "No campaigns found for type: ${{ matrix.type }}"
+          fi
+
+          # Convert array to JSON format for output
+          campaigns_json=$(printf '%s\n' "${campaigns[@]}" | jq -R . | jq -s .)
+          
+          # Store campaigns in an environment variable
+          echo "CAMPAIGNS_${{ matrix.type }}=${campaigns_json}" >> $GITHUB_ENV
 
           # Output campaigns (space-separated) to be used as an output
           echo "campaigns=${campaigns[*]}" >> $GITHUB_OUTPUT
