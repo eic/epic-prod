@@ -45,6 +45,11 @@ jobs:
       - name: Print outputs
         run: |
           echo "${{ matrix.type }} campaigns:"
+          if [ "${{ matrix.type }}" == "reco" ]; then
+            echo "${{ env.CAMPAIGNS_reco }}"
+          else
+            echo "${{ env.CAMPAIGNS_full }}"
+          fi
           
         
   update_data:
