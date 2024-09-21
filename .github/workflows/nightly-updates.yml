@@ -37,14 +37,14 @@ jobs:
             campaigns=$(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
           fi
 
-          echo "${{ matrix.type }}_campaigns<<EOF" >> $GITHUB_OUTPUT
+          echo "${{ matrix.type }}_campaigns<<END" >> $GITHUB_OUTPUT
           echo "$campaigns" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          echo "END" >> $GITHUB_OUTPUT
 
       - name: Print outputs
         run: |
           echo "${{ matrix.type }} campaigns:"
-          echo "${{ steps.campaigns.outputs[matrix.type + '_campaigns'] }}"
+          echo "${{ steps.campaigns.outputs.campaigns_matrix[matrix.type + '_campaigns'] }}"
 
 
   last_campaign_reco:
