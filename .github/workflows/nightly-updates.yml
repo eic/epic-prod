@@ -36,13 +36,18 @@ jobs:
             mapfile -t campaigns < <(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
           fi
 
-          # Store campaigns in global environment variable
+          # Store campaigns in a single environment variable
           echo "CAMPAIGNS_${{ matrix.type }}=${campaigns[*]}" >> $GITHUB_ENV
+
+          # Output campaigns (space-separated) to be used as an output
+          echo "campaigns=${campaigns[*]}" >> $GITHUB_OUTPUT
 
       - name: Print outputs
         run: |
           echo "${{ matrix.type }} campaigns:"
-          IFS=' ' read -r -a campaigns_array <<< "${CAMPAIGNS_${{ matrix.type }}:}"
+          # Access the campaigns variable using the correct syntax
+          campaigns_var="${{ env.CAMPAIGNS_${{ matrix.type }} }}"
+          IFS=' ' read -r -a campaigns_array <<< "$campaigns_var"
           for campaign in "${campaigns_array[@]}"; do
             echo "$campaign"
           done
