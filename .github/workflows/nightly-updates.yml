@@ -31,9 +31,9 @@ jobs:
         shell: bash
         run: |
           if [ "${{ matrix.type }}" == "reco" ]; then
-            campaigns=($(xrdfs ${XROOTD_HOST} ls ${RECO} | awk -F'/' '{print $NF}' | sort -n))
+            mapfile -t campaigns < <(xrdfs ${XROOTD_HOST} ls ${RECO} | awk -F'/' '{print $NF}' | sort -n)
           else
-            campaigns=($(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n))
+            mapfile -t campaigns < <(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
           fi
 
           # Store campaigns in global environment variable
