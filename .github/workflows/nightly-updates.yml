@@ -37,7 +37,7 @@ jobs:
           fi
 
           # Store campaigns in a single environment variable
-          echo "CAMPAIGNS_${{ matrix.type }}=${campaigns[*]}" >> $GITHUB_ENV
+          echo "CAMPAIGNS_${{ matrix.type }}=$(echo '[\"${campaigns[*]// /\", \"}\"]')" >> $GITHUB_ENV
 
           # Output campaigns (space-separated) to be used as an output
           echo "campaigns=${campaigns[*]}" >> $GITHUB_OUTPUT
