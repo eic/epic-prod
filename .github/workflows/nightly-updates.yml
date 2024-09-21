@@ -49,35 +49,6 @@ jobs:
         run: |
           echo "${{ matrix.type }} campaigns:"
           echo "${{ steps.campaigns.outputs.campaigns }}"
-
-  last_campaign_reco:
-    runs-on: ubuntu-latest
-    needs: campaigns
-    if: env.RECODIR != ''
-    env:
-      CAMPAIGNS: ${{ env.RECODIR }}
-    outputs:
-      last_campaign: ${{ steps.last_campaign.outputs.last_campaign }}
-
-    steps:
-      - name: Print inputs
-        id: inputs
-        run: |
-          echo "$CAMPAIGNS"
-
-      - name: Determine last campaign
-        id: last_campaign
-        shell: bash
-        run: |
-          last_campaign=$(echo "$CAMPAIGNS" | grep -v 'alternative' | grep -v 'main' | tail -n 1)
-          echo "last_campaign<<EOF" >> $GITHUB_OUTPUT
-          echo "$last_campaign" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-
-      - name: Print outputs
-        run: |
-          echo "Last campaign:"
-          echo "${{ steps.last_campaign.outputs.last_campaign }}"
         
   update_data:
     runs-on: ubuntu-latest
