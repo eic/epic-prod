@@ -9,8 +9,14 @@ on:
 env:
   RECO: "/work/eic2/EPIC/RECO"
   FULL: "/work/eic2/EPIC/FULL"
+  RECODIR: ""
   XROOTD_HOST: root://dtn-eic.jlab.org
   REPOSITORY: "${{github.repository}}"
+
+name: Campaign Matrix Workflow
+
+on:
+  workflow_dispatch:
 
 jobs:
   campaigns:
@@ -20,8 +26,7 @@ jobs:
         type: [reco, full]
 
     outputs:
-      campaigns_reco: ${{ steps.campaigns.outputs.campaigns_reco }}
-      campaigns_full: ${{ steps.campaigns.outputs.campaigns_full }}
+      campaigns_matrix: ${{ toJson(steps.campaigns.outputs) }}
 
     container:
       image: rucio/xrootd
@@ -37,15 +42,15 @@ jobs:
             campaigns=$(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
           fi
 
-          # Output campaigns
-          echo "campaigns<<END" >> $GITHUB_OUTPUT
+          echo "${{ matrix.type }}_campaigns<<EOF" >> $GITHUB_OUTPUT
           echo "$campaigns" >> $GITHUB_OUTPUT
-          echo "END" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Print outputs
         run: |
           echo "${{ matrix.type }} campaigns:"
-          echo "${{ steps.campaigns.outputs.campaigns }}"
+          echo "${{ steps.campaigns.outputs[matrix.type + '_campaigns'] }}"
+
 
   last_campaign_reco:
     runs-on: ubuntu-latest
