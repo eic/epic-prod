@@ -38,16 +38,12 @@ jobs:
 
           # Store campaigns in global environment variable
           echo "CAMPAIGNS_${{ matrix.type }}=${campaigns[*]}" >> $GITHUB_ENV
-          
-          # Output campaigns
-          echo "campaigns<<EOF" >> $GITHUB_OUTPUT
-          echo "$campaigns" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Print outputs
         run: |
           echo "${{ matrix.type }} campaigns:"
-          for campaign in ${{ env.CAMPAIGNS_${{ matrix.type }}[@] }}; do
+          IFS=' ' read -r -a campaigns_array <<< "${{ env.CAMPAIGNS_${{ matrix.type }} }}"
+          for campaign in "${campaigns_array[@]}"; do
             echo "$campaign"
           done
         
