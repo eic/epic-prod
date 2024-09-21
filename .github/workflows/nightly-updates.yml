@@ -42,7 +42,7 @@ jobs:
       - name: Print outputs
         run: |
           echo "${{ matrix.type }} campaigns:"
-          IFS=' ' read -r -a campaigns_array <<< "${{ env.CAMPAIGNS_${{ matrix.type }} }}"
+          IFS=' ' read -r -a campaigns_array <<< "${CAMPAIGNS_${{ matrix.type }}:}"
           for campaign in "${campaigns_array[@]}"; do
             echo "$campaign"
           done
