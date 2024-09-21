@@ -10,6 +10,7 @@ env:
   RECO: "/work/eic2/EPIC/RECO"
   FULL: "/work/eic2/EPIC/FULL"
   RECODIR: ""
+  FULLDIR: ""
   XROOTD_HOST: root://dtn-eic.jlab.org
   REPOSITORY: "${{github.repository}}"
 
@@ -33,8 +34,10 @@ jobs:
         run: |
           if [ "${{ matrix.type }}" == "reco" ]; then
             campaigns=$(xrdfs ${XROOTD_HOST} ls ${RECO} | awk -F'/' '{print $NF}' | sort -n)
+            echo "RECODIR=$campaigns" >> $GITHUB_ENV
           else
             campaigns=$(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
+            echo "FULLDIR=$campaigns" >> $GITHUB_ENV
           fi
 
           # Output campaigns
@@ -49,11 +52,10 @@ jobs:
 
   last_campaign_reco:
     runs-on: ubuntu-latest
-    needs:
-    - campaigns
-    if: ${{needs.campaigns.outputs.campaigns_reco != '' }}
+    needs: campaigns
+    if: env.RECODIR != ''
     env:
-      CAMPAIGNS: ${{needs.campaigns.outputs.campaigns_reco}}
+      CAMPAIGNS: ${{ env.RECODIR }}
     outputs:
       last_campaign: ${{steps.last_campaign_reco.outputs.last_campaign}}
     steps:
@@ -74,34 +76,6 @@ jobs:
       id: outputs
       run: |
         echo "${{steps.last_campaign_reco.outputs.last_campaign}}"
-
-  last_campaign_full:
-    runs-on: ubuntu-latest
-    needs:
-    - campaigns
-    if: ${{needs.campaigns.outputs.campaigns_full != '' }}
-    env:
-      CAMPAIGNS: ${{needs.campaigns.outputs.campaigns_full}}
-    outputs:
-      last_campaign: ${{steps.last_campaign_full.outputs.last_campaign}}
-    steps:
-    - name: Print inputs
-      id: inputs
-      run: |
-        echo "$CAMPAIGNS"
-    - name: Determine last campaign
-      id: last_campaign
-      shell: bash
-      run: |
-        last_campaign=$(echo "$CAMPAIGNS" | grep -v 'alternative' | grep -v 'main' | tail -n 1 | sed 's/.*[ ]\(.*\)$/\1/')
-        # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#multiline-strings
-        echo "last_campaign<<END" >> $GITHUB_OUTPUT
-        echo "$last_campaign" >> $GITHUB_OUTPUT
-        echo "END" >> $GITHUB_OUTPUT
-    - name: Print outputs
-      id: outputs
-      run: |
-        echo "${{steps.last_campaign_full.outputs.last_campaign}}"
         
   update_data:
     runs-on: ubuntu-latest
