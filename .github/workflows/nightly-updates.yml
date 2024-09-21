@@ -15,32 +15,37 @@ env:
 jobs:
   campaigns:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        type: [reco, full]
+
     outputs:
-      campaigns_reco: ${{steps.campaigns.outputs.campaigns_reco}}
-      campaigns_full: ${{steps.campaigns.outputs.campaigns_full}}
+      campaigns_reco: ${{ steps.campaigns.outputs.campaigns_reco }}
+      campaigns_full: ${{ steps.campaigns.outputs.campaigns_full }}
+
     container:
       image: rucio/xrootd
+
     steps:
       - name: List campaigns
         id: campaigns
         shell: bash
         run: |
-          campaigns_reco=$(xrdfs ${XROOTD_HOST} ls ${RECO} | awk -F'/' '{print $NF}' | sort -n)
-          campaigns_full=$(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
+          if [ "${{ matrix.type }}" == "reco" ]; then
+            campaigns=$(xrdfs ${XROOTD_HOST} ls ${RECO} | awk -F'/' '{print $NF}' | sort -n)
+          else
+            campaigns=$(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
+          fi
 
           # Output campaigns
           echo "campaigns<<END" >> $GITHUB_OUTPUT
-          echo "$campaigns_reco" >> $GITHUB_OUTPUT
-          echo "$campaigns_full" >> $GITHUB_OUTPUT
+          echo "$campaigns" >> $GITHUB_OUTPUT
           echo "END" >> $GITHUB_OUTPUT
 
       - name: Print outputs
         run: |
-          echo "Reco campaigns:"
-          echo "${{steps.campaigns.outputs.campaigns_reco}}"
-
-          echo "Full campaigns:"
-          echo "${{steps.campaigns.outputs.campaigns_full}}"
+          echo "${{ matrix.type }} campaigns:"
+          echo "${{ steps.campaigns.outputs.campaigns }}"
 
   last_campaign_reco:
     runs-on: ubuntu-latest
