@@ -42,7 +42,12 @@ jobs:
           fi
 
           # Convert array to JSON format for output
-          campaigns_json=$(printf '%s\n' "${campaigns[@]}" | jq -R . | jq -s .)
+          campaigns_json="["
+          for campaign in "${campaigns[@]}"; do
+            campaigns_json+="\"$campaign\","
+          done
+          # Remove the trailing comma and close the JSON array
+          campaigns_json="${campaigns_json%,}]"
           
           # Store campaigns in an environment variable
           echo "CAMPAIGNS_${{ matrix.type }}=${campaigns_json}" >> $GITHUB_ENV
