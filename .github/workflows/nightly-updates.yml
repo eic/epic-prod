@@ -41,9 +41,9 @@ jobs:
           fi
 
           # Output campaigns
-          echo "campaigns<<END" >> $GITHUB_OUTPUT
+          echo "campaigns<<EOF" >> $GITHUB_OUTPUT
           echo "$campaigns" >> $GITHUB_OUTPUT
-          echo "END" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Print outputs
         run: |
@@ -57,25 +57,27 @@ jobs:
     env:
       CAMPAIGNS: ${{ env.RECODIR }}
     outputs:
-      last_campaign: ${{steps.last_campaign.outputs.last_campaign}}
+      last_campaign: ${{ steps.last_campaign.outputs.last_campaign }}
+
     steps:
-    - name: Print inputs
-      id: inputs
-      run: |
-        echo "$CAMPAIGNS"
-    - name: Determine last campaign
-      id: last_campaign
-      shell: bash
-      run: |
-        last_campaign=$(echo "$CAMPAIGNS" | grep -v 'alternative' | grep -v 'main' | tail -n 1 | sed 's/.*[ ]\(.*\)$/\1/')
-        # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#multiline-strings
-        echo "last_campaign<<END" >> $GITHUB_OUTPUT
-        echo "$last_campaign" >> $GITHUB_OUTPUT
-        echo "END" >> $GITHUB_OUTPUT
-    - name: Print outputs
-      id: outputs
-      run: |
-        echo "${{steps.last_campaign.outputs.last_campaign}}"
+      - name: Print inputs
+        id: inputs
+        run: |
+          echo "$CAMPAIGNS"
+
+      - name: Determine last campaign
+        id: last_campaign
+        shell: bash
+        run: |
+          last_campaign=$(echo "$CAMPAIGNS" | grep -v 'alternative' | grep -v 'main' | tail -n 1)
+          echo "last_campaign<<EOF" >> $GITHUB_OUTPUT
+          echo "$last_campaign" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Print outputs
+        run: |
+          echo "Last campaign:"
+          echo "${{ steps.last_campaign.outputs.last_campaign }}"
         
   update_data:
     runs-on: ubuntu-latest
