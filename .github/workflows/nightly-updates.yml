@@ -32,10 +32,8 @@ jobs:
         run: |
           if [ "${{ matrix.type }}" == "reco" ]; then
             campaigns=$(xrdfs ${XROOTD_HOST} ls ${RECO} | awk -F'/' '{print $NF}' | sort -n)
-            echo "RECODIR=$campaigns" >> $GITHUB_ENV
           else
             campaigns=$(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
-            echo "FULLDIR=$campaigns" >> $GITHUB_ENV
           fi
 
           # Output campaigns
