@@ -37,7 +37,7 @@ jobs:
           campaigns_json="["$(IFS=,; echo "${campaigns[*]}")"]"
 
           # Output campaigns (space-separated) to be used as an output
-          echo "campaigns=${campaigns[*]}" >> $GITHUB_OUTPUT
+          echo "campaigns=${campaigns_json[*]}" >> $GITHUB_OUTPUT
 
       - name: Print outputs
         run: |
