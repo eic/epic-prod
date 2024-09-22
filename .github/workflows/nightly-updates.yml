@@ -37,7 +37,8 @@ jobs:
 
           # Convert array to JSON format for output
           # Ensure quotes around campaign names
-          campaigns_json="["$(IFS=,; echo "\"${campaigns[*]}\"")"]"  # Ensure quotes around campaign names
+          campaigns_json=$(printf ',"%s"' "${campaigns[@]}")
+          campaigns_json="[${campaigns_json:1}]"  # Remove leading comma
 
           # Output campaigns as a JSON array
           echo "campaigns=${campaigns_json}" >> $GITHUB_OUTPUT
