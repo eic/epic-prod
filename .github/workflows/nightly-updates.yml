@@ -49,7 +49,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        type: ${{ fromJson(steps.campaigns_reco.outputs.campaigns) }}
+        type: ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}
     steps:
       - name: Print reco list
         run: |
