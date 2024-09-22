@@ -56,17 +56,6 @@ jobs:
           echo "Processing campaign: ${{ matrix.campaign }}"
           # Add your processing logic here
           
-  print_reco_list:
-    needs: campaigns_reco
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        type: ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}
-    steps:
-      - name: Print reco list
-        run: |
-          echo "{{ matrix.type }}"
-          
   update_data:
     runs-on: ubuntu-latest
     container:
