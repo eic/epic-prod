@@ -13,28 +13,20 @@ env:
   REPOSITORY: "${{github.repository}}"
 
 jobs:
-  campaigns:
+  campaigns_reco:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        type: [reco, full]
-
     outputs:
-      campaigns: ${{ steps.campaigns.outputs.campaigns }}
+      campaigns: ${{ steps.campaigns_reco.outputs.campaigns }}
 
     container:
       image: rucio/xrootd
 
     steps:
       - name: List campaigns
-        id: campaigns
+        id: campaigns_reco
         shell: bash
         run: |
-          if [ "${{ matrix.type }}" == "reco" ]; then
-            mapfile -t campaigns < <(xrdfs ${XROOTD_HOST} ls ${RECO} | awk -F'/' '{print $NF}' | sort -n)
-          else
-            mapfile -t campaigns < <(xrdfs ${XROOTD_HOST} ls ${FULL} | awk -F'/' '{print $NF}' | sort -n)
-          fi
+          mapfile -t campaigns < <(xrdfs ${XROOTD_HOST} ls ${RECO} | awk -F'/' '{print $NF}' | sort -n)
 
           # Check if campaigns are found
           if [ ${#campaigns[@]} -eq 0 ]; then
@@ -43,12 +35,6 @@ jobs:
 
           # Convert array to JSON format for output
           campaigns_json="["$(IFS=,; echo "${campaigns[*]}")"]"
-          
-          # Store campaigns in an environment variable
-          echo "CAMPAIGNS_${{ matrix.type }}=${campaigns_json}" >> $GITHUB_ENV
-          
-          # Store campaigns in an environment variable
-          echo "CAMPAIGNS_${{ matrix.type }}=${campaigns_json}" >> $GITHUB_ENV
 
           # Output campaigns (space-separated) to be used as an output
           echo "campaigns=${campaigns[*]}" >> $GITHUB_OUTPUT
@@ -56,18 +42,14 @@ jobs:
       - name: Print outputs
         run: |
           echo "${{ matrix.type }} campaigns:"
-          if [ "${{ matrix.type }}" == "reco" ]; then
-            echo "${{ env.CAMPAIGNS_reco }}"
-          else
-            echo "${{ env.CAMPAIGNS_full }}"
-          fi
-
+          echo "${{ steps.campaigns_reco.outputs.campaigns }}"
+          
   print_reco_list:
-    needs: campaigns
+    needs: campaigns_reco
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        type: ${{ fromJson(env.CAMPAIGNS_reco) }}
+        type: ${{ fromJson(steps.campaigns_reco.outputs.campaigns) }}
     steps:
       - name: Print reco list
         run: |
