@@ -31,10 +31,13 @@ jobs:
           # Check if campaigns are found
           if [ ${#campaigns[@]} -eq 0 ]; then
             echo "No campaigns found for type: reco"
+            echo "campaigns=[]" >> $GITHUB_OUTPUT  # Output an empty JSON array
+            exit 0  # Exit without error
           fi
 
           # Convert array to JSON format for output
-          campaigns_json="["$(IFS=,; echo "${campaigns[*]}")"]"
+          # Ensure quotes around campaign names
+          campaigns_json="["$(IFS=,; echo "\"${campaigns[*]}\"")"]"  # Ensure quotes around campaign names
 
           # Output campaigns as a JSON array
           echo "campaigns=${campaigns_json}" >> $GITHUB_OUTPUT
