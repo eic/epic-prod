@@ -73,7 +73,7 @@ jobs:
     steps:
       - name: Print reco list
         run: |
-          echo "{{matrix.type}}"
+          echo "{{ matrix.type }}"
           
   update_data:
     runs-on: ubuntu-latest
