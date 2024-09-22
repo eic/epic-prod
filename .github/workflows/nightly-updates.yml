@@ -30,19 +30,31 @@ jobs:
 
           # Check if campaigns are found
           if [ ${#campaigns[@]} -eq 0 ]; then
-            echo "No campaigns found for type: ${{ matrix.type }}"
+            echo "No campaigns found for type: reco"
           fi
 
           # Convert array to JSON format for output
           campaigns_json="["$(IFS=,; echo "${campaigns[*]}")"]"
 
-          # Output campaigns (space-separated) to be used as an output
-          echo "campaigns=${campaigns_json[*]}" >> $GITHUB_OUTPUT
+          # Output campaigns as a JSON array
+          echo "campaigns=${campaigns_json}" >> $GITHUB_OUTPUT
 
       - name: Print outputs
         run: |
-          echo "${{ matrix.type }} campaigns:"
+          echo "Reco campaigns:"
           echo "${{ steps.campaigns_reco.outputs.campaigns }}"
+
+  process_campaigns:
+    needs: campaigns_reco
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        campaign: ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}
+    steps:
+      - name: Process campaign
+        run: |
+          echo "Processing campaign: ${{ matrix.campaign }}"
+          # Add your processing logic here
           
   print_reco_list:
     needs: campaigns_reco
