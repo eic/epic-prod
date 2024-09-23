@@ -49,6 +49,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: feature-switch-to-xrootd-as-source
         
       - name: Update reco content list
         shell: bash
