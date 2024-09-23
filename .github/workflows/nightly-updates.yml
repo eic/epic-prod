@@ -58,7 +58,7 @@ jobs:
           rm ./docs/_data/reco_content.yml
           touch ./docs/_data/reco_content.yml
           read -r -a campaigns_reco <<< $(echo ${{ needs.campaigns_reco.outputs.campaigns }} | tr -d '[]"' | tr ',' ' ')
-          for reco in "$campaigns_reco[@]"; do
+          for reco in "${campaigns_reco[@]}"; do
               echo -e "- text: "$reco"\n  url: "/epic-prod/RECO/$reco"" >> ./docs/_data/reco_content.yml
           done
           git config --local user.email "action@github.com"
