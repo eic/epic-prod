@@ -43,6 +43,10 @@ jobs:
           # Output campaigns as a JSON array
           echo "campaigns=${campaigns_json}" >> $GITHUB_OUTPUT
 
+  create_list_reco:
+    needs: campaigns_reco
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         
@@ -51,7 +55,7 @@ jobs:
         run: |
           rm ./docs/_data/reco_content.yml
           touch ./docs/_data/reco_content.yml
-          for reco in ${{ steps.campaigns_reco.outputs.campaigns }}; do
+          for reco in ${{ needs.campaigns_reco.outputs.campaigns }}; do
               echo -e "- text: "$reco"\n  url: "/epic-prod/RECO/$reco"" >> ./docs/_data/reco_content.yml
           done
           git config --local user.email "action@github.com"
