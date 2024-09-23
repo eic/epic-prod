@@ -43,20 +43,31 @@ jobs:
           # Output campaigns as a JSON array
           echo "campaigns=${campaigns_json}" >> $GITHUB_OUTPUT
 
-      - name: Print outputs
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Update reco content list
+        shell: bash
         run: |
-          echo "Reco campaigns:"
-          echo "${{ steps.campaigns_reco.outputs.campaigns }}"
-
-  process_campaigns:
+          rm ./docs/_data/reco_content.yml
+          touch ./docs/_data/reco_content.yml
+          for reco in ${{ steps.campaigns_reco.outputs.campaigns }}; do
+              echo -e "- text: "$reco"\n  url: "/epic-prod/RECO/$reco"" >> ./docs/_data/reco_content.yml
+          done
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./docs/
+          git commit -m "Update summary lists in RECO directory" || echo "No changes to commit"
+          git push origin feature-switch-to-xrootd-as-source
+          
+  process_campaigns_reco:
     needs: campaigns_reco
     runs-on: ubuntu-latest
     strategy:
       matrix:
         campaign: ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}
     steps:
-      - name: Process campaign
+      - name: Process reco campaigns
         run: |
-          echo "Processing campaign: ${{ matrix.campaign }}"
+          echo "Processing reco campaign: ${{ matrix.campaign }}"
           # Add your processing logic here
-          
