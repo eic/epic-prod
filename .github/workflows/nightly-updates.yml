@@ -81,7 +81,7 @@ jobs:
         run: |
           echo "Processing reco campaign: ${{ matrix.campaign }}"
           # Add your processing logic here
-          ROOT=${RECO}/${{ matrix.campaign }}"/${DETECTOR_CONFIG}
+          ROOT=${RECO}/${{ matrix.campaign }}/${DETECTOR_CONFIG}
           touch index.md
           if {{ matrix.campaign }}=="main"; then
             xrdfs ${XROOTD_HOST} ls -l -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | tee -a index.md
