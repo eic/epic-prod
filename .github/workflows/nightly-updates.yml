@@ -86,6 +86,6 @@ jobs:
           # Store output in a variable
           xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | tee -a index-${{ matrix.campaign }}.md
           echo "reco-${{ matrix.campaign }}=$(cat index-${{ matrix.campaign }}.md)" >> $GITHUB_OUTPUT
-          echo "${reco-${{ matrix.campaign }} }
+          echo "${reco-${{ matrix.campaign }} }"
       
          
