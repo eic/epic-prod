@@ -82,8 +82,24 @@ jobs:
           echo "Processing reco campaign: ${{ matrix.campaign }}"
           # Add your processing logic here
           ROOT=${RECO}/${{ matrix.campaign }}/${DETECTOR_CONFIG}
-          touch index.md
-          if [ ${{ matrix.campaign }}=="main" ]; then
-            xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | tee -a index.md
-          fi
-          cat index.md
+          touch index-${{ matrix.campaign }}.md
+          # Store output in a variable
+          xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | tee -a index-${{ matrix.campaign }}.md
+          echo "reco-${{ matrix.campaign }}=$(cat index-${{ matrix.campaign }}.md)" >> $GITHUB_OUTPUT
+      
+ 
+  aggregate_outputs:
+    needs: process_campaigns_reco
+    runs-on: ubuntu-latest
+    steps:
+      - name: Aggregate outputs
+        shell: bash
+        run: |
+          # Access the outputs from each job in the matrix
+          for campaign in ${{ fromJson(needs.process_campaigns_reco.outputs['campaigns']) }}; do
+            output="${{ needs.process_campaigns_reco.outputs['reco-' + campaign] }}"
+            echo "Processing output for campaign: $campaign"
+            echo "$output"
+            # Do something with the output
+          done
+  
