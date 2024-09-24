@@ -9,6 +9,7 @@ on:
 env:
   RECO: "/work/eic2/EPIC/RECO"
   FULL: "/work/eic2/EPIC/FULL"
+  DETECTOR_CONFIG: "epic_craterlake"
   XROOTD_HOST: root://dtn-eic.jlab.org
   REPOSITORY: "${{github.repository}}"
 
@@ -69,6 +70,8 @@ jobs:
           
   process_campaigns_reco:
     needs: campaigns_reco
+    container:
+      image: rucio/xrootd
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -78,3 +81,9 @@ jobs:
         run: |
           echo "Processing reco campaign: ${{ matrix.campaign }}"
           # Add your processing logic here
+          ROOT=${RECO}/${{ matrix.campaign }}"/${DETECTOR_CONFIG}
+          touch index.md
+          if {{ matrix.campaign }}=="main"; then
+            xrdfs ${XROOTD_HOST} ls -l -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | tee -a index.md
+          fi
+          cat index.md
