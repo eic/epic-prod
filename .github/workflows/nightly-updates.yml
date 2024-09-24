@@ -96,10 +96,5 @@ jobs:
         shell: bash
         run: |
           # Access the outputs from each job in the matrix
-          for campaign in ${{ fromJson(needs.process_campaigns_reco.outputs['campaigns']) }}; do
-            output="${{ needs.process_campaigns_reco.outputs[format('reco-{0}', campaign)] }}"
-            echo "Processing output for campaign: $campaign"
-            echo "$output"
-            # Do something with the output
-          done
-  
+          echo ${{ fromJson(needs.process_campaigns_reco.outputs['campaigns']) }}
+         
