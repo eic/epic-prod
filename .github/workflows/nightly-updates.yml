@@ -79,7 +79,7 @@ jobs:
     steps:
       - name: Process reco campaigns
         run: |
-          CAMPAIGN = "${{ matrix.campaign }}"
+          CAMPAIGN="${{ matrix.campaign }}"
           echo "Processing reco campaign: ${campaign}"
           # Add your processing logic here
           ROOT=${RECO}/${{ matrix.campaign }}/${DETECTOR_CONFIG}
