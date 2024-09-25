@@ -85,10 +85,19 @@ jobs:
           # Store output in a variable
           OUTPUT=$(xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count)
           # Store the output for the current campaign
-          echo "::set-output name=reco_output::${OUTPUT}"
+          echo "reco_output=${OUTPUT}" >> ${GITHUB_OUTPUT}
 
     outputs:
       reco_output_matrix: ${{ toJson(steps.process_reco.outputs.reco_output) }} 
+
+  aggregate_outputs:
+    runs-on: ubuntu-latest
+    needs: process_campaigns_reco
+    steps:
+      - name: Access the array of arrays (reco_output_matrix)
+        run: |
+          # Retrieve the multi-dimensional array
+          echo "Aggregated reco campaign outputs: ${{ needs.process_campaigns_reco.outputs.reco_output_matrix }}"
       
       
 
