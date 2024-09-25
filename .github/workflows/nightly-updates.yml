@@ -82,10 +82,20 @@ jobs:
           echo "Processing reco campaign: ${{ matrix.campaign }}"
           # Add your processing logic here
           ROOT=${RECO}/${{ matrix.campaign }}/${DETECTOR_CONFIG}
-          touch index-${{ matrix.campaign }}.md
           # Store output in a variable
-          xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | tee -a index-${{ matrix.campaign }}.md
-          echo "reco-${{ matrix.campaign }}=$(cat index-${{ matrix.campaign }}.md)" >> $GITHUB_OUTPUT
-          echo "${reco-${{ matrix.campaign }} }"
+          OUTPUT=$(xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count)
+          # Store the output for the current campaign
+          echo "::set-output name=reco_output::${OUTPUT}"
+
+    outputs:
+      reco_output_matrix: ${{ toJson(steps.process_reco.outputs.reco_output) }} 
+      
+      
+
+  
+    
+        
+
+          
       
          
