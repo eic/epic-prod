@@ -99,7 +99,8 @@ jobs:
         run: |
           # Retrieve the multi-dimensional array
           for CAMPAIGN in ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}; do
-            echo "${{ needs.process_campaigns_reco.outputs['reco_' + CAMPAIGN] }}"
+            id="reco_${CAMPAIGN}"
+            echo "${{ needs.process_campaigns_reco.outputs[$id] }}"
           done
       
       
