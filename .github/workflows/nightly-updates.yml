@@ -78,6 +78,7 @@ jobs:
         campaign: ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}
     steps:
       - name: Process reco campaigns
+        id: process_campaigns_reco
         run: |
           CAMPAIGN="${{ matrix.campaign }}"
           echo "Processing reco campaign: ${campaign}"
@@ -88,7 +89,7 @@ jobs:
           echo "reco_${CAMPAIGN}=$(echo ${OUTPUT})" >> $GITHUB_OUTPUT
          
     outputs:
-      reco_output_matrix: ${{ toJson(steps.process_reco.outputs) }} 
+      reco_output_matrix: ${{ toJson(steps.process_campaigns_reco.outputs) }} 
 
   aggregate_outputs:
     runs-on: ubuntu-latest
