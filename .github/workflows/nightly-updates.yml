@@ -93,12 +93,14 @@ jobs:
 
   aggregate_outputs:
     runs-on: ubuntu-latest
-    needs: process_campaigns_reco
+    needs: [process_campaigns_reco, campaigns_reco]
     steps:
       - name: Access the array of arrays (reco_output_matrix)
         run: |
           # Retrieve the multi-dimensional array
-          echo "Aggregated reco campaign outputs: ${{ needs.process_campaigns_reco.outputs.reco_output_matrix }}"
+          for CAMPAIGN in ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}; do
+            echo "${{ needs.process_campaigns_reco.outputs['reco_' + CAMPAIGN] }}"
+          done
       
       
 
