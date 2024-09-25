@@ -98,10 +98,11 @@ jobs:
       - name: Access the array of arrays (reco_output_matrix)
         run: |
           # Retrieve the multi-dimensional array
-          for CAMPAIGN in ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}; do
-            id="reco_${CAMPAIGN}"
-            echo "${{ needs.process_campaigns_reco.outputs[id] }}"
-          done
+          #for CAMPAIGN in ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}; do
+          #  id="reco_${CAMPAIGN}"
+          #  echo "${{ needs.process_campaigns_reco.outputs[id] }}"
+          #done
+          echo "${{ needs.process_campaigns_reco.outputs.reco_output_matrix }}" | jq -r 'to_entries | .[] | "\(.key): \(.value)"'
       
       
 
