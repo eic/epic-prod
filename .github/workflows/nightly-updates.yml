@@ -93,7 +93,7 @@ jobs:
           while read -r line; do
           # Append the line to the JSON array
             JSON_OUTPUT+="$line, "
-          done <<< "$INPUT"
+          done <<< "$OUTPUT"
 
           # Remove the trailing comma and space
           JSON_OUTPUT=${JSON_OUTPUT%, }
