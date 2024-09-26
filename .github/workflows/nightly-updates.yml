@@ -113,7 +113,7 @@ jobs:
       - name: Access the array of arrays (reco_output_matrix)
         run: |
           # Retrieve the multi-dimensional array
-          echo "${{ needs.process_campaigns_reco.outputs.reco_output_matrix) }}" 
+          echo "${{ needs.process_campaigns_reco.outputs.reco_output_matrix }}" 
       
       
 
