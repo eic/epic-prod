@@ -104,7 +104,7 @@ jobs:
           echo "$JSON_OUTPUT"
          
     outputs:
-      reco_output_matrix: ${{ toJson(steps.process_campaigns_reco.outputs) }} 
+      reco_output_matrix: ${{ steps.process_campaigns_reco.outputs }} 
 
   aggregate_outputs:
     runs-on: ubuntu-latest
@@ -113,7 +113,7 @@ jobs:
       - name: Access the array of arrays (reco_output_matrix)
         run: |
           # Retrieve the multi-dimensional array
-          echo "${{ needs.process_campaigns_reco.outputs.reco_output_matrix }}" | jq -r 'to_entries | .[] | "\(.key): \(.value)"'
+          echo "${{ needs.process_campaigns_reco.outputs.reco_output_matrix) }}" 
       
       
 
