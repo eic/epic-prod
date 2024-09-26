@@ -85,7 +85,7 @@ jobs:
           # Add your processing logic here
           ROOT=${RECO}/${{ matrix.campaign }}/${DETECTOR_CONFIG}
           # Store output in a variable
-          OUTPUT=$(xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | awk '{print "{\""$2"\":\""$1"\"}"}' )
+          OUTPUT=$(xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | awk '{print "{\""$2"\":\""$1"\"}"}' | jq -s '.' )
           echo "reco_${CAMPAIGN}=$(echo ${OUTPUT})" >> $GITHUB_OUTPUT
           echo "$OUTPUT"
          
