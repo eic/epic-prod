@@ -87,6 +87,7 @@ jobs:
           # Store output in a variable
           OUTPUT=$(xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count)
           echo "reco_${CAMPAIGN}=$(echo ${OUTPUT})" >> $GITHUB_OUTPUT
+          echo "$OUTPUT"
          
     outputs:
       reco_output_matrix: ${{ toJson(steps.process_campaigns_reco.outputs) }} 
