@@ -86,8 +86,22 @@ jobs:
           ROOT=${RECO}/${{ matrix.campaign }}/${DETECTOR_CONFIG}
           # Store output in a variable
           OUTPUT=$(xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | awk '{print "{\""$2"\":\""$1"\"}"}' | jq -s '.' )
-          echo "reco_${CAMPAIGN}=$(echo ${OUTPUT})" >> $GITHUB_OUTPUT
-          echo "$OUTPUT"
+          # Start the JSON array
+          JSON_OUTPUT="["
+
+          # Process each line to construct the JSON array
+          while read -r line; do
+          # Append the line to the JSON array
+            JSON_OUTPUT+="$line, "
+          done <<< "$INPUT"
+
+          # Remove the trailing comma and space
+          JSON_OUTPUT=${JSON_OUTPUT%, }
+
+          # Close the JSON array
+          JSON_OUTPUT+="]"
+          echo "reco_${CAMPAIGN}=$(echo ${JSON_OUTPUT})" >> $GITHUB_OUTPUT
+          echo "$JSON_OUTPUT"
          
     outputs:
       reco_output_matrix: ${{ toJson(steps.process_campaigns_reco.outputs) }} 
