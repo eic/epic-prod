@@ -115,7 +115,7 @@ jobs:
          # If you want to iterate through the output for better readability
          OUTPUT_ARRAY="${{ fromJson(needs.process_campaigns_reco.outputs.reco_output_matrix) }}"
          echo "Iterating through reco_output_matrix:"
-         for item in $(echo "${OUTPUT_ARRAY}" | jq -c '.[]'); do
+         for item in ${OUTPUT_ARRAY}; do
            echo "Item: $item"
          done
       
