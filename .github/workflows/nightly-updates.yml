@@ -108,7 +108,7 @@ jobs:
       - name: Display downloaded artifacts
         shell: bash
         run: |
-          ls reco-*.md
+          ls reco-*
           ls ./docs/_data
           
       
