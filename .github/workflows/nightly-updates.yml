@@ -90,7 +90,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: reco-${{ matrix.campaign }}
+          name: reco-${{ matrix.campaign }}.md
           path: reco-${{ matrix.campaign }}.md
 
   update_campaigns_reco:
@@ -111,7 +111,7 @@ jobs:
           file_list=$(ls reco-*|grep -v ":")
           echo $file_list
           for file in $file_list; do
-            echo "Listing $file:"
+            echo "Listing $file"
             cat ./${file}
           done
           ls ./docs/_data
