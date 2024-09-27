@@ -121,12 +121,8 @@ jobs:
            while IFS= read -r line; do
              # Determine depth based on number of forward slashes in path
              level=$(echo "$line" | grep -o '/' | wc -l)
-           
-             # Remove leading spaces 
-             content="${line#"${line%%[^ ]*}"}"  
-
-             # Create indentation based on the level (4 spaces per level)
-             prefix=$(printf "%*s" $((level * 4)) "")
+             prefix=""
+             content=$line
 
              # Print line with appropriate indentation
              echo -e "$prefix$content"
