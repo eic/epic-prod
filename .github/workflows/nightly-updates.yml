@@ -76,8 +76,6 @@ jobs:
     strategy:
       matrix:
         campaign: ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}
-    outputs:
-      ${{ matrix.campaign }}_reco_output: ${{ steps.process_campaigns_reco.outputs.reco_output }}
     steps:
       - name: Process reco campaigns
         id: process_campaigns_reco
@@ -87,33 +85,14 @@ jobs:
           # Add your processing logic here
           ROOT=${RECO}/${campaign}/${DETECTOR_CONFIG}
           # Store output in a variable
-          output=$(xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | awk '{print "{\""$2"\":\""$1"\"}"}' )
-          # Start the JSON array
-          json_output="["
+          output=$(xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count) > reco-${campaign}.md
+          cat reco-${campaign}.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reco-${campaign}
+          path: reco-${campaign}.md
 
-          # Process each line to construct the JSON array
-          while read -r line; do
-          # Append the line to the JSON array
-            json_output+="$line, "
-          done <<< "$OUTPUT"
-
-          # Remove the trailing comma and space
-          json_output=${json_output%, }
-
-          # Close the JSON array
-          json_output+="]"
-          echo "reco_output=$(echo ${json_output})" >> $GITHUB_OUTPUT
-          echo "$json_output"
-
-  aggregate_outputs:
-    runs-on: ubuntu-latest
-    needs: [process_campaigns_reco]
-    steps:
-      - name: Access the array of arrays (reco_output_matrix)
-        run: |
-         # If you want to iterate through the output for better readability
-         echo "${{ needs.process_campaigns_reco.outputs["24.08.1"] }}"
-         echo "${{ needs.process_campaigns_reco.outputs["24.09.0"] }}"
+  
       
       
 
