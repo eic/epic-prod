@@ -108,7 +108,10 @@ jobs:
       - name: Display downloaded artifacts
         shell: bash
         run: |
-          ls reco-*
+          for file in $(ls reco-*); do
+            echo "Listing $file:"
+            cat $file
+          done
           ls ./docs/_data
           
       
