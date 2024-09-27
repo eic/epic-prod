@@ -76,48 +76,44 @@ jobs:
     strategy:
       matrix:
         campaign: ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}
+    outputs:
+      ${{ matrix.campaign }}_reco_output: ${{ steps.process_campaigns_reco.outputs.reco_output }}
     steps:
       - name: Process reco campaigns
         id: process_campaigns_reco
         run: |
-          CAMPAIGN="${{ matrix.campaign }}"
+          campaign="${{ matrix.campaign }}"
           echo "Processing reco campaign: ${campaign}"
           # Add your processing logic here
-          ROOT=${RECO}/${{ matrix.campaign }}/${DETECTOR_CONFIG}
+          ROOT=${RECO}/${campaign}/${DETECTOR_CONFIG}
           # Store output in a variable
-          OUTPUT=$(xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | awk '{print "{\""$2"\":\""$1"\"}"}' )
+          output=$(xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count | awk '{print "{\""$2"\":\""$1"\"}"}' )
           # Start the JSON array
-          JSON_OUTPUT="["
+          json_output="["
 
           # Process each line to construct the JSON array
           while read -r line; do
           # Append the line to the JSON array
-            JSON_OUTPUT+="$line, "
+            json_output+="$line, "
           done <<< "$OUTPUT"
 
           # Remove the trailing comma and space
-          JSON_OUTPUT=${JSON_OUTPUT%, }
+          json_output=${json_output%, }
 
           # Close the JSON array
-          JSON_OUTPUT+="]"
-          echo "reco_${CAMPAIGN}=$(echo ${JSON_OUTPUT})" >> $GITHUB_OUTPUT
-          echo "$JSON_OUTPUT"
-         
-    outputs:
-      reco_output_matrix: ${{ toJson(steps.process_campaigns_reco.outputs) }} 
+          json_output+="]"
+          echo "reco_output=$(echo ${json_output})" >> $GITHUB_OUTPUT
+          echo "$json_output"
 
   aggregate_outputs:
     runs-on: ubuntu-latest
-    needs: [process_campaigns_reco, campaigns_reco]
+    needs: [process_campaigns_reco]
     steps:
       - name: Access the array of arrays (reco_output_matrix)
         run: |
          # If you want to iterate through the output for better readability
-         OUTPUT_ARRAY="${{ fromJson(needs.process_campaigns_reco.outputs.reco_output_matrix) }}"
-         echo "Iterating through reco_output_matrix:"
-         for item in ${OUTPUT_ARRAY}; do
-           echo "Item: $item"
-         done
+         echo "${{ needs.process_campaigns_reco.outputs["24.08.1"] }}"
+         echo "${{ needs.process_campaigns_reco.outputs["24.09.0"] }}"
       
       
 
