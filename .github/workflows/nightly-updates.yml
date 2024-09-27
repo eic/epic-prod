@@ -121,7 +121,10 @@ jobs:
            while IFS= read -r line; do
              level=$(echo "$line" | grep -o '/' | wc -l)
              content=$(echo "$line" | sed 's/^[ \t]*//')
-             prefix=$(printf "%*s" $((level * 4)) "" | sed 's/ / /g')
+             prefix=""
+             if ![ level -eq 0 ]; then
+               prefix=$(printf "%*s" $((level * 4)) "" | sed 's/ / /g')
+             fi
              echo -e "$prefix$content"
            done < "$input_file"
           }
