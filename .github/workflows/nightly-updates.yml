@@ -89,8 +89,8 @@ jobs:
           cat reco-${campaign}.md
       - uses: actions/upload-artifact@v4
         with:
-          name: reco-${campaign}
-          path: reco-${campaign}.md
+          name: reco-${{ matrix.campaign }}
+          path: reco-${{ matrix.campaign }}.md
 
   
       
