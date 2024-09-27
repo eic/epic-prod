@@ -109,6 +109,7 @@ jobs:
         shell: bash
         run: |
           tree() {
+            local input_file="$1"
             while IFS= read -r line; do
               # Count the number of slashes in the content
               level=$(echo "$line" | grep -o '/' | wc -l)
@@ -123,7 +124,7 @@ jobs:
               else
                 echo "$content"  # Print top-level nodes without indentation
               fi
-            done <<< "cat $1"
+            done < "input_file"
           }
           
           file_list=$(ls reco-*|grep -v ":")
