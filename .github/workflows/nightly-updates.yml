@@ -121,7 +121,7 @@ jobs:
 
              # Print line with appropriate indentation
              prefix=$(printf "%*s" $((level * 4)) "")
-             content="${line#"${line%%[^ ]*}"}"
+             content=$(echo ${line#"${line%%[^ ]*}"} | awk '{print $2" "$1}' | awk -F"/" '{print $NF}')
              printf "%s%s\n" "$prefix" "$content"
            done < "$input_file"
           }
