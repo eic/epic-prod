@@ -108,7 +108,7 @@ jobs:
       - name: Display downloaded artifacts
         shell: bash
         run: |
-          file_list=$(ls reco-*)
+          file_list=$(ls reco-*|grep -v ":")
           echo $file_list
           for file in $file_list; do
             echo "Listing $file:"
