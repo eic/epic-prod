@@ -119,7 +119,7 @@ jobs:
            while read line; do
              if $first_line; then
                first_line=false
-               printf "root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/$2"
+               printf "root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/%s" "$2"
                continue
              fi
              # Determine depth based on number of forward slashes in path
