@@ -124,7 +124,7 @@ jobs:
               else
                 echo "$content"  # Print top-level nodes without indentation
               fi
-            done < "input_file"
+            done < "$input_file"
           }
           
           file_list=$(ls reco-*|grep -v ":")
