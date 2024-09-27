@@ -121,7 +121,7 @@ jobs:
     
             # Print the line with indentation based on the depth
             printf("%s%s\n", "  " * depth, line);
-            }' "./${file}/${file}"
+            }' ./${file}/${file}
           done
           ls ./docs/_data
           
