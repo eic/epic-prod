@@ -112,17 +112,18 @@ jobs:
           echo $file_list
           for file in $file_list; do
             echo "Listing $file"
-            awk -E '{
-            split($0, parts, "/");
-            indent = "";
-            for (i = 1; i <= length(parts); i++) {
+            awk -E '
+            {
+              split($0, parts, "/");
+              indent = "";
+              for (i = 1; i <= length(parts); i++) {
                 indent = indent "  ";
                 if (i == length(parts)) {
-                    printf("%s%s: %s\n", indent, parts[i], $1);
+                  printf("%s%s: %s\n", indent, parts[i], $1);
                 } else {
-                    printf("%s%s\n", indent, parts[i]);
+                  printf("%s%s\n", indent, parts[i]);
                 }
-            }
+              }
             }' "$file/$file"
           done
           ls ./docs/_data
