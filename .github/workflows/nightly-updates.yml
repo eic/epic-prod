@@ -112,7 +112,7 @@ jobs:
           echo $file_list
           for file in $file_list; do
             echo "Listing $file"
-            awk '{
+            awk -E '{
             # Count the number of leading spaces to determine the depth
             depth = gsub(/[^ ]/, "&", $0);
     
