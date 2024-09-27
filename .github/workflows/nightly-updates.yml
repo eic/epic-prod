@@ -118,9 +118,9 @@ jobs:
              return 1
            fi
 
-           while IFS= read -r line; do
+           while read line; do
              # Determine depth based on number of forward slashes in path
-             level=$(echo "$line" | grep -o '/' | wc -l)
+             level=$(tr -cd '/' <<< "$line" | wc -c)
              prefix=""
              content=$line
 
