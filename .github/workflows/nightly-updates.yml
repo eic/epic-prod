@@ -110,7 +110,7 @@ jobs:
         run: |
           tree() {
             local filepath="$1"
-            awk -E -v filepath="$filepath" << 'EOF'
+            awk -v filepath="$filepath" << 'EOF'
             {
               split($0, parts, "/");
               indent = "";
