@@ -87,12 +87,31 @@ jobs:
           # Save output directly to file
           xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count > reco-${campaign}.md
           cat reco-${campaign}.md
-      - uses: actions/upload-artifact@v4
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
         with:
           name: reco-${{ matrix.campaign }}
           path: reco-${{ matrix.campaign }}.md
 
-  
+  update_campaigns_reco:
+    needs: process_campaigns_reco
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: feature-switch-to-xrootd-as-source
+      
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+
+      - name: Display downloaded artifacts
+        shell: bash
+        run: |
+          ls reco-*.md
+          ls ./docs/_data
+          
+      
       
       
 
