@@ -9,7 +9,6 @@ on:
 env:
   RECO: "/work/eic2/EPIC/RECO"
   FULL: "/work/eic2/EPIC/FULL"
-  DETECTOR_CONFIG: "epic_craterlake"
   XROOTD_HOST: root://dtn-eic.jlab.org
   REPOSITORY: "${{github.repository}}"
 
@@ -83,7 +82,7 @@ jobs:
           campaign="${{ matrix.campaign }}"
           echo "Processing reco campaign: ${campaign}"
           # Add your processing logic here
-          ROOT=${RECO}/${campaign}/${DETECTOR_CONFIG}
+          ROOT=${RECO}/${campaign}
           # Save output directly to file
           xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count > reco-${campaign}.md
           cat reco-${campaign}.md
