@@ -108,11 +108,11 @@ jobs:
       - name: Display downloaded artifacts
         shell: bash
         run: |
-          file_list=$(ls reco-* | awk -F':|.' '{print $1}' | uniq)
+          file_list=$(ls reco-*)
           echo $file_list
           for file in $file_list; do
             echo "Listing $file:"
-            cat ${file}.md
+            cat ./${file}
           done
           ls ./docs/_data
           
