@@ -84,8 +84,8 @@ jobs:
           echo "Processing reco campaign: ${campaign}"
           # Add your processing logic here
           ROOT=${RECO}/${campaign}/${DETECTOR_CONFIG}
-          # Store output in a variable
-          output=$(xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count) > reco-${campaign}.md
+          # Save output directly to file
+          xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count > reco-${campaign}.md
           cat reco-${campaign}.md
       - uses: actions/upload-artifact@v4
         with:
