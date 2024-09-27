@@ -108,8 +108,6 @@ jobs:
       - name: Display downloaded artifacts
         shell: bash
         run: |
-          set -x  # Enable debugging
-
           print_tree() {
            local input_file="$1"
     
@@ -121,10 +119,10 @@ jobs:
            while read line; do
              # Determine depth based on number of forward slashes in path
              level=$(tr -cd '/' <<< "$line" | wc -c)
-             prefix=""
-             content=$line
 
              # Print line with appropriate indentation
+             prefix=$(printf "%*s" $((level * 4)) "")
+             content="${line#"${line%%[^ ]*}"}"
              printf "%s%s\n" "$prefix" "$content"
            done < "$input_file"
           }
