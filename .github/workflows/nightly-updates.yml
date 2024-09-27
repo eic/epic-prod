@@ -112,7 +112,16 @@ jobs:
           echo $file_list
           for file in $file_list; do
             echo "Listing $file"
-            cat ./${file}/${file}
+            awk '{
+            # Count the number of leading spaces to determine the depth
+            depth = gsub(/[^ ]/, "&", $0);
+    
+            # Remove leading spaces and the count
+            line = gensub(/^[ ]+|\s+\d+$/, "", "g", $0);
+    
+            # Print the line with indentation based on the depth
+            printf("%s%s\n", "  " * depth, line);
+            }' "./${file}/${file}"
           done
           ls ./docs/_data
           
