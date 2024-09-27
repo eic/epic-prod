@@ -125,7 +125,7 @@ jobs:
              content=$line
 
              # Print line with appropriate indentation
-             echo -e "$prefix$content"
+             printf "%s%s\n" "$prefix" "$content"
            done < "$input_file"
           }
           
