@@ -108,11 +108,29 @@ jobs:
       - name: Display downloaded artifacts
         shell: bash
         run: |
+          tree() {
+            local filepath="$1"
+            awk -E -v filepath="$filepath" << 'EOF'
+            {
+              split($0, parts, "/");
+              indent = "";
+              for (i = 1; i <= length(parts); i++) {
+                indent = indent "  ";
+                if (i == length(parts)) {
+                  printf("%s%s: %s\n", indent, parts[i], $1);
+                } else {
+                  printf("%s%s\n", indent, parts[i]);
+                }
+              }
+            }
+          EOF
+          }
+    
           file_list=$(ls reco-*|grep -v ":")
           echo $file_list
           for file in $file_list; do
             echo "Listing $file"
-            awk -E '{ split($0, parts, "/"); indent = ""; for (i = 1; i <= length(parts); i++) { indent = indent "  "; if (i == length(parts)) { printf("%s%s: %s\n", indent, parts[i], $1); } else { printf("%s%s\n", indent, parts[i]); } } }' "$file/$file"
+            tree "$file/$file"
           done
           ls ./docs/_data
           
