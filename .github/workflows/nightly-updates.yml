@@ -109,23 +109,23 @@ jobs:
         shell: bash
         run: |
           tree() {
-            local filepath="$1"
-            awk -v filepath="$filepath" << 'EOF'
-            {
-              split($0, parts, "/");
-              indent = "";
-              for (i = 1; i <= length(parts); i++) {
-                indent = indent "  ";
-                if (i == length(parts)) {
-                  printf("%s%s: %s\n", indent, parts[i], $1);
-                } else {
-                  printf("%s%s\n", indent, parts[i]);
-                }
-              }
-            }
-          EOF
+            while IFS= read -r line; do
+              # Count the number of slashes in the content
+              level=$(echo "$line" | grep -o '/' | wc -l)
+
+              # Remove leading spaces and extract the content
+              content=$(echo "$line" | sed 's/^[ \t]*//')
+
+              # Print indentation based on the level
+              if [[ $level -gt 0 ]]; then
+                prefix=$(printf "%*s" $((level * 4)) "" | sed 's/ / /g')  # Indentation of 4 spaces per level
+                echo -e "$prefix$content"
+              else
+                echo "$content"  # Print top-level nodes without indentation
+              fi
+            done <<< "$1"
           }
-    
+          
           file_list=$(ls reco-*|grep -v ":")
           echo $file_list
           for file in $file_list; do
