@@ -114,7 +114,7 @@ jobs:
              echo "Error: File '$input_file' does not exist."
              return 1
            fi
-
+           printf "```"
            first_line=true
            while read line; do
              if $first_line; then
@@ -130,6 +130,7 @@ jobs:
              content=$(echo ${line#"${line%%[^ ]*}"} | awk '{print $2" | Sub-directory/File Count:"$1}' | awk -F"/" '{print $NF}')
              printf "%s%s\n" "$prefix" "$content"
            done < "$input_file"
+           printf "```"
           }
           
           file_list=$(ls reco-*|grep -v ":")
@@ -138,9 +139,7 @@ jobs:
             echo "Listing $file"
             base=$(echo $file | awk -F'reco-|.md' '{print $2}')
             mkdir -p ./docs/RECO/${base}
-            echo "```" > ./docs/RECO/${base}/index.md
-            print_tree "$file/$file" $base >> ./docs/RECO/${base}/index.md
-            echo "```" >> ./docs/RECO/${base}/index.md
+            print_tree "$file/$file" $base > ./docs/RECO/${base}/index.md
           done
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
