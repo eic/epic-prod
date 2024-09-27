@@ -115,13 +115,19 @@ jobs:
              return 1
            fi
 
+           first_line=true
            while read line; do
+             if $first_line; then
+               first_line=false
+               printf "root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/$2"
+               continue
+             fi
              # Determine depth based on number of forward slashes in path
              level=$(tr -cd '/' <<< "$line" | wc -c)
 
              # Print line with appropriate indentation
              prefix=$(printf "%*s" $((level * 4)) "")
-             content=$(echo ${line#"${line%%[^ ]*}"} | awk '{print $2" "$1}' | awk -F"/" '{print $NF}')
+             content=$(echo ${line#"${line%%[^ ]*}"} | awk '{print $2" | Sub-directory/File Count:"$1}' | awk -F"/" '{print $NF}')
              printf "%s%s\n" "$prefix" "$content"
            done < "$input_file"
           }
@@ -130,9 +136,17 @@ jobs:
           echo $file_list
           for file in $file_list; do
             echo "Listing $file"
-            print_tree "$file/$file"
+            base=$(echo $file | awk -F'reco-|\.md' '{print $2}')
+            rm ./docs/RECO/${base}/index.md
+            echo "```" > ./docs/RECO/${base}/index.md
+            print_tree "$file/$file" $base >> ./docs/RECO/${base}/index.md
+            echo "```" >> ./docs/RECO/${base}/index.md
           done
-          ls ./docs/_data
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./docs/RECO
+          git commit -m "Update contents of RECO directory" || echo "No changes to commit"
+          git push origin feature-switch-to-xrootd-as-source
           
       
       
