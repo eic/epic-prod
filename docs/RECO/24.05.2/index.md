@@ -1,544 +1,318 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.2/
-└─ epic_craterlake
-   └─ SINGLE
-      ├─ e+
-      │  ├─ 100MeV
-      │  │  ├─ 130to177deg
-     89 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 10GeV
-      │  │  ├─ 130to177deg
-    184 
-      │  │  ├─ 3to50deg
-    153 
-      │  │  └─ 45to135deg
-    226 
-      │  ├─ 1GeV
-      │  │  ├─ 130to177deg
-     24 
-      │  │  ├─ 3to50deg
-     27 
-      │  │  └─ 45to135deg
-     30 
-      │  ├─ 200MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     24 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-    370 
-      │  │  ├─ 3to50deg
-    310 
-      │  │  └─ 45to135deg
-    426 
-      │  ├─ 2GeV
-      │  │  ├─ 130to177deg
-
-      │  │  ├─ 3to50deg
-
-      │  │  └─ 45to135deg
-     52 
-      │  ├─ 500MeV
-      │  │  ├─ 130to177deg
-     25 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     23 
-      │  └─ 5GeV
-      │     ├─ 130to177deg
-     99 
-      │     ├─ 3to50deg
-    156 
-      │     └─ 45to135deg
-    150 
-      ├─ e-
-      │  ├─ 100MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 10GeV
-      │  │  ├─ 130to177deg
-    207 
-      │  │  ├─ 3to50deg
-    176 
-      │  │  ├─ 45to135deg
-    145 
-      │  │  └─ etaScan
-
-      │  ├─ 1GeV
-      │  │  ├─ 130to177deg
-     34 
-      │  │  ├─ 3to50deg
-     25 
-      │  │  ├─ 45to135deg
-     34 
-      │  │  └─ etaScan
-
-      │  ├─ 200MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     24 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-    325 
-      │  │  ├─ 3to50deg
-    319 
-      │  │  └─ 45to135deg
-    462 
-      │  ├─ 2GeV
-      │  │  ├─ 130to177deg
-     47 
-      │  │  ├─ 3to50deg
-    150 
-      │  │  ├─ 45to135deg
-    130 
-      │  │  └─ etaScan
-    243 
-      │  ├─ 500MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     24 
-      │  │  └─ 45to135deg
-     25 
-      │  └─ 5GeV
-      │     ├─ 130to177deg
-    129 
-      │     ├─ 3to50deg
-     95 
-      │     └─ 45to135deg
-    117 
-      ├─ gamma
-      │  ├─ 100MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  ├─ 45to135deg
-     22 
-      │  │  └─ etaScan
-    115 
-      │  ├─ 10GeV
-      │  │  ├─ 130to177deg
-    224 
-      │  │  ├─ 3to50deg
-    157 
-      │  │  └─ 45to135deg
-    213 
-      │  ├─ 1GeV
-      │  │  ├─ 130to177deg
-     57 
-      │  │  ├─ 3to50deg
-     24 
-      │  │  ├─ 45to135deg
-     22 
-      │  │  └─ etaScan
-    134 
-      │  ├─ 200MeV
-      │  │  ├─ 130to177deg
-     28 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-    357 
-      │  │  ├─ 3to50deg
-    318 
-      │  │  └─ 45to135deg
-    390 
-      │  ├─ 2GeV
-      │  │  ├─ 130to177deg
-     26 
-      │  │  ├─ 3to50deg
-     33 
-      │  │  └─ 45to135deg
-     38 
-      │  ├─ 40GeV
-      │  │  └─ 3to50deg
-    729 
-      │  ├─ 500MeV
-      │  │  ├─ 130to177deg
-     26 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 5GeV
-      │  │  ├─ 130to177deg
-     88 
-      │  │  ├─ 3to50deg
-     79 
-      │  │  └─ 45to135deg
-    115 
-      │  └─ 60GeV
-      │     └─ 3to50deg
-    918 
-      ├─ kaon+
-      │  ├─ 100MeV
-      │  │  ├─ 130to177deg
-     62 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 10GeV
-      │  │  ├─ 130to177deg
-     96 
-      │  │  ├─ 3to50deg
-    118 
-      │  │  └─ 45to135deg
-    103 
-      │  ├─ 1GeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-    130 
-      │  ├─ 200MeV
-      │  │  ├─ 130to177deg
-     24 
-      │  │  ├─ 3to50deg
-     23 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-
-      │  │  ├─ 3to50deg
-    173 
-      │  │  └─ 45to135deg
-    242 
-      │  ├─ 2GeV
-      │  │  ├─ 130to177deg
-     23 
-      │  │  ├─ 3to50deg
-     23 
-      │  │  └─ 45to135deg
-     24 
-      │  ├─ 500MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     22 
-      │  └─ 5GeV
-      │     ├─ 130to177deg
-     50 
-      │     ├─ 3to50deg
-     25 
-      │     └─ 45to135deg
-     95 
-      ├─ kaon-
-      │  ├─ 100MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     74 
-      │  ├─ 10GeV
-      │  │  ├─ 130to177deg
-     97 
-      │  │  ├─ 3to50deg
-
-      │  │  └─ 45to135deg
-    110 
-      │  ├─ 1GeV
-      │  │  ├─ 130to177deg
-     36 
-      │  │  ├─ 3to50deg
-     30 
-      │  │  └─ 45to135deg
-     23 
-      │  ├─ 200MeV
-      │  │  ├─ 130to177deg
-     23 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     29 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-    178 
-      │  │  ├─ 3to50deg
-    188 
-      │  │  └─ 45to135deg
-    158 
-      │  ├─ 2GeV
-      │  │  ├─ 130to177deg
-     26 
-      │  │  ├─ 3to50deg
-    103 
-      │  │  └─ 45to135deg
-     99 
-      │  ├─ 500MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     23 
-      │  │  └─ 45to135deg
-     27 
-      │  └─ 5GeV
-      │     ├─ 130to177deg
-     40 
-      │     ├─ 3to50deg
-     83 
-      │     └─ 45to135deg
-     63 
-      ├─ mu-
-      │  └─ 10GeV
-      │     └─ etaScan
-    137 
-      ├─ pi+
-      │  ├─ 100MeV
-      │  │  ├─ 130to177deg
-     97 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 10GeV
-      │  │  ├─ 130to177deg
-     93 
-      │  │  ├─ 3to50deg
-    206 
-      │  │  └─ 45to135deg
-    112 
-      │  ├─ 1GeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 200MeV
-      │  │  ├─ 130to177deg
-     26 
-      │  │  ├─ 3to50deg
-     25 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-    197 
-      │  │  ├─ 3to50deg
-
-      │  │  └─ 45to135deg
-    204 
-      │  ├─ 2GeV
-      │  │  ├─ 130to177deg
-     38 
-      │  │  ├─ 3to50deg
-     26 
-      │  │  └─ 45to135deg
-     23 
-      │  ├─ 500MeV
-      │  │  ├─ 130to177deg
-     44 
-      │  │  ├─ 3to50deg
-     33 
-      │  │  └─ 45to135deg
-     22 
-      │  └─ 5GeV
-      │     ├─ 130to177deg
-     48 
-      │     ├─ 3to50deg
-     38 
-      │     └─ 45to135deg
-     58 
-      ├─ pi-
-      │  ├─ 100MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 10GeV
-      │  │  ├─ 130to177deg
-    127 
-      │  │  ├─ 3to50deg
-     98 
-      │  │  └─ 45to135deg
-    105 
-      │  ├─ 1GeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     65 
-      │  │  └─ 45to135deg
-     36 
-      │  ├─ 200MeV
-      │  │  ├─ 130to177deg
-     24 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     46 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-
-      │  │  ├─ 3to50deg
-    185 
-      │  │  └─ 45to135deg
-    277 
-      │  ├─ 2GeV
-      │  │  ├─ 130to177deg
-     23 
-      │  │  ├─ 3to50deg
-     23 
-      │  │  └─ 45to135deg
-     35 
-      │  ├─ 500MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     27 
-      │  │  └─ 45to135deg
-     28 
-      │  └─ 5GeV
-      │     ├─ 130to177deg
-     93 
-      │     ├─ 3to50deg
-     56 
-      │     └─ 45to135deg
-     57 
-      ├─ pi0
-      │  ├─ 100MeV
-      │  │  ├─ 130to177deg
-     22 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     27 
-      │  ├─ 10GeV
-      │  │  ├─ 130to177deg
-    184 
-      │  │  ├─ 3to50deg
-    158 
-      │  │  └─ 45to135deg
-    222 
-      │  ├─ 1GeV
-      │  │  ├─ 130to177deg
-     34 
-      │  │  ├─ 3to50deg
-
-      │  │  └─ 45to135deg
-     30 
-      │  ├─ 200MeV
-      │  │  ├─ 130to177deg
-     28 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     58 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-    377 
-      │  │  ├─ 3to50deg
-    264 
-      │  │  └─ 45to135deg
-    419 
-      │  ├─ 2GeV
-      │  │  ├─ 130to177deg
-     25 
-      │  │  ├─ 3to50deg
-
-      │  │  └─ 45to135deg
-     50 
-      │  ├─ 40GeV
-      │  │  └─ 3to50deg
-    707 
-      │  ├─ 500MeV
-      │  │  ├─ 130to177deg
-     25 
-      │  │  ├─ 3to50deg
-     22 
-      │  │  └─ 45to135deg
-     22 
-      │  ├─ 5GeV
-      │  │  ├─ 130to177deg
-     93 
-      │  │  ├─ 3to50deg
-     88 
-      │  │  └─ 45to135deg
-    116 
-      │  └─ 60GeV
-      │     └─ 3to50deg
-    960 
-      └─ proton
-         ├─ 100MeV
-         │  ├─ 130to177deg
-     22 
-         │  ├─ 3to50deg
-     22 
-         │  └─ 45to135deg
-     22 
-         ├─ 10GeV
-         │  ├─ 130to177deg
-     84 
-         │  ├─ 3to50deg
-     85 
-         │  └─ 45to135deg
-    165 
-         ├─ 1GeV
-         │  ├─ 130to177deg
-     22 
-         │  ├─ 3to50deg
-     22 
-         │  └─ 45to135deg
-     22 
-         ├─ 200MeV
-         │  ├─ 130to177deg
-     25 
-         │  ├─ 3to50deg
-     24 
-         │  └─ 45to135deg
-     26 
-         ├─ 20GeV
-         │  ├─ 130to177deg
-    168 
-         │  ├─ 3to50deg
-     76 
-         │  └─ 45to135deg
-    196 
-         ├─ 2GeV
-         │  ├─ 130to177deg
-     22 
-         │  ├─ 3to50deg
-     22 
-         │  └─ 45to135deg
-     23 
-         ├─ 500MeV
-         │  ├─ 130to177deg
-     22 
-         │  ├─ 3to50deg
-     33 
-         │  └─ 45to135deg
-     22 
-         └─ 5GeV
-            ├─ 130to177deg
-
-            ├─ 3to50deg
-     36 
-            └─ 45to135deg
-     80 
+root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.2
+epic_craterlake , Sub-directory or File Count:1
+    SINGLE , Sub-directory or File Count:10
+        e+ , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:89
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            10GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:184
+                3to50deg , Sub-directory or File Count:153
+                45to135deg , Sub-directory or File Count:226
+            1GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:24
+                3to50deg , Sub-directory or File Count:27
+                45to135deg , Sub-directory or File Count:30
+            200MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:24
+            20GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:370
+                3to50deg , Sub-directory or File Count:310
+                45to135deg , Sub-directory or File Count:426
+            2GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:41
+                3to50deg , Sub-directory or File Count:41
+                45to135deg , Sub-directory or File Count:52
+            500MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:25
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:23
+            5GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:99
+                3to50deg , Sub-directory or File Count:156
+                45to135deg , Sub-directory or File Count:150
+        e- , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            10GeV , Sub-directory or File Count:4
+                130to177deg , Sub-directory or File Count:207
+                3to50deg , Sub-directory or File Count:176
+                45to135deg , Sub-directory or File Count:145
+                etaScan , Sub-directory or File Count:1071
+            1GeV , Sub-directory or File Count:4
+                130to177deg , Sub-directory or File Count:34
+                3to50deg , Sub-directory or File Count:25
+                45to135deg , Sub-directory or File Count:34
+                etaScan , Sub-directory or File Count:141
+            200MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:24
+                45to135deg , Sub-directory or File Count:22
+            20GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:325
+                3to50deg , Sub-directory or File Count:319
+                45to135deg , Sub-directory or File Count:462
+            2GeV , Sub-directory or File Count:4
+                130to177deg , Sub-directory or File Count:47
+                3to50deg , Sub-directory or File Count:150
+                45to135deg , Sub-directory or File Count:130
+                etaScan , Sub-directory or File Count:243
+            500MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:24
+                45to135deg , Sub-directory or File Count:25
+            5GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:129
+                3to50deg , Sub-directory or File Count:95
+                45to135deg , Sub-directory or File Count:117
+        gamma , Sub-directory or File Count:10
+            100MeV , Sub-directory or File Count:4
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+                etaScan , Sub-directory or File Count:115
+            10GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:224
+                3to50deg , Sub-directory or File Count:157
+                45to135deg , Sub-directory or File Count:213
+            1GeV , Sub-directory or File Count:4
+                130to177deg , Sub-directory or File Count:57
+                3to50deg , Sub-directory or File Count:24
+                45to135deg , Sub-directory or File Count:22
+                etaScan , Sub-directory or File Count:134
+            200MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:28
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            20GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:357
+                3to50deg , Sub-directory or File Count:318
+                45to135deg , Sub-directory or File Count:390
+            2GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:26
+                3to50deg , Sub-directory or File Count:33
+                45to135deg , Sub-directory or File Count:38
+            40GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:729
+            500MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:26
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            5GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:88
+                3to50deg , Sub-directory or File Count:79
+                45to135deg , Sub-directory or File Count:115
+            60GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:918
+        kaon+ , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:62
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            10GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:96
+                3to50deg , Sub-directory or File Count:118
+                45to135deg , Sub-directory or File Count:103
+            1GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:130
+            200MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:24
+                3to50deg , Sub-directory or File Count:23
+                45to135deg , Sub-directory or File Count:22
+            20GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:201
+                3to50deg , Sub-directory or File Count:173
+                45to135deg , Sub-directory or File Count:242
+            2GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:23
+                3to50deg , Sub-directory or File Count:23
+                45to135deg , Sub-directory or File Count:24
+            500MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            5GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:50
+                3to50deg , Sub-directory or File Count:25
+                45to135deg , Sub-directory or File Count:95
+        kaon- , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:74
+            10GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:97
+                3to50deg , Sub-directory or File Count:101
+                45to135deg , Sub-directory or File Count:110
+            1GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:36
+                3to50deg , Sub-directory or File Count:30
+                45to135deg , Sub-directory or File Count:23
+            200MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:23
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:29
+            20GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:178
+                3to50deg , Sub-directory or File Count:188
+                45to135deg , Sub-directory or File Count:158
+            2GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:26
+                3to50deg , Sub-directory or File Count:103
+                45to135deg , Sub-directory or File Count:99
+            500MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:23
+                45to135deg , Sub-directory or File Count:27
+            5GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:40
+                3to50deg , Sub-directory or File Count:83
+                45to135deg , Sub-directory or File Count:63
+        mu- , Sub-directory or File Count:1
+            10GeV , Sub-directory or File Count:1
+                etaScan , Sub-directory or File Count:137
+        pi+ , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:97
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            10GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:93
+                3to50deg , Sub-directory or File Count:206
+                45to135deg , Sub-directory or File Count:112
+            1GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            200MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:26
+                3to50deg , Sub-directory or File Count:25
+                45to135deg , Sub-directory or File Count:22
+            20GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:197
+                3to50deg , Sub-directory or File Count:111
+                45to135deg , Sub-directory or File Count:204
+            2GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:38
+                3to50deg , Sub-directory or File Count:26
+                45to135deg , Sub-directory or File Count:23
+            500MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:44
+                3to50deg , Sub-directory or File Count:33
+                45to135deg , Sub-directory or File Count:22
+            5GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:48
+                3to50deg , Sub-directory or File Count:38
+                45to135deg , Sub-directory or File Count:58
+        pi- , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            10GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:127
+                3to50deg , Sub-directory or File Count:98
+                45to135deg , Sub-directory or File Count:105
+            1GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:65
+                45to135deg , Sub-directory or File Count:36
+            200MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:24
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:46
+            20GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:191
+                3to50deg , Sub-directory or File Count:185
+                45to135deg , Sub-directory or File Count:277
+            2GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:23
+                3to50deg , Sub-directory or File Count:23
+                45to135deg , Sub-directory or File Count:35
+            500MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:27
+                45to135deg , Sub-directory or File Count:28
+            5GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:93
+                3to50deg , Sub-directory or File Count:56
+                45to135deg , Sub-directory or File Count:57
+        pi0 , Sub-directory or File Count:10
+            100MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:27
+            10GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:184
+                3to50deg , Sub-directory or File Count:158
+                45to135deg , Sub-directory or File Count:222
+            1GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:34
+                3to50deg , Sub-directory or File Count:41
+                45to135deg , Sub-directory or File Count:30
+            200MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:28
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:58
+            20GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:377
+                3to50deg , Sub-directory or File Count:264
+                45to135deg , Sub-directory or File Count:419
+            2GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:25
+                3to50deg , Sub-directory or File Count:31
+                45to135deg , Sub-directory or File Count:50
+            40GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:707
+            500MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:25
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            5GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:93
+                3to50deg , Sub-directory or File Count:88
+                45to135deg , Sub-directory or File Count:116
+            60GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:960
+        proton , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            10GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:84
+                3to50deg , Sub-directory or File Count:85
+                45to135deg , Sub-directory or File Count:165
+            1GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:22
+            200MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:25
+                3to50deg , Sub-directory or File Count:24
+                45to135deg , Sub-directory or File Count:26
+            20GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:168
+                3to50deg , Sub-directory or File Count:76
+                45to135deg , Sub-directory or File Count:196
+            2GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:22
+                45to135deg , Sub-directory or File Count:23
+            500MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:22
+                3to50deg , Sub-directory or File Count:33
+                45to135deg , Sub-directory or File Count:22
+            5GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:41
+                3to50deg , Sub-directory or File Count:36
+                45to135deg , Sub-directory or File Count:80
 ```

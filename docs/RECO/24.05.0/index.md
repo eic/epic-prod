@@ -1,144 +1,97 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0/
-└─ epic_craterlake
-   ├─ BACKGROUNDS
-   │  ├─ 10x100
-   │  │  └─ merged_lowstat
-     27 
-   │  ├─ BEAMGAS
-   │  │  ├─ electron
-   │  │  │  └─ GETaLM1.0.0-1.0
-   │  │  │     └─ 10GeV
-   4039 
-   │  │  └─ proton
-   │  │     └─ pythia8.306-1.0
-   │  │        ├─ 100GeV
-   4600 
-   │  │        └─ 275GeV
-  15799 
-   │  └─ MERGED
-   │     └─ HEPMC_merger-1.0.2
-   │        └─ 10x100
-   │           ├─ 1SignalPerFrame
-     12 
-   │           └─ RealisticSignalPerFrame
-     29 
-   ├─ DIS
-   │  ├─ CC
-   │  │  ├─ 10x100
-   │  │  │  ├─ minQ2=100
-   4445 
-   │  │  │  └─ minQ2=1000
-   4425 
-   │  │  ├─ 18x275
-   │  │  │  ├─ minQ2=100
-   9580 
-   │  │  │  └─ minQ2=1000
-  10335 
-   │  │  └─ 5x41
-   │  │     └─ minQ2=100
-   2540 
-   │  └─ NC
-   │     ├─ 10x100
-   │     │  ├─ minQ2=1
-   6086 
-   │     │  ├─ minQ2=10
-   7765 
-   │     │  ├─ minQ2=100
-   8930 
-   │     │  └─ minQ2=1000
-  10203 
-   │     ├─ 18x275
-   │     │  ├─ minQ2=1
-  12014 
-   │     │  ├─ minQ2=10
-  12565 
-   │     │  ├─ minQ2=100
-  14975 
-   │     │  └─ minQ2=1000
-  17988 
-   │     └─ 5x41
-   │        ├─ minQ2=1
-   3020 
-   │        ├─ minQ2=10
-   3035 
-   │        └─ minQ2=100
-   3975 
-   ├─ EXCLUSIVE
-   │  ├─ DEMP
-   │  │  └─ DEMPgen-1.1.0
-   │  │     ├─ 10x100
-   │  │     │  ├─ K+Lambda
-   2396 
-   │  │     │  ├─ K+Sigma0
-   2520 
-   │  │     │  └─ pi+
-   1500 
-   │  │     └─ 5x41
-   │  │        ├─ K+Lambda
-   2927 
-   │  │        ├─ K+Sigma0
-   2147 
-   │  │        └─ pi+
-   1110 
-   │  ├─ DIFFRACTIVE_PHI_ABCONV
-   │  │  └─ Sartre
-   │  │     └─ Coherent
-  22355 
-   │  ├─ DVCS_ABCONV
-   │  │  ├─ 10x100
-   1365 
-   │  │  ├─ 18x275
-
-   │  │  └─ 5x41
-
-   │  ├─ DVMP
-   │  │  └─ EpIC1.0.0-1.1
-     92 
-   │  ├─ TCS_ABCONV
-   │  │  ├─ 10x100
-   │  │  │  └─ hel_minus
-   8460 
-   │  │  ├─ 18x275
-   │  │  │  ├─ hel_minus
-   7480 
-   │  │  │  └─ hel_plus
-   7480 
-   │  │  └─ 5x41
-   │  │     ├─ hel_minus
-    920 
-   │  │     └─ hel_plus
-    920 
-   │  ├─ UCHANNEL_PI0
-   │  │  └─ 18x275
-    175 
-   │  └─ UCHANNEL_RHO
-   │     └─ 10x100
-     72 
-   └─ SIDIS
-      ├─ D0_ABCONV
-      │  └─ pythia8.306-1.0
-      │     └─ 18x275
-      │        ├─ hiAcc
-   1867 
-      │        └─ hiDiv
-   1618 
-      ├─ Lambda_ABCONV
-      │  └─ pythia8.306-1.0
-      │     └─ 18x275
-      │        ├─ hiAcc
-   3465 
-      │        └─ hiDiv
-   3355 
-      └─ pythia6-eic
-         └─ 1.0.0
-            ├─ 10x100
-            │  └─ q2_0to1
-  31160 
-            ├─ 10x275
-            │  └─ q2_0to1
-  90942 
-            └─ 18x275
-               └─ q2_0to1
-  94548 
+root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.05.0
+epic_craterlake , Sub-directory or File Count:4
+    BACKGROUNDS , Sub-directory or File Count:3
+        10x100 , Sub-directory or File Count:1
+            merged_lowstat , Sub-directory or File Count:27
+        BEAMGAS , Sub-directory or File Count:2
+            electron , Sub-directory or File Count:1
+                GETaLM1.0.0-1.0 , Sub-directory or File Count:1
+                    10GeV , Sub-directory or File Count:4039
+            proton , Sub-directory or File Count:1
+                pythia8.306-1.0 , Sub-directory or File Count:2
+                    100GeV , Sub-directory or File Count:4600
+                    275GeV , Sub-directory or File Count:15799
+        MERGED , Sub-directory or File Count:1
+            HEPMC_merger-1.0.2 , Sub-directory or File Count:1
+                10x100 , Sub-directory or File Count:2
+                    1SignalPerFrame , Sub-directory or File Count:12
+                    RealisticSignalPerFrame , Sub-directory or File Count:29
+    DIS , Sub-directory or File Count:2
+        CC , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:4445
+                minQ2=1000 , Sub-directory or File Count:4425
+            18x275 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:9580
+                minQ2=1000 , Sub-directory or File Count:10335
+            5x41 , Sub-directory or File Count:1
+                minQ2=100 , Sub-directory or File Count:2540
+        NC , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:4
+                minQ2=1 , Sub-directory or File Count:6086
+                minQ2=10 , Sub-directory or File Count:7765
+                minQ2=100 , Sub-directory or File Count:8930
+                minQ2=1000 , Sub-directory or File Count:10203
+            18x275 , Sub-directory or File Count:4
+                minQ2=1 , Sub-directory or File Count:12014
+                minQ2=10 , Sub-directory or File Count:12565
+                minQ2=100 , Sub-directory or File Count:14975
+                minQ2=1000 , Sub-directory or File Count:17988
+            5x41 , Sub-directory or File Count:3
+                minQ2=1 , Sub-directory or File Count:3020
+                minQ2=10 , Sub-directory or File Count:3035
+                minQ2=100 , Sub-directory or File Count:3975
+    EXCLUSIVE , Sub-directory or File Count:7
+        DEMP , Sub-directory or File Count:1
+            DEMPgen-1.1.0 , Sub-directory or File Count:2
+                10x100 , Sub-directory or File Count:3
+                    K+Lambda , Sub-directory or File Count:2396
+                    K+Sigma0 , Sub-directory or File Count:2520
+                    pi+ , Sub-directory or File Count:1500
+                5x41 , Sub-directory or File Count:3
+                    K+Lambda , Sub-directory or File Count:2927
+                    K+Sigma0 , Sub-directory or File Count:2147
+                    pi+ , Sub-directory or File Count:1110
+        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
+            Sartre , Sub-directory or File Count:1
+                Coherent , Sub-directory or File Count:22355
+        DVCS_ABCONV , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:1365
+            18x275 , Sub-directory or File Count:5051
+            5x41 , Sub-directory or File Count:1161
+        DVMP , Sub-directory or File Count:1
+            EpIC1.0.0-1.1 , Sub-directory or File Count:92
+        TCS_ABCONV , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:1
+                hel_minus , Sub-directory or File Count:8460
+            18x275 , Sub-directory or File Count:2
+                hel_minus , Sub-directory or File Count:7480
+                hel_plus , Sub-directory or File Count:7480
+            5x41 , Sub-directory or File Count:2
+                hel_minus , Sub-directory or File Count:920
+                hel_plus , Sub-directory or File Count:920
+        UCHANNEL_PI0 , Sub-directory or File Count:1
+            18x275 , Sub-directory or File Count:175
+        UCHANNEL_RHO , Sub-directory or File Count:1
+            10x100 , Sub-directory or File Count:72
+    SIDIS , Sub-directory or File Count:3
+        D0_ABCONV , Sub-directory or File Count:1
+            pythia8.306-1.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:2
+                    hiAcc , Sub-directory or File Count:1867
+                    hiDiv , Sub-directory or File Count:1618
+        Lambda_ABCONV , Sub-directory or File Count:1
+            pythia8.306-1.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:2
+                    hiAcc , Sub-directory or File Count:3465
+                    hiDiv , Sub-directory or File Count:3355
+        pythia6-eic , Sub-directory or File Count:1
+            1.0.0 , Sub-directory or File Count:3
+                10x100 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:31160
+                10x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:90942
+                18x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:94548
 ```

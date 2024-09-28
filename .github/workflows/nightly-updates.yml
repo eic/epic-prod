@@ -1,92 +1,160 @@
 name: Nightly Update to Data Display
 
-on:
+on: 
   schedule:
     - cron:  '0 0 * * *'
   workflow_dispatch:
+  pull_request:
+
+env:
+  RECO: "/work/eic2/EPIC/RECO"
+  FULL: "/work/eic2/EPIC/FULL"
+  XROOTD_HOST: root://dtn-eic.jlab.org
+  REPOSITORY: "${{github.repository}}"
 
 jobs:
-  update_data:
+  campaigns_reco:
     runs-on: ubuntu-latest
+    outputs:
+      campaigns: ${{ steps.campaigns_reco.outputs.campaigns }}
+
     container:
-      image: minio/mc:RELEASE.2023-10-14T01-57-03Z
+      image: rucio/xrootd
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-    - name: Search the database and save the file names as a list
-      shell: bash
-      run: |
-        if [ -d ./docs/RECO ]; then rm -rf ./docs/RECO; fi
-        if [ -d ./docs/FULL ]; then rm -rf ./docs/FULL; fi
-        mc config host add S3 ${S3_HOST} ${S3_ACCESS_KEY} ${S3_SECRET_KEY}
-        chmod +x ./docs/_data/list_S3.sh
-        ./docs/_data/list_S3.sh RECO > ./docs/_data/reco_content.yml
-        ./docs/_data/list_S3.sh FULL > ./docs/_data/full_content.yml
-      env:
-        S3_HOST: ${{secrets.S3_HOST}}
-        S3_ACCESS_KEY: ${{secrets.S3_ACCESS_KEY}}
-        S3_SECRET_KEY: ${{secrets.S3_SECRET_KEY}}
-    - name: Upload reco_content
-      uses: actions/upload-artifact@v4
-      with:
-        name: reco_content
-        path: ./docs/_data/reco_content.yml
-    - name: Upload full_content
-      uses: actions/upload-artifact@v4
-      with:
-        name: full_content
-        path: ./docs/_data/full_content.yml
-    - name: Upload RECO
-      uses: actions/upload-artifact@v4
-      with:
-        name: RECO
-        path: ./docs/RECO/
-    - name: Upload FULL
-      uses: actions/upload-artifact@v4
-      with:
-        name: FULL
-        path: ./docs/FULL/
-        
-  commit_data:
-    needs: update_data
+      - name: List campaigns
+        id: campaigns_reco
+        shell: bash
+        run: |
+          mapfile -t campaigns < <(xrdfs ${XROOTD_HOST} ls ${RECO} | awk -F'/' '{print $NF}' | sort -n)
+
+          # Check if campaigns are found
+          if [ ${#campaigns[@]} -eq 0 ]; then
+            echo "No campaigns found for type: reco"
+            echo "campaigns=[]" >> $GITHUB_OUTPUT  # Output an empty JSON array
+            exit 0  # Exit without error
+          fi
+
+          # Convert array to JSON format for output
+          # Ensure quotes around campaign names
+          campaigns_json=$(printf ',"%s"' "${campaigns[@]}")
+          campaigns_json="[${campaigns_json:1}]"  # Remove leading comma
+
+          # Output campaigns as a JSON array
+          echo "campaigns=${campaigns_json}" >> $GITHUB_OUTPUT
+
+  create_list_reco:
+    needs: campaigns_reco
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-    - name: Remove old s3_content
-      shell: bash
-      run: |
-        if [ -f ./docs/_data/reco_content.yml ]; then rm -f ./docs/_data/reco_content.yml; fi
-        if [ -f ./docs/_data/full_content.yml ]; then rm -f ./docs/_data/full_content.yml; fi
-        if [ -d ./docs/RECO ]; then rm -rf ./docs/RECO; fi
-        if [ -d ./docs/FULL ]; then rm -rf ./docs/FULL; fi
-        mkdir ./docs/RECO/
-        mkdir ./docs/FULL/
-    - name: Download reco_content
-      uses: actions/download-artifact@v4
-      with:
-        name: reco_content
-        path: ./docs/_data/
-    - name: Download full_content
-      uses: actions/download-artifact@v4
-      with:
-        name: full_content
-        path: ./docs/_data/
-    - name: Download RECO
-      uses: actions/download-artifact@v4
-      with:
-        name: RECO
-        path: ./docs/RECO/
-    - name: Download FULL
-      uses: actions/download-artifact@v4
-      with:
-        name: FULL
-        path: ./docs/FULL/
-    - name: Commit updates
-      shell: bash
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add ./docs/
-        git commit -m "Update summary lists in RECO and FULL directory" || echo "No changes to commit"
-        git push origin main
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+        
+      - name: Update reco content list
+        shell: bash
+        run: |
+          rm ./docs/_data/reco_content.yml
+          touch ./docs/_data/reco_content.yml
+          read -r -a campaigns_reco <<< $(echo ${{ needs.campaigns_reco.outputs.campaigns }} | tr -d '[]"' | tr ',' ' ')
+          for reco in "${campaigns_reco[@]}"; do
+              echo -e "- text: "$reco"\n  url: "/epic-prod/RECO/$reco"" >> ./docs/_data/reco_content.yml
+          done
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./docs/
+          git commit -m "Update summary lists in RECO directory" || echo "No changes to commit"
+          git push origin main
+          
+  process_campaigns_reco:
+    needs: campaigns_reco
+    container:
+      image: rucio/xrootd
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        campaign: ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}
+    steps:
+      - name: Process reco campaigns
+        id: process_campaigns_reco
+        run: |
+          campaign="${{ matrix.campaign }}"
+          echo "Processing reco campaign: ${campaign}"
+          # Add your processing logic here
+          ROOT=${RECO}/${campaign}
+          # Save output directly to file
+          xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count > reco-${campaign}.md
+          cat reco-${campaign}.md
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: reco-${{ matrix.campaign }}.md
+          path: reco-${{ matrix.campaign }}.md
+
+  update_campaigns_reco:
+    needs: process_campaigns_reco
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+
+      - name: Display downloaded artifacts
+        shell: bash
+        run: |
+          print_tree() {
+           local input_file="$1"
+    
+           if [[ ! -f "$input_file" ]]; then
+             echo "Error: File '$input_file' does not exist."
+             return 1
+           fi
+           echo "\`\`\`"
+           first_line=true
+           while read line; do
+             if $first_line; then
+               first_line=false
+               printf "root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/%s\n" "$2"
+               continue
+             fi
+             # Determine depth based on number of forward slashes in path
+             level=$(tr -cd '/' <<< "$line" | wc -c)
+
+             # Print line with appropriate indentation
+             prefix=$(printf "%*s" $((level * 4)) "")
+             content=$(echo ${line#"${line%%[^ ]*}"} | awk '{print $2" , Sub-directory or File Count:"$1}' | awk -F"/" '{print $NF}')
+             printf "%s%s\n" "$prefix" "$content"
+           done < "$input_file"
+           echo "\`\`\`"
+          }
+          
+          file_list=$(ls reco-*|grep -v ":")
+          echo $file_list
+          for file in $file_list; do
+            echo "Listing $file"
+            base=$(echo $file | awk -F'reco-|.md' '{print $2}')
+            mkdir -p ./docs/RECO/${base}
+            print_tree "$file/$file" $base > ./docs/RECO/${base}/index.md
+          done
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./docs/RECO
+          git commit -m "Update contents of RECO directory" || echo "No changes to commit"
+          git push origin main
+          
+      
+      
+      
+
+  
+    
+        
+
+          
+      
+         

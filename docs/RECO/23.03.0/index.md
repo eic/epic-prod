@@ -1,709 +1,403 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.03.0/
-├─ epic_arches
-│  ├─ DIS
-│  │  └─ NC
-│  │     └─ 10x100
-│  │        └─ minQ2=1000
-   3220 
-│  ├─ EXCLUSIVE
-│  │  ├─ DEMP
-│  │  │  ├─ 10on100
-     90 
-│  │  │  ├─ 18on275
-    200 
-│  │  │  ├─ 5on100
-   1709 
-│  │  │  └─ 5on41
-    540 
-│  │  └─ DIFFRACTIVE_PHI_ABCONV
-│  │     └─ BeAGLE
-│  │        └─ ePb_18x108.41_tau10_B1.1_Phi_highstats
-
-│  ├─ SIDIS
-│  │  └─ pythia6
-│  │     └─ ep_5x41
-│  │        └─ hepmc_ip6
-│  │           └─ noradcor
-  20800 
-│  └─ SINGLE
-│     ├─ e-
-│     │  ├─ 10000MeV
-│     │  │  └─ abs_eta_lt_1.2
-     68 
-│     │  ├─ 1000MeV
-│     │  │  └─ abs_eta_lt_1.2
-     18 
-│     │  ├─ 100MeV
-
-│     │  │  ├─ 130to177deg
-      8 
-│     │  │  └─ 3to50deg
-      7 
-│     │  ├─ 10GeV
-     28 
-│     │  │  ├─ 130to177deg
-     60 
-│     │  │  └─ 3to50deg
-     53 
-│     │  ├─ 15GeV
-     42 
-│     │  ├─ 18GeV
-
-│     │  ├─ 1GeV
-     10 
-│     │  │  ├─ 130to177deg
-      8 
-│     │  │  └─ 3to50deg
-
-│     │  ├─ 200MeV
-     10 
-│     │  │  ├─ 130to177deg
-      7 
-│     │  │  └─ 3to50deg
-      7 
-│     │  ├─ 20GeV
-│     │  │  ├─ 130to177deg
-    103 
-│     │  │  └─ 3to50deg
-     99 
-│     │  ├─ 2250MeV
-│     │  │  └─ abs_eta_lt_1.2
-      9 
-│     │  ├─ 2GeV
-     10 
-│     │  │  ├─ 130to177deg
-     13 
-│     │  │  └─ 3to50deg
-     14 
-│     │  ├─ 3GeV
-     10 
-│     │  ├─ 5000MeV
-│     │  │  └─ abs_eta_lt_1.2
-
-│     │  ├─ 500MeV
-     10 
-│     │  │  ├─ 130to177deg
-      7 
-│     │  │  ├─ 3to50deg
-      7 
-│     │  │  └─ abs_eta_lt_1.2
-      7 
-│     │  ├─ 50MeV
-     10 
-│     │  ├─ 5GeV
-     15 
-│     │  │  ├─ 130to177deg
-     28 
-│     │  │  └─ 3to50deg
-     23 
-│     │  ├─ 750MeV
-│     │  │  └─ abs_eta_lt_1.2
-      7 
-│     │  └─ 8GeV
-     25 
-│     ├─ gamma
-│     │  ├─ 10000MeV
-│     │  │  └─ abs_eta_lt_1.2
-     52 
-│     │  ├─ 1000MeV
-│     │  │  └─ abs_eta_lt_1.2
-     19 
-│     │  ├─ 100MeV
-     10 
-│     │  │  ├─ 130to177deg
-      8 
-│     │  │  └─ 3to50deg
-     16 
-│     │  ├─ 10GeV
-     28 
-│     │  │  ├─ 130to177deg
-     59 
-│     │  │  └─ 3to50deg
-     77 
-│     │  ├─ 15GeV
-     40 
-│     │  ├─ 18GeV
-     49 
-│     │  ├─ 1GeV
-     10 
-│     │  │  ├─ 130to177deg
-      8 
-│     │  │  └─ 3to50deg
-      8 
-│     │  ├─ 200MeV
-     10 
-│     │  │  ├─ 130to177deg
-      7 
-│     │  │  └─ 3to50deg
-      7 
-│     │  ├─ 20GeV
-│     │  │  ├─ 130to177deg
-    104 
-│     │  │  └─ 3to50deg
-     98 
-│     │  ├─ 2250MeV
-│     │  │  └─ abs_eta_lt_1.2
-     16 
-│     │  ├─ 2GeV
-     10 
-│     │  │  ├─ 130to177deg
-     12 
-│     │  │  └─ 3to50deg
-
-│     │  ├─ 3GeV
-     10 
-│     │  ├─ 40GeV
-│     │  │  └─ 3to50deg
-    189 
-│     │  ├─ 5000MeV
-│     │  │  └─ abs_eta_lt_1.2
-     29 
-│     │  ├─ 500MeV
-     10 
-│     │  │  ├─ 130to177deg
-      7 
-│     │  │  ├─ 3to50deg
-      7 
-│     │  │  └─ abs_eta_lt_1.2
-      7 
-│     │  ├─ 50MeV
-     10 
-│     │  ├─ 5GeV
-     15 
-│     │  │  ├─ 130to177deg
-     29 
-│     │  │  └─ 3to50deg
-     27 
-│     │  ├─ 60GeV
-│     │  │  └─ 3to50deg
-    282 
-│     │  ├─ 750MeV
-│     │  │  └─ abs_eta_lt_1.2
-      7 
-│     │  └─ 8GeV
-     23 
-│     ├─ mu-
-│     │  ├─ 10000MeV
-│     │  │  └─ abs_eta_lt_1.2
-
-│     │  ├─ 1000MeV
-│     │  │  └─ abs_eta_lt_1.2
-      8 
-│     │  ├─ 100MeV
-     10 
-│     │  ├─ 10GeV
-     10 
-│     │  ├─ 15GeV
-     10 
-│     │  ├─ 18GeV
-     10 
-│     │  ├─ 1GeV
-     10 
-│     │  ├─ 200MeV
-     10 
-│     │  ├─ 2250MeV
-│     │  │  └─ abs_eta_lt_1.2
-      8 
-│     │  ├─ 2GeV
-     10 
-│     │  ├─ 3GeV
-     10 
-│     │  ├─ 5000MeV
-│     │  │  └─ abs_eta_lt_1.2
-      8 
-│     │  ├─ 500MeV
-     10 
-│     │  │  └─ abs_eta_lt_1.2
-      7 
-│     │  ├─ 50MeV
-     10 
-│     │  ├─ 5GeV
-     10 
-│     │  ├─ 750MeV
-│     │  │  └─ abs_eta_lt_1.2
-      7 
-│     │  └─ 8GeV
-     10 
-│     ├─ pi-
-│     │  ├─ 10000MeV
-│     │  │  └─ abs_eta_lt_1.2
-    265 
-│     │  ├─ 1000MeV
-│     │  │  └─ abs_eta_lt_1.2
-     42 
-│     │  ├─ 100MeV
-     39 
-│     │  │  ├─ 130to177deg
-      8 
-│     │  │  └─ 3to50deg
-      8 
-│     │  ├─ 10GeV
-    249 
-│     │  │  ├─ 130to177deg
-     62 
-│     │  │  └─ 3to50deg
-     64 
-│     │  ├─ 15GeV
-
-│     │  ├─ 18GeV
-    425 
-│     │  ├─ 1GeV
-     48 
-│     │  │  ├─ 130to177deg
-     15 
-│     │  │  └─ 3to50deg
-      8 
-│     │  ├─ 200MeV
-     33 
-│     │  │  ├─ 130to177deg
-      8 
-│     │  │  └─ 3to50deg
-      8 
-│     │  ├─ 20GeV
-│     │  │  ├─ 130to177deg
-     90 
-│     │  │  └─ 3to50deg
-     77 
-│     │  ├─ 2250MeV
-│     │  │  └─ abs_eta_lt_1.2
-    128 
-│     │  ├─ 2GeV
-     70 
-│     │  │  ├─ 130to177deg
-     16 
-│     │  │  └─ 3to50deg
-
-│     │  ├─ 3GeV
-     96 
-│     │  ├─ 5000MeV
-│     │  │  └─ abs_eta_lt_1.2
-    115 
-│     │  ├─ 500MeV
-     35 
-│     │  │  ├─ 130to177deg
-      7 
-│     │  │  ├─ 3to50deg
-      7 
-│     │  │  └─ abs_eta_lt_1.2
-     33 
-│     │  ├─ 50MeV
-     47 
-│     │  ├─ 5GeV
-
-│     │  │  ├─ 130to177deg
-     29 
-│     │  │  └─ 3to50deg
-     25 
-│     │  ├─ 750MeV
-│     │  │  └─ abs_eta_lt_1.2
-     37 
-│     │  └─ 8GeV
-    210 
-│     └─ pi0
-│        ├─ 10000MeV
-│        │  └─ abs_eta_lt_1.2
-     58 
-│        ├─ 1000MeV
-│        │  └─ abs_eta_lt_1.2
-      8 
-│        ├─ 100MeV
-     10 
-│        ├─ 10GeV
-     27 
-│        ├─ 15GeV
-
-│        ├─ 18GeV
-     49 
-│        ├─ 1GeV
-     10 
-│        ├─ 200MeV
-     10 
-│        ├─ 2250MeV
-│        │  └─ abs_eta_lt_1.2
-      8 
-│        ├─ 2GeV
-     10 
-│        ├─ 3GeV
-
-│        ├─ 5000MeV
-│        │  └─ abs_eta_lt_1.2
-     28 
-│        ├─ 500MeV
-     10 
-│        │  └─ abs_eta_lt_1.2
-      7 
-│        ├─ 50MeV
-     10 
-│        ├─ 5GeV
-     15 
-│        ├─ 750MeV
-│        │  └─ abs_eta_lt_1.2
-      7 
-│        └─ 8GeV
-     25 
-└─ epic_brycecanyon
-   ├─ DIS
-   │  └─ NC
-   │     ├─ 10x100
-   │     │  └─ minQ2=1
-   3225 
-   │     └─ 18x275
-   │        ├─ minQ2=1
-   8009 
-   │        ├─ minQ2=10
-   7590 
-   │        ├─ minQ2=100
-   7494 
-   │        └─ minQ2=1000
-   7670 
-   ├─ EXCLUSIVE
-   │  └─ DEMP
-   │     ├─ 10on100
-     90 
-   │     ├─ 18on275
-    200 
-   │     ├─ 5on100
-   2100 
-   │     └─ 5on41
-    780 
-   ├─ SIDIS
-   │  └─ pythia6
-   │     └─ ep_5x41
-   │        └─ hepmc_ip6
-   │           └─ noradcor
-  20799 
-   └─ SINGLE
-      ├─ e-
-      │  ├─ 10000MeV
-      │  │  └─ abs_eta_lt_1.2
-     78 
-      │  ├─ 1000MeV
-      │  │  └─ abs_eta_lt_1.2
-     15 
-      │  ├─ 100MeV
-
-      │  │  ├─ 130to177deg
-      8 
-      │  │  └─ 3to50deg
-      7 
-      │  ├─ 10GeV
-     28 
-      │  │  ├─ 130to177deg
-     59 
-      │  │  └─ 3to50deg
-     53 
-      │  ├─ 1250MeV
-      8 
-      │  ├─ 125MeV
-      4 
-      │  ├─ 15GeV
-     42 
-      │  ├─ 1750MeV
-      4 
-      │  ├─ 175MeV
-      4 
-      │  ├─ 18GeV
-     50 
-      │  ├─ 1GeV
-     10 
-      │  │  ├─ 130to177deg
-      8 
-      │  │  └─ 3to50deg
-
-      │  ├─ 200MeV
-     10 
-      │  │  ├─ 130to177deg
-      7 
-      │  │  └─ 3to50deg
-      7 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-     98 
-      │  │  └─ 3to50deg
-     98 
-      │  ├─ 2250MeV
-      │  │  └─ abs_eta_lt_1.2
-     14 
-      │  ├─ 2GeV
-     10 
-      │  │  ├─ 130to177deg
-     13 
-      │  │  └─ 3to50deg
-     14 
-      │  ├─ 3GeV
-     10 
-      │  ├─ 4GeV
-      4 
-      │  ├─ 5000MeV
-      │  │  └─ abs_eta_lt_1.2
-     28 
-      │  ├─ 500MeV
-     10 
-      │  │  ├─ 130to177deg
-      7 
-      │  │  ├─ 3to50deg
-      7 
-      │  │  └─ abs_eta_lt_1.2
-      9 
-      │  ├─ 50MeV
-     10 
-      │  ├─ 5GeV
-     15 
-      │  │  ├─ 130to177deg
-     28 
-      │  │  └─ 3to50deg
-
-      │  ├─ 750MeV
-      │  │  └─ abs_eta_lt_1.2
-     33 
-      │  └─ 8GeV
-     25 
-      ├─ gamma
-      │  ├─ 10000MeV
-      │  │  └─ abs_eta_lt_1.2
-     85 
-      │  ├─ 1000MeV
-      │  │  └─ abs_eta_lt_1.2
-     18 
-      │  ├─ 100MeV
-     10 
-      │  │  ├─ 130to177deg
-      8 
-      │  │  └─ 3to50deg
-     16 
-      │  ├─ 10GeV
-     27 
-      │  │  ├─ 130to177deg
-     57 
-      │  │  └─ 3to50deg
-     77 
-      │  ├─ 15GeV
-     39 
-      │  ├─ 18GeV
-     48 
-      │  ├─ 1GeV
-     10 
-      │  │  ├─ 130to177deg
-      8 
-      │  │  └─ 3to50deg
-      8 
-      │  ├─ 200MeV
-     10 
-      │  │  ├─ 130to177deg
-      7 
-      │  │  └─ 3to50deg
-      7 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-    100 
-      │  │  └─ 3to50deg
-
-      │  ├─ 2250MeV
-      │  │  └─ abs_eta_lt_1.2
-     25 
-      │  ├─ 2GeV
-     10 
-      │  │  ├─ 130to177deg
-     12 
-      │  │  └─ 3to50deg
-
-      │  ├─ 3GeV
-     10 
-      │  ├─ 40GeV
-      │  │  └─ 3to50deg
-    189 
-      │  ├─ 5000MeV
-      │  │  └─ abs_eta_lt_1.2
-      9 
-      │  ├─ 500MeV
-     10 
-      │  │  ├─ 130to177deg
-      7 
-      │  │  ├─ 3to50deg
-      7 
-      │  │  └─ abs_eta_lt_1.2
-      9 
-      │  ├─ 50MeV
-     10 
-      │  ├─ 5GeV
-     15 
-      │  │  ├─ 130to177deg
-     29 
-      │  │  └─ 3to50deg
-     27 
-      │  ├─ 60GeV
-      │  │  └─ 3to50deg
-    277 
-      │  ├─ 750MeV
-      │  │  └─ abs_eta_lt_1.2
-
-      │  └─ 8GeV
-     22 
-      ├─ mu-
-      │  ├─ 10000MeV
-      │  │  └─ abs_eta_lt_1.2
-     10 
-      │  ├─ 1000MeV
-      │  │  └─ abs_eta_lt_1.2
-     17 
-      │  ├─ 100MeV
-     10 
-      │  ├─ 10GeV
-     10 
-      │  ├─ 15GeV
-     10 
-      │  ├─ 18GeV
-     10 
-      │  ├─ 1GeV
-     10 
-      │  ├─ 200MeV
-     10 
-      │  ├─ 2250MeV
-      │  │  └─ abs_eta_lt_1.2
-     13 
-      │  ├─ 2GeV
-     10 
-      │  ├─ 3GeV
-     10 
-      │  ├─ 5000MeV
-      │  │  └─ abs_eta_lt_1.2
-     10 
-      │  ├─ 500MeV
-     10 
-      │  │  └─ abs_eta_lt_1.2
-     10 
-      │  ├─ 50MeV
-     10 
-      │  ├─ 5GeV
-     10 
-      │  ├─ 750MeV
-      │  │  └─ abs_eta_lt_1.2
-      8 
-      │  └─ 8GeV
-     10 
-      ├─ pi-
-      │  ├─ 10000MeV
-      │  │  └─ abs_eta_lt_1.2
-    384 
-      │  ├─ 1000MeV
-      │  │  └─ abs_eta_lt_1.2
-    125 
-      │  ├─ 100MeV
-     39 
-      │  │  ├─ 130to177deg
-      8 
-      │  │  └─ 3to50deg
-      8 
-      │  ├─ 10GeV
-    249 
-      │  │  ├─ 130to177deg
-     62 
-      │  │  └─ 3to50deg
-     64 
-      │  ├─ 1250MeV
-     30 
-      │  ├─ 125MeV
-     30 
-      │  ├─ 15GeV
-    350 
-      │  ├─ 1750MeV
-     30 
-      │  ├─ 175MeV
-     30 
-      │  ├─ 18GeV
-    424 
-      │  ├─ 1GeV
-     48 
-      │  │  ├─ 130to177deg
-     15 
-      │  │  └─ 3to50deg
-      8 
-      │  ├─ 200MeV
-     33 
-      │  │  ├─ 130to177deg
-      8 
-      │  │  └─ 3to50deg
-      8 
-      │  ├─ 20GeV
-      │  │  ├─ 130to177deg
-     90 
-      │  │  └─ 3to50deg
-     77 
-      │  ├─ 2250MeV
-      │  │  └─ abs_eta_lt_1.2
-     96 
-      │  ├─ 2GeV
-     70 
-      │  │  ├─ 130to177deg
-     16 
-      │  │  └─ 3to50deg
-
-      │  ├─ 3GeV
-     96 
-      │  ├─ 4GeV
-     24 
-      │  ├─ 5000MeV
-      │  │  └─ abs_eta_lt_1.2
-    283 
-      │  ├─ 500MeV
-     35 
-      │  │  ├─ 130to177deg
-      7 
-      │  │  ├─ 3to50deg
-      7 
-      │  │  └─ abs_eta_lt_1.2
-     86 
-      │  ├─ 50MeV
-     47 
-      │  ├─ 5GeV
-
-      │  │  ├─ 130to177deg
-     29 
-      │  │  └─ 3to50deg
-     25 
-      │  ├─ 750MeV
-      │  │  └─ abs_eta_lt_1.2
-     45 
-      │  └─ 8GeV
-    210 
-      └─ pi0
-         ├─ 10000MeV
-         │  └─ abs_eta_lt_1.2
-     88 
-         ├─ 1000MeV
-         │  └─ abs_eta_lt_1.2
-     24 
-         ├─ 100MeV
-     10 
-         ├─ 10GeV
-     27 
-         ├─ 15GeV
-
-         ├─ 18GeV
-     49 
-         ├─ 1GeV
-     10 
-         ├─ 200MeV
-     10 
-         ├─ 2250MeV
-         │  └─ abs_eta_lt_1.2
-
-         ├─ 2GeV
-     10 
-         ├─ 3GeV
-
-         ├─ 500MeV
-     10 
-         │  └─ abs_eta_lt_1.2
-     13 
-         ├─ 50MeV
-     10 
-         ├─ 5GeV
-     15 
-         ├─ 750MeV
-         │  └─ abs_eta_lt_1.2
-     26 
-         └─ 8GeV
-     25 
+root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.03.0
+epic_arches , Sub-directory or File Count:4
+    DIS , Sub-directory or File Count:1
+        NC , Sub-directory or File Count:1
+            10x100 , Sub-directory or File Count:1
+                minQ2=1000 , Sub-directory or File Count:3220
+    EXCLUSIVE , Sub-directory or File Count:2
+        DEMP , Sub-directory or File Count:4
+            10on100 , Sub-directory or File Count:90
+            18on275 , Sub-directory or File Count:200
+            5on100 , Sub-directory or File Count:1709
+            5on41 , Sub-directory or File Count:540
+        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
+            BeAGLE , Sub-directory or File Count:1
+                ePb_18x108.41_tau10_B1.1_Phi_highstats , Sub-directory or File Count:1
+    SIDIS , Sub-directory or File Count:1
+        pythia6 , Sub-directory or File Count:1
+            ep_5x41 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:1
+                    noradcor , Sub-directory or File Count:20800
+    SINGLE , Sub-directory or File Count:5
+        e- , Sub-directory or File Count:18
+            10000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:68
+            1000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:18
+            100MeV , Sub-directory or File Count:13
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:7
+            10GeV , Sub-directory or File Count:30
+                130to177deg , Sub-directory or File Count:60
+                3to50deg , Sub-directory or File Count:53
+            15GeV , Sub-directory or File Count:42
+            18GeV , Sub-directory or File Count:51
+            1GeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:11
+            200MeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:7
+                3to50deg , Sub-directory or File Count:7
+            20GeV , Sub-directory or File Count:2
+                130to177deg , Sub-directory or File Count:103
+                3to50deg , Sub-directory or File Count:99
+            2250MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:9
+            2GeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:13
+                3to50deg , Sub-directory or File Count:14
+            3GeV , Sub-directory or File Count:10
+            5000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:31
+            500MeV , Sub-directory or File Count:13
+                130to177deg , Sub-directory or File Count:7
+                3to50deg , Sub-directory or File Count:7
+                abs_eta_lt_1.2 , Sub-directory or File Count:7
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:17
+                130to177deg , Sub-directory or File Count:28
+                3to50deg , Sub-directory or File Count:23
+            750MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:7
+            8GeV , Sub-directory or File Count:25
+        gamma , Sub-directory or File Count:20
+            10000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:52
+            1000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:19
+            100MeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:16
+            10GeV , Sub-directory or File Count:30
+                130to177deg , Sub-directory or File Count:59
+                3to50deg , Sub-directory or File Count:77
+            15GeV , Sub-directory or File Count:40
+            18GeV , Sub-directory or File Count:49
+            1GeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:8
+            200MeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:7
+                3to50deg , Sub-directory or File Count:7
+            20GeV , Sub-directory or File Count:2
+                130to177deg , Sub-directory or File Count:104
+                3to50deg , Sub-directory or File Count:98
+            2250MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:16
+            2GeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:12
+                3to50deg , Sub-directory or File Count:11
+            3GeV , Sub-directory or File Count:10
+            40GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:189
+            5000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:29
+            500MeV , Sub-directory or File Count:13
+                130to177deg , Sub-directory or File Count:7
+                3to50deg , Sub-directory or File Count:7
+                abs_eta_lt_1.2 , Sub-directory or File Count:7
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:17
+                130to177deg , Sub-directory or File Count:29
+                3to50deg , Sub-directory or File Count:27
+            60GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:282
+            750MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:7
+            8GeV , Sub-directory or File Count:23
+        mu- , Sub-directory or File Count:17
+            10000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:11
+            1000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:10
+            10GeV , Sub-directory or File Count:10
+            15GeV , Sub-directory or File Count:10
+            18GeV , Sub-directory or File Count:10
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2250MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:8
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:10
+            5000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:8
+            500MeV , Sub-directory or File Count:11
+                abs_eta_lt_1.2 , Sub-directory or File Count:7
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:10
+            750MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:7
+            8GeV , Sub-directory or File Count:10
+        pi- , Sub-directory or File Count:18
+            10000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:265
+            1000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:42
+            100MeV , Sub-directory or File Count:41
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:8
+            10GeV , Sub-directory or File Count:251
+                130to177deg , Sub-directory or File Count:62
+                3to50deg , Sub-directory or File Count:64
+            15GeV , Sub-directory or File Count:351
+            18GeV , Sub-directory or File Count:425
+            1GeV , Sub-directory or File Count:50
+                130to177deg , Sub-directory or File Count:15
+                3to50deg , Sub-directory or File Count:8
+            200MeV , Sub-directory or File Count:35
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:8
+            20GeV , Sub-directory or File Count:2
+                130to177deg , Sub-directory or File Count:90
+                3to50deg , Sub-directory or File Count:77
+            2250MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:128
+            2GeV , Sub-directory or File Count:72
+                130to177deg , Sub-directory or File Count:16
+                3to50deg , Sub-directory or File Count:11
+            3GeV , Sub-directory or File Count:96
+            5000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:115
+            500MeV , Sub-directory or File Count:38
+                130to177deg , Sub-directory or File Count:7
+                3to50deg , Sub-directory or File Count:7
+                abs_eta_lt_1.2 , Sub-directory or File Count:33
+            50MeV , Sub-directory or File Count:47
+            5GeV , Sub-directory or File Count:143
+                130to177deg , Sub-directory or File Count:29
+                3to50deg , Sub-directory or File Count:25
+            750MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:37
+            8GeV , Sub-directory or File Count:210
+        pi0 , Sub-directory or File Count:17
+            10000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:58
+            1000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:10
+            10GeV , Sub-directory or File Count:27
+            15GeV , Sub-directory or File Count:41
+            18GeV , Sub-directory or File Count:49
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2250MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:8
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:11
+            5000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:28
+            500MeV , Sub-directory or File Count:11
+                abs_eta_lt_1.2 , Sub-directory or File Count:7
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:15
+            750MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:7
+            8GeV , Sub-directory or File Count:25
+epic_brycecanyon , Sub-directory or File Count:4
+    DIS , Sub-directory or File Count:1
+        NC , Sub-directory or File Count:2
+            10x100 , Sub-directory or File Count:1
+                minQ2=1 , Sub-directory or File Count:3225
+            18x275 , Sub-directory or File Count:4
+                minQ2=1 , Sub-directory or File Count:8009
+                minQ2=10 , Sub-directory or File Count:7590
+                minQ2=100 , Sub-directory or File Count:7494
+                minQ2=1000 , Sub-directory or File Count:7670
+    EXCLUSIVE , Sub-directory or File Count:1
+        DEMP , Sub-directory or File Count:4
+            10on100 , Sub-directory or File Count:90
+            18on275 , Sub-directory or File Count:200
+            5on100 , Sub-directory or File Count:2100
+            5on41 , Sub-directory or File Count:780
+    SIDIS , Sub-directory or File Count:1
+        pythia6 , Sub-directory or File Count:1
+            ep_5x41 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:1
+                    noradcor , Sub-directory or File Count:20799
+    SINGLE , Sub-directory or File Count:5
+        e- , Sub-directory or File Count:23
+            10000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:78
+            1000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:15
+            100MeV , Sub-directory or File Count:13
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:7
+            10GeV , Sub-directory or File Count:30
+                130to177deg , Sub-directory or File Count:59
+                3to50deg , Sub-directory or File Count:53
+            1250MeV , Sub-directory or File Count:8
+            125MeV , Sub-directory or File Count:4
+            15GeV , Sub-directory or File Count:42
+            1750MeV , Sub-directory or File Count:4
+            175MeV , Sub-directory or File Count:4
+            18GeV , Sub-directory or File Count:50
+            1GeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:11
+            200MeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:7
+                3to50deg , Sub-directory or File Count:7
+            20GeV , Sub-directory or File Count:2
+                130to177deg , Sub-directory or File Count:98
+                3to50deg , Sub-directory or File Count:98
+            2250MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:14
+            2GeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:13
+                3to50deg , Sub-directory or File Count:14
+            3GeV , Sub-directory or File Count:10
+            4GeV , Sub-directory or File Count:4
+            5000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:28
+            500MeV , Sub-directory or File Count:13
+                130to177deg , Sub-directory or File Count:7
+                3to50deg , Sub-directory or File Count:7
+                abs_eta_lt_1.2 , Sub-directory or File Count:9
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:17
+                130to177deg , Sub-directory or File Count:28
+                3to50deg , Sub-directory or File Count:21
+            750MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:33
+            8GeV , Sub-directory or File Count:25
+        gamma , Sub-directory or File Count:20
+            10000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:85
+            1000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:18
+            100MeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:16
+            10GeV , Sub-directory or File Count:29
+                130to177deg , Sub-directory or File Count:57
+                3to50deg , Sub-directory or File Count:77
+            15GeV , Sub-directory or File Count:39
+            18GeV , Sub-directory or File Count:48
+            1GeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:8
+            200MeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:7
+                3to50deg , Sub-directory or File Count:7
+            20GeV , Sub-directory or File Count:2
+                130to177deg , Sub-directory or File Count:100
+                3to50deg , Sub-directory or File Count:91
+            2250MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:25
+            2GeV , Sub-directory or File Count:12
+                130to177deg , Sub-directory or File Count:12
+                3to50deg , Sub-directory or File Count:11
+            3GeV , Sub-directory or File Count:10
+            40GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:189
+            5000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:9
+            500MeV , Sub-directory or File Count:13
+                130to177deg , Sub-directory or File Count:7
+                3to50deg , Sub-directory or File Count:7
+                abs_eta_lt_1.2 , Sub-directory or File Count:9
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:17
+                130to177deg , Sub-directory or File Count:29
+                3to50deg , Sub-directory or File Count:27
+            60GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:277
+            750MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:11
+            8GeV , Sub-directory or File Count:22
+        mu- , Sub-directory or File Count:17
+            10000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:10
+            1000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:17
+            100MeV , Sub-directory or File Count:10
+            10GeV , Sub-directory or File Count:10
+            15GeV , Sub-directory or File Count:10
+            18GeV , Sub-directory or File Count:10
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2250MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:13
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:10
+            5000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:10
+            500MeV , Sub-directory or File Count:11
+                abs_eta_lt_1.2 , Sub-directory or File Count:10
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:10
+            750MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:8
+            8GeV , Sub-directory or File Count:10
+        pi- , Sub-directory or File Count:23
+            10000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:384
+            1000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:125
+            100MeV , Sub-directory or File Count:41
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:8
+            10GeV , Sub-directory or File Count:251
+                130to177deg , Sub-directory or File Count:62
+                3to50deg , Sub-directory or File Count:64
+            1250MeV , Sub-directory or File Count:30
+            125MeV , Sub-directory or File Count:30
+            15GeV , Sub-directory or File Count:350
+            1750MeV , Sub-directory or File Count:30
+            175MeV , Sub-directory or File Count:30
+            18GeV , Sub-directory or File Count:424
+            1GeV , Sub-directory or File Count:50
+                130to177deg , Sub-directory or File Count:15
+                3to50deg , Sub-directory or File Count:8
+            200MeV , Sub-directory or File Count:35
+                130to177deg , Sub-directory or File Count:8
+                3to50deg , Sub-directory or File Count:8
+            20GeV , Sub-directory or File Count:2
+                130to177deg , Sub-directory or File Count:90
+                3to50deg , Sub-directory or File Count:77
+            2250MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:96
+            2GeV , Sub-directory or File Count:72
+                130to177deg , Sub-directory or File Count:16
+                3to50deg , Sub-directory or File Count:11
+            3GeV , Sub-directory or File Count:96
+            4GeV , Sub-directory or File Count:24
+            5000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:283
+            500MeV , Sub-directory or File Count:38
+                130to177deg , Sub-directory or File Count:7
+                3to50deg , Sub-directory or File Count:7
+                abs_eta_lt_1.2 , Sub-directory or File Count:86
+            50MeV , Sub-directory or File Count:47
+            5GeV , Sub-directory or File Count:143
+                130to177deg , Sub-directory or File Count:29
+                3to50deg , Sub-directory or File Count:25
+            750MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:45
+            8GeV , Sub-directory or File Count:210
+        pi0 , Sub-directory or File Count:16
+            10000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:88
+            1000MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:24
+            100MeV , Sub-directory or File Count:10
+            10GeV , Sub-directory or File Count:27
+            15GeV , Sub-directory or File Count:41
+            18GeV , Sub-directory or File Count:49
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2250MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:11
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:11
+            500MeV , Sub-directory or File Count:11
+                abs_eta_lt_1.2 , Sub-directory or File Count:13
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:15
+            750MeV , Sub-directory or File Count:1
+                abs_eta_lt_1.2 , Sub-directory or File Count:26
+            8GeV , Sub-directory or File Count:25
 ```
