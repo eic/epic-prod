@@ -1,5 +1,6 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0epic_craterlake , Sub-directory or File Count:3
+root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.02.0
+epic_craterlake , Sub-directory or File Count:3
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2

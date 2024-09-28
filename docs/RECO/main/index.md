@@ -1,5 +1,6 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/mainCI , Sub-directory or File Count:21
+root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/main
+CI , Sub-directory or File Count:21
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:4

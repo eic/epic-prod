@@ -1,5 +1,6 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0epic_craterlake , Sub-directory or File Count:5
+root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.04.0
+epic_craterlake , Sub-directory or File Count:5
     BACKGROUNDS , Sub-directory or File Count:2
         10x100 , Sub-directory or File Count:1
             merged_lowstat , Sub-directory or File Count:24

@@ -1,5 +1,6 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.08.1epic_craterlake , Sub-directory or File Count:5
+root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.08.1
+epic_craterlake , Sub-directory or File Count:5
     BACKGROUNDS , Sub-directory or File Count:2
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
@@ -44,14 +45,14 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.08.1epic_craterlake , Sub-direct
             DEMPgen-1.2.0 , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:3
                     K+Lambda , Sub-directory or File Count:191
-                    K+Sigma0 , Sub-directory or File Count:40591
-                    pi+ , Sub-directory or File Count:17811
+                    K+Sigma0 , Sub-directory or File Count:40660
+                    pi+ , Sub-directory or File Count:17871
                 18x275 , Sub-directory or File Count:3
                     K+Lambda , Sub-directory or File Count:6072
                     K+Sigma0 , Sub-directory or File Count:2218
                     pi+ , Sub-directory or File Count:3235
                 5x41 , Sub-directory or File Count:3
-                    K+Lambda , Sub-directory or File Count:88571
+                    K+Lambda , Sub-directory or File Count:88792
                     K+Sigma0 , Sub-directory or File Count:40804
                     pi+ , Sub-directory or File Count:22703
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1

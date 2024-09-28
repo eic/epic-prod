@@ -1,5 +1,6 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/22.11.0epic_arches , Sub-directory or File Count:1
+root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/22.11.0
+epic_arches , Sub-directory or File Count:1
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:2
             18x275 , Sub-directory or File Count:4
