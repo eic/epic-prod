@@ -46,11 +46,11 @@ epic_craterlake , Sub-directory or File Count:5
                 10x100 , Sub-directory or File Count:3
                     K+Lambda , Sub-directory or File Count:191
                     K+Sigma0 , Sub-directory or File Count:50283
-                    pi+ , Sub-directory or File Count:27424
+                    pi+ , Sub-directory or File Count:34650
                 18x275 , Sub-directory or File Count:3
                     K+Lambda , Sub-directory or File Count:10863
                     K+Sigma0 , Sub-directory or File Count:7176
-                    pi+ , Sub-directory or File Count:9589
+                    pi+ , Sub-directory or File Count:9592
                 5x41 , Sub-directory or File Count:3
                     K+Lambda , Sub-directory or File Count:91543
                     K+Sigma0 , Sub-directory or File Count:48514
