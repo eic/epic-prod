@@ -5,48 +5,48 @@ epic_craterlake , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:4099
-                minQ2=1000 , Sub-directory or File Count:3516
+                minQ2=1000 , Sub-directory or File Count:5358
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:1995
-                minQ2=1000 , Sub-directory or File Count:1996
+                minQ2=100 , Sub-directory or File Count:1999
+                minQ2=1000 , Sub-directory or File Count:9214
             5x41 , Sub-directory or File Count:1
                 minQ2=100 , Sub-directory or File Count:2865
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:4055
-                minQ2=10 , Sub-directory or File Count:5501
-                minQ2=100 , Sub-directory or File Count:6560
-                minQ2=1000 , Sub-directory or File Count:7886
+                minQ2=1 , Sub-directory or File Count:4056
+                minQ2=10 , Sub-directory or File Count:5503
+                minQ2=100 , Sub-directory or File Count:6565
+                minQ2=1000 , Sub-directory or File Count:7891
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:8332
-                minQ2=10 , Sub-directory or File Count:8927
-                minQ2=100 , Sub-directory or File Count:12266
-                minQ2=1000 , Sub-directory or File Count:14209
+                minQ2=1 , Sub-directory or File Count:8340
+                minQ2=10 , Sub-directory or File Count:8933
+                minQ2=100 , Sub-directory or File Count:12272
+                minQ2=1000 , Sub-directory or File Count:14213
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:2462
-                minQ2=10 , Sub-directory or File Count:3127
-                minQ2=100 , Sub-directory or File Count:4902
+                minQ2=1 , Sub-directory or File Count:2463
+                minQ2=10 , Sub-directory or File Count:3131
+                minQ2=100 , Sub-directory or File Count:4915
     EXCLUSIVE , Sub-directory or File Count:5
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.2.0 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:1
-                    pi+ , Sub-directory or File Count:14057
+                    pi+ , Sub-directory or File Count:17890
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:884
+                Coherent , Sub-directory or File Count:10827
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1204
-            18x275 , Sub-directory or File Count:2348
-            5x41 , Sub-directory or File Count:2305
+            10x100 , Sub-directory or File Count:1208
+            18x275 , Sub-directory or File Count:2355
+            5x41 , Sub-directory or File Count:2309
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:1891
+                hel_minus , Sub-directory or File Count:3616
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:2168
-                hel_plus , Sub-directory or File Count:1869
+                hel_minus , Sub-directory or File Count:2172
+                hel_plus , Sub-directory or File Count:2035
             5x41 , Sub-directory or File Count:2
                 hel_minus , Sub-directory or File Count:352
-                hel_plus , Sub-directory or File Count:357
+                hel_plus , Sub-directory or File Count:358
         UCHANNEL_RHO , Sub-directory or File Count:1
             10x100 , Sub-directory or File Count:54
 ```
