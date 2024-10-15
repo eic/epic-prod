@@ -1,29 +1,40 @@
 ```
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.10.0
-epic_craterlake , Sub-directory or File Count:1
+epic_craterlake , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:406
-                minQ2=1000 , Sub-directory or File Count:434
+                minQ2=100 , Sub-directory or File Count:415
+                minQ2=1000 , Sub-directory or File Count:440
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:409
-                minQ2=1000 , Sub-directory or File Count:10914
+                minQ2=100 , Sub-directory or File Count:416
+                minQ2=1000 , Sub-directory or File Count:10919
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:268
+                minQ2=100 , Sub-directory or File Count:409
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:4393
-                minQ2=10 , Sub-directory or File Count:4599
-                minQ2=100 , Sub-directory or File Count:4938
-                minQ2=1000 , Sub-directory or File Count:4084
+                minQ2=1 , Sub-directory or File Count:4396
+                minQ2=10 , Sub-directory or File Count:4623
+                minQ2=100 , Sub-directory or File Count:4943
+                minQ2=1000 , Sub-directory or File Count:4091
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:3983
-                minQ2=10 , Sub-directory or File Count:2818
-                minQ2=100 , Sub-directory or File Count:3299
-                minQ2=1000 , Sub-directory or File Count:3978
+                minQ2=1 , Sub-directory or File Count:3989
+                minQ2=10 , Sub-directory or File Count:2845
+                minQ2=100 , Sub-directory or File Count:3350
+                minQ2=1000 , Sub-directory or File Count:3996
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:2968
-                minQ2=10 , Sub-directory or File Count:3452
-                minQ2=100 , Sub-directory or File Count:4304
+                minQ2=1 , Sub-directory or File Count:2995
+                minQ2=10 , Sub-directory or File Count:3454
+                minQ2=100 , Sub-directory or File Count:4305
+    SIDIS , Sub-directory or File Count:1
+        pythia6-eic , Sub-directory or File Count:1
+            1.0.0 , Sub-directory or File Count:4
+                10x100 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:463
+                10x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:433
+                18x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:459
+                5x41 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:497
 ```
