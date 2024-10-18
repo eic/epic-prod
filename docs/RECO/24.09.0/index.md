@@ -20,7 +20,7 @@ epic_craterlake , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:8360
                 minQ2=10 , Sub-directory or File Count:8944
-                minQ2=100 , Sub-directory or File Count:12289
+                minQ2=100 , Sub-directory or File Count:12290
                 minQ2=1000 , Sub-directory or File Count:14249
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:2465
@@ -30,12 +30,12 @@ epic_craterlake , Sub-directory or File Count:4
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.2.0 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:1
-                    pi+ , Sub-directory or File Count:17894
+                    pi+ , Sub-directory or File Count:17897
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:17197
+                Coherent , Sub-directory or File Count:17198
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1215
+            10x100 , Sub-directory or File Count:1216
             18x275 , Sub-directory or File Count:2376
             5x41 , Sub-directory or File Count:2325
         TCS_ABCONV , Sub-directory or File Count:3
