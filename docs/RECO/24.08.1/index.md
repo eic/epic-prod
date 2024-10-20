@@ -45,16 +45,16 @@ epic_craterlake , Sub-directory or File Count:5
             DEMPgen-1.2.0 , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:3
                     K+Lambda , Sub-directory or File Count:442
-                    K+Sigma0 , Sub-directory or File Count:56913
+                    K+Sigma0 , Sub-directory or File Count:64535
                     pi+ , Sub-directory or File Count:37385
                 18x275 , Sub-directory or File Count:3
-                    K+Lambda , Sub-directory or File Count:11448
-                    K+Sigma0 , Sub-directory or File Count:8039
+                    K+Lambda , Sub-directory or File Count:17562
+                    K+Sigma0 , Sub-directory or File Count:13518
                     pi+ , Sub-directory or File Count:9622
                 5x41 , Sub-directory or File Count:3
                     K+Lambda , Sub-directory or File Count:91807
-                    K+Sigma0 , Sub-directory or File Count:62695
-                    pi+ , Sub-directory or File Count:31630
+                    K+Sigma0 , Sub-directory or File Count:64418
+                    pi+ , Sub-directory or File Count:39443
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
                 Coherent , Sub-directory or File Count:21289
