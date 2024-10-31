@@ -28,15 +28,18 @@ epic_craterlake , Sub-directory or File Count:3
                 minQ2=100 , Sub-directory or File Count:4315
     EXCLUSIVE , Sub-directory or File Count:2
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:825
-            18x275 , Sub-directory or File Count:2332
-            5x41 , Sub-directory or File Count:11
-        TCS_ABCONV , Sub-directory or File Count:2
+            10x100 , Sub-directory or File Count:1208
+            18x275 , Sub-directory or File Count:2388
+            5x41 , Sub-directory or File Count:2333
+        TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:4100
+                hel_minus , Sub-directory or File Count:4228
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:2108
-                hel_plus , Sub-directory or File Count:2082
+                hel_minus , Sub-directory or File Count:2170
+                hel_plus , Sub-directory or File Count:2169
+            5x41 , Sub-directory or File Count:2
+                hel_minus , Sub-directory or File Count:439
+                hel_plus , Sub-directory or File Count:439
     SIDIS , Sub-directory or File Count:1
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
