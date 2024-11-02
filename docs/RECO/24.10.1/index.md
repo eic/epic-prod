@@ -4,9 +4,9 @@ epic_craterlake , Sub-directory or File Count:1
     EXCLUSIVE , Sub-directory or File Count:3
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:5700
+                Coherent , Sub-directory or File Count:12897
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1206
+            10x100 , Sub-directory or File Count:1207
             18x275 , Sub-directory or File Count:2389
             5x41 , Sub-directory or File Count:2329
         TCS_ABCONV , Sub-directory or File Count:3
