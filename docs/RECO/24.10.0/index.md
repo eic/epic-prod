@@ -14,12 +14,12 @@ epic_craterlake , Sub-directory or File Count:3
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:4410
-                minQ2=10 , Sub-directory or File Count:5898
-                minQ2=100 , Sub-directory or File Count:6441
-                minQ2=1000 , Sub-directory or File Count:5529
+                minQ2=10 , Sub-directory or File Count:6137
+                minQ2=100 , Sub-directory or File Count:7609
+                minQ2=1000 , Sub-directory or File Count:7020
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:5070
-                minQ2=10 , Sub-directory or File Count:3065
+                minQ2=1 , Sub-directory or File Count:6572
+                minQ2=10 , Sub-directory or File Count:3136
                 minQ2=100 , Sub-directory or File Count:3516
                 minQ2=1000 , Sub-directory or File Count:4158
             5x41 , Sub-directory or File Count:3
@@ -44,9 +44,9 @@ epic_craterlake , Sub-directory or File Count:3
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:37577
+                    q2_0to1 , Sub-directory or File Count:37583
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:20517
+                    q2_0to1 , Sub-directory or File Count:28692
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:13153
                 5x41 , Sub-directory or File Count:1
