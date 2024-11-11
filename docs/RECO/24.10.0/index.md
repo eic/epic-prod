@@ -5,12 +5,12 @@ epic_craterlake , Sub-directory or File Count:3
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:5543
-                minQ2=1000 , Sub-directory or File Count:7433
+                minQ2=1000 , Sub-directory or File Count:7436
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:13823
+                minQ2=100 , Sub-directory or File Count:13824
                 minQ2=1000 , Sub-directory or File Count:15275
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:3564
+                minQ2=100 , Sub-directory or File Count:3573
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:4410
@@ -19,8 +19,8 @@ epic_craterlake , Sub-directory or File Count:3
                 minQ2=1000 , Sub-directory or File Count:9259
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:9796
-                minQ2=10 , Sub-directory or File Count:9631
-                minQ2=100 , Sub-directory or File Count:12651
+                minQ2=10 , Sub-directory or File Count:9632
+                minQ2=100 , Sub-directory or File Count:12652
                 minQ2=1000 , Sub-directory or File Count:17665
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:3000
@@ -46,7 +46,7 @@ epic_craterlake , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:37894
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:31711
+                    q2_0to1 , Sub-directory or File Count:54907
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:13660
                 5x41 , Sub-directory or File Count:1
