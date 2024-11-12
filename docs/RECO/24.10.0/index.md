@@ -4,13 +4,13 @@ epic_craterlake , Sub-directory or File Count:3
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:5543
-                minQ2=1000 , Sub-directory or File Count:7436
+                minQ2=100 , Sub-directory or File Count:5722
+                minQ2=1000 , Sub-directory or File Count:7859
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:13824
-                minQ2=1000 , Sub-directory or File Count:15275
+                minQ2=100 , Sub-directory or File Count:14143
+                minQ2=1000 , Sub-directory or File Count:15295
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:3573
+                minQ2=100 , Sub-directory or File Count:3575
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:4410
@@ -18,10 +18,10 @@ epic_craterlake , Sub-directory or File Count:3
                 minQ2=100 , Sub-directory or File Count:7823
                 minQ2=1000 , Sub-directory or File Count:9259
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:9796
-                minQ2=10 , Sub-directory or File Count:9632
-                minQ2=100 , Sub-directory or File Count:12652
-                minQ2=1000 , Sub-directory or File Count:17665
+                minQ2=1 , Sub-directory or File Count:9798
+                minQ2=10 , Sub-directory or File Count:9634
+                minQ2=100 , Sub-directory or File Count:12655
+                minQ2=1000 , Sub-directory or File Count:17890
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:3000
                 minQ2=10 , Sub-directory or File Count:3455
@@ -33,7 +33,7 @@ epic_craterlake , Sub-directory or File Count:3
             5x41 , Sub-directory or File Count:2333
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:4229
+                hel_minus , Sub-directory or File Count:4230
             18x275 , Sub-directory or File Count:2
                 hel_minus , Sub-directory or File Count:2170
                 hel_plus , Sub-directory or File Count:2170
@@ -46,9 +46,9 @@ epic_craterlake , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:37894
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:54907
+                    q2_0to1 , Sub-directory or File Count:62657
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:13660
+                    q2_0to1 , Sub-directory or File Count:36171
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:12881
+                    q2_0to1 , Sub-directory or File Count:16747
 ```
