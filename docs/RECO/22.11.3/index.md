@@ -33,7 +33,8 @@ epic_arches , Sub-directory or File Count:4
         Lambda_ABCONV , Sub-directory or File Count:4489
         pythia6 , Sub-directory or File Count:2
             ep_18x275 , Sub-directory or File Count:1
-                hepmc_ip6 , Sub-directory or File Count:62453
+                hepmc_ip6 , Sub-directory or File Count:62452
+                    radcor , Sub-directory or File Count:58263
             ep_5x41 , Sub-directory or File Count:1
                 hepmc_ip6 , Sub-directory or File Count:2
                     noradcor , Sub-directory or File Count:9320
@@ -61,5 +62,10 @@ epic_brycecanyon , Sub-directory or File Count:3
         Lambda_ABCONV , Sub-directory or File Count:4492
         pythia6 , Sub-directory or File Count:2
             ep_18x275 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:51455
+                    radcor , Sub-directory or File Count:44740
             ep_5x41 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:2
+                    noradcor , Sub-directory or File Count:9329
+                    radcor , Sub-directory or File Count:7856
 ```
