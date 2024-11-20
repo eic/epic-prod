@@ -32,16 +32,10 @@ epic_craterlake , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:6086
                 minQ2=10 , Sub-directory or File Count:7765
                 minQ2=100 , Sub-directory or File Count:8930
-                minQ2=1000 , Sub-directory or File Count:10203
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:12014
-                minQ2=10 , Sub-directory or File Count:12565
-                minQ2=100 , Sub-directory or File Count:14975
-                minQ2=1000 , Sub-directory or File Count:17988
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:3020
-                minQ2=10 , Sub-directory or File Count:3035
-                minQ2=100 , Sub-directory or File Count:3975
     EXCLUSIVE , Sub-directory or File Count:7
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.1.0 , Sub-directory or File Count:2
@@ -49,10 +43,6 @@ epic_craterlake , Sub-directory or File Count:4
                     K+Lambda , Sub-directory or File Count:2396
                     K+Sigma0 , Sub-directory or File Count:2520
                     pi+ , Sub-directory or File Count:1500
-                5x41 , Sub-directory or File Count:3
-                    K+Lambda , Sub-directory or File Count:2927
-                    K+Sigma0 , Sub-directory or File Count:2147
-                    pi+ , Sub-directory or File Count:1110
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
                 Coherent , Sub-directory or File Count:22355
@@ -91,7 +81,7 @@ epic_craterlake , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:31160
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:90942
+                    q2_0to1 , Sub-directory or File Count:90943
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:94548
 ```
