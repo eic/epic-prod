@@ -6,9 +6,7 @@ epic_arches , Sub-directory or File Count:1
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:18300
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:26030
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:17400
 epic_brycecanyon , Sub-directory or File Count:4
     BACKGROUNDS , Sub-directory or File Count:1
         10x100 , Sub-directory or File Count:1
@@ -16,36 +14,11 @@ epic_brycecanyon , Sub-directory or File Count:4
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:44645
-                minQ2=1000 , Sub-directory or File Count:52085
-            18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:58139
-            5x41 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:4
-            10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:18300
-            18x275 , Sub-directory or File Count:4
-            5x100 , Sub-directory or File Count:4
-            5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:3
         DEMP , Sub-directory or File Count:3
-            10on100 , Sub-directory or File Count:332
-            18on275 , Sub-directory or File Count:200
-            5on41 , Sub-directory or File Count:6248
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:3547
-            18x275 , Sub-directory or File Count:3422
-            5x41 , Sub-directory or File Count:9368
         TCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:30300
-            18x275 , Sub-directory or File Count:2
-            5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:8180
     SIDIS , Sub-directory or File Count:1
         pythia6 , Sub-directory or File Count:2
-            ep_18x275 , Sub-directory or File Count:1
-                hepmc_ip6 , Sub-directory or File Count:146123
-                    noradcor , Sub-directory or File Count:63801
-            ep_5x41 , Sub-directory or File Count:1
 ```
