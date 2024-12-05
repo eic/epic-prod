@@ -6,24 +6,33 @@ epic_arches , Sub-directory or File Count:1
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:4465
             10x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4271
             18x275 , Sub-directory or File Count:2
             5x41 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:7698
             10x275 , Sub-directory or File Count:4
+            18x275 , Sub-directory or File Count:4
+            5x100 , Sub-directory or File Count:4
+            5x41 , Sub-directory or File Count:3
 epic_brycecanyon , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:32557
+                minQ2=100 , Sub-directory or File Count:32556
+            10x275 , Sub-directory or File Count:2
+            18x275 , Sub-directory or File Count:2
+            5x100 , Sub-directory or File Count:2
+            5x41 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:9134
-                minQ2=10 , Sub-directory or File Count:20326
-                minQ2=100 , Sub-directory or File Count:18940
+            10x275 , Sub-directory or File Count:4
+            18x275 , Sub-directory or File Count:4
+            5x100 , Sub-directory or File Count:4
+            5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:1
         DEMP , Sub-directory or File Count:4
             10on100 , Sub-directory or File Count:332
+            18on275 , Sub-directory or File Count:200
 ```

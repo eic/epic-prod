@@ -8,15 +8,16 @@ epic_craterlake , Sub-directory or File Count:5
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:4399
-                    275GeV , Sub-directory or File Count:15799
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:5695
                 minQ2=1000 , Sub-directory or File Count:5488
+            18x275 , Sub-directory or File Count:2
+            5x41 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:4960
+            18x275 , Sub-directory or File Count:4
+            5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:7
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.1.0 , Sub-directory or File Count:2
@@ -27,7 +28,6 @@ epic_craterlake , Sub-directory or File Count:5
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1078
         DVMP , Sub-directory or File Count:1
         TCS_ABCONV , Sub-directory or File Count:3
         UCHANNEL_PI0 , Sub-directory or File Count:1
@@ -36,11 +36,18 @@ epic_craterlake , Sub-directory or File Count:5
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:34100
+                    q2_0to1 , Sub-directory or File Count:34101
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:98
-                3to50deg , Sub-directory or File Count:78
-                45to135deg , Sub-directory or File Count:103
+        e- , Sub-directory or File Count:8
+        gamma , Sub-directory or File Count:10
+        kaon+ , Sub-directory or File Count:8
+        kaon- , Sub-directory or File Count:8
+        mu- , Sub-directory or File Count:1
+        pi+ , Sub-directory or File Count:8
+        pi- , Sub-directory or File Count:8
+        pi0 , Sub-directory or File Count:10
+        proton , Sub-directory or File Count:8
 ```

@@ -9,10 +9,13 @@ epic_craterlake , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:5245
                 minQ2=1000 , Sub-directory or File Count:4840
+            18x275 , Sub-directory or File Count:2
+            5x41 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:4524
-                minQ2=10 , Sub-directory or File Count:4930
+            18x275 , Sub-directory or File Count:4
+            5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:6
         DEMP , Sub-directory or File Count:3
             10on100 , Sub-directory or File Count:98
@@ -20,7 +23,10 @@ epic_craterlake , Sub-directory or File Count:5
             Sartre , Sub-directory or File Count:1
                 Coherent , Sub-directory or File Count:23026
         DVCS_ABCONV , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:1305
         TCS_ABCONV , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:1
+                hel_minus , Sub-directory or File Count:7500
         UCHANNEL_PI0 , Sub-directory or File Count:1
         UCHANNEL_RHO , Sub-directory or File Count:1
     SIDIS , Sub-directory or File Count:1
@@ -34,4 +40,13 @@ epic_craterlake , Sub-directory or File Count:5
                 130to177deg , Sub-directory or File Count:125
                 3to50deg , Sub-directory or File Count:121
                 45to135deg , Sub-directory or File Count:120
+        e- , Sub-directory or File Count:8
+        gamma , Sub-directory or File Count:10
+        kaon+ , Sub-directory or File Count:8
+        kaon- , Sub-directory or File Count:8
+        mu- , Sub-directory or File Count:1
+        pi+ , Sub-directory or File Count:8
+        pi- , Sub-directory or File Count:8
+        pi0 , Sub-directory or File Count:10
+        proton , Sub-directory or File Count:8
 ```

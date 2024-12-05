@@ -5,18 +5,10 @@ epic_arches , Sub-directory or File Count:2
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:3300
-                minQ2=10 , Sub-directory or File Count:3035
-                minQ2=100 , Sub-directory or File Count:3220
-                minQ2=1000 , Sub-directory or File Count:3499
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:7870
-                minQ2=10 , Sub-directory or File Count:7701
-                minQ2=100 , Sub-directory or File Count:7546
-                minQ2=1000 , Sub-directory or File Count:7556
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:1635
-                minQ2=10 , Sub-directory or File Count:1440
-                minQ2=100 , Sub-directory or File Count:1655
     SINGLE , Sub-directory or File Count:4
         e- , Sub-directory or File Count:30
             100MeV , Sub-directory or File Count:10
@@ -226,10 +218,7 @@ epic_brycecanyon , Sub-directory or File Count:2
                 minQ2=1 , Sub-directory or File Count:8292
                 minQ2=10 , Sub-directory or File Count:8024
                 minQ2=100 , Sub-directory or File Count:7933
-                minQ2=1000 , Sub-directory or File Count:8078
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:1785
-                minQ2=10 , Sub-directory or File Count:2030
                 minQ2=100 , Sub-directory or File Count:1894
     SINGLE , Sub-directory or File Count:4
         e- , Sub-directory or File Count:30
@@ -253,137 +242,13 @@ epic_brycecanyon , Sub-directory or File Count:2
                 abs_eta_lt_1 , Sub-directory or File Count:7
             2GeV , Sub-directory or File Count:10
             3070MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:18
             310MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:7
             3770MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:18
             390MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:7
-            3GeV , Sub-directory or File Count:10
-            4640MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:29
-            480MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:7
-            500MeV , Sub-directory or File Count:10
-            50MeV , Sub-directory or File Count:9
-            5710MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:30
-            580MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:7
-            5GeV , Sub-directory or File Count:13
-            7020MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:37
-            720MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:7
-            8640MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:45
-            890MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:9
-            8GeV , Sub-directory or File Count:18
         gamma , Sub-directory or File Count:30
             100MeV , Sub-directory or File Count:7
-            1090MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:8
-            10GeV , Sub-directory or File Count:19
-            1340MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:9
-            15GeV , Sub-directory or File Count:40
-            1650MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:8
-            18GeV , Sub-directory or File Count:45
-            1GeV , Sub-directory or File Count:10
-            200MeV , Sub-directory or File Count:10
-            2030MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:16
-            2490MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:15
-            260MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:7
-            2GeV , Sub-directory or File Count:10
-            3070MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:21
-            310MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:6
-            3770MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:21
-            390MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:6
-            3GeV , Sub-directory or File Count:10
-            4640MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:23
-            480MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:7
-            500MeV , Sub-directory or File Count:8
-            50MeV , Sub-directory or File Count:6
-            5710MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:29
-            580MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:7
-            5GeV , Sub-directory or File Count:14
-            7020MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:39
-            720MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:7
-            8640MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:41
-            890MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:8
-            8GeV , Sub-directory or File Count:20
         pi- , Sub-directory or File Count:30
             100MeV , Sub-directory or File Count:36
-            1090MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:134
-            10GeV , Sub-directory or File Count:216
-            1340MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:94
-            15GeV , Sub-directory or File Count:319
-            1650MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:95
-            18GeV , Sub-directory or File Count:381
-            1GeV , Sub-directory or File Count:40
-            200MeV , Sub-directory or File Count:30
-            2030MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:164
-            2490MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:134
-            260MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:66
-            2GeV , Sub-directory or File Count:59
-            3070MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:197
-            310MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:64
-            3770MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:195
-            390MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:69
-            3GeV , Sub-directory or File Count:88
-            4640MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:256
-            480MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:65
-            500MeV , Sub-directory or File Count:31
-            50MeV , Sub-directory or File Count:30
-            5710MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:184
-            580MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:81
-            5GeV , Sub-directory or File Count:123
-            7020MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:343
-            720MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:80
-            8640MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:406
-            890MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:77
-            8GeV , Sub-directory or File Count:187
         pi0 , Sub-directory or File Count:30
             100MeV , Sub-directory or File Count:10
-            1090MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:9
-            10GeV , Sub-directory or File Count:25
-            1340MeV , Sub-directory or File Count:1
-                abs_eta_lt_1 , Sub-directory or File Count:10
 ```

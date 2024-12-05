@@ -16,14 +16,43 @@ epic_arches , Sub-directory or File Count:4
                 Coherent , Sub-directory or File Count:9192
                 Incoherent , Sub-directory or File Count:3215
         DVCS_ABCONV , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:1045
+            18x275 , Sub-directory or File Count:985
+            5x41 , Sub-directory or File Count:453
         TCS_ABCONV , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:1
+                hel_minus , Sub-directory or File Count:2790
+            18x275 , Sub-directory or File Count:2
+                hel_minus , Sub-directory or File Count:390
+                hel_plus , Sub-directory or File Count:390
+            5x41 , Sub-directory or File Count:2
         UPSILON_ABCONV , Sub-directory or File Count:34
     SIDIS , Sub-directory or File Count:2
+        Lambda_ABCONV , Sub-directory or File Count:4489
+        pythia6 , Sub-directory or File Count:2
+            ep_18x275 , Sub-directory or File Count:1
+            ep_5x41 , Sub-directory or File Count:1
 epic_brycecanyon , Sub-directory or File Count:3
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:1
             5x41 , Sub-directory or File Count:1
                 minQ2=100 , Sub-directory or File Count:1094
     EXCLUSIVE , Sub-directory or File Count:2
+        DVCS_ABCONV , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:1045
+            18x275 , Sub-directory or File Count:985
+        TCS_ABCONV , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:1
+            18x275 , Sub-directory or File Count:2
+            5x41 , Sub-directory or File Count:2
+                hel_plus , Sub-directory or File Count:440
     SIDIS , Sub-directory or File Count:2
+        Lambda_ABCONV , Sub-directory or File Count:4492
+        pythia6 , Sub-directory or File Count:2
+            ep_18x275 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:51456
+                    radcor , Sub-directory or File Count:44740
+            ep_5x41 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:2
+                    noradcor , Sub-directory or File Count:9329
 ```

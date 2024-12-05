@@ -5,12 +5,8 @@ epic_craterlake , Sub-directory or File Count:4
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:4100
-            18x275 , Sub-directory or File Count:2
-            5x41 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-            18x275 , Sub-directory or File Count:4
-            5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:5
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.2.0 , Sub-directory or File Count:1
@@ -18,15 +14,12 @@ epic_craterlake , Sub-directory or File Count:4
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1216
         TCS_ABCONV , Sub-directory or File Count:3
         UCHANNEL_RHO , Sub-directory or File Count:1
     SIDIS , Sub-directory or File Count:1
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                10x275 , Sub-directory or File Count:1
-                18x275 , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:9
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
@@ -36,7 +29,4 @@ epic_craterlake , Sub-directory or File Count:4
         kaon+ , Sub-directory or File Count:8
         kaon- , Sub-directory or File Count:8
         pi+ , Sub-directory or File Count:8
-        pi- , Sub-directory or File Count:8
-        pi0 , Sub-directory or File Count:10
-        proton , Sub-directory or File Count:8
 ```

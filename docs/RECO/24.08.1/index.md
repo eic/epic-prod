@@ -5,13 +5,14 @@ epic_craterlake , Sub-directory or File Count:5
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
+                    10GeV , Sub-directory or File Count:2782
             proton , Sub-directory or File Count:1
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4736
+                minQ2=100 , Sub-directory or File Count:4735
             18x275 , Sub-directory or File Count:2
             5x41 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
@@ -22,7 +23,6 @@ epic_craterlake , Sub-directory or File Count:5
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1248
         DVMP , Sub-directory or File Count:1
         TCS_ABCONV , Sub-directory or File Count:3
         UCHANNEL_PI0 , Sub-directory or File Count:1

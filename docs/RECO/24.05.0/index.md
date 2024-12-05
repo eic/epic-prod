@@ -7,13 +7,13 @@ epic_craterlake , Sub-directory or File Count:4
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
+                    10GeV , Sub-directory or File Count:4039
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
+                    100GeV , Sub-directory or File Count:4600
                     275GeV , Sub-directory or File Count:15799
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
-                10x100 , Sub-directory or File Count:2
-                    1SignalPerFrame , Sub-directory or File Count:12
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
@@ -23,7 +23,6 @@ epic_craterlake , Sub-directory or File Count:4
             5x41 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:6086
             18x275 , Sub-directory or File Count:4
             5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:7
@@ -31,30 +30,20 @@ epic_craterlake , Sub-directory or File Count:4
             DEMPgen-1.1.0 , Sub-directory or File Count:2
                 10x100 , Sub-directory or File Count:3
                     K+Lambda , Sub-directory or File Count:2396
-                    K+Sigma0 , Sub-directory or File Count:2520
-                    pi+ , Sub-directory or File Count:1500
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
         DVCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1365
-            18x275 , Sub-directory or File Count:5051
-            5x41 , Sub-directory or File Count:1161
         DVMP , Sub-directory or File Count:1
-            EpIC1.0.0-1.1 , Sub-directory or File Count:92
         TCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1
-            18x275 , Sub-directory or File Count:2
-            5x41 , Sub-directory or File Count:2
         UCHANNEL_PI0 , Sub-directory or File Count:1
-            18x275 , Sub-directory or File Count:175
         UCHANNEL_RHO , Sub-directory or File Count:1
-            10x100 , Sub-directory or File Count:72
     SIDIS , Sub-directory or File Count:3
         D0_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:2
+                    hiAcc , Sub-directory or File Count:1867
+                    hiDiv , Sub-directory or File Count:1618
         Lambda_ABCONV , Sub-directory or File Count:1
-            pythia8.306-1.0 , Sub-directory or File Count:1
         pythia6-eic , Sub-directory or File Count:1
-            1.0.0 , Sub-directory or File Count:3
-                18x275 , Sub-directory or File Count:1
 ```
