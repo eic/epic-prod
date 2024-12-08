@@ -75,9 +75,16 @@ epic_craterlake , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:3940
                 minQ2=10 , Sub-directory or File Count:4505
                 minQ2=100 , Sub-directory or File Count:5225
+                minQ2=1000 , Sub-directory or File Count:6505
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:9190
+                minQ2=10 , Sub-directory or File Count:9635
+                minQ2=100 , Sub-directory or File Count:11794
+                minQ2=1000 , Sub-directory or File Count:13443
             5x41 , Sub-directory or File Count:3
+                minQ2=1 , Sub-directory or File Count:1885
+                minQ2=10 , Sub-directory or File Count:2575
+                minQ2=100 , Sub-directory or File Count:2880
     EXCLUSIVE , Sub-directory or File Count:6
         DEMP , Sub-directory or File Count:3
             10on100 , Sub-directory or File Count:103
@@ -92,8 +99,10 @@ epic_craterlake , Sub-directory or File Count:3
             5x41 , Sub-directory or File Count:1751
         TCS_ABCONV , Sub-directory or File Count:2
             10x100 , Sub-directory or File Count:1
+                hel_minus , Sub-directory or File Count:6660
             18x275 , Sub-directory or File Count:2
                 hel_minus , Sub-directory or File Count:959
+                hel_plus , Sub-directory or File Count:948
         UCHANNEL_PI0 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:240
         UCHANNEL_RHO , Sub-directory or File Count:1
@@ -104,4 +113,6 @@ epic_craterlake , Sub-directory or File Count:3
                 hepmc_ip6 , Sub-directory or File Count:1
                     noradcor , Sub-directory or File Count:4897
             ep_5x41 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:1
+                    noradcor , Sub-directory or File Count:866
 ```
