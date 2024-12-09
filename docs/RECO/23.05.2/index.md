@@ -11,8 +11,12 @@ epic_arches , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:26030
                 minQ2=10 , Sub-directory or File Count:42020
+                minQ2=100 , Sub-directory or File Count:46730
+                minQ2=1000 , Sub-directory or File Count:73530
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:17400
+                minQ2=10 , Sub-directory or File Count:26319
+                minQ2=100 , Sub-directory or File Count:38760
 epic_brycecanyon , Sub-directory or File Count:4
     BACKGROUNDS , Sub-directory or File Count:1
         10x100 , Sub-directory or File Count:1
@@ -24,13 +28,19 @@ epic_brycecanyon , Sub-directory or File Count:4
                 minQ2=1000 , Sub-directory or File Count:52085
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:58139
+                minQ2=1000 , Sub-directory or File Count:67570
             5x41 , Sub-directory or File Count:1
                 minQ2=100 , Sub-directory or File Count:34250
         NC , Sub-directory or File Count:4
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:18300
+                minQ2=10 , Sub-directory or File Count:40985
+                minQ2=100 , Sub-directory or File Count:38170
+                minQ2=1000 , Sub-directory or File Count:58824
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:26030
+                minQ2=10 , Sub-directory or File Count:42020
+                minQ2=100 , Sub-directory or File Count:46730
             5x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:20556
             5x41 , Sub-directory or File Count:3
@@ -60,4 +70,5 @@ epic_brycecanyon , Sub-directory or File Count:4
                     noradcor , Sub-directory or File Count:63801
             ep_5x41 , Sub-directory or File Count:1
                 hepmc_ip6 , Sub-directory or File Count:1
+                    noradcor , Sub-directory or File Count:239703
 ```

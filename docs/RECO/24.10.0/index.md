@@ -21,9 +21,11 @@ epic_craterlake , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:9800
                 minQ2=10 , Sub-directory or File Count:9635
                 minQ2=100 , Sub-directory or File Count:12660
-                minQ2=1000 , Sub-directory or File Count:17926
+                minQ2=1000 , Sub-directory or File Count:17925
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:3000
+                minQ2=10 , Sub-directory or File Count:3455
+                minQ2=100 , Sub-directory or File Count:4315
     EXCLUSIVE , Sub-directory or File Count:2
         DVCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1209
@@ -43,4 +45,10 @@ epic_craterlake , Sub-directory or File Count:3
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:37899
+                10x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:62700
+                18x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:70848
+                5x41 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:20350
 ```
