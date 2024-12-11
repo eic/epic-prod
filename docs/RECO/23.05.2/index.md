@@ -5,18 +5,8 @@ epic_arches , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:18300
-                minQ2=10 , Sub-directory or File Count:40985
-                minQ2=100 , Sub-directory or File Count:38170
-                minQ2=1000 , Sub-directory or File Count:58825
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:26030
-                minQ2=10 , Sub-directory or File Count:42020
-                minQ2=100 , Sub-directory or File Count:46730
-                minQ2=1000 , Sub-directory or File Count:73530
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:17400
-                minQ2=10 , Sub-directory or File Count:26319
-                minQ2=100 , Sub-directory or File Count:38760
 epic_brycecanyon , Sub-directory or File Count:4
     BACKGROUNDS , Sub-directory or File Count:1
         10x100 , Sub-directory or File Count:1
@@ -25,26 +15,15 @@ epic_brycecanyon , Sub-directory or File Count:4
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:44645
-                minQ2=1000 , Sub-directory or File Count:52085
+                minQ2=1000 , Sub-directory or File Count:52086
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:58139
-                minQ2=1000 , Sub-directory or File Count:67570
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:34250
         NC , Sub-directory or File Count:4
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:18300
-                minQ2=10 , Sub-directory or File Count:40985
-                minQ2=100 , Sub-directory or File Count:38170
-                minQ2=1000 , Sub-directory or File Count:58824
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:26030
-                minQ2=10 , Sub-directory or File Count:42020
-                minQ2=100 , Sub-directory or File Count:46730
             5x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:20556
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:17400
     EXCLUSIVE , Sub-directory or File Count:3
         DEMP , Sub-directory or File Count:3
             10on100 , Sub-directory or File Count:332
@@ -58,17 +37,10 @@ epic_brycecanyon , Sub-directory or File Count:4
             10x100 , Sub-directory or File Count:1
                 hel_minus , Sub-directory or File Count:30300
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:8760
-                hel_plus , Sub-directory or File Count:8760
             5x41 , Sub-directory or File Count:2
                 hel_minus , Sub-directory or File Count:8180
-                hel_plus , Sub-directory or File Count:8180
     SIDIS , Sub-directory or File Count:1
         pythia6 , Sub-directory or File Count:2
             ep_18x275 , Sub-directory or File Count:1
-                hepmc_ip6 , Sub-directory or File Count:146122
-                    noradcor , Sub-directory or File Count:63801
             ep_5x41 , Sub-directory or File Count:1
-                hepmc_ip6 , Sub-directory or File Count:1
-                    noradcor , Sub-directory or File Count:239704
 ```

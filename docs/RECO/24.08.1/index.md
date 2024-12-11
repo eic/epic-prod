@@ -8,7 +8,6 @@ epic_craterlake , Sub-directory or File Count:5
                     10GeV , Sub-directory or File Count:2782
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:5199
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
@@ -17,26 +16,17 @@ epic_craterlake , Sub-directory or File Count:5
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:4735
-                minQ2=1000 , Sub-directory or File Count:4129
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:8024
-                minQ2=1000 , Sub-directory or File Count:9245
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:2280
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:4113
-                minQ2=10 , Sub-directory or File Count:6211
-                minQ2=100 , Sub-directory or File Count:7243
-                minQ2=1000 , Sub-directory or File Count:8829
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:5821
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:2668
     EXCLUSIVE , Sub-directory or File Count:6
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:21289
+                Coherent , Sub-directory or File Count:21290
         DVCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1248
             18x275 , Sub-directory or File Count:2837
@@ -47,8 +37,6 @@ epic_craterlake , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:1
                 hel_minus , Sub-directory or File Count:7860
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:4840
-                hel_plus , Sub-directory or File Count:4840
             5x41 , Sub-directory or File Count:2
                 hel_plus , Sub-directory or File Count:960
         UCHANNEL_PI0 , Sub-directory or File Count:1
@@ -60,20 +48,12 @@ epic_craterlake , Sub-directory or File Count:5
             pythia8.306-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:2
                     hiAcc , Sub-directory or File Count:1640
-                    hiDiv , Sub-directory or File Count:1644
         Lambda_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
-                18x275 , Sub-directory or File Count:2
-                    hiAcc , Sub-directory or File Count:3621
-                    hiDiv , Sub-directory or File Count:3767
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
-                10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:32700
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:82798
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:94349
                 5x41 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:19900
     SINGLE , Sub-directory or File Count:10
@@ -83,164 +63,97 @@ epic_craterlake , Sub-directory or File Count:5
                 3to50deg , Sub-directory or File Count:23
                 45to135deg , Sub-directory or File Count:55
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:197
             1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:29
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:344
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:45
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:101
         e- , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:23
             10GeV , Sub-directory or File Count:4
-                130to177deg , Sub-directory or File Count:189
             1GeV , Sub-directory or File Count:4
-                130to177deg , Sub-directory or File Count:25
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:335
             2GeV , Sub-directory or File Count:4
-                130to177deg , Sub-directory or File Count:47
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:23
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:95
         gamma , Sub-directory or File Count:10
             100MeV , Sub-directory or File Count:4
                 130to177deg , Sub-directory or File Count:23
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:180
             1GeV , Sub-directory or File Count:4
-                130to177deg , Sub-directory or File Count:28
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:23
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:358
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:44
             40GeV , Sub-directory or File Count:1
-                3to50deg , Sub-directory or File Count:602
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:93
             60GeV , Sub-directory or File Count:1
-                3to50deg , Sub-directory or File Count:977
         kaon+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:22
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:101
             1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:191
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:28
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:52
         kaon- , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:23
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:103
             1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:23
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:195
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:32
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:23
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:56
+                3to50deg , Sub-directory or File Count:46
         mu- , Sub-directory or File Count:1
             10GeV , Sub-directory or File Count:1
-                etaScan , Sub-directory or File Count:114
         pi+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:23
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:94
             1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:23
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:189
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:26
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:53
         pi- , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:23
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:100
             1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:24
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:23
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:188
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:27
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:23
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:56
         pi0 , Sub-directory or File Count:10
             100MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:23
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:182
             1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:23
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:380
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:40
             40GeV , Sub-directory or File Count:1
-                3to50deg , Sub-directory or File Count:633
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:95
             60GeV , Sub-directory or File Count:1
-                3to50deg , Sub-directory or File Count:920
         proton , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:22
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:99
             1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:23
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:178
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:23
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:49
 ```
