@@ -10,7 +10,6 @@ epic_arches , Sub-directory or File Count:2
             10x100 , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
             5x41 , Sub-directory or File Count:3
-                minQ2=10 , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:3
         e- , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
@@ -34,24 +33,16 @@ epic_arches , Sub-directory or File Count:2
             1GeV , Sub-directory or File Count:3
             200MeV , Sub-directory or File Count:3
             20GeV , Sub-directory or File Count:3
-                45to135deg , Sub-directory or File Count:83
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:38
-                3to50deg , Sub-directory or File Count:43
-                45to135deg , Sub-directory or File Count:29
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:29
-                3to50deg , Sub-directory or File Count:25
-                45to135deg , Sub-directory or File Count:4
             5GeV , Sub-directory or File Count:3
 epic_brycecanyon , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=1000 , Sub-directory or File Count:37
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:6169
-                minQ2=1000 , Sub-directory or File Count:5664
+                minQ2=100 , Sub-directory or File Count:130
+                minQ2=1000 , Sub-directory or File Count:4239
             5x41 , Sub-directory or File Count:1
                 minQ2=100 , Sub-directory or File Count:885
         NC , Sub-directory or File Count:3
