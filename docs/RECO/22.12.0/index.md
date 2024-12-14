@@ -3,33 +3,10 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/22.12.0
 epic_arches , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:1
         gamma , Sub-directory or File Count:12
-            100MeV , Sub-directory or File Count:14
-            10GeV , Sub-directory or File Count:26
-            15GeV , Sub-directory or File Count:36
-            18GeV , Sub-directory or File Count:45
-            1GeV , Sub-directory or File Count:10
-            200MeV , Sub-directory or File Count:12
-            2GeV , Sub-directory or File Count:10
-            3GeV , Sub-directory or File Count:10
-            500MeV , Sub-directory or File Count:14
-            50MeV , Sub-directory or File Count:14
-            5GeV , Sub-directory or File Count:15
-            8GeV , Sub-directory or File Count:20
 epic_brycecanyon , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:4
         e- , Sub-directory or File Count:12
-            100MeV , Sub-directory or File Count:10
-            10GeV , Sub-directory or File Count:28
-            15GeV , Sub-directory or File Count:40
-            18GeV , Sub-directory or File Count:45
-            1GeV , Sub-directory or File Count:10
-            200MeV , Sub-directory or File Count:10
-            2GeV , Sub-directory or File Count:10
-            3GeV , Sub-directory or File Count:10
-            500MeV , Sub-directory or File Count:10
-            50MeV , Sub-directory or File Count:10
-            5GeV , Sub-directory or File Count:15
-            8GeV , Sub-directory or File Count:19
+            8GeV , Sub-directory or File Count:8
         gamma , Sub-directory or File Count:12
             100MeV , Sub-directory or File Count:10
             10GeV , Sub-directory or File Count:27
