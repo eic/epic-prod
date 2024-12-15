@@ -6,44 +6,7 @@ epic_arches , Sub-directory or File Count:1
 epic_brycecanyon , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:4
         e- , Sub-directory or File Count:12
-            8GeV , Sub-directory or File Count:8
         gamma , Sub-directory or File Count:12
-            100MeV , Sub-directory or File Count:10
-            10GeV , Sub-directory or File Count:27
-            15GeV , Sub-directory or File Count:37
-            18GeV , Sub-directory or File Count:45
-            1GeV , Sub-directory or File Count:10
-            200MeV , Sub-directory or File Count:10
-            2GeV , Sub-directory or File Count:10
-            3GeV , Sub-directory or File Count:10
-            500MeV , Sub-directory or File Count:10
-            50MeV , Sub-directory or File Count:10
-            5GeV , Sub-directory or File Count:15
-            8GeV , Sub-directory or File Count:20
         pi- , Sub-directory or File Count:12
-            100MeV , Sub-directory or File Count:10
-            10GeV , Sub-directory or File Count:24
-            15GeV , Sub-directory or File Count:33
-            18GeV , Sub-directory or File Count:39
-            1GeV , Sub-directory or File Count:10
-            200MeV , Sub-directory or File Count:10
-            2GeV , Sub-directory or File Count:10
-            3GeV , Sub-directory or File Count:10
-            500MeV , Sub-directory or File Count:10
-            50MeV , Sub-directory or File Count:10
-            5GeV , Sub-directory or File Count:15
-            8GeV , Sub-directory or File Count:20
         pi0 , Sub-directory or File Count:12
-            100MeV , Sub-directory or File Count:10
-            10GeV , Sub-directory or File Count:27
-            15GeV , Sub-directory or File Count:29
-            18GeV , Sub-directory or File Count:45
-            1GeV , Sub-directory or File Count:10
-            200MeV , Sub-directory or File Count:10
-            2GeV , Sub-directory or File Count:10
-            3GeV , Sub-directory or File Count:10
-            500MeV , Sub-directory or File Count:10
-            50MeV , Sub-directory or File Count:10
-            5GeV , Sub-directory or File Count:15
-            8GeV , Sub-directory or File Count:9
 ```

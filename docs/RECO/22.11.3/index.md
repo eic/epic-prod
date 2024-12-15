@@ -9,7 +9,6 @@ epic_arches , Sub-directory or File Count:4
             Sartre , Sub-directory or File Count:2
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:2
-                Coherent , Sub-directory or File Count:9
         DVCS_ABCONV , Sub-directory or File Count:3
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
@@ -34,10 +33,7 @@ epic_brycecanyon , Sub-directory or File Count:3
     SIDIS , Sub-directory or File Count:2
         pythia6 , Sub-directory or File Count:2
             ep_18x275 , Sub-directory or File Count:1
-                hepmc_ip6 , Sub-directory or File Count:47169
-                    radcor , Sub-directory or File Count:44740
+                hepmc_ip6 , Sub-directory or File Count:1
             ep_5x41 , Sub-directory or File Count:1
                 hepmc_ip6 , Sub-directory or File Count:2
-                    noradcor , Sub-directory or File Count:9329
-                    radcor , Sub-directory or File Count:7856
 ```
