@@ -4,34 +4,15 @@ epic_arches , Sub-directory or File Count:1
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:4
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4465
-                minQ2=1000 , Sub-directory or File Count:6390
             10x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4271
-                minQ2=1000 , Sub-directory or File Count:3199
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:3420
-                minQ2=1000 , Sub-directory or File Count:3794
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:34250
         NC , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:7698
-                minQ2=10 , Sub-directory or File Count:10470
-                minQ2=100 , Sub-directory or File Count:9709
-                minQ2=1000 , Sub-directory or File Count:8001
             10x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:4437
-                minQ2=10 , Sub-directory or File Count:5703
-                minQ2=100 , Sub-directory or File Count:7005
-                minQ2=1000 , Sub-directory or File Count:8176
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:11485
-                minQ2=10 , Sub-directory or File Count:11432
-                minQ2=100 , Sub-directory or File Count:10309
-                minQ2=1000 , Sub-directory or File Count:7664
             5x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:20556
+                minQ2=1 , Sub-directory or File Count:2419
                 minQ2=10 , Sub-directory or File Count:26045
                 minQ2=100 , Sub-directory or File Count:31079
                 minQ2=1000 , Sub-directory or File Count:26804
