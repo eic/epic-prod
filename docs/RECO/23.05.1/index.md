@@ -12,22 +12,13 @@ epic_arches , Sub-directory or File Count:1
             10x275 , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
             5x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:2419
-                minQ2=10 , Sub-directory or File Count:26045
-                minQ2=100 , Sub-directory or File Count:31079
-                minQ2=1000 , Sub-directory or File Count:26804
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:17400
-                minQ2=10 , Sub-directory or File Count:26319
-                minQ2=100 , Sub-directory or File Count:38760
 epic_brycecanyon , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:32556
             10x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:30296
-                minQ2=1000 , Sub-directory or File Count:33655
+                minQ2=1000 , Sub-directory or File Count:23691
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:23910
                 minQ2=1000 , Sub-directory or File Count:28933
