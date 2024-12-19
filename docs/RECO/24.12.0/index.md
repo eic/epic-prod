@@ -3,28 +3,29 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.12.0
 epic_craterlake , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:2921
+            10x100 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:5323
+                minQ2=1000 , Sub-directory or File Count:1997
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:3550
-                minQ2=1000 , Sub-directory or File Count:2765
+                minQ2=100 , Sub-directory or File Count:9693
+                minQ2=1000 , Sub-directory or File Count:5949
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:2132
+                minQ2=100 , Sub-directory or File Count:2197
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:5180
                 minQ2=10 , Sub-directory or File Count:6679
                 minQ2=100 , Sub-directory or File Count:7430
-                minQ2=1000 , Sub-directory or File Count:9055
+                minQ2=1000 , Sub-directory or File Count:9059
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:8472
                 minQ2=10 , Sub-directory or File Count:9260
                 minQ2=100 , Sub-directory or File Count:11628
-                minQ2=1000 , Sub-directory or File Count:16382
+                minQ2=1000 , Sub-directory or File Count:16394
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:4679
                 minQ2=10 , Sub-directory or File Count:3470
-                minQ2=100 , Sub-directory or File Count:4006
+                minQ2=100 , Sub-directory or File Count:4121
     EXCLUSIVE , Sub-directory or File Count:1
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
             lAger3.6.1-1.0 , Sub-directory or File Count:4
