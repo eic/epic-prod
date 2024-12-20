@@ -1,16 +1,16 @@
 ```
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.12.0
-epic_craterlake , Sub-directory or File Count:2
+epic_craterlake , Sub-directory or File Count:3
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:5323
                 minQ2=1000 , Sub-directory or File Count:1997
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:9693
-                minQ2=1000 , Sub-directory or File Count:5949
+                minQ2=100 , Sub-directory or File Count:10067
+                minQ2=1000 , Sub-directory or File Count:6784
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:2197
+                minQ2=100 , Sub-directory or File Count:2250
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:5180
@@ -25,8 +25,8 @@ epic_craterlake , Sub-directory or File Count:2
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:4679
                 minQ2=10 , Sub-directory or File Count:3470
-                minQ2=100 , Sub-directory or File Count:4121
-    EXCLUSIVE , Sub-directory or File Count:1
+                minQ2=100 , Sub-directory or File Count:4135
+    EXCLUSIVE , Sub-directory or File Count:2
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
             lAger3.6.1-1.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
@@ -37,4 +37,25 @@ epic_craterlake , Sub-directory or File Count:2
                     hiAcc , Sub-directory or File Count:91
                 5x41 , Sub-directory or File Count:1
                     hiAcc , Sub-directory or File Count:32
+        DVCS_ABCONV , Sub-directory or File Count:1
+            5x41 , Sub-directory or File Count:208
+    SINGLE , Sub-directory or File Count:2
+        e- , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:1
+            10GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:121
+            1GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:5
+            20GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:206
+            2GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:37
+            500MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:27
+            5GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:101
+        pi- , Sub-directory or File Count:1
+            20GeV , Sub-directory or File Count:1
 ```
