@@ -1,12 +1,20 @@
 ```
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.12.0
-epic_craterlake , Sub-directory or File Count:4
-    BACKGROUNDS , Sub-directory or File Count:1
-        BEAMGAS , Sub-directory or File Count:1
+epic_craterlake , Sub-directory or File Count:5
+    BACKGROUNDS , Sub-directory or File Count:2
+        BEAMGAS , Sub-directory or File Count:2
+            electron , Sub-directory or File Count:1
+                GETaLM1.0.0-1.0 , Sub-directory or File Count:1
+                    10GeV , Sub-directory or File Count:2994
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:3525
-                    275GeV , Sub-directory or File Count:716
+                    100GeV , Sub-directory or File Count:5000
+                    275GeV , Sub-directory or File Count:12366
+        MERGED , Sub-directory or File Count:1
+            HEPMC_merger-1.0.2 , Sub-directory or File Count:1
+                10x100 , Sub-directory or File Count:2
+                    1SignalPerFrame , Sub-directory or File Count:12
+                    RealisticSignalPerFrame , Sub-directory or File Count:30
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
@@ -26,7 +34,7 @@ epic_craterlake , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:8472
                 minQ2=10 , Sub-directory or File Count:9260
-                minQ2=100 , Sub-directory or File Count:11628
+                minQ2=100 , Sub-directory or File Count:11629
                 minQ2=1000 , Sub-directory or File Count:16394
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:4679
@@ -45,7 +53,7 @@ epic_craterlake , Sub-directory or File Count:4
                     hiAcc , Sub-directory or File Count:32
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:17246
+                Coherent , Sub-directory or File Count:17483
         DVCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1300
             18x275 , Sub-directory or File Count:2374
@@ -59,6 +67,11 @@ epic_craterlake , Sub-directory or File Count:4
             5x41 , Sub-directory or File Count:2
                 hel_minus , Sub-directory or File Count:670
                 hel_plus , Sub-directory or File Count:670
+    SIDIS , Sub-directory or File Count:1
+        pythia6-eic , Sub-directory or File Count:1
+            1.0.0 , Sub-directory or File Count:1
+                10x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:2443
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
@@ -119,7 +132,7 @@ epic_craterlake , Sub-directory or File Count:4
                 130to177deg , Sub-directory or File Count:150
                 3to50deg , Sub-directory or File Count:66
                 45to135deg , Sub-directory or File Count:134
-                etaScan , Sub-directory or File Count:374
+                etaScan , Sub-directory or File Count:379
             500MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:27
                 3to50deg , Sub-directory or File Count:29
