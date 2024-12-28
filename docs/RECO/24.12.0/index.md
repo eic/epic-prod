@@ -9,7 +9,7 @@ epic_craterlake , Sub-directory or File Count:5
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:5000
-                    275GeV , Sub-directory or File Count:12995
+                    275GeV , Sub-directory or File Count:12999
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
@@ -40,7 +40,30 @@ epic_craterlake , Sub-directory or File Count:5
                 minQ2=1 , Sub-directory or File Count:4679
                 minQ2=10 , Sub-directory or File Count:3470
                 minQ2=100 , Sub-directory or File Count:4144
-    EXCLUSIVE , Sub-directory or File Count:4
+    EXCLUSIVE , Sub-directory or File Count:5
+        DEMP , Sub-directory or File Count:1
+            DEMPgen-1.2.2 , Sub-directory or File Count:3
+                10x100 , Sub-directory or File Count:2
+                    q2_10_20 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:187
+                    q2_20_35 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:312
+                18x275 , Sub-directory or File Count:2
+                    q2_10_20 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:243
+                    q2_20_35 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:255
+                5x41 , Sub-directory or File Count:4
+                    q2_10_20 , Sub-directory or File Count:2
+                        K+Lambda , Sub-directory or File Count:116
+                        pi+ , Sub-directory or File Count:109
+                    q2_1_10 , Sub-directory or File Count:1
+                        K+Lambda , Sub-directory or File Count:305
+                    q2_20_35 , Sub-directory or File Count:2
+                        K+Lambda , Sub-directory or File Count:79
+                        pi+ , Sub-directory or File Count:246
+                    q2_3_10 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:141
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
             lAger3.6.1-1.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
@@ -67,13 +90,23 @@ epic_craterlake , Sub-directory or File Count:5
             5x41 , Sub-directory or File Count:2
                 hel_minus , Sub-directory or File Count:670
                 hel_plus , Sub-directory or File Count:670
-    SIDIS , Sub-directory or File Count:1
+    SIDIS , Sub-directory or File Count:3
+        D0_ABCONV , Sub-directory or File Count:1
+            pythia8.306-1.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:2
+                    hiAcc , Sub-directory or File Count:424
+                    hiDiv , Sub-directory or File Count:329
+        Lambda_ABCONV , Sub-directory or File Count:1
+            pythia8.306-1.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:2
+                    hiAcc , Sub-directory or File Count:365
+                    hiDiv , Sub-directory or File Count:329
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:2
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:15622
+                    q2_0to1 , Sub-directory or File Count:24696
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:15888
+                    q2_0to1 , Sub-directory or File Count:20193
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
