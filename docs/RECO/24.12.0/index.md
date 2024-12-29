@@ -1,7 +1,7 @@
 ```
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.12.0
 epic_craterlake , Sub-directory or File Count:5
-    BACKGROUNDS , Sub-directory or File Count:2
+    BACKGROUNDS , Sub-directory or File Count:3
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
@@ -15,6 +15,9 @@ epic_craterlake , Sub-directory or File Count:5
                 10x100 , Sub-directory or File Count:2
                     1SignalPerFrame , Sub-directory or File Count:12
                     RealisticSignalPerFrame , Sub-directory or File Count:30
+        SYNRAD , Sub-directory or File Count:1
+            dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:20
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
@@ -47,23 +50,23 @@ epic_craterlake , Sub-directory or File Count:5
                     q2_10_20 , Sub-directory or File Count:1
                         pi+ , Sub-directory or File Count:187
                     q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:312
+                        pi+ , Sub-directory or File Count:313
                 18x275 , Sub-directory or File Count:2
                     q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:243
+                        pi+ , Sub-directory or File Count:245
                     q2_20_35 , Sub-directory or File Count:1
                         pi+ , Sub-directory or File Count:255
                 5x41 , Sub-directory or File Count:4
                     q2_10_20 , Sub-directory or File Count:2
                         K+Lambda , Sub-directory or File Count:116
-                        pi+ , Sub-directory or File Count:109
+                        pi+ , Sub-directory or File Count:110
                     q2_1_10 , Sub-directory or File Count:1
                         K+Lambda , Sub-directory or File Count:305
                     q2_20_35 , Sub-directory or File Count:2
                         K+Lambda , Sub-directory or File Count:79
-                        pi+ , Sub-directory or File Count:246
+                        pi+ , Sub-directory or File Count:247
                     q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:141
+                        pi+ , Sub-directory or File Count:143
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
             lAger3.6.1-1.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
@@ -94,19 +97,19 @@ epic_craterlake , Sub-directory or File Count:5
         D0_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:2
-                    hiAcc , Sub-directory or File Count:424
-                    hiDiv , Sub-directory or File Count:329
+                    hiAcc , Sub-directory or File Count:500
+                    hiDiv , Sub-directory or File Count:500
         Lambda_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:2
-                    hiAcc , Sub-directory or File Count:365
-                    hiDiv , Sub-directory or File Count:329
+                    hiAcc , Sub-directory or File Count:500
+                    hiDiv , Sub-directory or File Count:500
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:2
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:24696
+                    q2_0to1 , Sub-directory or File Count:48718
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:20193
+                    q2_0to1 , Sub-directory or File Count:24499
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
