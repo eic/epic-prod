@@ -4,12 +4,8 @@ epic_arches , Sub-directory or File Count:1
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:18300
-                minQ2=10 , Sub-directory or File Count:40985
-                minQ2=100 , Sub-directory or File Count:38170
-                minQ2=1000 , Sub-directory or File Count:58825
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:26030
+                minQ2=1 , Sub-directory or File Count:9669
                 minQ2=10 , Sub-directory or File Count:42020
                 minQ2=100 , Sub-directory or File Count:46730
                 minQ2=1000 , Sub-directory or File Count:73530
