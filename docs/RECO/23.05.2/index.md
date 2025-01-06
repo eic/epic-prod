@@ -5,25 +5,15 @@ epic_arches , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:9669
-                minQ2=10 , Sub-directory or File Count:42020
-                minQ2=100 , Sub-directory or File Count:46730
-                minQ2=1000 , Sub-directory or File Count:73530
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:17400
-                minQ2=10 , Sub-directory or File Count:26319
-                minQ2=100 , Sub-directory or File Count:38760
 epic_brycecanyon , Sub-directory or File Count:4
     BACKGROUNDS , Sub-directory or File Count:1
         10x100 , Sub-directory or File Count:1
-            merged_lowstat , Sub-directory or File Count:15
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:44645
-                minQ2=1000 , Sub-directory or File Count:52085
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:58139
+                minQ2=100 , Sub-directory or File Count:7415
                 minQ2=1000 , Sub-directory or File Count:67570
             5x41 , Sub-directory or File Count:1
                 minQ2=100 , Sub-directory or File Count:34250
