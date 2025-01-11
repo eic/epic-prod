@@ -29,9 +29,7 @@ epic_brycecanyon , Sub-directory or File Count:4
     SIDIS , Sub-directory or File Count:1
         pythia6 , Sub-directory or File Count:2
             ep_18x275 , Sub-directory or File Count:1
-                hepmc_ip6 , Sub-directory or File Count:58395
-                    noradcor , Sub-directory or File Count:63801
+                hepmc_ip6 , Sub-directory or File Count:1
             ep_5x41 , Sub-directory or File Count:1
                 hepmc_ip6 , Sub-directory or File Count:1
-                    noradcor , Sub-directory or File Count:239703
 ```
