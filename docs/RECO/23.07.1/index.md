@@ -7,11 +7,8 @@ epic_brycecanyon , Sub-directory or File Count:4
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:3570
-                minQ2=1000 , Sub-directory or File Count:3325
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:10125
-                minQ2=1000 , Sub-directory or File Count:9965
+                minQ2=1000 , Sub-directory or File Count:9523
             5x41 , Sub-directory or File Count:1
                 minQ2=100 , Sub-directory or File Count:2035
         NC , Sub-directory or File Count:3
