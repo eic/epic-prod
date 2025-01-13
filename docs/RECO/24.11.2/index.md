@@ -4,10 +4,10 @@ epic_craterlake , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4898
+                minQ2=100 , Sub-directory or File Count:5181
                 minQ2=1000 , Sub-directory or File Count:4345
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:10332
+                minQ2=100 , Sub-directory or File Count:10335
                 minQ2=1000 , Sub-directory or File Count:9769
             5x41 , Sub-directory or File Count:1
                 minQ2=100 , Sub-directory or File Count:2295
@@ -29,18 +29,18 @@ epic_craterlake , Sub-directory or File Count:2
     EXCLUSIVE , Sub-directory or File Count:3
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:16521
+                Coherent , Sub-directory or File Count:18225
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1347
-            18x275 , Sub-directory or File Count:2450
-            5x41 , Sub-directory or File Count:2811
+            10x100 , Sub-directory or File Count:1349
+            18x275 , Sub-directory or File Count:2455
+            5x41 , Sub-directory or File Count:2840
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:4015
+                hel_minus , Sub-directory or File Count:4050
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:2504
+                hel_minus , Sub-directory or File Count:2508
                 hel_plus , Sub-directory or File Count:2510
             5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:488
+                hel_minus , Sub-directory or File Count:490
                 hel_plus , Sub-directory or File Count:490
 ```
