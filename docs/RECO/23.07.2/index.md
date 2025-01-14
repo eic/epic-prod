@@ -3,56 +3,26 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.07.2
 epic_craterlake , Sub-directory or File Count:4
     BACKGROUNDS , Sub-directory or File Count:1
         10x100 , Sub-directory or File Count:1
-            merged_lowstat , Sub-directory or File Count:14
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:1962
-                minQ2=1000 , Sub-directory or File Count:1500
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:9692
-                minQ2=1000 , Sub-directory or File Count:8995
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:388
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:786
-                minQ2=10 , Sub-directory or File Count:924
-                minQ2=100 , Sub-directory or File Count:2397
-                minQ2=1000 , Sub-directory or File Count:4994
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:7987
-                minQ2=10 , Sub-directory or File Count:8507
-                minQ2=100 , Sub-directory or File Count:9934
-                minQ2=1000 , Sub-directory or File Count:11280
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:71
-                minQ2=10 , Sub-directory or File Count:1935
-                minQ2=100 , Sub-directory or File Count:3190
     EXCLUSIVE , Sub-directory or File Count:3
         DEMP , Sub-directory or File Count:3
-            10on100 , Sub-directory or File Count:90
-            18on275 , Sub-directory or File Count:200
-            5on41 , Sub-directory or File Count:971
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1402
-            18x275 , Sub-directory or File Count:1316
-            5x41 , Sub-directory or File Count:2081
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:10020
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:1660
-                hel_plus , Sub-directory or File Count:1660
             5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:1760
-                hel_plus , Sub-directory or File Count:1760
     SIDIS , Sub-directory or File Count:1
         pythia6 , Sub-directory or File Count:2
             ep_18x275 , Sub-directory or File Count:1
                 hepmc_ip6 , Sub-directory or File Count:1
-                    noradcor , Sub-directory or File Count:2516
             ep_5x41 , Sub-directory or File Count:1
                 hepmc_ip6 , Sub-directory or File Count:1
-                    noradcor , Sub-directory or File Count:2098
 ```

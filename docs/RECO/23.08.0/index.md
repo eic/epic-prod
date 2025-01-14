@@ -13,19 +13,14 @@ epic_brycecanyon , Sub-directory or File Count:3
                 minQ2=100 , Sub-directory or File Count:2060
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:3939
-                minQ2=10 , Sub-directory or File Count:4505
-                minQ2=100 , Sub-directory or File Count:5225
-                minQ2=1000 , Sub-directory or File Count:6504
+                minQ2=1 , Sub-directory or File Count:2
+                minQ2=10 , Sub-directory or File Count:3177
+                minQ2=100 , Sub-directory or File Count:1666
+                minQ2=1000 , Sub-directory or File Count:2775
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:9190
-                minQ2=10 , Sub-directory or File Count:9635
-                minQ2=100 , Sub-directory or File Count:11795
-                minQ2=1000 , Sub-directory or File Count:13445
+                minQ2=1000 , Sub-directory or File Count:1
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:1885
-                minQ2=10 , Sub-directory or File Count:2575
-                minQ2=100 , Sub-directory or File Count:2880
+                minQ2=100 , Sub-directory or File Count:16
     EXCLUSIVE , Sub-directory or File Count:6
         DEMP , Sub-directory or File Count:3
             10on100 , Sub-directory or File Count:90
@@ -72,19 +67,15 @@ epic_craterlake , Sub-directory or File Count:3
                 minQ2=100 , Sub-directory or File Count:2060
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:3940
-                minQ2=10 , Sub-directory or File Count:4505
-                minQ2=100 , Sub-directory or File Count:5225
-                minQ2=1000 , Sub-directory or File Count:6505
+                minQ2=1 , Sub-directory or File Count:2484
+                minQ2=10 , Sub-directory or File Count:4440
+                minQ2=100 , Sub-directory or File Count:5190
+                minQ2=1000 , Sub-directory or File Count:6434
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:9190
-                minQ2=10 , Sub-directory or File Count:9635
-                minQ2=100 , Sub-directory or File Count:11794
-                minQ2=1000 , Sub-directory or File Count:13443
+                minQ2=1000 , Sub-directory or File Count:5108
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:1885
                 minQ2=10 , Sub-directory or File Count:2575
-                minQ2=100 , Sub-directory or File Count:2880
+                minQ2=100 , Sub-directory or File Count:2156
     EXCLUSIVE , Sub-directory or File Count:6
         DEMP , Sub-directory or File Count:3
             10on100 , Sub-directory or File Count:103
