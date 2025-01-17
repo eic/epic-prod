@@ -6,80 +6,51 @@ epic_brycecanyon , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
             18x275 , Sub-directory or File Count:2
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:299
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
-                minQ2=1000 , Sub-directory or File Count:1
             5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:6
         DEMP , Sub-directory or File Count:3
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:751
         DVCS_ABCONV , Sub-directory or File Count:3
-            18x275 , Sub-directory or File Count:416
-            5x41 , Sub-directory or File Count:762
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:2823
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:369
-                hel_plus , Sub-directory or File Count:933
             5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:1020
-                hel_plus , Sub-directory or File Count:1020
         UCHANNEL_PI0 , Sub-directory or File Count:1
         UCHANNEL_RHO , Sub-directory or File Count:1
     SIDIS , Sub-directory or File Count:1
         pythia6 , Sub-directory or File Count:2
             ep_18x275 , Sub-directory or File Count:1
                 hepmc_ip6 , Sub-directory or File Count:1
-                    noradcor , Sub-directory or File Count:433
             ep_5x41 , Sub-directory or File Count:1
                 hepmc_ip6 , Sub-directory or File Count:1
-                    noradcor , Sub-directory or File Count:1389
 epic_craterlake , Sub-directory or File Count:3
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:747
-                minQ2=1000 , Sub-directory or File Count:766
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:39
-                minQ2=1000 , Sub-directory or File Count:15
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:550
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
             5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:6
         DEMP , Sub-directory or File Count:3
-            5on41 , Sub-directory or File Count:150
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:1064
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1125
-            18x275 , Sub-directory or File Count:1239
-            5x41 , Sub-directory or File Count:1751
         TCS_ABCONV , Sub-directory or File Count:2
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:6660
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:959
-                hel_plus , Sub-directory or File Count:948
         UCHANNEL_PI0 , Sub-directory or File Count:1
-            18x275 , Sub-directory or File Count:129
         UCHANNEL_RHO , Sub-directory or File Count:1
-            10x100 , Sub-directory or File Count:59
     SIDIS , Sub-directory or File Count:1
         pythia6 , Sub-directory or File Count:2
             ep_18x275 , Sub-directory or File Count:1
                 hepmc_ip6 , Sub-directory or File Count:1
-                    noradcor , Sub-directory or File Count:2088
             ep_5x41 , Sub-directory or File Count:1
                 hepmc_ip6 , Sub-directory or File Count:1
-                    noradcor , Sub-directory or File Count:719
 ```
