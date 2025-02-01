@@ -7,7 +7,7 @@ on:
   pull_request:
 
 env:
-  RECO: "/work/eic2/EPIC/RECO"
+  RECO: "/volatile/eic/EPIC/RECO"
   FULL: "/work/eic2/EPIC/FULL"
   XROOTD_HOST: root://dtn-eic.jlab.org
   REPOSITORY: "${{github.repository}}"
