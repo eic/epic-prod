@@ -249,7 +249,7 @@ epic_craterlake , Sub-directory or File Count:3
         NC , Sub-directory or File Count:1
             10x100 , Sub-directory or File Count:1
                 minQ2=1 , Sub-directory or File Count:5
-    Test , Sub-directory or File Count:7
+    Test , Sub-directory or File Count:8
         2025-01-10_15-36-00 , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
@@ -279,6 +279,25 @@ epic_craterlake , Sub-directory or File Count:3
             EXCLUSIVE , Sub-directory or File Count:1
                 DVCS_ABCONV , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1180
+        2025-02-19_18-57-00 , Sub-directory or File Count:1
+            SINGLE , Sub-directory or File Count:1
+                e- , Sub-directory or File Count:8
+                    100MeV , Sub-directory or File Count:1
+                        3to50deg , Sub-directory or File Count:16
+                    10GeV , Sub-directory or File Count:1
+                        3to50deg , Sub-directory or File Count:301
+                    1GeV , Sub-directory or File Count:1
+                        3to50deg , Sub-directory or File Count:67
+                    200MeV , Sub-directory or File Count:1
+                        3to50deg , Sub-directory or File Count:23
+                    20GeV , Sub-directory or File Count:1
+                        3to50deg , Sub-directory or File Count:475
+                    2GeV , Sub-directory or File Count:1
+                        3to50deg , Sub-directory or File Count:94
+                    500MeV , Sub-directory or File Count:1
+                        3to50deg , Sub-directory or File Count:60
+                    5GeV , Sub-directory or File Count:1
+                        3to50deg , Sub-directory or File Count:199
         2025-11-01_18-34-00 , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
