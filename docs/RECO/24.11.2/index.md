@@ -21,22 +21,15 @@ epic_craterlake , Sub-directory or File Count:2
                 minQ2=1 , Sub-directory or File Count:9223
                 minQ2=10 , Sub-directory or File Count:10000
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:4705
     EXCLUSIVE , Sub-directory or File Count:3
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:18270
         DVCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1349
             18x275 , Sub-directory or File Count:2455
             5x41 , Sub-directory or File Count:2852
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:4050
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:2510
-                hel_plus , Sub-directory or File Count:2510
             5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:490
-                hel_plus , Sub-directory or File Count:490
 ```
