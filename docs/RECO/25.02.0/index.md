@@ -1,12 +1,23 @@
 ```
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/25.02.0
 epic_craterlake , Sub-directory or File Count:5
-    BACKGROUNDS , Sub-directory or File Count:1
-        BEAMGAS , Sub-directory or File Count:1
+    BACKGROUNDS , Sub-directory or File Count:3
+        BEAMGAS , Sub-directory or File Count:2
+            electron , Sub-directory or File Count:1
+                GETaLM1.0.0-1.0 , Sub-directory or File Count:1
+                    10GeV , Sub-directory or File Count:2647
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:5181
-                    275GeV , Sub-directory or File Count:241
+                    100GeV , Sub-directory or File Count:5595
+                    275GeV , Sub-directory or File Count:13380
+        MERGED , Sub-directory or File Count:1
+            HEPMC_merger-1.0.2 , Sub-directory or File Count:1
+                10x100 , Sub-directory or File Count:2
+                    1SignalPerFrame , Sub-directory or File Count:2
+                    RealisticSignalPerFrame , Sub-directory or File Count:34
+        SYNRAD , Sub-directory or File Count:1
+            dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:19
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
@@ -36,7 +47,7 @@ epic_craterlake , Sub-directory or File Count:5
                     hiAcc , Sub-directory or File Count:36
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:4844
+                Coherent , Sub-directory or File Count:18060
         DVCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1294
             18x275 , Sub-directory or File Count:2386
@@ -54,7 +65,7 @@ epic_craterlake , Sub-directory or File Count:5
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:1263
+                    q2_0to1 , Sub-directory or File Count:16909
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
@@ -76,7 +87,7 @@ epic_craterlake , Sub-directory or File Count:5
             20GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:528
                 3to50deg , Sub-directory or File Count:785
-                45to135deg , Sub-directory or File Count:528
+                45to135deg , Sub-directory or File Count:529
             2GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:102
                 3to50deg , Sub-directory or File Count:106
@@ -194,7 +205,7 @@ epic_craterlake , Sub-directory or File Count:5
                 45to135deg , Sub-directory or File Count:73
         kaon- , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:27
+                130to177deg , Sub-directory or File Count:28
                 3to50deg , Sub-directory or File Count:36
                 45to135deg , Sub-directory or File Count:30
             10GeV , Sub-directory or File Count:3
@@ -257,7 +268,7 @@ epic_craterlake , Sub-directory or File Count:5
             5GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:67
                 3to50deg , Sub-directory or File Count:55
-                45to135deg , Sub-directory or File Count:27
+                45to135deg , Sub-directory or File Count:28
         pi+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:17
