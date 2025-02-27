@@ -5,16 +5,16 @@ epic_craterlake , Sub-directory or File Count:5
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
-                    10GeV , Sub-directory or File Count:2647
+                    10GeV , Sub-directory or File Count:2944
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:5595
-                    275GeV , Sub-directory or File Count:13380
+                    275GeV , Sub-directory or File Count:13646
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
-                    1SignalPerFrame , Sub-directory or File Count:2
-                    RealisticSignalPerFrame , Sub-directory or File Count:34
+                    1SignalPerFrame , Sub-directory or File Count:14
+                    RealisticSignalPerFrame , Sub-directory or File Count:35
         SYNRAD , Sub-directory or File Count:1
             dataprod_rel_1.0.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:19
@@ -24,7 +24,7 @@ epic_craterlake , Sub-directory or File Count:5
                 minQ2=1 , Sub-directory or File Count:4120
                 minQ2=10 , Sub-directory or File Count:5300
                 minQ2=100 , Sub-directory or File Count:6564
-                minQ2=1000 , Sub-directory or File Count:8077
+                minQ2=1000 , Sub-directory or File Count:8078
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:8815
                 minQ2=10 , Sub-directory or File Count:9564
@@ -47,7 +47,7 @@ epic_craterlake , Sub-directory or File Count:5
                     hiAcc , Sub-directory or File Count:36
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:18060
+                Coherent , Sub-directory or File Count:18410
         DVCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1294
             18x275 , Sub-directory or File Count:2386
@@ -65,7 +65,7 @@ epic_craterlake , Sub-directory or File Count:5
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:16909
+                    q2_0to1 , Sub-directory or File Count:26754
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
