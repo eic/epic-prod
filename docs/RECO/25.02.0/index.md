@@ -63,9 +63,11 @@ epic_craterlake , Sub-directory or File Count:5
                 hel_plus , Sub-directory or File Count:460
     SIDIS , Sub-directory or File Count:1
         pythia6-eic , Sub-directory or File Count:1
-            1.0.0 , Sub-directory or File Count:1
+            1.0.0 , Sub-directory or File Count:2
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:26754
+                    q2_0to1 , Sub-directory or File Count:34530
+                18x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:10296
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
