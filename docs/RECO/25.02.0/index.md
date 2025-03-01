@@ -9,7 +9,7 @@ epic_craterlake , Sub-directory or File Count:5
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:5595
-                    275GeV , Sub-directory or File Count:13646
+                    275GeV , Sub-directory or File Count:13649
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
@@ -18,7 +18,16 @@ epic_craterlake , Sub-directory or File Count:5
         SYNRAD , Sub-directory or File Count:1
             dataprod_rel_1.0.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:19
-    DIS , Sub-directory or File Count:1
+    DIS , Sub-directory or File Count:2
+        CC , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:100
+                minQ2=1000 , Sub-directory or File Count:125
+            18x275 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:340
+                minQ2=1000 , Sub-directory or File Count:501
+            5x41 , Sub-directory or File Count:1
+                minQ2=100 , Sub-directory or File Count:167
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:4120
@@ -65,9 +74,9 @@ epic_craterlake , Sub-directory or File Count:5
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:2
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:34530
+                    q2_0to1 , Sub-directory or File Count:34539
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:10296
+                    q2_0to1 , Sub-directory or File Count:14709
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
