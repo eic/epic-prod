@@ -4,58 +4,48 @@ epic_craterlake , Sub-directory or File Count:3
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4950
-                minQ2=1000 , Sub-directory or File Count:4443
+                minQ2=100 , Sub-directory or File Count:4
+                minQ2=1000 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:9065
-                minQ2=1000 , Sub-directory or File Count:8199
+                minQ2=100 , Sub-directory or File Count:6
+                minQ2=1000 , Sub-directory or File Count:1
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:936
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:1
-                minQ2=10 , Sub-directory or File Count:22
-                minQ2=100 , Sub-directory or File Count:3270
-                minQ2=1000 , Sub-directory or File Count:3
+                minQ2=10 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:1
-                minQ2=10 , Sub-directory or File Count:8
-                minQ2=100 , Sub-directory or File Count:473
-                minQ2=1000 , Sub-directory or File Count:5200
+                minQ2=100 , Sub-directory or File Count:3
+                minQ2=1000 , Sub-directory or File Count:4
             5x41 , Sub-directory or File Count:3
-                minQ2=10 , Sub-directory or File Count:101
-                minQ2=100 , Sub-directory or File Count:351
+                minQ2=100 , Sub-directory or File Count:2
     EXCLUSIVE , Sub-directory or File Count:3
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.1.0 , Sub-directory or File Count:2
                 10x100 , Sub-directory or File Count:3
-                    K+Lambda , Sub-directory or File Count:2329
-                    K+Sigma0 , Sub-directory or File Count:2405
-                    pi+ , Sub-directory or File Count:1500
                 5x41 , Sub-directory or File Count:3
-                    K+Lambda , Sub-directory or File Count:2040
-                    K+Sigma0 , Sub-directory or File Count:2039
-                    pi+ , Sub-directory or File Count:900
+                    K+Lambda , Sub-directory or File Count:1
+                    K+Sigma0 , Sub-directory or File Count:3
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:31
-            18x275 , Sub-directory or File Count:66
-            5x41 , Sub-directory or File Count:1196
+            10x100 , Sub-directory or File Count:1
+            18x275 , Sub-directory or File Count:1
+            5x41 , Sub-directory or File Count:3
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:11520
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:2680
-                hel_plus , Sub-directory or File Count:2680
+                hel_minus , Sub-directory or File Count:2
             5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:2680
-                hel_plus , Sub-directory or File Count:2680
+                hel_minus , Sub-directory or File Count:30
+                hel_plus , Sub-directory or File Count:31
     SIDIS , Sub-directory or File Count:1
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:35818
+                    q2_0to1 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:65350
+                    q2_0to1 , Sub-directory or File Count:21
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:22973
+                    q2_0to1 , Sub-directory or File Count:24
 ```
