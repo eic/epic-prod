@@ -5,11 +5,11 @@ epic_craterlake , Sub-directory or File Count:5
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
-                    10GeV , Sub-directory or File Count:2944
+                    10GeV , Sub-directory or File Count:2945
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:5595
-                    275GeV , Sub-directory or File Count:13650
+                    275GeV , Sub-directory or File Count:13651
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
@@ -21,13 +21,13 @@ epic_craterlake , Sub-directory or File Count:5
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:5511
-                minQ2=1000 , Sub-directory or File Count:3630
+                minQ2=100 , Sub-directory or File Count:5518
+                minQ2=1000 , Sub-directory or File Count:4870
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:11488
-                minQ2=1000 , Sub-directory or File Count:2314
+                minQ2=1000 , Sub-directory or File Count:12022
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:3021
+                minQ2=100 , Sub-directory or File Count:3028
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:4120
@@ -70,13 +70,19 @@ epic_craterlake , Sub-directory or File Count:5
             5x41 , Sub-directory or File Count:2
                 hel_minus , Sub-directory or File Count:460
                 hel_plus , Sub-directory or File Count:460
-    SIDIS , Sub-directory or File Count:1
+    SIDIS , Sub-directory or File Count:2
+        Lambda_ABCONV , Sub-directory or File Count:1
+            pythia8.306-1.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:561
         pythia6-eic , Sub-directory or File Count:1
-            1.0.0 , Sub-directory or File Count:2
+            1.0.0 , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:34539
+                10x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:3661
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:63827
+                    q2_0to1 , Sub-directory or File Count:74886
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
