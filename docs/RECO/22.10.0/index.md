@@ -3,41 +3,9 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/22.10.0
 epic_arches , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:2
         e- , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:2
-            10GeV , Sub-directory or File Count:3
-            1GeV , Sub-directory or File Count:2
-            200MeV , Sub-directory or File Count:2
-            20GeV , Sub-directory or File Count:3
-            2GeV , Sub-directory or File Count:3
-            500MeV , Sub-directory or File Count:2
-            5GeV , Sub-directory or File Count:3
         pi- , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:2
-            10GeV , Sub-directory or File Count:3
-            1GeV , Sub-directory or File Count:2
-            200MeV , Sub-directory or File Count:3
-            20GeV , Sub-directory or File Count:3
-            2GeV , Sub-directory or File Count:2
-            500MeV , Sub-directory or File Count:2
-            5GeV , Sub-directory or File Count:1
 epic_brycecanyon , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:2
         e- , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:3
-            10GeV , Sub-directory or File Count:3
-            1GeV , Sub-directory or File Count:3
-            200MeV , Sub-directory or File Count:3
-            20GeV , Sub-directory or File Count:3
-            2GeV , Sub-directory or File Count:3
-            500MeV , Sub-directory or File Count:3
-            5GeV , Sub-directory or File Count:3
         pi- , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:3
-            10GeV , Sub-directory or File Count:3
-            1GeV , Sub-directory or File Count:3
-            200MeV , Sub-directory or File Count:3
-            20GeV , Sub-directory or File Count:3
-            2GeV , Sub-directory or File Count:3
-            500MeV , Sub-directory or File Count:3
-            5GeV , Sub-directory or File Count:3
 ```

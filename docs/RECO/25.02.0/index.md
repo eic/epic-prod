@@ -5,7 +5,7 @@ epic_craterlake , Sub-directory or File Count:5
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
-                    10GeV , Sub-directory or File Count:2945
+                    10GeV , Sub-directory or File Count:2946
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:5595
@@ -21,11 +21,11 @@ epic_craterlake , Sub-directory or File Count:5
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:5518
+                minQ2=100 , Sub-directory or File Count:5524
                 minQ2=1000 , Sub-directory or File Count:4870
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:11488
-                minQ2=1000 , Sub-directory or File Count:12022
+                minQ2=1000 , Sub-directory or File Count:12070
             5x41 , Sub-directory or File Count:1
                 minQ2=100 , Sub-directory or File Count:3028
         NC , Sub-directory or File Count:3
@@ -70,19 +70,31 @@ epic_craterlake , Sub-directory or File Count:5
             5x41 , Sub-directory or File Count:2
                 hel_minus , Sub-directory or File Count:460
                 hel_plus , Sub-directory or File Count:460
-    SIDIS , Sub-directory or File Count:2
+    SIDIS , Sub-directory or File Count:3
+        D0_ABCONV , Sub-directory or File Count:2
+            pythia8.306-1.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:2
+                    hiAcc , Sub-directory or File Count:1747
+                    hiDiv , Sub-directory or File Count:1787
+            pythia8.306-1.1 , Sub-directory or File Count:1
+                10x100 , Sub-directory or File Count:2
+                    q2_1 , Sub-directory or File Count:1
+                        hiDiv , Sub-directory or File Count:1479
+                    q2_100 , Sub-directory or File Count:1
+                        hiDiv , Sub-directory or File Count:1480
         Lambda_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
-                18x275 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:561
+                18x275 , Sub-directory or File Count:2
+                    hiAcc , Sub-directory or File Count:3810
+                    hiDiv , Sub-directory or File Count:3872
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:34539
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:3661
+                    q2_0to1 , Sub-directory or File Count:20823
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:74886
+                    q2_0to1 , Sub-directory or File Count:74893
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
