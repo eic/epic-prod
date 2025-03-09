@@ -43,7 +43,7 @@ epic_craterlake , Sub-directory or File Count:5
                 minQ2=1 , Sub-directory or File Count:2917
                 minQ2=10 , Sub-directory or File Count:3447
                 minQ2=100 , Sub-directory or File Count:4257
-    EXCLUSIVE , Sub-directory or File Count:6
+    EXCLUSIVE , Sub-directory or File Count:8
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.2.2 , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:3
@@ -99,6 +99,10 @@ epic_craterlake , Sub-directory or File Count:5
             5x41 , Sub-directory or File Count:2
                 hel_minus , Sub-directory or File Count:456
                 hel_plus , Sub-directory or File Count:459
+        UCHANNEL_PI0 , Sub-directory or File Count:1
+            18x275 , Sub-directory or File Count:136
+        UCHANNEL_RHO , Sub-directory or File Count:1
+            10x100 , Sub-directory or File Count:60
     SIDIS , Sub-directory or File Count:3
         D0_ABCONV , Sub-directory or File Count:2
             pythia8.306-1.0 , Sub-directory or File Count:1

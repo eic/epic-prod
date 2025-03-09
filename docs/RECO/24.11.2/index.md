@@ -8,12 +8,9 @@ epic_craterlake , Sub-directory or File Count:2
                 minQ2=1000 , Sub-directory or File Count:4345
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:10335
-                minQ2=1000 , Sub-directory or File Count:9769
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:2295
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:4129
             18x275 , Sub-directory or File Count:4
             5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:3
