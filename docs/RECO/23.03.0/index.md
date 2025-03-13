@@ -3,28 +3,141 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/23.03.0
 epic_arches , Sub-directory or File Count:4
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:1
+            10x100 , Sub-directory or File Count:1
     EXCLUSIVE , Sub-directory or File Count:2
+        DEMP , Sub-directory or File Count:4
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
+            BeAGLE , Sub-directory or File Count:1
     SIDIS , Sub-directory or File Count:1
         pythia6 , Sub-directory or File Count:1
             ep_5x41 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:5
-        e- , Sub-directory or File Count:13
-        gamma , Sub-directory or File Count:15
-        mu- , Sub-directory or File Count:6
-        pi- , Sub-directory or File Count:13
-        pi0 , Sub-directory or File Count:6
+        e- , Sub-directory or File Count:18
+            10000MeV , Sub-directory or File Count:1
+            1000MeV , Sub-directory or File Count:1
+            100MeV , Sub-directory or File Count:2
+            10GeV , Sub-directory or File Count:2
+            1GeV , Sub-directory or File Count:2
+            200MeV , Sub-directory or File Count:2
+            20GeV , Sub-directory or File Count:2
+            2250MeV , Sub-directory or File Count:1
+            2GeV , Sub-directory or File Count:2
+            5000MeV , Sub-directory or File Count:1
+            500MeV , Sub-directory or File Count:3
+            5GeV , Sub-directory or File Count:2
+            750MeV , Sub-directory or File Count:1
+        gamma , Sub-directory or File Count:20
+            10000MeV , Sub-directory or File Count:1
+            1000MeV , Sub-directory or File Count:1
+            100MeV , Sub-directory or File Count:2
+            10GeV , Sub-directory or File Count:2
+            1GeV , Sub-directory or File Count:2
+            200MeV , Sub-directory or File Count:2
+            20GeV , Sub-directory or File Count:2
+            2250MeV , Sub-directory or File Count:1
+            2GeV , Sub-directory or File Count:2
+            40GeV , Sub-directory or File Count:1
+            5000MeV , Sub-directory or File Count:1
+            500MeV , Sub-directory or File Count:3
+            5GeV , Sub-directory or File Count:2
+            60GeV , Sub-directory or File Count:1
+            750MeV , Sub-directory or File Count:1
+        mu- , Sub-directory or File Count:17
+            10000MeV , Sub-directory or File Count:1
+            1000MeV , Sub-directory or File Count:1
+            2250MeV , Sub-directory or File Count:1
+            5000MeV , Sub-directory or File Count:1
+            500MeV , Sub-directory or File Count:1
+            750MeV , Sub-directory or File Count:1
+        pi- , Sub-directory or File Count:18
+            10000MeV , Sub-directory or File Count:1
+            1000MeV , Sub-directory or File Count:1
+            100MeV , Sub-directory or File Count:2
+            10GeV , Sub-directory or File Count:2
+            1GeV , Sub-directory or File Count:2
+            200MeV , Sub-directory or File Count:2
+            20GeV , Sub-directory or File Count:2
+            2250MeV , Sub-directory or File Count:1
+            2GeV , Sub-directory or File Count:2
+            5000MeV , Sub-directory or File Count:1
+            500MeV , Sub-directory or File Count:3
+            5GeV , Sub-directory or File Count:2
+            750MeV , Sub-directory or File Count:1
+        pi0 , Sub-directory or File Count:17
+            10000MeV , Sub-directory or File Count:1
+            1000MeV , Sub-directory or File Count:1
+            2250MeV , Sub-directory or File Count:1
+            5000MeV , Sub-directory or File Count:1
+            500MeV , Sub-directory or File Count:1
+            750MeV , Sub-directory or File Count:1
 epic_brycecanyon , Sub-directory or File Count:4
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:2
+            10x100 , Sub-directory or File Count:1
+            18x275 , Sub-directory or File Count:4
     EXCLUSIVE , Sub-directory or File Count:1
+        DEMP , Sub-directory or File Count:4
     SIDIS , Sub-directory or File Count:1
         pythia6 , Sub-directory or File Count:1
             ep_5x41 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:5
-        e- , Sub-directory or File Count:13
-        gamma , Sub-directory or File Count:15
-        mu- , Sub-directory or File Count:6
-        pi- , Sub-directory or File Count:13
-        pi0 , Sub-directory or File Count:5
+        e- , Sub-directory or File Count:23
+            10000MeV , Sub-directory or File Count:1
+            1000MeV , Sub-directory or File Count:1
+            100MeV , Sub-directory or File Count:2
+            10GeV , Sub-directory or File Count:2
+            1GeV , Sub-directory or File Count:2
+            200MeV , Sub-directory or File Count:2
+            20GeV , Sub-directory or File Count:2
+            2250MeV , Sub-directory or File Count:1
+            2GeV , Sub-directory or File Count:2
+            5000MeV , Sub-directory or File Count:1
+            500MeV , Sub-directory or File Count:3
+            5GeV , Sub-directory or File Count:2
+            750MeV , Sub-directory or File Count:1
+        gamma , Sub-directory or File Count:20
+            10000MeV , Sub-directory or File Count:1
+            1000MeV , Sub-directory or File Count:1
+            100MeV , Sub-directory or File Count:2
+            10GeV , Sub-directory or File Count:2
+            1GeV , Sub-directory or File Count:2
+            200MeV , Sub-directory or File Count:2
+            20GeV , Sub-directory or File Count:2
+            2250MeV , Sub-directory or File Count:1
+            2GeV , Sub-directory or File Count:2
+            40GeV , Sub-directory or File Count:1
+            5000MeV , Sub-directory or File Count:1
+            500MeV , Sub-directory or File Count:3
+            5GeV , Sub-directory or File Count:2
+            60GeV , Sub-directory or File Count:1
+            750MeV , Sub-directory or File Count:1
+        mu- , Sub-directory or File Count:17
+            10000MeV , Sub-directory or File Count:1
+            1000MeV , Sub-directory or File Count:1
+            2250MeV , Sub-directory or File Count:1
+            5000MeV , Sub-directory or File Count:1
+            500MeV , Sub-directory or File Count:1
+            750MeV , Sub-directory or File Count:1
+        pi- , Sub-directory or File Count:23
+            10000MeV , Sub-directory or File Count:1
+            1000MeV , Sub-directory or File Count:1
+            100MeV , Sub-directory or File Count:2
+            10GeV , Sub-directory or File Count:2
+            1GeV , Sub-directory or File Count:2
+            200MeV , Sub-directory or File Count:2
+            20GeV , Sub-directory or File Count:2
+            2250MeV , Sub-directory or File Count:1
+            2GeV , Sub-directory or File Count:2
+            5000MeV , Sub-directory or File Count:1
+            500MeV , Sub-directory or File Count:3
+            5GeV , Sub-directory or File Count:2
+            750MeV , Sub-directory or File Count:1
+        pi0 , Sub-directory or File Count:16
+            10000MeV , Sub-directory or File Count:1
+            1000MeV , Sub-directory or File Count:1
+            2250MeV , Sub-directory or File Count:1
+            500MeV , Sub-directory or File Count:1
+            750MeV , Sub-directory or File Count:1
 ```

@@ -3,21 +3,165 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/alternative-geometries-img-ecal
 epic_brycecanyon_becal_4layers , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:3
         e- , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:10
+            10GeV , Sub-directory or File Count:28
+            15GeV , Sub-directory or File Count:40
+            18GeV , Sub-directory or File Count:45
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:10
+            500MeV , Sub-directory or File Count:10
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:14
+            8GeV , Sub-directory or File Count:22
         gamma , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:11
+            10GeV , Sub-directory or File Count:27
+            15GeV , Sub-directory or File Count:40
+            18GeV , Sub-directory or File Count:45
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:10
+            500MeV , Sub-directory or File Count:10
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:14
+            8GeV , Sub-directory or File Count:20
         pi- , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:61
+            10GeV , Sub-directory or File Count:253
+            15GeV , Sub-directory or File Count:347
+            18GeV , Sub-directory or File Count:397
+            1GeV , Sub-directory or File Count:43
+            200MeV , Sub-directory or File Count:33
+            2GeV , Sub-directory or File Count:68
+            3GeV , Sub-directory or File Count:93
+            500MeV , Sub-directory or File Count:34
+            50MeV , Sub-directory or File Count:34
+            5GeV , Sub-directory or File Count:134
+            8GeV , Sub-directory or File Count:200
 epic_brycecanyon_becal_6layers , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:3
         e- , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:10
+            10GeV , Sub-directory or File Count:28
+            15GeV , Sub-directory or File Count:40
+            18GeV , Sub-directory or File Count:45
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:10
+            500MeV , Sub-directory or File Count:10
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:14
+            8GeV , Sub-directory or File Count:22
         gamma , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:11
+            10GeV , Sub-directory or File Count:27
+            15GeV , Sub-directory or File Count:40
+            18GeV , Sub-directory or File Count:45
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:10
+            500MeV , Sub-directory or File Count:10
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:14
+            8GeV , Sub-directory or File Count:21
         pi- , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:61
+            10GeV , Sub-directory or File Count:253
+            15GeV , Sub-directory or File Count:347
+            18GeV , Sub-directory or File Count:397
+            1GeV , Sub-directory or File Count:43
+            200MeV , Sub-directory or File Count:33
+            2GeV , Sub-directory or File Count:68
+            3GeV , Sub-directory or File Count:93
+            500MeV , Sub-directory or File Count:34
+            50MeV , Sub-directory or File Count:34
+            5GeV , Sub-directory or File Count:134
+            8GeV , Sub-directory or File Count:200
 epic_brycecanyon_becal_9layers , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:3
         e- , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:10
+            10GeV , Sub-directory or File Count:28
+            15GeV , Sub-directory or File Count:40
+            18GeV , Sub-directory or File Count:45
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:10
+            500MeV , Sub-directory or File Count:10
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:14
+            8GeV , Sub-directory or File Count:22
         gamma , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:11
+            10GeV , Sub-directory or File Count:27
+            15GeV , Sub-directory or File Count:40
+            18GeV , Sub-directory or File Count:44
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:10
+            500MeV , Sub-directory or File Count:10
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:14
+            8GeV , Sub-directory or File Count:20
         pi- , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:60
+            10GeV , Sub-directory or File Count:253
+            15GeV , Sub-directory or File Count:347
+            18GeV , Sub-directory or File Count:397
+            1GeV , Sub-directory or File Count:43
+            200MeV , Sub-directory or File Count:33
+            2GeV , Sub-directory or File Count:68
+            3GeV , Sub-directory or File Count:93
+            500MeV , Sub-directory or File Count:34
+            50MeV , Sub-directory or File Count:31
+            5GeV , Sub-directory or File Count:134
+            8GeV , Sub-directory or File Count:200
 epic_brycecanyon_becal_birks , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:3
         e- , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:10
+            10GeV , Sub-directory or File Count:28
+            15GeV , Sub-directory or File Count:40
+            18GeV , Sub-directory or File Count:45
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:10
+            500MeV , Sub-directory or File Count:10
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:14
+            8GeV , Sub-directory or File Count:21
         gamma , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:11
+            10GeV , Sub-directory or File Count:27
+            15GeV , Sub-directory or File Count:40
+            18GeV , Sub-directory or File Count:45
+            1GeV , Sub-directory or File Count:10
+            200MeV , Sub-directory or File Count:10
+            2GeV , Sub-directory or File Count:10
+            3GeV , Sub-directory or File Count:10
+            500MeV , Sub-directory or File Count:10
+            50MeV , Sub-directory or File Count:10
+            5GeV , Sub-directory or File Count:14
+            8GeV , Sub-directory or File Count:21
         pi- , Sub-directory or File Count:12
+            100MeV , Sub-directory or File Count:61
+            10GeV , Sub-directory or File Count:253
+            15GeV , Sub-directory or File Count:347
+            18GeV , Sub-directory or File Count:397
+            1GeV , Sub-directory or File Count:43
+            200MeV , Sub-directory or File Count:32
+            2GeV , Sub-directory or File Count:68
+            3GeV , Sub-directory or File Count:93
+            500MeV , Sub-directory or File Count:34
+            50MeV , Sub-directory or File Count:34
+            5GeV , Sub-directory or File Count:134
+            8GeV , Sub-directory or File Count:200
 ```

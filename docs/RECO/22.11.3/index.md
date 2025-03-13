@@ -1,23 +1,39 @@
 ```
 root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/22.11.3
-epic_arches , Sub-directory or File Count:3
+epic_arches , Sub-directory or File Count:4
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:1
-    EXCLUSIVE , Sub-directory or File Count:4
+            5x41 , Sub-directory or File Count:1
+    EXCLUSIVE , Sub-directory or File Count:5
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
+            Sartre , Sub-directory or File Count:2
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
+            Sartre , Sub-directory or File Count:2
+        DVCS_ABCONV , Sub-directory or File Count:3
         TCS_ABCONV , Sub-directory or File Count:3
-    SIDIS , Sub-directory or File Count:1
+            10x100 , Sub-directory or File Count:1
+            18x275 , Sub-directory or File Count:2
+            5x41 , Sub-directory or File Count:2
+    SIDIS , Sub-directory or File Count:2
         pythia6 , Sub-directory or File Count:2
             ep_18x275 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:1
             ep_5x41 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:2
 epic_brycecanyon , Sub-directory or File Count:3
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:1
+            5x41 , Sub-directory or File Count:1
     EXCLUSIVE , Sub-directory or File Count:2
+        DVCS_ABCONV , Sub-directory or File Count:3
         TCS_ABCONV , Sub-directory or File Count:3
-    SIDIS , Sub-directory or File Count:1
+            10x100 , Sub-directory or File Count:1
+            18x275 , Sub-directory or File Count:2
+            5x41 , Sub-directory or File Count:2
+    SIDIS , Sub-directory or File Count:2
         pythia6 , Sub-directory or File Count:2
             ep_18x275 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:1
             ep_5x41 , Sub-directory or File Count:1
+                hepmc_ip6 , Sub-directory or File Count:2
 ```

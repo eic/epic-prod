@@ -3,11 +3,42 @@ root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/22.11.0
 epic_arches , Sub-directory or File Count:1
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:2
+            18x275 , Sub-directory or File Count:4
+            5x41 , Sub-directory or File Count:3
 epic_brycecanyon , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:4
+            18x275 , Sub-directory or File Count:3
+            5x41 , Sub-directory or File Count:3
     SINGLE , Sub-directory or File Count:3
         e- , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:3
+            10GeV , Sub-directory or File Count:3
+            1GeV , Sub-directory or File Count:3
+            200MeV , Sub-directory or File Count:3
+            20GeV , Sub-directory or File Count:3
+            2GeV , Sub-directory or File Count:3
+            500MeV , Sub-directory or File Count:3
+            5GeV , Sub-directory or File Count:3
         gamma , Sub-directory or File Count:10
+            100MeV , Sub-directory or File Count:3
+            10GeV , Sub-directory or File Count:3
+            1GeV , Sub-directory or File Count:3
+            200MeV , Sub-directory or File Count:3
+            20GeV , Sub-directory or File Count:3
+            2GeV , Sub-directory or File Count:3
+            40GeV , Sub-directory or File Count:1
+            500MeV , Sub-directory or File Count:3
+            5GeV , Sub-directory or File Count:3
+            60GeV , Sub-directory or File Count:1
         pi- , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:3
+            10GeV , Sub-directory or File Count:3
+            1GeV , Sub-directory or File Count:3
+            200MeV , Sub-directory or File Count:3
+            20GeV , Sub-directory or File Count:3
+            2GeV , Sub-directory or File Count:3
+            500MeV , Sub-directory or File Count:3
+            5GeV , Sub-directory or File Count:3
 ```
