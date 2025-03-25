@@ -70,7 +70,7 @@ jobs:
   process_campaigns_reco:
     needs: campaigns_reco
     container:
-      image: rucio/xrootd
+      image: rucio/test-xrootd
     runs-on: ubuntu-latest
     strategy:
       matrix:
