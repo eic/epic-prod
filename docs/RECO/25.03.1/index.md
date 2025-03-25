@@ -1,29 +1,29 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/25.03.1
+root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.03.1
 epic_craterlake , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:2
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:2076
-                minQ2=1000 , Sub-directory or File Count:4275
+                minQ2=100 , Sub-directory or File Count:2232
+                minQ2=1000 , Sub-directory or File Count:4288
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:9300
-                minQ2=1000 , Sub-directory or File Count:9565
+                minQ2=1000 , Sub-directory or File Count:9569
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:4118
-                minQ2=10 , Sub-directory or File Count:5250
-                minQ2=100 , Sub-directory or File Count:6550
-                minQ2=1000 , Sub-directory or File Count:8012
+                minQ2=1 , Sub-directory or File Count:4121
+                minQ2=10 , Sub-directory or File Count:5261
+                minQ2=100 , Sub-directory or File Count:6560
+                minQ2=1000 , Sub-directory or File Count:8024
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:8718
-                minQ2=10 , Sub-directory or File Count:4496
-                minQ2=100 , Sub-directory or File Count:626
+                minQ2=1 , Sub-directory or File Count:8779
+                minQ2=10 , Sub-directory or File Count:8809
+                minQ2=100 , Sub-directory or File Count:1359
                 minQ2=1000 , Sub-directory or File Count:1617
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:2825
                 minQ2=10 , Sub-directory or File Count:3347
-                minQ2=100 , Sub-directory or File Count:4057
+                minQ2=100 , Sub-directory or File Count:4058
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:1
@@ -133,7 +133,7 @@ epic_craterlake , Sub-directory or File Count:2
                 3to50deg , Sub-directory or File Count:59
         pi+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:1
-                3to50deg , Sub-directory or File Count:13
+                3to50deg , Sub-directory or File Count:15
             10GeV , Sub-directory or File Count:1
                 3to50deg , Sub-directory or File Count:141
             1GeV , Sub-directory or File Count:1

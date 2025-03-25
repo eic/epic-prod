@@ -1,5 +1,5 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.10.1
+root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/24.10.1
 epic_craterlake , Sub-directory or File Count:2
     EXCLUSIVE , Sub-directory or File Count:3
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1

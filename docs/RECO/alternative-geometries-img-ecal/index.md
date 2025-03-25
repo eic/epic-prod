@@ -1,5 +1,5 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/alternative-geometries-img-ecal
+root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/alternative-geometries-img-ecal
 epic_brycecanyon_becal_4layers , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:3
         e- , Sub-directory or File Count:12

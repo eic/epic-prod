@@ -1,5 +1,5 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/22.11.2
+root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/22.11.2
 epic_arches , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
