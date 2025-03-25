@@ -19,7 +19,7 @@ jobs:
       campaigns: ${{ steps.campaigns_reco.outputs.campaigns }}
 
     container:
-      image: rucio/xrootd
+      image: rucio/test-xrootd
 
     steps:
       - name: List campaigns
