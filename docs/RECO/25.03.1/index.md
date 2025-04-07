@@ -1,6 +1,11 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.03.1
-epic_craterlake , Sub-directory or File Count:4
+epic_craterlake , Sub-directory or File Count:5
+    BACKGROUNDS , Sub-directory or File Count:1
+        BEAMGAS , Sub-directory or File Count:1
+            proton , Sub-directory or File Count:1
+                pythia8.306-1.0 , Sub-directory or File Count:1
+                    275GeV , Sub-directory or File Count:9557
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
@@ -116,13 +121,13 @@ epic_craterlake , Sub-directory or File Count:4
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:32384
+                    q2_0to1 , Sub-directory or File Count:32390
                 10x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:62015
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:69246
+                    q2_0to1 , Sub-directory or File Count:69247
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:8101
+                    q2_0to1 , Sub-directory or File Count:15288
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
