@@ -3,22 +3,14 @@ root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/24.03.1
 epic_craterlake , Sub-directory or File Count:4
     BACKGROUNDS , Sub-directory or File Count:2
         10x100 , Sub-directory or File Count:1
-            merged_lowstat , Sub-directory or File Count:14
         BEAMGAS , Sub-directory or File Count:1
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:4491
-                    275GeV , Sub-directory or File Count:7600
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4307
-                minQ2=1000 , Sub-directory or File Count:4193
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:9528
-                minQ2=1000 , Sub-directory or File Count:9435
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:3165
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:1376
@@ -33,7 +25,7 @@ epic_craterlake , Sub-directory or File Count:4
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:3020
                 minQ2=10 , Sub-directory or File Count:3390
-                minQ2=100 , Sub-directory or File Count:4005
+                minQ2=100 , Sub-directory or File Count:3137
     EXCLUSIVE , Sub-directory or File Count:7
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.1.0 , Sub-directory or File Count:2

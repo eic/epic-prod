@@ -40,7 +40,7 @@ epic_craterlake , Sub-directory or File Count:5
                 minQ2=1 , Sub-directory or File Count:2825
                 minQ2=10 , Sub-directory or File Count:3347
                 minQ2=100 , Sub-directory or File Count:4058
-    EXCLUSIVE , Sub-directory or File Count:6
+    EXCLUSIVE , Sub-directory or File Count:9
         DEMP , Sub-directory or File Count:2
             DEMPgen-1.2.2 , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:3
@@ -80,9 +80,17 @@ epic_craterlake , Sub-directory or File Count:5
                         K+Lambda , Sub-directory or File Count:125
                         pi+ , Sub-directory or File Count:240
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
-            lAger3.6.1-1.0 , Sub-directory or File Count:1
+            lAger3.6.1-1.0 , Sub-directory or File Count:5
+                10x100 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:137
                 10x130 , Sub-directory or File Count:1
                     hiAcc , Sub-directory or File Count:173
+                18x275 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:451
+                5x100 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:90
+                5x41 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:34
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
                 Coherent , Sub-directory or File Count:16891
@@ -111,6 +119,8 @@ epic_craterlake , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:1241
             18x275 , Sub-directory or File Count:2308
             5x41 , Sub-directory or File Count:2622
+        DVMP , Sub-directory or File Count:1
+            EpIC1.0.0-1.1 , Sub-directory or File Count:70
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
                 hel_minus , Sub-directory or File Count:3779
@@ -120,6 +130,10 @@ epic_craterlake , Sub-directory or File Count:5
             5x41 , Sub-directory or File Count:2
                 hel_minus , Sub-directory or File Count:440
                 hel_plus , Sub-directory or File Count:440
+        UCHANNEL_PI0 , Sub-directory or File Count:1
+            18x275 , Sub-directory or File Count:112
+        UCHANNEL_RHO , Sub-directory or File Count:1
+            10x100 , Sub-directory or File Count:52
     SIDIS , Sub-directory or File Count:3
         D0_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
