@@ -14,40 +14,28 @@ epic_craterlake , Sub-directory or File Count:4
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
-                minQ2=10 , Sub-directory or File Count:6838
-                minQ2=100 , Sub-directory or File Count:10948
-                minQ2=1000 , Sub-directory or File Count:12375
             5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:7
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.1.0 , Sub-directory or File Count:2
                 10x100 , Sub-directory or File Count:3
                 5x41 , Sub-directory or File Count:3
-                    K+Lambda , Sub-directory or File Count:847
-                    K+Sigma0 , Sub-directory or File Count:1818
-                    pi+ , Sub-directory or File Count:781
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
                 Coherent , Sub-directory or File Count:15416
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1083
-            18x275 , Sub-directory or File Count:745
-            5x41 , Sub-directory or File Count:2233
         DVMP , Sub-directory or File Count:1
             EpIC1.0.0-1.0 , Sub-directory or File Count:66
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:7188
+                hel_minus , Sub-directory or File Count:5142
             18x275 , Sub-directory or File Count:2
                 hel_minus , Sub-directory or File Count:1577
                 hel_plus , Sub-directory or File Count:1578
             5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:1540
-                hel_plus , Sub-directory or File Count:1538
         UCHANNEL_PI0 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:249
         UCHANNEL_RHO , Sub-directory or File Count:1
-            10x100 , Sub-directory or File Count:69
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
