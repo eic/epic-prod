@@ -3,7 +3,6 @@ root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/24.04.0
 epic_craterlake , Sub-directory or File Count:5
     BACKGROUNDS , Sub-directory or File Count:2
         10x100 , Sub-directory or File Count:1
-            merged_lowstat , Sub-directory or File Count:22
         BEAMGAS , Sub-directory or File Count:1
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
