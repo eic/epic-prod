@@ -3,25 +3,19 @@ root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/24.05.0
 epic_craterlake , Sub-directory or File Count:4
     BACKGROUNDS , Sub-directory or File Count:3
         10x100 , Sub-directory or File Count:1
-            merged_lowstat , Sub-directory or File Count:27
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
-                    10GeV , Sub-directory or File Count:4039
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:4600
-                    275GeV , Sub-directory or File Count:15799
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
-                    1SignalPerFrame , Sub-directory or File Count:12
-                    RealisticSignalPerFrame , Sub-directory or File Count:29
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4445
-                minQ2=1000 , Sub-directory or File Count:4425
+                minQ2=100 , Sub-directory or File Count:56
+                minQ2=1000 , Sub-directory or File Count:251
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:9580
                 minQ2=1000 , Sub-directory or File Count:10335
@@ -89,9 +83,8 @@ epic_craterlake , Sub-directory or File Count:4
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:10243
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:90942
+                    q2_0to1 , Sub-directory or File Count:78243
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:94548
 ```

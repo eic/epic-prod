@@ -15,7 +15,27 @@ epic_craterlake , Sub-directory or File Count:5
                 10x100 , Sub-directory or File Count:2
                     1SignalPerFrame , Sub-directory or File Count:14
                     RealisticSignalPerFrame , Sub-directory or File Count:35
-    DIS , Sub-directory or File Count:2
+    DIS , Sub-directory or File Count:3
+        BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
+            eCu , Sub-directory or File Count:2
+                en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:490
+                ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:412
+            eHe3 , Sub-directory or File Count:1
+                10x166 , Sub-directory or File Count:3
+                    q2_100to1000 , Sub-directory or File Count:505
+                    q2_10to100 , Sub-directory or File Count:503
+                    q2_1to10 , Sub-directory or File Count:248
+            eRu , Sub-directory or File Count:2
+                en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:476
+                ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:285
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:4784
@@ -94,27 +114,6 @@ epic_craterlake , Sub-directory or File Count:5
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
                 Coherent , Sub-directory or File Count:16891
-        DIS , Sub-directory or File Count:1
-            BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
-                eCu , Sub-directory or File Count:2
-                    en , Sub-directory or File Count:1
-                        10x115 , Sub-directory or File Count:1
-                            q2_1to1000 , Sub-directory or File Count:490
-                    ep , Sub-directory or File Count:1
-                        10x115 , Sub-directory or File Count:1
-                            q2_1to1000 , Sub-directory or File Count:412
-                eHe3 , Sub-directory or File Count:1
-                    10x166 , Sub-directory or File Count:3
-                        q2_100to1000 , Sub-directory or File Count:505
-                        q2_10to100 , Sub-directory or File Count:503
-                        q2_1to10 , Sub-directory or File Count:248
-                eRu , Sub-directory or File Count:2
-                    en , Sub-directory or File Count:1
-                        10x115 , Sub-directory or File Count:1
-                            q2_1to1000 , Sub-directory or File Count:476
-                    ep , Sub-directory or File Count:1
-                        10x115 , Sub-directory or File Count:1
-                            q2_1to1000 , Sub-directory or File Count:285
         DVCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1241
             18x275 , Sub-directory or File Count:2308
