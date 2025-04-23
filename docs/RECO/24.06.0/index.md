@@ -5,26 +5,17 @@ epic_craterlake , Sub-directory or File Count:5
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
-                    10GeV , Sub-directory or File Count:719
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:1028
-                    275GeV , Sub-directory or File Count:2849
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
-                    1SignalPerFrame , Sub-directory or File Count:11
-                    RealisticSignalPerFrame , Sub-directory or File Count:28
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4930
-                minQ2=1000 , Sub-directory or File Count:5158
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:9439
-                minQ2=1000 , Sub-directory or File Count:9678
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:3034
+                minQ2=100 , Sub-directory or File Count:763
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:402
