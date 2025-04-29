@@ -33,7 +33,6 @@ epic_craterlake , Sub-directory or File Count:5
             18x275 , Sub-directory or File Count:2
             5x41 , Sub-directory or File Count:2
         UCHANNEL_PI0 , Sub-directory or File Count:1
-            18x275 , Sub-directory or File Count:118
         UCHANNEL_RHO , Sub-directory or File Count:1
     SIDIS , Sub-directory or File Count:3
         D0_ABCONV , Sub-directory or File Count:1
@@ -45,9 +44,9 @@ epic_craterlake , Sub-directory or File Count:5
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:26226
+                    q2_0to1 , Sub-directory or File Count:335
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:69491
+                    q2_0to1 , Sub-directory or File Count:32494
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:74045
                 5x41 , Sub-directory or File Count:1
