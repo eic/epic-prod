@@ -6,12 +6,10 @@ epic_craterlake , Sub-directory or File Count:5
         BEAMGAS , Sub-directory or File Count:1
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:5287
-                    275GeV , Sub-directory or File Count:14309
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4550
+                minQ2=100 , Sub-directory or File Count:2232
                 minQ2=1000 , Sub-directory or File Count:4431
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:10077
