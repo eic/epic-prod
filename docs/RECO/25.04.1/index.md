@@ -71,7 +71,7 @@ epic_craterlake , Sub-directory or File Count:4
                 eAu , Sub-directory or File Count:1
                     coherent , Sub-directory or File Count:1
                         bsat , Sub-directory or File Count:1
-                            10x100 , Sub-directory or File Count:6961
+                            10x100 , Sub-directory or File Count:14521
         DVCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1881
             18x275 , Sub-directory or File Count:3043
@@ -94,11 +94,13 @@ epic_craterlake , Sub-directory or File Count:4
                     hiAcc , Sub-directory or File Count:3758
                     hiDiv , Sub-directory or File Count:3857
         pythia6-eic , Sub-directory or File Count:1
-            1.0.0 , Sub-directory or File Count:2
+            1.0.0 , Sub-directory or File Count:3
+                10x100 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:5106
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:53212
+                    q2_0to1 , Sub-directory or File Count:63849
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:69670
+                    q2_0to1 , Sub-directory or File Count:69697
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
