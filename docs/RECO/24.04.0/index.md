@@ -14,14 +14,7 @@ epic_craterlake , Sub-directory or File Count:5
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:8581
-                minQ2=10 , Sub-directory or File Count:9114
-                minQ2=100 , Sub-directory or File Count:11037
-                minQ2=1000 , Sub-directory or File Count:13002
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:2871
-                minQ2=10 , Sub-directory or File Count:3236
-                minQ2=100 , Sub-directory or File Count:3836
     EXCLUSIVE , Sub-directory or File Count:7
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.1.0 , Sub-directory or File Count:2
