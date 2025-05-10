@@ -1,6 +1,11 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.04.1
-epic_craterlake , Sub-directory or File Count:4
+epic_craterlake , Sub-directory or File Count:5
+    BACKGROUNDS , Sub-directory or File Count:1
+        BEAMGAS , Sub-directory or File Count:1
+            proton , Sub-directory or File Count:1
+                pythia8.306-1.0 , Sub-directory or File Count:1
+                    100GeV , Sub-directory or File Count:1493
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
@@ -58,7 +63,7 @@ epic_craterlake , Sub-directory or File Count:4
                 10x130 , Sub-directory or File Count:3
                     q2_10_20 , Sub-directory or File Count:2
                         K+Lambda , Sub-directory or File Count:116
-                        pi+ , Sub-directory or File Count:121
+                        pi+ , Sub-directory or File Count:122
                     q2_20_35 , Sub-directory or File Count:1
                         K+Lambda , Sub-directory or File Count:112
                     q2_3_10 , Sub-directory or File Count:1
@@ -114,13 +119,13 @@ epic_craterlake , Sub-directory or File Count:4
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:23227
+                    q2_0to1 , Sub-directory or File Count:30836
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:64505
+                    q2_0to1 , Sub-directory or File Count:64506
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:69697
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:15319
+                    q2_0to1 , Sub-directory or File Count:15518
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
