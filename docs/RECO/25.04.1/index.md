@@ -1,11 +1,20 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.04.1
 epic_craterlake , Sub-directory or File Count:5
-    BACKGROUNDS , Sub-directory or File Count:1
-        BEAMGAS , Sub-directory or File Count:1
+    BACKGROUNDS , Sub-directory or File Count:2
+        BEAMGAS , Sub-directory or File Count:2
+            electron , Sub-directory or File Count:1
+                GETaLM1.0.0-1.0 , Sub-directory or File Count:1
+                    10GeV , Sub-directory or File Count:3502
             proton , Sub-directory or File Count:1
-                pythia8.306-1.0 , Sub-directory or File Count:1
-                    100GeV , Sub-directory or File Count:1493
+                pythia8.306-1.0 , Sub-directory or File Count:2
+                    100GeV , Sub-directory or File Count:5788
+                    275GeV , Sub-directory or File Count:14638
+        MERGED , Sub-directory or File Count:1
+            HEPMC_merger-1.0.2 , Sub-directory or File Count:1
+                10x100 , Sub-directory or File Count:2
+                    1SignalPerFrame , Sub-directory or File Count:15
+                    RealisticSignalPerFrame , Sub-directory or File Count:36
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
@@ -119,9 +128,9 @@ epic_craterlake , Sub-directory or File Count:5
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:30836
+                    q2_0to1 , Sub-directory or File Count:31031
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:64506
+                    q2_0to1 , Sub-directory or File Count:64507
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:69697
                 5x41 , Sub-directory or File Count:1
