@@ -22,22 +22,15 @@ epic_craterlake , Sub-directory or File Count:5
                 5x41 , Sub-directory or File Count:3
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:14692
         DVCS_ABCONV , Sub-directory or File Count:3
         DVMP , Sub-directory or File Count:1
-            EpIC1.0.0-1.1 , Sub-directory or File Count:73
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:786
-                hel_plus , Sub-directory or File Count:567
             5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:401
-                hel_plus , Sub-directory or File Count:391
         UCHANNEL_PI0 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:145
         UCHANNEL_RHO , Sub-directory or File Count:1
-            10x100 , Sub-directory or File Count:85
     SIDIS , Sub-directory or File Count:3
         D0_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
