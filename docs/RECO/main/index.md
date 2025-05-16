@@ -1089,10 +1089,16 @@ epic_brycecanyon , Sub-directory or File Count:2
                 130to177deg , Sub-directory or File Count:25
                 3to50deg , Sub-directory or File Count:22
                 45to135deg , Sub-directory or File Count:26
-epic_craterlake , Sub-directory or File Count:6
+epic_craterlake , Sub-directory or File Count:7
     BACKGROUNDS , Sub-directory or File Count:1
         10x100 , Sub-directory or File Count:1
             merged_lowstat , Sub-directory or File Count:27
+    Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
+        Synrad_18GeV_Vac_10000Ahr_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
+            DIS , Sub-directory or File Count:1
+                NC , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        minQ2=1 , Sub-directory or File Count:351
     CI , Sub-directory or File Count:43
         2025-01-10_14-26-17 , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
