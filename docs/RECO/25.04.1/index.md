@@ -92,11 +92,13 @@ epic_craterlake , Sub-directory or File Count:5
                 10x130 , Sub-directory or File Count:3
                     q2_10_20 , Sub-directory or File Count:2
                         K+Lambda , Sub-directory or File Count:116
-                        pi+ , Sub-directory or File Count:122
-                    q2_20_35 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:123
+                    q2_20_35 , Sub-directory or File Count:2
                         K+Lambda , Sub-directory or File Count:112
-                    q2_3_10 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:1
+                    q2_3_10 , Sub-directory or File Count:2
                         K+Lambda , Sub-directory or File Count:114
+                        pi+ , Sub-directory or File Count:2
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
             lAger3.6.1-1.0 , Sub-directory or File Count:5
                 10x100 , Sub-directory or File Count:1
