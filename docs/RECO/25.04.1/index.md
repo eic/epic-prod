@@ -95,7 +95,7 @@ epic_craterlake , Sub-directory or File Count:5
                         pi+ , Sub-directory or File Count:123
                     q2_20_35 , Sub-directory or File Count:2
                         K+Lambda , Sub-directory or File Count:112
-                        pi+ , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:2
                     q2_3_10 , Sub-directory or File Count:2
                         K+Lambda , Sub-directory or File Count:114
                         pi+ , Sub-directory or File Count:2
