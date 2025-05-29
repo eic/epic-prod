@@ -1,6 +1,6 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.05.0
-epic_craterlake , Sub-directory or File Count:6
+epic_craterlake , Sub-directory or File Count:7
     BACKGROUNDS , Sub-directory or File Count:2
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
@@ -9,7 +9,7 @@ epic_craterlake , Sub-directory or File Count:6
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:6875
-                    275GeV , Sub-directory or File Count:15157
+                    275GeV , Sub-directory or File Count:15160
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
@@ -53,6 +53,23 @@ epic_craterlake , Sub-directory or File Count:6
                 minQ2=1 , Sub-directory or File Count:3222
                 minQ2=10 , Sub-directory or File Count:3833
                 minQ2=100 , Sub-directory or File Count:5629
+    EXCLUSIVE , Sub-directory or File Count:2
+        DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
+            lAger3.6.1-1.0 , Sub-directory or File Count:5
+                10x100 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:135
+                10x130 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:188
+                18x275 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:496
+                5x100 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:117
+                5x41 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:38
+        DVCS_ABCONV , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:1290
+            18x275 , Sub-directory or File Count:2400
+            5x41 , Sub-directory or File Count:2386
     SIDIS , Sub-directory or File Count:1
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
