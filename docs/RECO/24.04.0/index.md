@@ -125,17 +125,10 @@ epic_craterlake , Sub-directory or File Count:5
         proton , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:1
             1GeV , Sub-directory or File Count:3
             200MeV , Sub-directory or File Count:3
             20GeV , Sub-directory or File Count:3
-                3to50deg , Sub-directory or File Count:3
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:1
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:3
-                45to135deg , Sub-directory or File Count:2
             5GeV , Sub-directory or File Count:3
-                3to50deg , Sub-directory or File Count:48
-                45to135deg , Sub-directory or File Count:170
 ```

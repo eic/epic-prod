@@ -5,32 +5,22 @@ epic_craterlake , Sub-directory or File Count:5
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
-                    10GeV , Sub-directory or File Count:2736
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:4800
-                    275GeV , Sub-directory or File Count:14700
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
-                    1SignalPerFrame , Sub-directory or File Count:12
-                    RealisticSignalPerFrame , Sub-directory or File Count:29
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4520
-                minQ2=1000 , Sub-directory or File Count:5125
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:9295
-                minQ2=1000 , Sub-directory or File Count:10085
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:2715
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:3705
-                minQ2=10 , Sub-directory or File Count:4970
-                minQ2=100 , Sub-directory or File Count:5970
-                minQ2=1000 , Sub-directory or File Count:7890
+                minQ2=1 , Sub-directory or File Count:572
+                minQ2=10 , Sub-directory or File Count:770
+                minQ2=100 , Sub-directory or File Count:900
+                minQ2=1000 , Sub-directory or File Count:1176
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:8590
                 minQ2=10 , Sub-directory or File Count:9260
@@ -77,17 +67,13 @@ epic_craterlake , Sub-directory or File Count:5
         D0_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:2
-                    hiAcc , Sub-directory or File Count:1691
-                    hiDiv , Sub-directory or File Count:1668
         Lambda_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:2
-                    hiAcc , Sub-directory or File Count:3557
-                    hiDiv , Sub-directory or File Count:3605
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:30350
+                    q2_0to1 , Sub-directory or File Count:18352
                 10x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:74448
                 18x275 , Sub-directory or File Count:1
