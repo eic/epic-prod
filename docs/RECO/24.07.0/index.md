@@ -17,37 +17,17 @@ epic_craterlake , Sub-directory or File Count:5
             5x41 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:572
-                minQ2=10 , Sub-directory or File Count:770
-                minQ2=100 , Sub-directory or File Count:900
-                minQ2=1000 , Sub-directory or File Count:1176
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:8590
-                minQ2=10 , Sub-directory or File Count:9260
-                minQ2=100 , Sub-directory or File Count:10529
-                minQ2=1000 , Sub-directory or File Count:13370
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:2520
-                minQ2=10 , Sub-directory or File Count:3040
-                minQ2=100 , Sub-directory or File Count:3970
     EXCLUSIVE , Sub-directory or File Count:7
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.1.0 , Sub-directory or File Count:2
                 10x100 , Sub-directory or File Count:3
-                    K+Lambda , Sub-directory or File Count:2400
-                    K+Sigma0 , Sub-directory or File Count:2544
-                    pi+ , Sub-directory or File Count:1500
                 5x41 , Sub-directory or File Count:3
-                    K+Lambda , Sub-directory or File Count:2939
-                    K+Sigma0 , Sub-directory or File Count:2158
-                    pi+ , Sub-directory or File Count:1136
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
                 Coherent , Sub-directory or File Count:18828
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1325
-            18x275 , Sub-directory or File Count:3534
-            5x41 , Sub-directory or File Count:2237
         DVMP , Sub-directory or File Count:1
             EpIC1.0.0-1.1 , Sub-directory or File Count:63
         TCS_ABCONV , Sub-directory or File Count:3
@@ -73,13 +53,13 @@ epic_craterlake , Sub-directory or File Count:5
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:18352
+                    q2_0to1 , Sub-directory or File Count:7316
                 10x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:74448
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:79650
+                    q2_0to1 , Sub-directory or File Count:58156
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:15399
+                    q2_0to1 , Sub-directory or File Count:13834
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3

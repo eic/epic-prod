@@ -28,7 +28,27 @@ epic_craterlake , Sub-directory or File Count:7
                     1.0.0 , Sub-directory or File Count:1
                         18x275 , Sub-directory or File Count:1
                             q2_0to1 , Sub-directory or File Count:187095
-    DIS , Sub-directory or File Count:2
+    DIS , Sub-directory or File Count:3
+        BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
+            eCu , Sub-directory or File Count:2
+                en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:435
+                ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:424
+            eHe3 , Sub-directory or File Count:1
+                10x166 , Sub-directory or File Count:3
+                    q2_100to1000 , Sub-directory or File Count:547
+                    q2_10to100 , Sub-directory or File Count:546
+                    q2_1to10 , Sub-directory or File Count:269
+            eRu , Sub-directory or File Count:2
+                en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:508
+                ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:304
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:4944
@@ -53,7 +73,23 @@ epic_craterlake , Sub-directory or File Count:7
                 minQ2=1 , Sub-directory or File Count:3222
                 minQ2=10 , Sub-directory or File Count:3833
                 minQ2=100 , Sub-directory or File Count:5629
-    EXCLUSIVE , Sub-directory or File Count:2
+    EXCLUSIVE , Sub-directory or File Count:4
+        DEMP , Sub-directory or File Count:1
+            DEMPgen-1.2.2 , Sub-directory or File Count:2
+                10x100 , Sub-directory or File Count:3
+                    q2_10_20 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:164
+                    q2_20_35 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:373
+                    q2_3_10 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:325
+                18x275 , Sub-directory or File Count:3
+                    q2_10_20 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:218
+                    q2_20_35 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:300
+                    q2_3_10 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:13
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
             lAger3.6.1-1.0 , Sub-directory or File Count:5
                 10x100 , Sub-directory or File Count:1
@@ -70,6 +106,8 @@ epic_craterlake , Sub-directory or File Count:7
             10x100 , Sub-directory or File Count:1290
             18x275 , Sub-directory or File Count:2401
             5x41 , Sub-directory or File Count:2483
+        DVMP , Sub-directory or File Count:1
+            EpIC1.0.0-1.1 , Sub-directory or File Count:60
     SIDIS , Sub-directory or File Count:1
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
