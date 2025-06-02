@@ -1523,7 +1523,7 @@ epic_craterlake , Sub-directory or File Count:7
         gamma , Sub-directory or File Count:1
             100MeV , Sub-directory or File Count:1
                 etaScan , Sub-directory or File Count:145
-    Test , Sub-directory or File Count:9
+    Test , Sub-directory or File Count:10
         2025-01-10_15-36-00 , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
@@ -1581,4 +1581,17 @@ epic_craterlake , Sub-directory or File Count:7
                 NC , Sub-directory or File Count:1
                     10x100 , Sub-directory or File Count:1
                         minQ2=1 , Sub-directory or File Count:5
+        Tutorials_June2025 , Sub-directory or File Count:1
+            EXCLUSIVE , Sub-directory or File Count:1
+                DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:2
+                    BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
+                        eCa , Sub-directory or File Count:1
+                            18x137.5 , Sub-directory or File Count:1
+                                q2_1to10 , Sub-directory or File Count:10867
+                    sartre1.39-1.0 , Sub-directory or File Count:1
+                        eCa , Sub-directory or File Count:1
+                            coherent , Sub-directory or File Count:1
+                                bsat , Sub-directory or File Count:1
+                                    18x137.5 , Sub-directory or File Count:1
+                                        q2_1to10 , Sub-directory or File Count:693
 ```
