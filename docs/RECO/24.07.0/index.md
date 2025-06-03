@@ -26,23 +26,14 @@ epic_craterlake , Sub-directory or File Count:5
                 5x41 , Sub-directory or File Count:3
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:18828
         DVCS_ABCONV , Sub-directory or File Count:3
         DVMP , Sub-directory or File Count:1
-            EpIC1.0.0-1.1 , Sub-directory or File Count:63
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:8100
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:6380
-                hel_plus , Sub-directory or File Count:6380
             5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:960
-                hel_plus , Sub-directory or File Count:960
         UCHANNEL_PI0 , Sub-directory or File Count:1
-            18x275 , Sub-directory or File Count:114
         UCHANNEL_RHO , Sub-directory or File Count:1
-            10x100 , Sub-directory or File Count:49
     SIDIS , Sub-directory or File Count:3
         D0_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
@@ -53,13 +44,12 @@ epic_craterlake , Sub-directory or File Count:5
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:7316
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:74448
+                    q2_0to1 , Sub-directory or File Count:74260
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:53172
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:13834
+                    q2_0to1 , Sub-directory or File Count:8495
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
