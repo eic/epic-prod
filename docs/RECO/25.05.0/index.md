@@ -1,26 +1,36 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.05.0
-epic_craterlake , Sub-directory or File Count:7
-    BACKGROUNDS , Sub-directory or File Count:2
+epic_craterlake , Sub-directory or File Count:8
+    BACKGROUNDS , Sub-directory or File Count:3
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
                     10GeV , Sub-directory or File Count:3017
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:6876
-                    275GeV , Sub-directory or File Count:15160
+                    100GeV , Sub-directory or File Count:6987
+                    275GeV , Sub-directory or File Count:15478
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
                     1SignalPerFrame , Sub-directory or File Count:13
                     RealisticSignalPerFrame , Sub-directory or File Count:30
+        SYNRAD , Sub-directory or File Count:1
+            dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:33
     Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
         Synrad_18GeV_Vac_10000Ahr_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
                         minQ2=1 , Sub-directory or File Count:14035
+    Bkg_OnlyPer2usFrame , Sub-directory or File Count:1
+        Synrad_18GeV_Vac_10000Ahr_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
+            BACKGROUNDS , Sub-directory or File Count:1
+                BEAMGAS , Sub-directory or File Count:1
+                    proton , Sub-directory or File Count:1
+                        pythia8.306-1.0 , Sub-directory or File Count:1
+                            275GeV , Sub-directory or File Count:12709
     Bkg_RealisticSignalPer2usFrame , Sub-directory or File Count:1
         Synrad_18GeV_Vac_10000Ahr_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
             SIDIS , Sub-directory or File Count:1
