@@ -13,28 +13,16 @@ epic_craterlake , Sub-directory or File Count:5
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:2219
-                minQ2=1000 , Sub-directory or File Count:1959
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:3837
-                minQ2=1000 , Sub-directory or File Count:4396
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:1101
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:1977
-                minQ2=10 , Sub-directory or File Count:2928
-                minQ2=100 , Sub-directory or File Count:3420
-                minQ2=1000 , Sub-directory or File Count:4209
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:3949
-                minQ2=10 , Sub-directory or File Count:3388
-                minQ2=100 , Sub-directory or File Count:5834
-                minQ2=1000 , Sub-directory or File Count:9118
+                minQ2=1 , Sub-directory or File Count:2286
+                minQ2=10 , Sub-directory or File Count:1961
+                minQ2=100 , Sub-directory or File Count:3345
+                minQ2=1000 , Sub-directory or File Count:5242
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:1274
-                minQ2=10 , Sub-directory or File Count:1540
-                minQ2=100 , Sub-directory or File Count:2044
     EXCLUSIVE , Sub-directory or File Count:6
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
