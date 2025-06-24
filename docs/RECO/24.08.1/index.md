@@ -18,31 +18,17 @@ epic_craterlake , Sub-directory or File Count:5
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:2286
-                minQ2=10 , Sub-directory or File Count:1961
-                minQ2=100 , Sub-directory or File Count:3345
-                minQ2=1000 , Sub-directory or File Count:5242
             5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:6
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:21289
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1248
-            18x275 , Sub-directory or File Count:2837
-            5x41 , Sub-directory or File Count:2259
         DVMP , Sub-directory or File Count:1
-            EpIC1.0.0-1.1 , Sub-directory or File Count:70
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:7860
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:4840
-                hel_plus , Sub-directory or File Count:4840
-            5x41 , Sub-directory or File Count:2
-                hel_plus , Sub-directory or File Count:960
+            5x41 , Sub-directory or File Count:1
         UCHANNEL_PI0 , Sub-directory or File Count:1
-            18x275 , Sub-directory or File Count:133
         UCHANNEL_RHO , Sub-directory or File Count:1
             10x100 , Sub-directory or File Count:62
     SIDIS , Sub-directory or File Count:3
