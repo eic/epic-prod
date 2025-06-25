@@ -1099,7 +1099,7 @@ epic_craterlake , Sub-directory or File Count:7
                 NC , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
                         minQ2=1 , Sub-directory or File Count:351
-    CI , Sub-directory or File Count:56
+    CI , Sub-directory or File Count:64
         2025-01-10_14-26-17 , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
@@ -1575,6 +1575,96 @@ epic_craterlake , Sub-directory or File Count:7
                 NC , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
                         minQ2=1 , Sub-directory or File Count:1
+        2025-06-24_06-07-00 , Sub-directory or File Count:1
+            DIS , Sub-directory or File Count:1
+                NC , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        minQ2=1 , Sub-directory or File Count:1
+        2025-06-24_12-13-16 , Sub-directory or File Count:2
+            DIS , Sub-directory or File Count:1
+                NC , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        minQ2=1 , Sub-directory or File Count:1
+            SINGLE , Sub-directory or File Count:1
+                e+ , Sub-directory or File Count:1
+                    100MeV , Sub-directory or File Count:1
+                        130to177deg , Sub-directory or File Count:1
+        2025-06-24_12-41-22 , Sub-directory or File Count:2
+            DIS , Sub-directory or File Count:1
+                NC , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        minQ2=1 , Sub-directory or File Count:1
+            SINGLE , Sub-directory or File Count:1
+                e+ , Sub-directory or File Count:1
+                    100MeV , Sub-directory or File Count:1
+                        130to177deg , Sub-directory or File Count:1
+        2025-06-24_13-00-18 , Sub-directory or File Count:2
+            DIS , Sub-directory or File Count:1
+                NC , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        minQ2=1 , Sub-directory or File Count:1
+            SINGLE , Sub-directory or File Count:1
+                e+ , Sub-directory or File Count:1
+                    100MeV , Sub-directory or File Count:1
+                        130to177deg , Sub-directory or File Count:1
+        2025-06-24_15-38-08 , Sub-directory or File Count:2
+            DIS , Sub-directory or File Count:1
+                NC , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        minQ2=1 , Sub-directory or File Count:1
+            SINGLE , Sub-directory or File Count:1
+                e+ , Sub-directory or File Count:1
+                    100MeV , Sub-directory or File Count:1
+                        130to177deg , Sub-directory or File Count:1
+        2025-06-24_17-47-17 , Sub-directory or File Count:2
+            DIS , Sub-directory or File Count:1
+                NC , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        minQ2=1 , Sub-directory or File Count:1
+            SINGLE , Sub-directory or File Count:1
+                e+ , Sub-directory or File Count:1
+                    100MeV , Sub-directory or File Count:1
+                        130to177deg , Sub-directory or File Count:1
+        2025-06-24_18-07-42 , Sub-directory or File Count:2
+            DIS , Sub-directory or File Count:1
+                NC , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        minQ2=1 , Sub-directory or File Count:1
+            SINGLE , Sub-directory or File Count:1
+                e+ , Sub-directory or File Count:1
+                    100MeV , Sub-directory or File Count:1
+                        130to177deg , Sub-directory or File Count:1
+        Backgrounds , Sub-directory or File Count:6
+            2025-06-24_12-13-16 , Sub-directory or File Count:1
+                DIS , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:1
+            2025-06-24_12-41-22 , Sub-directory or File Count:1
+                DIS , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:1
+            2025-06-24_13-00-18 , Sub-directory or File Count:1
+                DIS , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:1
+            2025-06-24_15-38-08 , Sub-directory or File Count:1
+                DIS , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:1
+            2025-06-24_17-47-17 , Sub-directory or File Count:1
+                DIS , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:1
+            2025-06-24_18-07-42 , Sub-directory or File Count:1
+                DIS , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:1
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:2
             10x100 , Sub-directory or File Count:1

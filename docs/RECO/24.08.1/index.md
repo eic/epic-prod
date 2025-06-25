@@ -30,28 +30,23 @@ epic_craterlake , Sub-directory or File Count:5
             5x41 , Sub-directory or File Count:1
         UCHANNEL_PI0 , Sub-directory or File Count:1
         UCHANNEL_RHO , Sub-directory or File Count:1
-            10x100 , Sub-directory or File Count:62
     SIDIS , Sub-directory or File Count:3
         D0_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:2
-                    hiAcc , Sub-directory or File Count:1640
-                    hiDiv , Sub-directory or File Count:1644
         Lambda_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:2
-                    hiAcc , Sub-directory or File Count:3621
-                    hiDiv , Sub-directory or File Count:3767
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:32700
+                    q2_0to1 , Sub-directory or File Count:29859
                 10x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:82798
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:94349
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:19900
+                    q2_0to1 , Sub-directory or File Count:18153
     SINGLE , Sub-directory or File Count:10
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
