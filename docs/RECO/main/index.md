@@ -1710,7 +1710,7 @@ epic_craterlake , Sub-directory or File Count:7
         gamma , Sub-directory or File Count:1
             100MeV , Sub-directory or File Count:1
                 etaScan , Sub-directory or File Count:145
-    Test , Sub-directory or File Count:11
+    Test , Sub-directory or File Count:12
         2025-01-10_15-36-00 , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
@@ -1764,6 +1764,13 @@ epic_craterlake , Sub-directory or File Count:7
                 DVCS_ABCONV , Sub-directory or File Count:1
                     10x100 , Sub-directory or File Count:5
         2025-06-25_12-46-00 , Sub-directory or File Count:1
+            Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
+                Synrad_18GeV_Vac_10000Ahr_Runtime_10ms_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
+                    DIS , Sub-directory or File Count:1
+                        NC , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                minQ2=1 , Sub-directory or File Count:1
+        2025-06-26_08-04-00 , Sub-directory or File Count:1
             Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
                 Synrad_18GeV_Vac_10000Ahr_Runtime_10ms_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
                     DIS , Sub-directory or File Count:1
