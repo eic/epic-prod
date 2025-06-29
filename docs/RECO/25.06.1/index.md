@@ -10,35 +10,36 @@ epic_craterlake , Sub-directory or File Count:3
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:1
-                minQ2=1000 , Sub-directory or File Count:1613
+                minQ2=1000 , Sub-directory or File Count:14653
         NC , Sub-directory or File Count:1
-            18x275 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:15365
-                minQ2=10 , Sub-directory or File Count:15897
-                minQ2=100 , Sub-directory or File Count:717
+            18x275 , Sub-directory or File Count:4
+                minQ2=1 , Sub-directory or File Count:15367
+                minQ2=10 , Sub-directory or File Count:16074
+                minQ2=100 , Sub-directory or File Count:20140
+                minQ2=1000 , Sub-directory or File Count:6846
     EXCLUSIVE , Sub-directory or File Count:3
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
             lAger3.6.1-1.0 , Sub-directory or File Count:5
                 10x100 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:164
+                    hiAcc , Sub-directory or File Count:170
                 10x130 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:159
+                    hiAcc , Sub-directory or File Count:225
                 18x275 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:565
+                    hiAcc , Sub-directory or File Count:569
                 5x100 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:59
+                    hiAcc , Sub-directory or File Count:111
                 5x41 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:18
+                    hiAcc , Sub-directory or File Count:47
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:2
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:37
+                Coherent , Sub-directory or File Count:20347
             sartre1.39-1.0 , Sub-directory or File Count:1
                 eAu , Sub-directory or File Count:1
                     coherent , Sub-directory or File Count:1
                         bsat , Sub-directory or File Count:1
-                            10x100 , Sub-directory or File Count:1775
+                            10x100 , Sub-directory or File Count:1785
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1418
-            18x275 , Sub-directory or File Count:2639
-            5x41 , Sub-directory or File Count:2470
+            10x100 , Sub-directory or File Count:1432
+            18x275 , Sub-directory or File Count:2644
+            5x41 , Sub-directory or File Count:2562
 ```
