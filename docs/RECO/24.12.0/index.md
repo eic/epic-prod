@@ -5,11 +5,9 @@ epic_craterlake , Sub-directory or File Count:5
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:1
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
-                    10GeV , Sub-directory or File Count:2994
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:5000
-                    275GeV , Sub-directory or File Count:13000
+                    275GeV , Sub-directory or File Count:8200
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
@@ -21,111 +19,59 @@ epic_craterlake , Sub-directory or File Count:5
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:5345
-                minQ2=1000 , Sub-directory or File Count:4370
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:10224
-                minQ2=1000 , Sub-directory or File Count:9710
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:2270
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:5180
-                minQ2=10 , Sub-directory or File Count:6679
-                minQ2=100 , Sub-directory or File Count:7430
-                minQ2=1000 , Sub-directory or File Count:9059
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:8472
-                minQ2=10 , Sub-directory or File Count:9260
-                minQ2=100 , Sub-directory or File Count:11630
-                minQ2=1000 , Sub-directory or File Count:16394
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:4679
-                minQ2=10 , Sub-directory or File Count:3470
-                minQ2=100 , Sub-directory or File Count:4144
     EXCLUSIVE , Sub-directory or File Count:6
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.2.2 , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:3
                     q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:187
                     q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:408
                     q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:358
                 18x275 , Sub-directory or File Count:3
                     q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:245
                     q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:544
                     q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:374
                 5x41 , Sub-directory or File Count:4
                     q2_10_20 , Sub-directory or File Count:2
-                        K+Lambda , Sub-directory or File Count:116
-                        pi+ , Sub-directory or File Count:110
                     q2_1_10 , Sub-directory or File Count:1
-                        K+Lambda , Sub-directory or File Count:305
                     q2_20_35 , Sub-directory or File Count:2
-                        K+Lambda , Sub-directory or File Count:251
-                        pi+ , Sub-directory or File Count:247
                     q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:216
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
             lAger3.6.1-1.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:140
                 18x275 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:474
                 5x100 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:91
                 5x41 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:32
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:17487
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1300
-            18x275 , Sub-directory or File Count:2374
-            5x41 , Sub-directory or File Count:2381
         DVMP , Sub-directory or File Count:1
-            EpIC1.0.0-1.1 , Sub-directory or File Count:73
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:4979
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:2540
-                hel_plus , Sub-directory or File Count:2540
             5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:670
-                hel_plus , Sub-directory or File Count:670
     SIDIS , Sub-directory or File Count:3
         D0_ABCONV , Sub-directory or File Count:2
             pythia8.306-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:2
-                    hiAcc , Sub-directory or File Count:1672
-                    hiDiv , Sub-directory or File Count:1752
             pythia8.306-1.1 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
                     q2_1 , Sub-directory or File Count:1
-                        hiDiv , Sub-directory or File Count:1879
                     q2_100 , Sub-directory or File Count:1
-                        hiDiv , Sub-directory or File Count:1869
         Lambda_ABCONV , Sub-directory or File Count:1
             pythia8.306-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:2
-                    hiAcc , Sub-directory or File Count:3604
-                    hiDiv , Sub-directory or File Count:3758
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:32896
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:63899
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:71350
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:16399
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
