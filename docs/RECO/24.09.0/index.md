@@ -8,53 +8,28 @@ epic_craterlake , Sub-directory or File Count:4
             5x41 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:3545
-                minQ2=10 , Sub-directory or File Count:4809
-                minQ2=100 , Sub-directory or File Count:5777
-                minQ2=1000 , Sub-directory or File Count:6930
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:7306
-                minQ2=10 , Sub-directory or File Count:7841
-                minQ2=100 , Sub-directory or File Count:10786
-                minQ2=1000 , Sub-directory or File Count:12460
             5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:2161
-                minQ2=10 , Sub-directory or File Count:2488
-                minQ2=100 , Sub-directory or File Count:4593
     EXCLUSIVE , Sub-directory or File Count:5
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.2.0 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:1
-                    pi+ , Sub-directory or File Count:17897
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:17202
         DVCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1216
-            18x275 , Sub-directory or File Count:2376
-            5x41 , Sub-directory or File Count:2325
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:3870
             18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:2240
-                hel_plus , Sub-directory or File Count:2240
             5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:360
-                hel_plus , Sub-directory or File Count:360
         UCHANNEL_RHO , Sub-directory or File Count:1
-            10x100 , Sub-directory or File Count:54
     SIDIS , Sub-directory or File Count:1
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:35589
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:62700
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:70845
+                    q2_0to1 , Sub-directory or File Count:45105
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:20350
     SINGLE , Sub-directory or File Count:9
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3

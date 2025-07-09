@@ -18,7 +18,7 @@ epic_craterlake , Sub-directory or File Count:6
                 pythia6-eic , Sub-directory or File Count:1
                     1.0.0 , Sub-directory or File Count:1
                         18x275 , Sub-directory or File Count:1
-                            q2_0to1 , Sub-directory or File Count:5350
+                            q2_0to1 , Sub-directory or File Count:39790
     DIS , Sub-directory or File Count:3
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
             eCu , Sub-directory or File Count:2
@@ -165,7 +165,7 @@ epic_craterlake , Sub-directory or File Count:6
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:58072
+                    q2_0to1 , Sub-directory or File Count:69228
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
