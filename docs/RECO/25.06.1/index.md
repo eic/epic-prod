@@ -18,7 +18,7 @@ epic_craterlake , Sub-directory or File Count:6
                 pythia6-eic , Sub-directory or File Count:1
                     1.0.0 , Sub-directory or File Count:1
                         18x275 , Sub-directory or File Count:1
-                            q2_0to1 , Sub-directory or File Count:39790
+                            q2_0to1 , Sub-directory or File Count:68579
     DIS , Sub-directory or File Count:3
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
             eCu , Sub-directory or File Count:2
@@ -59,11 +59,11 @@ epic_craterlake , Sub-directory or File Count:6
                 minQ2=1 , Sub-directory or File Count:15367
                 minQ2=10 , Sub-directory or File Count:16074
                 minQ2=100 , Sub-directory or File Count:20154
-                minQ2=1000 , Sub-directory or File Count:24854
+                minQ2=1000 , Sub-directory or File Count:24855
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:6534
                 minQ2=10 , Sub-directory or File Count:4367
-                minQ2=100 , Sub-directory or File Count:4981
+                minQ2=100 , Sub-directory or File Count:4982
     EXCLUSIVE , Sub-directory or File Count:8
         DEMP , Sub-directory or File Count:2
             DEMPgen-1.2.2 , Sub-directory or File Count:3
@@ -163,9 +163,11 @@ epic_craterlake , Sub-directory or File Count:6
             10x100 , Sub-directory or File Count:61
     SIDIS , Sub-directory or File Count:1
         pythia6-eic , Sub-directory or File Count:1
-            1.0.0 , Sub-directory or File Count:1
+            1.0.0 , Sub-directory or File Count:2
+                10x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:2846
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:69228
+                    q2_0to1 , Sub-directory or File Count:75409
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
