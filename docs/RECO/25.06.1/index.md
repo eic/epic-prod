@@ -1,6 +1,6 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.06.1
-epic_craterlake , Sub-directory or File Count:6
+epic_craterlake , Sub-directory or File Count:7
     Bkg_1SignalPer2usFrame , Sub-directory or File Count:2
         Synrad_18GeV_Vac_10000Ahr_Runtime_10ms_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
@@ -11,14 +11,21 @@ epic_craterlake , Sub-directory or File Count:6
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
-                        minQ2=1 , Sub-directory or File Count:16069
+                        minQ2=1 , Sub-directory or File Count:16073
+    Bkg_OnlyPer2usFrame , Sub-directory or File Count:1
+        Synrad_18GeV_Vac_10000Ahr_Runtime_10ms_Egas_All_18GeV_Hgas_275GeV , Sub-directory or File Count:1
+            BACKGROUNDS , Sub-directory or File Count:1
+                BEAMGAS , Sub-directory or File Count:1
+                    proton , Sub-directory or File Count:1
+                        pythia8.306-1.0 , Sub-directory or File Count:1
+                            275GeV , Sub-directory or File Count:12734
     Bkg_RealisticSignalPer2usFrame , Sub-directory or File Count:1
         Synrad_18GeV_Vac_10000Ahr_Runtime_10ms_Egas_All_18GeV_Hgas_275GeV , Sub-directory or File Count:1
             SIDIS , Sub-directory or File Count:1
                 pythia6-eic , Sub-directory or File Count:1
                     1.0.0 , Sub-directory or File Count:1
                         18x275 , Sub-directory or File Count:1
-                            q2_0to1 , Sub-directory or File Count:68579
+                            q2_0to1 , Sub-directory or File Count:68717
     DIS , Sub-directory or File Count:3
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
             eCu , Sub-directory or File Count:2
@@ -165,9 +172,9 @@ epic_craterlake , Sub-directory or File Count:6
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:2
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:2846
+                    q2_0to1 , Sub-directory or File Count:16602
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:75409
+                    q2_0to1 , Sub-directory or File Count:75410
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
