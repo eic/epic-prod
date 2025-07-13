@@ -172,7 +172,7 @@ epic_craterlake , Sub-directory or File Count:7
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:2
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:31017
+                    q2_0to1 , Sub-directory or File Count:46150
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:75410
     SINGLE , Sub-directory or File Count:11
