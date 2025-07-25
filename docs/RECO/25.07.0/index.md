@@ -1,13 +1,16 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.07.0
-epic_craterlake , Sub-directory or File Count:1
+epic_craterlake , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:2
-        CC , Sub-directory or File Count:2
+        CC , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:6630
+                minQ2=1000 , Sub-directory or File Count:7192
             18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:12575
-                minQ2=1000 , Sub-directory or File Count:601
+                minQ2=100 , Sub-directory or File Count:12697
+                minQ2=1000 , Sub-directory or File Count:13601
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:3282
+                minQ2=100 , Sub-directory or File Count:3283
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:4358
@@ -15,7 +18,7 @@ epic_craterlake , Sub-directory or File Count:1
                 minQ2=100 , Sub-directory or File Count:6972
                 minQ2=1000 , Sub-directory or File Count:8354
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:6916
+                minQ2=1 , Sub-directory or File Count:8220
                 minQ2=10 , Sub-directory or File Count:9054
                 minQ2=100 , Sub-directory or File Count:12007
                 minQ2=1000 , Sub-directory or File Count:16430
@@ -23,4 +26,15 @@ epic_craterlake , Sub-directory or File Count:1
                 minQ2=1 , Sub-directory or File Count:6220
                 minQ2=10 , Sub-directory or File Count:6011
                 minQ2=100 , Sub-directory or File Count:6543
+    EXCLUSIVE , Sub-directory or File Count:2
+        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
+            Sartre , Sub-directory or File Count:1
+                Coherent , Sub-directory or File Count:215
+        DVCS_ABCONV , Sub-directory or File Count:4
+            10x100 , Sub-directory or File Count:1367
+            18x275 , Sub-directory or File Count:3105
+            5x41 , Sub-directory or File Count:2564
+            EpIC_v1.1.6-1.1 , Sub-directory or File Count:1
+                10x130 , Sub-directory or File Count:1
+                    q2_1_100 , Sub-directory or File Count:587
 ```
