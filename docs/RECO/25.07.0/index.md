@@ -1,10 +1,30 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.07.0
 epic_craterlake , Sub-directory or File Count:2
-    DIS , Sub-directory or File Count:2
+    DIS , Sub-directory or File Count:3
+        BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
+            eCu , Sub-directory or File Count:2
+                en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:205
+                ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:121
+            eHe3 , Sub-directory or File Count:1
+                10x166 , Sub-directory or File Count:3
+                    q2_100to1000 , Sub-directory or File Count:548
+                    q2_10to100 , Sub-directory or File Count:395
+                    q2_1to10 , Sub-directory or File Count:38
+            eRu , Sub-directory or File Count:2
+                en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:124
+                ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:127
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:6630
+                minQ2=100 , Sub-directory or File Count:6632
                 minQ2=1000 , Sub-directory or File Count:7192
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:12697
@@ -18,23 +38,38 @@ epic_craterlake , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:6972
                 minQ2=1000 , Sub-directory or File Count:8354
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:8220
-                minQ2=10 , Sub-directory or File Count:9054
-                minQ2=100 , Sub-directory or File Count:12007
-                minQ2=1000 , Sub-directory or File Count:16430
+                minQ2=1 , Sub-directory or File Count:8358
+                minQ2=10 , Sub-directory or File Count:9056
+                minQ2=100 , Sub-directory or File Count:12014
+                minQ2=1000 , Sub-directory or File Count:16608
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:6220
                 minQ2=10 , Sub-directory or File Count:6011
                 minQ2=100 , Sub-directory or File Count:6543
     EXCLUSIVE , Sub-directory or File Count:2
-        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
+        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:2
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:215
+                Coherent , Sub-directory or File Count:21410
+            sartre1.39-1.0 , Sub-directory or File Count:1
+                eAu , Sub-directory or File Count:1
+                    coherent , Sub-directory or File Count:1
+                        bsat , Sub-directory or File Count:1
+                            10x100 , Sub-directory or File Count:119
         DVCS_ABCONV , Sub-directory or File Count:4
-            10x100 , Sub-directory or File Count:1367
-            18x275 , Sub-directory or File Count:3105
-            5x41 , Sub-directory or File Count:2564
+            10x100 , Sub-directory or File Count:1519
+            18x275 , Sub-directory or File Count:3331
+            5x41 , Sub-directory or File Count:2925
             EpIC_v1.1.6-1.1 , Sub-directory or File Count:1
                 10x130 , Sub-directory or File Count:1
-                    q2_1_100 , Sub-directory or File Count:587
+                    q2_1_100 , Sub-directory or File Count:910
+epic_craterlake_without_zdc , Sub-directory or File Count:1
+    DIS , Sub-directory or File Count:1
+        BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
+            eAu , Sub-directory or File Count:2
+                10x100 , Sub-directory or File Count:2
+                    q2_10to100 , Sub-directory or File Count:6794
+                    q2_1to10 , Sub-directory or File Count:5096
+                5x41 , Sub-directory or File Count:2
+                    q2_10to100 , Sub-directory or File Count:3728
+                    q2_1to10 , Sub-directory or File Count:3398
 ```
