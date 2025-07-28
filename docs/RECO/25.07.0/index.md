@@ -13,12 +13,12 @@ epic_craterlake , Sub-directory or File Count:2
             eHe3 , Sub-directory or File Count:1
                 10x166 , Sub-directory or File Count:3
                     q2_100to1000 , Sub-directory or File Count:762
-                    q2_10to100 , Sub-directory or File Count:756
+                    q2_10to100 , Sub-directory or File Count:760
                     q2_1to10 , Sub-directory or File Count:381
             eRu , Sub-directory or File Count:2
                 en , Sub-directory or File Count:1
                     10x115 , Sub-directory or File Count:1
-                        q2_1to1000 , Sub-directory or File Count:579
+                        q2_1to1000 , Sub-directory or File Count:580
                 ep , Sub-directory or File Count:1
                     10x115 , Sub-directory or File Count:1
                         q2_1to1000 , Sub-directory or File Count:377
@@ -46,8 +46,16 @@ epic_craterlake , Sub-directory or File Count:2
                 minQ2=1 , Sub-directory or File Count:6220
                 minQ2=10 , Sub-directory or File Count:6011
                 minQ2=100 , Sub-directory or File Count:6543
-    EXCLUSIVE , Sub-directory or File Count:3
-        DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
+    EXCLUSIVE , Sub-directory or File Count:6
+        DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:3
+            coherent_eCu , Sub-directory or File Count:1
+                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_0to10 , Sub-directory or File Count:201
+            coherent_eRu , Sub-directory or File Count:1
+                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_0to10 , Sub-directory or File Count:303
             lAger3.6.1-1.0 , Sub-directory or File Count:5
                 10x100 , Sub-directory or File Count:1
                     hiAcc , Sub-directory or File Count:171
@@ -59,9 +67,17 @@ epic_craterlake , Sub-directory or File Count:2
                     hiAcc , Sub-directory or File Count:93
                 5x41 , Sub-directory or File Count:1
                     hiAcc , Sub-directory or File Count:32
-        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:2
+        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:4
             Sartre , Sub-directory or File Count:1
                 Coherent , Sub-directory or File Count:21924
+            coherent_eCu , Sub-directory or File Count:1
+                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_0to10 , Sub-directory or File Count:197
+            coherent_eRu , Sub-directory or File Count:1
+                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_0to10 , Sub-directory or File Count:304
             sartre1.39-1.0 , Sub-directory or File Count:1
                 eAu , Sub-directory or File Count:1
                     coherent , Sub-directory or File Count:1
@@ -74,14 +90,20 @@ epic_craterlake , Sub-directory or File Count:2
             EpIC_v1.1.6-1.1 , Sub-directory or File Count:1
                 10x130 , Sub-directory or File Count:1
                     q2_1_100 , Sub-directory or File Count:910
+        DVMP , Sub-directory or File Count:1
+            EpIC1.0.0-1.1 , Sub-directory or File Count:63
+        UCHANNEL_PI0 , Sub-directory or File Count:1
+            18x275 , Sub-directory or File Count:109
+        UCHANNEL_RHO , Sub-directory or File Count:1
+            10x100 , Sub-directory or File Count:48
 epic_craterlake_without_zdc , Sub-directory or File Count:1
     DIS , Sub-directory or File Count:1
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
             eAu , Sub-directory or File Count:2
                 10x100 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:6795
+                    q2_10to100 , Sub-directory or File Count:6797
                     q2_1to10 , Sub-directory or File Count:5096
                 5x41 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:3873
+                    q2_10to100 , Sub-directory or File Count:3897
                     q2_1to10 , Sub-directory or File Count:3398
 ```
