@@ -1,6 +1,34 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.07.0
-epic_craterlake , Sub-directory or File Count:3
+epic_craterlake , Sub-directory or File Count:4
+    BACKGROUNDS , Sub-directory or File Count:2
+        BEAMGAS , Sub-directory or File Count:2
+            electron , Sub-directory or File Count:4
+                GETaLM1.0.0-1.0 , Sub-directory or File Count:1
+                    10GeV , Sub-directory or File Count:2712
+                GETaLM1.0.0-1.1 , Sub-directory or File Count:1
+                    18GeV , Sub-directory or File Count:2748
+                coulomb , Sub-directory or File Count:1
+                    EIC_ESR_Xsuite , Sub-directory or File Count:1
+                        dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime10ms , Sub-directory or File Count:7
+                touschek , Sub-directory or File Count:1
+                    EIC_ESR_Xsuite , Sub-directory or File Count:1
+                        dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime10ms , Sub-directory or File Count:4
+            proton , Sub-directory or File Count:1
+                pythia8.306-1.0 , Sub-directory or File Count:2
+                    100GeV , Sub-directory or File Count:3994
+                    275GeV , Sub-directory or File Count:5598
+        MERGED , Sub-directory or File Count:1
+            HEPMC_merger-1.0.2 , Sub-directory or File Count:1
+                10x100 , Sub-directory or File Count:2
+                    1SignalPerFrame , Sub-directory or File Count:9
+                    RealisticSignalPerFrame , Sub-directory or File Count:31
     DIS , Sub-directory or File Count:3
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
             eCu , Sub-directory or File Count:2
@@ -150,7 +178,7 @@ epic_craterlake , Sub-directory or File Count:3
                 3to50deg , Sub-directory or File Count:21
                 45to135deg , Sub-directory or File Count:19
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:242
+                130to177deg , Sub-directory or File Count:243
                 3to50deg , Sub-directory or File Count:224
                 45to135deg , Sub-directory or File Count:266
             1GeV , Sub-directory or File Count:3
@@ -162,7 +190,7 @@ epic_craterlake , Sub-directory or File Count:3
                 3to50deg , Sub-directory or File Count:18
                 45to135deg , Sub-directory or File Count:36
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:401
+                130to177deg , Sub-directory or File Count:405
                 3to50deg , Sub-directory or File Count:402
                 45to135deg , Sub-directory or File Count:444
             2GeV , Sub-directory or File Count:3
@@ -183,10 +211,10 @@ epic_craterlake , Sub-directory or File Count:3
                 3to50deg , Sub-directory or File Count:20
                 45to135deg , Sub-directory or File Count:25
             10GeV , Sub-directory or File Count:4
-                130to177deg , Sub-directory or File Count:234
+                130to177deg , Sub-directory or File Count:236
                 3to50deg , Sub-directory or File Count:238
                 45to135deg , Sub-directory or File Count:256
-                etaScan , Sub-directory or File Count:1476
+                etaScan , Sub-directory or File Count:1477
             1GeV , Sub-directory or File Count:4
                 130to177deg , Sub-directory or File Count:54
                 3to50deg , Sub-directory or File Count:52
@@ -197,11 +225,11 @@ epic_craterlake , Sub-directory or File Count:3
                 3to50deg , Sub-directory or File Count:18
                 45to135deg , Sub-directory or File Count:22
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:397
+                130to177deg , Sub-directory or File Count:403
                 3to50deg , Sub-directory or File Count:352
                 45to135deg , Sub-directory or File Count:459
             2GeV , Sub-directory or File Count:4
-                130to177deg , Sub-directory or File Count:66
+                130to177deg , Sub-directory or File Count:67
                 3to50deg , Sub-directory or File Count:82
                 45to135deg , Sub-directory or File Count:111
                 etaScan , Sub-directory or File Count:515
@@ -210,14 +238,14 @@ epic_craterlake , Sub-directory or File Count:3
                 3to50deg , Sub-directory or File Count:52
                 45to135deg , Sub-directory or File Count:45
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:185
+                130to177deg , Sub-directory or File Count:186
                 3to50deg , Sub-directory or File Count:139
                 45to135deg , Sub-directory or File Count:151
         gamma , Sub-directory or File Count:10
             100MeV , Sub-directory or File Count:4
                 130to177deg , Sub-directory or File Count:21
                 3to50deg , Sub-directory or File Count:28
-                45to135deg , Sub-directory or File Count:19
+                45to135deg , Sub-directory or File Count:20
                 etaScan , Sub-directory or File Count:91
             10GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:205
@@ -233,7 +261,7 @@ epic_craterlake , Sub-directory or File Count:3
                 3to50deg , Sub-directory or File Count:41
                 45to135deg , Sub-directory or File Count:18
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:391
+                130to177deg , Sub-directory or File Count:396
                 3to50deg , Sub-directory or File Count:363
                 45to135deg , Sub-directory or File Count:414
             2GeV , Sub-directory or File Count:3
@@ -247,7 +275,7 @@ epic_craterlake , Sub-directory or File Count:3
                 3to50deg , Sub-directory or File Count:27
                 45to135deg , Sub-directory or File Count:22
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:113
+                130to177deg , Sub-directory or File Count:114
                 3to50deg , Sub-directory or File Count:153
                 45to135deg , Sub-directory or File Count:129
             60GeV , Sub-directory or File Count:1
@@ -323,9 +351,9 @@ epic_craterlake , Sub-directory or File Count:3
                 etaScan , Sub-directory or File Count:211
         neutron , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:1
-                3to50deg , Sub-directory or File Count:5
-                45to135deg , Sub-directory or File Count:19
+                130to177deg , Sub-directory or File Count:20
+                3to50deg , Sub-directory or File Count:17
+                45to135deg , Sub-directory or File Count:20
             10GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:107
                 3to50deg , Sub-directory or File Count:106
@@ -335,9 +363,9 @@ epic_craterlake , Sub-directory or File Count:3
                 3to50deg , Sub-directory or File Count:18
                 45to135deg , Sub-directory or File Count:18
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:13
-                3to50deg , Sub-directory or File Count:14
-                45to135deg , Sub-directory or File Count:15
+                130to177deg , Sub-directory or File Count:18
+                3to50deg , Sub-directory or File Count:18
+                45to135deg , Sub-directory or File Count:18
             20GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:206
                 3to50deg , Sub-directory or File Count:186
@@ -348,7 +376,7 @@ epic_craterlake , Sub-directory or File Count:3
                 45to135deg , Sub-directory or File Count:22
             500MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:17
-                3to50deg , Sub-directory or File Count:12
+                3to50deg , Sub-directory or File Count:15
                 45to135deg , Sub-directory or File Count:17
             5GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:51
@@ -356,23 +384,23 @@ epic_craterlake , Sub-directory or File Count:3
                 45to135deg , Sub-directory or File Count:50
         pi+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:19
+                130to177deg , Sub-directory or File Count:20
                 3to50deg , Sub-directory or File Count:21
                 45to135deg , Sub-directory or File Count:20
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:195
+                130to177deg , Sub-directory or File Count:197
                 3to50deg , Sub-directory or File Count:132
                 45to135deg , Sub-directory or File Count:148
             1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:35
+                130to177deg , Sub-directory or File Count:36
                 3to50deg , Sub-directory or File Count:70
                 45to135deg , Sub-directory or File Count:48
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:17
+                130to177deg , Sub-directory or File Count:18
                 3to50deg , Sub-directory or File Count:18
                 45to135deg , Sub-directory or File Count:20
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:243
+                130to177deg , Sub-directory or File Count:244
                 3to50deg , Sub-directory or File Count:216
                 45to135deg , Sub-directory or File Count:257
             2GeV , Sub-directory or File Count:3
@@ -393,7 +421,7 @@ epic_craterlake , Sub-directory or File Count:3
                 3to50deg , Sub-directory or File Count:20
                 45to135deg , Sub-directory or File Count:21
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:139
+                130to177deg , Sub-directory or File Count:143
                 3to50deg , Sub-directory or File Count:250
                 45to135deg , Sub-directory or File Count:159
             1GeV , Sub-directory or File Count:3
@@ -405,19 +433,19 @@ epic_craterlake , Sub-directory or File Count:3
                 3to50deg , Sub-directory or File Count:17
                 45to135deg , Sub-directory or File Count:18
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:216
+                130to177deg , Sub-directory or File Count:223
                 3to50deg , Sub-directory or File Count:218
                 45to135deg , Sub-directory or File Count:255
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:45
+                130to177deg , Sub-directory or File Count:48
                 3to50deg , Sub-directory or File Count:55
                 45to135deg , Sub-directory or File Count:67
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:58
+                130to177deg , Sub-directory or File Count:62
                 3to50deg , Sub-directory or File Count:30
                 45to135deg , Sub-directory or File Count:35
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:79
+                130to177deg , Sub-directory or File Count:83
                 3to50deg , Sub-directory or File Count:87
                 45to135deg , Sub-directory or File Count:95
         pi0 , Sub-directory or File Count:10
@@ -426,33 +454,33 @@ epic_craterlake , Sub-directory or File Count:3
                 3to50deg , Sub-directory or File Count:24
                 45to135deg , Sub-directory or File Count:21
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:222
+                130to177deg , Sub-directory or File Count:224
                 3to50deg , Sub-directory or File Count:219
                 45to135deg , Sub-directory or File Count:242
             1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:74
+                130to177deg , Sub-directory or File Count:75
                 3to50deg , Sub-directory or File Count:119
                 45to135deg , Sub-directory or File Count:42
             200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:39
+                130to177deg , Sub-directory or File Count:41
                 3to50deg , Sub-directory or File Count:18
                 45to135deg , Sub-directory or File Count:18
             20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:352
+                130to177deg , Sub-directory or File Count:377
                 3to50deg , Sub-directory or File Count:319
                 45to135deg , Sub-directory or File Count:439
             2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:163
+                130to177deg , Sub-directory or File Count:172
                 3to50deg , Sub-directory or File Count:59
                 45to135deg , Sub-directory or File Count:71
             40GeV , Sub-directory or File Count:1
                 3to50deg , Sub-directory or File Count:664
             500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:29
+                130to177deg , Sub-directory or File Count:31
                 3to50deg , Sub-directory or File Count:57
                 45to135deg , Sub-directory or File Count:28
             5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:125
+                130to177deg , Sub-directory or File Count:128
                 3to50deg , Sub-directory or File Count:146
                 45to135deg , Sub-directory or File Count:125
             60GeV , Sub-directory or File Count:1
@@ -460,10 +488,10 @@ epic_craterlake , Sub-directory or File Count:3
         proton , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:21
-                3to50deg , Sub-directory or File Count:18
+                3to50deg , Sub-directory or File Count:21
                 45to135deg , Sub-directory or File Count:19
             10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:125
+                130to177deg , Sub-directory or File Count:126
                 3to50deg , Sub-directory or File Count:121
                 45to135deg , Sub-directory or File Count:156
             1GeV , Sub-directory or File Count:3
@@ -481,7 +509,7 @@ epic_craterlake , Sub-directory or File Count:3
             2GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:37
                 3to50deg , Sub-directory or File Count:40
-                45to135deg , Sub-directory or File Count:45
+                45to135deg , Sub-directory or File Count:46
             500MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:18
                 3to50deg , Sub-directory or File Count:21
@@ -506,7 +534,7 @@ epic_craterlake_without_zdc , Sub-directory or File Count:2
                 BeAGLE1.03.01-1.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:2
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:33399
+                            q2_1to10000 , Sub-directory or File Count:33400
                         5x41 , Sub-directory or File Count:1
                             q2_1to10000 , Sub-directory or File Count:21641
         Lc_ABCONV , Sub-directory or File Count:1
