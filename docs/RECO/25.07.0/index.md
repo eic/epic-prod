@@ -5,9 +5,9 @@ epic_craterlake , Sub-directory or File Count:4
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:4
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
-                    10GeV , Sub-directory or File Count:2712
+                    10GeV , Sub-directory or File Count:2728
                 GETaLM1.0.0-1.1 , Sub-directory or File Count:1
-                    18GeV , Sub-directory or File Count:2748
+                    18GeV , Sub-directory or File Count:2767
                 coulomb , Sub-directory or File Count:1
                     EIC_ESR_Xsuite , Sub-directory or File Count:1
                         dataprod_rel_1.0.0 , Sub-directory or File Count:1
@@ -22,12 +22,12 @@ epic_craterlake , Sub-directory or File Count:4
                                     MachineRuntime10ms , Sub-directory or File Count:4
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:3994
-                    275GeV , Sub-directory or File Count:5598
+                    100GeV , Sub-directory or File Count:4124
+                    275GeV , Sub-directory or File Count:5629
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
-                    1SignalPerFrame , Sub-directory or File Count:9
+                    1SignalPerFrame , Sub-directory or File Count:13
                     RealisticSignalPerFrame , Sub-directory or File Count:31
     DIS , Sub-directory or File Count:3
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
