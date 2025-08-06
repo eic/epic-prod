@@ -1,6 +1,29 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.06.1
-epic_craterlake , Sub-directory or File Count:7
+epic_craterlake , Sub-directory or File Count:8
+    BACKGROUNDS , Sub-directory or File Count:2
+        BEAMGAS , Sub-directory or File Count:2
+            electron , Sub-directory or File Count:3
+                GETaLM1.0.0-1.1 , Sub-directory or File Count:1
+                    18GeV , Sub-directory or File Count:3722
+                coulomb , Sub-directory or File Count:1
+                    EIC_ESR_Xsuite , Sub-directory or File Count:1
+                        dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime10ms , Sub-directory or File Count:7
+                touschek , Sub-directory or File Count:1
+                    EIC_ESR_Xsuite , Sub-directory or File Count:1
+                        dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime10ms , Sub-directory or File Count:4
+            proton , Sub-directory or File Count:1
+                pythia8.306-1.0 , Sub-directory or File Count:1
+                    275GeV , Sub-directory or File Count:9030
+        SYNRAD , Sub-directory or File Count:1
+            dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:90
     Bkg_1SignalPer2usFrame , Sub-directory or File Count:2
         Synrad_18GeV_Vac_10000Ahr_Runtime_10ms_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
