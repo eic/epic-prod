@@ -1,11 +1,11 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.07.0
-epic_craterlake , Sub-directory or File Count:4
+epic_craterlake , Sub-directory or File Count:5
     BACKGROUNDS , Sub-directory or File Count:2
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:4
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
-                    10GeV , Sub-directory or File Count:2783
+                    10GeV , Sub-directory or File Count:2784
                 GETaLM1.0.0-1.1 , Sub-directory or File Count:1
                     18GeV , Sub-directory or File Count:2808
                 coulomb , Sub-directory or File Count:1
@@ -23,7 +23,7 @@ epic_craterlake , Sub-directory or File Count:4
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:4298
-                    275GeV , Sub-directory or File Count:10635
+                    275GeV , Sub-directory or File Count:10900
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
@@ -171,6 +171,25 @@ epic_craterlake , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:109
         UCHANNEL_RHO , Sub-directory or File Count:1
             10x100 , Sub-directory or File Count:48
+    SIDIS , Sub-directory or File Count:3
+        D0_ABCONV , Sub-directory or File Count:1
+            HFsim-PYTHIA , Sub-directory or File Count:1
+                pythia8.306-1.2 , Sub-directory or File Count:1
+                    ep , Sub-directory or File Count:1
+                        5x41 , Sub-directory or File Count:1
+                            q2_1to10000 , Sub-directory or File Count:1
+                                hiDiv , Sub-directory or File Count:1998
+        Lc_ABCONV , Sub-directory or File Count:1
+            HFsim-PYTHIA , Sub-directory or File Count:1
+                pythia8.306-1.2 , Sub-directory or File Count:1
+                    ep , Sub-directory or File Count:1
+                        10x100 , Sub-directory or File Count:1
+                            q2_1to10000 , Sub-directory or File Count:1
+                                hiDiv , Sub-directory or File Count:4998
+        pythia6-eic , Sub-directory or File Count:1
+            1.0.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:4036
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
@@ -352,7 +371,7 @@ epic_craterlake , Sub-directory or File Count:4
         neutron , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:20
-                3to50deg , Sub-directory or File Count:19
+                3to50deg , Sub-directory or File Count:20
                 45to135deg , Sub-directory or File Count:20
             10GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:107
@@ -376,7 +395,7 @@ epic_craterlake , Sub-directory or File Count:4
                 45to135deg , Sub-directory or File Count:22
             500MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:17
-                3to50deg , Sub-directory or File Count:16
+                3to50deg , Sub-directory or File Count:18
                 45to135deg , Sub-directory or File Count:17
             5GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:51
@@ -534,13 +553,13 @@ epic_craterlake_without_zdc , Sub-directory or File Count:2
                 BeAGLE1.03.01-1.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:2
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:33400
+                            q2_1to10000 , Sub-directory or File Count:41079
                         5x41 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:21641
+                            q2_1to10000 , Sub-directory or File Count:21642
         Lc_ABCONV , Sub-directory or File Count:1
             HFsim-BeAGLE , Sub-directory or File Count:1
                 BeAGLE1.03.01-1.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:1
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:34772
+                            q2_1to10000 , Sub-directory or File Count:34833
 ```
