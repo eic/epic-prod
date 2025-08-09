@@ -3,11 +3,17 @@ root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.06.1
 epic_craterlake , Sub-directory or File Count:8
     BACKGROUNDS , Sub-directory or File Count:3
         BEAMGAS , Sub-directory or File Count:2
-            electron , Sub-directory or File Count:4
+            electron , Sub-directory or File Count:5
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
                     10GeV , Sub-directory or File Count:2402
                 GETaLM1.0.0-1.1 , Sub-directory or File Count:1
                     18GeV , Sub-directory or File Count:3722
+                brems , Sub-directory or File Count:1
+                    EIC_ESR_Xsuite , Sub-directory or File Count:1
+                        dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime10ms , Sub-directory or File Count:1
                 coulomb , Sub-directory or File Count:1
                     EIC_ESR_Xsuite , Sub-directory or File Count:1
                         dataprod_rel_1.0.0 , Sub-directory or File Count:1
