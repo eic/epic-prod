@@ -5,11 +5,12 @@ epic_craterlake , Sub-directory or File Count:1
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:4044
-                minQ2=1000 , Sub-directory or File Count:3953
-            18x275 , Sub-directory or File Count:1
-                minQ2=1000 , Sub-directory or File Count:7202
+                minQ2=1000 , Sub-directory or File Count:3964
+            18x275 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:7571
+                minQ2=1000 , Sub-directory or File Count:8285
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:2700
+                minQ2=100 , Sub-directory or File Count:2703
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:3558
