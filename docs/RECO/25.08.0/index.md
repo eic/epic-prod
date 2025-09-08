@@ -173,7 +173,7 @@ epic_craterlake , Sub-directory or File Count:3
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:50210
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:3898
+                    q2_0to1 , Sub-directory or File Count:8537
 epic_craterlake_without_zdc , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:1
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
