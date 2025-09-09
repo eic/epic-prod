@@ -46,7 +46,7 @@ epic_craterlake , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:2100
                 minQ2=10 , Sub-directory or File Count:3174
                 minQ2=100 , Sub-directory or File Count:3471
-    EXCLUSIVE , Sub-directory or File Count:7
+    EXCLUSIVE , Sub-directory or File Count:8
         DEMP , Sub-directory or File Count:3
             DEMPgen-1.2.2 , Sub-directory or File Count:3
                 10x100 , Sub-directory or File Count:3
@@ -143,8 +143,18 @@ epic_craterlake , Sub-directory or File Count:3
             EpIC_v1.1.6-1.1 , Sub-directory or File Count:1
                 10x130 , Sub-directory or File Count:1
                     q2_1_100 , Sub-directory or File Count:532
-        DVMP , Sub-directory or File Count:1
+        DVMP , Sub-directory or File Count:2
             EpIC1.0.0-1.1 , Sub-directory or File Count:43
+            EpIC1.1.6-1.0 , Sub-directory or File Count:1
+                unpolarised , Sub-directory or File Count:1
+                    10x130 , Sub-directory or File Count:1
+                        q2_1_1000 , Sub-directory or File Count:378
+        TCS_ABCONV , Sub-directory or File Count:2
+            10x100 , Sub-directory or File Count:1
+                hel_minus , Sub-directory or File Count:1226
+            5x41 , Sub-directory or File Count:2
+                hel_minus , Sub-directory or File Count:471
+                hel_plus , Sub-directory or File Count:375
         UCHANNEL_PI0 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:124
         UCHANNEL_RHO , Sub-directory or File Count:1
@@ -156,22 +166,22 @@ epic_craterlake , Sub-directory or File Count:3
                     ep , Sub-directory or File Count:1
                         5x41 , Sub-directory or File Count:1
                             q2_1to10000 , Sub-directory or File Count:1
-                                hiDiv , Sub-directory or File Count:1996
+                                hiDiv , Sub-directory or File Count:2000
         Lc_ABCONV , Sub-directory or File Count:1
             HFsim-PYTHIA , Sub-directory or File Count:1
                 pythia8.306-1.2 , Sub-directory or File Count:1
                     ep , Sub-directory or File Count:1
                         10x100 , Sub-directory or File Count:1
                             q2_1to10000 , Sub-directory or File Count:1
-                                hiDiv , Sub-directory or File Count:4995
+                                hiDiv , Sub-directory or File Count:4997
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:24275
+                    q2_0to1 , Sub-directory or File Count:24749
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:108045
+                    q2_0to1 , Sub-directory or File Count:108190
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:50210
+                    q2_0to1 , Sub-directory or File Count:50234
                 5x41 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:8537
 epic_craterlake_without_zdc , Sub-directory or File Count:2
@@ -190,7 +200,7 @@ epic_craterlake_without_zdc , Sub-directory or File Count:2
                 BeAGLE1.03.01-1.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:2
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:38794
+                            q2_1to10000 , Sub-directory or File Count:39094
                         5x41 , Sub-directory or File Count:1
                             q2_1to10000 , Sub-directory or File Count:20948
         Lc_ABCONV , Sub-directory or File Count:1
@@ -198,5 +208,5 @@ epic_craterlake_without_zdc , Sub-directory or File Count:2
                 BeAGLE1.03.01-1.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:1
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:32922
+                            q2_1to10000 , Sub-directory or File Count:33015
 ```
