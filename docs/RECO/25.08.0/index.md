@@ -148,13 +148,16 @@ epic_craterlake , Sub-directory or File Count:3
             EpIC1.1.6-1.0 , Sub-directory or File Count:1
                 unpolarised , Sub-directory or File Count:1
                     10x130 , Sub-directory or File Count:1
-                        q2_1_1000 , Sub-directory or File Count:378
-        TCS_ABCONV , Sub-directory or File Count:2
+                        q2_1_1000 , Sub-directory or File Count:539
+        TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:1226
+                hel_minus , Sub-directory or File Count:3505
+            18x275 , Sub-directory or File Count:2
+                hel_minus , Sub-directory or File Count:1917
+                hel_plus , Sub-directory or File Count:1917
             5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:471
-                hel_plus , Sub-directory or File Count:375
+                hel_minus , Sub-directory or File Count:490
+                hel_plus , Sub-directory or File Count:490
         UCHANNEL_PI0 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:124
         UCHANNEL_RHO , Sub-directory or File Count:1
@@ -177,13 +180,13 @@ epic_craterlake , Sub-directory or File Count:3
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:24749
+                    q2_0to1 , Sub-directory or File Count:25138
                 10x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:108190
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:50234
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:8537
+                    q2_0to1 , Sub-directory or File Count:11927
 epic_craterlake_without_zdc , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:1
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
