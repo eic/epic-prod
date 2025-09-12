@@ -1,6 +1,6 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.08.0
-epic_craterlake , Sub-directory or File Count:3
+epic_craterlake , Sub-directory or File Count:4
     DIS , Sub-directory or File Count:3
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
             eCu , Sub-directory or File Count:2
@@ -180,13 +180,137 @@ epic_craterlake , Sub-directory or File Count:3
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:25138
+                    q2_0to1 , Sub-directory or File Count:25142
                 10x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:108190
                 18x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:50234
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:13423
+                    q2_0to1 , Sub-directory or File Count:13435
+    SINGLE , Sub-directory or File Count:7
+        e+ , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:34
+            10GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:449
+            1GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:293
+            200MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:34
+            20GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:806
+            2GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:171
+            500MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:105
+            5GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:403
+        e- , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:30
+            10GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:443
+            1GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:118
+            200MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:35
+            20GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:709
+            2GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:176
+            500MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:66
+            5GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:200
+        gamma , Sub-directory or File Count:10
+            100MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:48
+            10GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:317
+            1GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:68
+            200MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:86
+            20GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:758
+            2GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:116
+            40GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:1218
+            500MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:24
+            5GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:100
+            60GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:983
+        kaon- , Sub-directory or File Count:6
+            100MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:41
+            10GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:352
+            1GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:4
+            200MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:7
+            20GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:131
+            2GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:135
+        pi+ , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:34
+            10GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:271
+            1GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:116
+            200MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:35
+            20GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:370
+            2GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:113
+            500MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:32
+            5GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:83
+        pi- , Sub-directory or File Count:8
+            100MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:41
+            10GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:506
+            1GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:164
+            200MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:32
+            20GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:382
+            2GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:75
+            500MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:39
+            5GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:115
+        pi0 , Sub-directory or File Count:10
+            100MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:36
+            10GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:468
+            1GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:262
+            200MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:34
+            20GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:614
+            2GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:116
+            40GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:1159
+            500MeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:21
+            5GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:104
+            60GeV , Sub-directory or File Count:1
+                3to50deg , Sub-directory or File Count:1013
 epic_craterlake_without_zdc , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:1
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
