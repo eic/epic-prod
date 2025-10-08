@@ -42,11 +42,14 @@ epic_craterlake , Sub-directory or File Count:5
                     10x115 , Sub-directory or File Count:1
                         q2_1to1000 , Sub-directory or File Count:287
         BeAGLE1.03.02-1.2 , Sub-directory or File Count:1
-            eHe3 , Sub-directory or File Count:1
+            eHe3 , Sub-directory or File Count:2
                 10x166 , Sub-directory or File Count:3
-                    q2_100to10000 , Sub-directory or File Count:165
-                    q2_10to100 , Sub-directory or File Count:3022
-                    q2_2to10 , Sub-directory or File Count:4009
+                    q2_100to10000 , Sub-directory or File Count:4779
+                    q2_10to100 , Sub-directory or File Count:4347
+                    q2_2to10 , Sub-directory or File Count:4081
+                18x110 , Sub-directory or File Count:2
+                    q2_10to100 , Sub-directory or File Count:3189
+                    q2_2to10 , Sub-directory or File Count:3478
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:4084
