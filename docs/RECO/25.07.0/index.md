@@ -5,25 +5,57 @@ epic_craterlake , Sub-directory or File Count:5
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:5
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
+                    10GeV , Sub-directory or File Count:2784
                 GETaLM1.0.0-1.1 , Sub-directory or File Count:1
+                    18GeV , Sub-directory or File Count:2808
                 brems , Sub-directory or File Count:1
+                    EIC_ESR_Xsuite , Sub-directory or File Count:1
+                        dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime10ms , Sub-directory or File Count:1
                 coulomb , Sub-directory or File Count:1
+                    EIC_ESR_Xsuite , Sub-directory or File Count:1
+                        dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime10ms , Sub-directory or File Count:7
                 touschek , Sub-directory or File Count:1
+                    EIC_ESR_Xsuite , Sub-directory or File Count:1
+                        dataprod_rel_1.0.0 , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime10ms , Sub-directory or File Count:4
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
+                    100GeV , Sub-directory or File Count:4298
+                    275GeV , Sub-directory or File Count:10902
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
+                    1SignalPerFrame , Sub-directory or File Count:13
+                    RealisticSignalPerFrame , Sub-directory or File Count:31
     DIS , Sub-directory or File Count:3
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
             eCu , Sub-directory or File Count:2
                 en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:568
                 ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:465
             eHe3 , Sub-directory or File Count:1
                 10x166 , Sub-directory or File Count:3
+                    q2_100to1000 , Sub-directory or File Count:762
+                    q2_10to100 , Sub-directory or File Count:760
+                    q2_1to10 , Sub-directory or File Count:381
             eRu , Sub-directory or File Count:2
                 en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:580
                 ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:377
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:6645
@@ -508,15 +540,38 @@ epic_craterlake , Sub-directory or File Count:5
             2GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:37
                 3to50deg , Sub-directory or File Count:40
+                45to135deg , Sub-directory or File Count:46
             500MeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:18
+                3to50deg , Sub-directory or File Count:21
+                45to135deg , Sub-directory or File Count:28
             5GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:69
+                3to50deg , Sub-directory or File Count:77
+                45to135deg , Sub-directory or File Count:86
 epic_craterlake_without_zdc , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:1
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
             eAu , Sub-directory or File Count:2
+                10x100 , Sub-directory or File Count:2
+                    q2_10to100 , Sub-directory or File Count:6798
+                    q2_1to10 , Sub-directory or File Count:5096
+                5x41 , Sub-directory or File Count:2
+                    q2_10to100 , Sub-directory or File Count:3897
+                    q2_1to10 , Sub-directory or File Count:3398
     SIDIS , Sub-directory or File Count:2
         D0_ABCONV , Sub-directory or File Count:1
             HFsim-BeAGLE , Sub-directory or File Count:1
+                BeAGLE1.03.01-1.0 , Sub-directory or File Count:1
+                    eAu , Sub-directory or File Count:2
+                        10x100 , Sub-directory or File Count:1
+                            q2_1to10000 , Sub-directory or File Count:41241
+                        5x41 , Sub-directory or File Count:1
+                            q2_1to10000 , Sub-directory or File Count:21642
         Lc_ABCONV , Sub-directory or File Count:1
             HFsim-BeAGLE , Sub-directory or File Count:1
+                BeAGLE1.03.01-1.0 , Sub-directory or File Count:1
+                    eAu , Sub-directory or File Count:1
+                        10x100 , Sub-directory or File Count:1
+                            q2_1to10000 , Sub-directory or File Count:34833
 ```
