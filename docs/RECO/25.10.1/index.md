@@ -45,6 +45,6 @@ epic_craterlake_without_zdc , Sub-directory or File Count:1
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
             eAu , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:6893
+                    q2_10to100 , Sub-directory or File Count:6896
                     q2_1to10 , Sub-directory or File Count:5835
 ```
