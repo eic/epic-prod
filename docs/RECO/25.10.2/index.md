@@ -55,7 +55,15 @@ epic_craterlake , Sub-directory or File Count:1
                         pi+ , Sub-directory or File Count:1055
                     q2_3_10 , Sub-directory or File Count:1
                         pi+ , Sub-directory or File Count:1053
-        DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
+        DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:3
+            coherent_eCu , Sub-directory or File Count:1
+                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_0to10 , Sub-directory or File Count:385
+            coherent_eRu , Sub-directory or File Count:1
+                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_0to10 , Sub-directory or File Count:667
             lAger3.6.1-1.0 , Sub-directory or File Count:5
                 10x100 , Sub-directory or File Count:1
                     hiAcc , Sub-directory or File Count:235
@@ -101,4 +109,10 @@ epic_craterlake , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:204
         UCHANNEL_RHO , Sub-directory or File Count:1
             10x100 , Sub-directory or File Count:117
+epic_craterlake_without_zdc , Sub-directory or File Count:1
+    DIS , Sub-directory or File Count:1
+        BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
+            eAu , Sub-directory or File Count:1
+                10x100 , Sub-directory or File Count:1
+                    q2_1to10 , Sub-directory or File Count:1165
 ```
