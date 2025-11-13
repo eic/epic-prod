@@ -16,7 +16,7 @@ epic_craterlake_without_zdc , Sub-directory or File Count:1
                 BeAGLE1.03.01-2.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:2
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:5816
+                            q2_1to10000 , Sub-directory or File Count:56154
                         5x41 , Sub-directory or File Count:1
                             q2_1to10000 , Sub-directory or File Count:29707
         Lc_ABCONV , Sub-directory or File Count:1
@@ -24,5 +24,5 @@ epic_craterlake_without_zdc , Sub-directory or File Count:1
                 BeAGLE1.03.01-2.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:1
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:12913
+                            q2_1to10000 , Sub-directory or File Count:15735
 ```
