@@ -4,6 +4,8 @@
   url: /epic-prod/RECO/main
 - text: mktest
   url: /epic-prod/RECO/mktest
+- text: transfer_manifest.py
+  url: /epic-prod/RECO/transfer_manifest.py
 - text: 22.10.0
   url: /epic-prod/RECO/22.10.0
 - text: 22.11.0
@@ -88,9 +90,17 @@
   url: /epic-prod/RECO/25.08.0
 - text: 25.10.0
   url: /epic-prod/RECO/25.10.0
+- text: 25.10.0_manifest.txt
+  url: /epic-prod/RECO/25.10.0_manifest.txt
 - text: 25.10.1
   url: /epic-prod/RECO/25.10.1
+- text: 25.10.1_manifest.txt
+  url: /epic-prod/RECO/25.10.1_manifest.txt
 - text: 25.10.2
   url: /epic-prod/RECO/25.10.2
+- text: 25.10.2_manifest.txt
+  url: /epic-prod/RECO/25.10.2_manifest.txt
 - text: 25.10.3
   url: /epic-prod/RECO/25.10.3
+- text: 25.10.3_manifest.txt
+  url: /epic-prod/RECO/25.10.3_manifest.txt
