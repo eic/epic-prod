@@ -1,6 +1,30 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.3
-epic_craterlake , Sub-directory or File Count:1
+epic_craterlake , Sub-directory or File Count:3
+    EXCLUSIVE , Sub-directory or File Count:2
+        DDVCS_ABCONV , Sub-directory or File Count:1
+            EpIC1.1.6-1.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:1
+                    q2_0_10 , Sub-directory or File Count:2
+                        edecay , Sub-directory or File Count:2
+                            hminus , Sub-directory or File Count:1954
+                            hplus , Sub-directory or File Count:1954
+                        mudecay , Sub-directory or File Count:2
+                            hminus , Sub-directory or File Count:1920
+                            hplus , Sub-directory or File Count:1920
+        PHOTOPRODUCTION_JPSI_ABCONV , Sub-directory or File Count:1
+            coherent_ep , Sub-directory or File Count:1
+                eSTARlight1.3.0-1.0 , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        q2_nocut , Sub-directory or File Count:2
+                            edecay , Sub-directory or File Count:2193
+                            mudecay , Sub-directory or File Count:2049
+    SIDIS , Sub-directory or File Count:1
+        D0_ABCONV , Sub-directory or File Count:1
+            pythia8.306-1.1 , Sub-directory or File Count:1
+                10x100 , Sub-directory or File Count:1
+                    q2_100 , Sub-directory or File Count:1
+                        hiDiv , Sub-directory or File Count:12
     Test , Sub-directory or File Count:1
         2025-11-10_06-22-00 , Sub-directory or File Count:1
             1Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
@@ -16,7 +40,7 @@ epic_craterlake_without_zdc , Sub-directory or File Count:1
                 BeAGLE1.03.01-2.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:2
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:73882
+                            q2_1to10000 , Sub-directory or File Count:73902
                         5x41 , Sub-directory or File Count:1
                             q2_1to10000 , Sub-directory or File Count:29707
         Lc_ABCONV , Sub-directory or File Count:1
