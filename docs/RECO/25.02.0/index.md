@@ -17,10 +17,12 @@ epic_craterlake , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:2
                 minQ2=1000 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:2
+                minQ2=1000 , Sub-directory or File Count:14
             5x41 , Sub-directory or File Count:1
                 minQ2=100 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
+                minQ2=1000 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:4
             5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:8
@@ -29,9 +31,22 @@ epic_craterlake , Sub-directory or File Count:5
                 10x100 , Sub-directory or File Count:3
                     q2_10_20 , Sub-directory or File Count:1
                     q2_20_35 , Sub-directory or File Count:1
+                    q2_3_10 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:3
+                    q2_10_20 , Sub-directory or File Count:1
+                    q2_20_35 , Sub-directory or File Count:1
+                    q2_3_10 , Sub-directory or File Count:1
+                5x41 , Sub-directory or File Count:4
+                    q2_10_20 , Sub-directory or File Count:2
+                    q2_1_10 , Sub-directory or File Count:1
+                    q2_20_35 , Sub-directory or File Count:2
+                    q2_3_10 , Sub-directory or File Count:1
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
             lAger3.6.1-1.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:1
+                5x100 , Sub-directory or File Count:1
+                5x41 , Sub-directory or File Count:1
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
                 Coherent , Sub-directory or File Count:1
@@ -60,7 +75,9 @@ epic_craterlake , Sub-directory or File Count:5
                 10x100 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:1
                 10x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:13
                 5x41 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:11
@@ -133,6 +150,7 @@ epic_craterlake , Sub-directory or File Count:5
             20GeV , Sub-directory or File Count:3
             2GeV , Sub-directory or File Count:3
             500MeV , Sub-directory or File Count:3
+                45to135deg , Sub-directory or File Count:1
             5GeV , Sub-directory or File Count:3
         pi- , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3

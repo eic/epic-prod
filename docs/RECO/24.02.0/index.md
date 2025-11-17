@@ -4,17 +4,58 @@ epic_craterlake , Sub-directory or File Count:3
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:4543
+                minQ2=1000 , Sub-directory or File Count:4059
             18x275 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:9228
+                minQ2=1000 , Sub-directory or File Count:8485
             5x41 , Sub-directory or File Count:1
+                minQ2=100 , Sub-directory or File Count:2399
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
+                minQ2=10 , Sub-directory or File Count:104
+                minQ2=100 , Sub-directory or File Count:5098
+                minQ2=1000 , Sub-directory or File Count:2201
             18x275 , Sub-directory or File Count:4
+                minQ2=1 , Sub-directory or File Count:409
+                minQ2=10 , Sub-directory or File Count:1855
+                minQ2=100 , Sub-directory or File Count:9156
+                minQ2=1000 , Sub-directory or File Count:11411
             5x41 , Sub-directory or File Count:3
+                minQ2=1 , Sub-directory or File Count:2781
+                minQ2=10 , Sub-directory or File Count:3287
+                minQ2=100 , Sub-directory or File Count:3559
     EXCLUSIVE , Sub-directory or File Count:3
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.1.0 , Sub-directory or File Count:2
+                10x100 , Sub-directory or File Count:3
+                    K+Lambda , Sub-directory or File Count:2173
+                    K+Sigma0 , Sub-directory or File Count:2239
+                    pi+ , Sub-directory or File Count:1336
+                5x41 , Sub-directory or File Count:3
+                    K+Lambda , Sub-directory or File Count:1881
+                    K+Sigma0 , Sub-directory or File Count:1832
+                    pi+ , Sub-directory or File Count:855
         DVCS_ABCONV , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:1142
+            18x275 , Sub-directory or File Count:1380
+            5x41 , Sub-directory or File Count:2210
         TCS_ABCONV , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:1
+                hel_minus , Sub-directory or File Count:10521
+            18x275 , Sub-directory or File Count:2
+                hel_minus , Sub-directory or File Count:2435
+                hel_plus , Sub-directory or File Count:2456
+            5x41 , Sub-directory or File Count:2
+                hel_minus , Sub-directory or File Count:2458
+                hel_plus , Sub-directory or File Count:2472
     SIDIS , Sub-directory or File Count:1
         pythia6-eic , Sub-directory or File Count:1
+            1.0.0 , Sub-directory or File Count:3
+                10x100 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:33543
+                18x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:64857
+                5x41 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:23500
 ```

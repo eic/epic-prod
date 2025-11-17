@@ -8,6 +8,7 @@ epic_craterlake , Sub-directory or File Count:5
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:1
+                    275GeV , Sub-directory or File Count:1
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
@@ -19,22 +20,37 @@ epic_craterlake , Sub-directory or File Count:5
             18x275 , Sub-directory or File Count:2
                 minQ2=1000 , Sub-directory or File Count:2
             5x41 , Sub-directory or File Count:1
+                minQ2=100 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
+                minQ2=1000 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:1
+                minQ2=1000 , Sub-directory or File Count:3
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:1
     EXCLUSIVE , Sub-directory or File Count:8
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.2.2 , Sub-directory or File Count:3
+                10x100 , Sub-directory or File Count:3
+                    q2_10_20 , Sub-directory or File Count:1
+                    q2_20_35 , Sub-directory or File Count:1
+                    q2_3_10 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:3
                     q2_10_20 , Sub-directory or File Count:1
                     q2_20_35 , Sub-directory or File Count:1
                     q2_3_10 , Sub-directory or File Count:1
+                5x41 , Sub-directory or File Count:4
+                    q2_10_20 , Sub-directory or File Count:2
+                    q2_1_10 , Sub-directory or File Count:1
+                    q2_20_35 , Sub-directory or File Count:2
+                    q2_3_10 , Sub-directory or File Count:1
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
             lAger3.6.1-1.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:1
+                5x100 , Sub-directory or File Count:1
+                5x41 , Sub-directory or File Count:1
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
             Sartre , Sub-directory or File Count:1
         DVCS_ABCONV , Sub-directory or File Count:3
@@ -58,14 +74,20 @@ epic_craterlake , Sub-directory or File Count:5
                 18x275 , Sub-directory or File Count:2
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
+                10x100 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:1
                 10x275 , Sub-directory or File Count:1
                     q2_0to1 , Sub-directory or File Count:7
                 18x275 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:7
+                5x41 , Sub-directory or File Count:1
+                    q2_0to1 , Sub-directory or File Count:4
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
             10GeV , Sub-directory or File Count:3
             1GeV , Sub-directory or File Count:3
+                130to177deg , Sub-directory or File Count:74
             200MeV , Sub-directory or File Count:3
             20GeV , Sub-directory or File Count:3
             2GeV , Sub-directory or File Count:3
