@@ -1,7 +1,7 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.3
 epic_craterlake , Sub-directory or File Count:3
-    EXCLUSIVE , Sub-directory or File Count:2
+    EXCLUSIVE , Sub-directory or File Count:3
         DDVCS_ABCONV , Sub-directory or File Count:1
             EpIC1.1.6-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:1
@@ -12,6 +12,13 @@ epic_craterlake , Sub-directory or File Count:3
                         mudecay , Sub-directory or File Count:2
                             hminus , Sub-directory or File Count:1920
                             hplus , Sub-directory or File Count:1920
+        DVMP , Sub-directory or File Count:1
+            EpIC1.1.6-1.1 , Sub-directory or File Count:1
+                unpolarised , Sub-directory or File Count:2
+                    18x275 , Sub-directory or File Count:1
+                        q2_1_1000 , Sub-directory or File Count:1078
+                    5x41 , Sub-directory or File Count:1
+                        q2_1_1000 , Sub-directory or File Count:2421
         PHOTOPRODUCTION_JPSI_ABCONV , Sub-directory or File Count:1
             coherent_ep , Sub-directory or File Count:1
                 eSTARlight1.3.0-1.0 , Sub-directory or File Count:1
