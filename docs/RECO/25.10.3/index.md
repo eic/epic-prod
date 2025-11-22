@@ -1,7 +1,7 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.3
 epic_craterlake , Sub-directory or File Count:3
-    EXCLUSIVE , Sub-directory or File Count:3
+    EXCLUSIVE , Sub-directory or File Count:6
         DDVCS_ABCONV , Sub-directory or File Count:1
             EpIC1.1.6-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:1
@@ -12,6 +12,18 @@ epic_craterlake , Sub-directory or File Count:3
                         mudecay , Sub-directory or File Count:2
                             hminus , Sub-directory or File Count:1920
                             hplus , Sub-directory or File Count:1920
+        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
+            BeAGLE1.03.02-1.1 , Sub-directory or File Count:1
+                eAu , Sub-directory or File Count:1
+                    10x100 , Sub-directory or File Count:1
+                        q2_1to10000 , Sub-directory or File Count:2599
+        DIFFRACTIVE_RHO_ABCONV , Sub-directory or File Count:1
+            sartre1.39-1.1 , Sub-directory or File Count:1
+                eAu , Sub-directory or File Count:1
+                    coherent , Sub-directory or File Count:1
+                        bsat , Sub-directory or File Count:1
+                            10x100 , Sub-directory or File Count:1
+                                q2_1to20 , Sub-directory or File Count:2247
         DVMP , Sub-directory or File Count:1
             EpIC1.1.6-1.1 , Sub-directory or File Count:1
                 unpolarised , Sub-directory or File Count:2
@@ -26,6 +38,7 @@ epic_craterlake , Sub-directory or File Count:3
                         q2_nocut , Sub-directory or File Count:2
                             edecay , Sub-directory or File Count:2193
                             mudecay , Sub-directory or File Count:2049
+        UPSILON_ABCONV , Sub-directory or File Count:33
     SIDIS , Sub-directory or File Count:1
         D0_ABCONV , Sub-directory or File Count:2
             pythia8.306-1.0 , Sub-directory or File Count:1
