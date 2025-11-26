@@ -1099,7 +1099,7 @@ epic_craterlake , Sub-directory or File Count:7
                 NC , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
                         minQ2=1 , Sub-directory or File Count:351
-    CI , Sub-directory or File Count:98
+    CI , Sub-directory or File Count:99
         2025-01-10_14-26-17 , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
@@ -1887,7 +1887,16 @@ epic_craterlake , Sub-directory or File Count:7
                 e+ , Sub-directory or File Count:1
                     100MeV , Sub-directory or File Count:1
                         130to177deg , Sub-directory or File Count:1
-        Backgrounds , Sub-directory or File Count:31
+        2025-11-25_01-40-46 , Sub-directory or File Count:2
+            DIS , Sub-directory or File Count:1
+                NC , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        minQ2=1 , Sub-directory or File Count:1
+            SINGLE , Sub-directory or File Count:1
+                e+ , Sub-directory or File Count:1
+                    100MeV , Sub-directory or File Count:1
+                        130to177deg , Sub-directory or File Count:1
+        Backgrounds , Sub-directory or File Count:32
             2025-06-24_12-13-16 , Sub-directory or File Count:1
                 DIS , Sub-directory or File Count:1
                     NC , Sub-directory or File Count:1
@@ -2043,6 +2052,11 @@ epic_craterlake , Sub-directory or File Count:7
                     NC , Sub-directory or File Count:1
                         18x275 , Sub-directory or File Count:1
                             minQ2=1 , Sub-directory or File Count:1
+            2025-11-25_01-40-46 , Sub-directory or File Count:1
+                DIS , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:1
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:2
             10x100 , Sub-directory or File Count:1
@@ -2059,7 +2073,7 @@ epic_craterlake , Sub-directory or File Count:7
         gamma , Sub-directory or File Count:1
             100MeV , Sub-directory or File Count:1
                 etaScan , Sub-directory or File Count:145
-    Test , Sub-directory or File Count:18
+    Test , Sub-directory or File Count:22
         2025-01-10_15-36-00 , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
@@ -2167,7 +2181,35 @@ epic_craterlake , Sub-directory or File Count:7
                     DIS , Sub-directory or File Count:1
                         NC , Sub-directory or File Count:1
                             10x275 , Sub-directory or File Count:1
-                                minQ2=1 , Sub-directory or File Count:63
+                                minQ2=1 , Sub-directory or File Count:64
+        2025-11-25_15-22-00 , Sub-directory or File Count:1
+            1Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
+                Synrad_10GeV_Vac_10000Ahr_Runtime_50s_Egas_10GeV_Hgas_275GeV , Sub-directory or File Count:1
+                    DIS , Sub-directory or File Count:1
+                        NC , Sub-directory or File Count:1
+                            10x275 , Sub-directory or File Count:1
+                                minQ2=1 , Sub-directory or File Count:9
+        2025-11-25_22-22-00 , Sub-directory or File Count:1
+            1Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
+                Synrad_10GeV_Vac_10000Ahr_Runtime_50s_Egas_10GeV_Hgas_275GeV , Sub-directory or File Count:1
+                    DIS , Sub-directory or File Count:1
+                        NC , Sub-directory or File Count:1
+                            10x275 , Sub-directory or File Count:1
+                                minQ2=1 , Sub-directory or File Count:88
+        2025-11-25_22-43-00 , Sub-directory or File Count:1
+            1Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
+                Synrad_10GeV_Vac_10000Ahr_Runtime_50s_Egas_10GeV_Hgas_275GeV , Sub-directory or File Count:1
+                    DIS , Sub-directory or File Count:1
+                        NC , Sub-directory or File Count:1
+                            10x275 , Sub-directory or File Count:1
+                                minQ2=1 , Sub-directory or File Count:10
+        2025-11-25_23-43-00 , Sub-directory or File Count:1
+            1Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
+                Synrad_18GeV_Vac_10000Ahr_Runtime_50s_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
+                    DIS , Sub-directory or File Count:1
+                        NC , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                minQ2=1 , Sub-directory or File Count:1471
         Tutorials_June2025 , Sub-directory or File Count:1
             EXCLUSIVE , Sub-directory or File Count:1
                 DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:2
