@@ -1,13 +1,43 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.4
-epic_craterlake , Sub-directory or File Count:1
-    Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
+epic_craterlake , Sub-directory or File Count:3
+    Bkg_1SignalPer2usFrame , Sub-directory or File Count:3
+        EXCLUSIVE , Sub-directory or File Count:2
+            DDVCS_ABCONV , Sub-directory or File Count:1
+                EpIC1.1.6-1.0 , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        q2_0_10 , Sub-directory or File Count:1
+                            edecay , Sub-directory or File Count:2
+                                hminus , Sub-directory or File Count:7517
+                                hplus , Sub-directory or File Count:7517
+            DVMP , Sub-directory or File Count:1
+                EpIC1.1.6-1.1 , Sub-directory or File Count:1
+                    unpolarised , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:1
+                            q2_1_1000 , Sub-directory or File Count:6803
+        SIDIS , Sub-directory or File Count:1
+            pythia6-eic , Sub-directory or File Count:1
+                1.0.0 , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        q2_0to1 , Sub-directory or File Count:104
         Synrad_18GeV_Vac_10000Ahr_Runtime_50s_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:2
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
-                        minQ2=1 , Sub-directory or File Count:46685
+                        minQ2=1 , Sub-directory or File Count:46696
             EXCLUSIVE , Sub-directory or File Count:1
                 DVCS_ABCONV , Sub-directory or File Count:1
-                    18x275 , Sub-directory or File Count:20102
+                    18x275 , Sub-directory or File Count:20103
+    Bkg_OnlyPer2usFrame , Sub-directory or File Count:1
+        BACKGROUNDS , Sub-directory or File Count:1
+            BEAMGAS , Sub-directory or File Count:1
+                proton , Sub-directory or File Count:1
+                    pythia8.306-1.0 , Sub-directory or File Count:1
+                        275GeV , Sub-directory or File Count:23874
+    Bkg_RealisticSignalPer2usFrame , Sub-directory or File Count:1
+        SIDIS , Sub-directory or File Count:1
+            pythia6-eic , Sub-directory or File Count:1
+                1.0.0 , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        q2_0to1 , Sub-directory or File Count:19993
 ```
