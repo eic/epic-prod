@@ -33,7 +33,7 @@ epic_craterlake , Sub-directory or File Count:3
             BEAMGAS , Sub-directory or File Count:1
                 proton , Sub-directory or File Count:1
                     pythia8.306-1.0 , Sub-directory or File Count:1
-                        275GeV , Sub-directory or File Count:23874
+                        275GeV , Sub-directory or File Count:54989
     Bkg_RealisticSignalPer2usFrame , Sub-directory or File Count:1
         SIDIS , Sub-directory or File Count:1
             pythia6-eic , Sub-directory or File Count:1
