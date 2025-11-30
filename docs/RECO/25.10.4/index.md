@@ -1,7 +1,11 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.4
 epic_craterlake , Sub-directory or File Count:3
-    Bkg_1SignalPer2usFrame , Sub-directory or File Count:3
+    Bkg_1SignalPer2usFrame , Sub-directory or File Count:4
+        DIS , Sub-directory or File Count:1
+            NC , Sub-directory or File Count:1
+                10x275 , Sub-directory or File Count:1
+                    minQ2=1 , Sub-directory or File Count:2793
         EXCLUSIVE , Sub-directory or File Count:2
             DDVCS_ABCONV , Sub-directory or File Count:1
                 EpIC1.1.6-1.0 , Sub-directory or File Count:1
