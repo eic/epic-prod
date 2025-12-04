@@ -28,34 +28,19 @@ epic_craterlake , Sub-directory or File Count:5
                                     MachineRuntime10ms , Sub-directory or File Count:4
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:4298
-                    275GeV , Sub-directory or File Count:10902
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
-                    1SignalPerFrame , Sub-directory or File Count:13
-                    RealisticSignalPerFrame , Sub-directory or File Count:31
     DIS , Sub-directory or File Count:3
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
             eCu , Sub-directory or File Count:2
                 en , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_1to1000 , Sub-directory or File Count:568
                 ep , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_1to1000 , Sub-directory or File Count:465
             eHe3 , Sub-directory or File Count:1
                 10x166 , Sub-directory or File Count:3
-                    q2_100to1000 , Sub-directory or File Count:762
-                    q2_10to100 , Sub-directory or File Count:760
-                    q2_1to10 , Sub-directory or File Count:381
             eRu , Sub-directory or File Count:2
                 en , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_1to1000 , Sub-directory or File Count:580
                 ep , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_1to1000 , Sub-directory or File Count:377
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:6645
