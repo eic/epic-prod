@@ -5,12 +5,18 @@ epic_craterlake , Sub-directory or File Count:5
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:2
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
+                    10GeV , Sub-directory or File Count:2485
                 GETaLM1.0.0-1.1 , Sub-directory or File Count:1
+                    18GeV , Sub-directory or File Count:3870
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
+                    100GeV , Sub-directory or File Count:4597
+                    275GeV , Sub-directory or File Count:10878
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
+                    1SignalPerFrame , Sub-directory or File Count:12
+                    RealisticSignalPerFrame , Sub-directory or File Count:30
         SYNRAD , Sub-directory or File Count:1
             dataprod_rel_1.0.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:90
@@ -18,16 +24,33 @@ epic_craterlake , Sub-directory or File Count:5
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
             eCu , Sub-directory or File Count:2
                 en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:368
                 ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:341
             eHe3 , Sub-directory or File Count:1
                 10x166 , Sub-directory or File Count:3
+                    q2_100to1000 , Sub-directory or File Count:437
+                    q2_10to100 , Sub-directory or File Count:436
+                    q2_1to10 , Sub-directory or File Count:218
             eRu , Sub-directory or File Count:2
                 en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:447
                 ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:287
         BeAGLE1.03.02-1.2 , Sub-directory or File Count:1
             eHe3 , Sub-directory or File Count:2
                 10x166 , Sub-directory or File Count:3
+                    q2_100to10000 , Sub-directory or File Count:4779
+                    q2_10to100 , Sub-directory or File Count:4347
+                    q2_2to10 , Sub-directory or File Count:4081
                 18x110 , Sub-directory or File Count:3
+                    q2_100to10000 , Sub-directory or File Count:2132
+                    q2_10to100 , Sub-directory or File Count:3860
+                    q2_2to10 , Sub-directory or File Count:3478
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:4084
