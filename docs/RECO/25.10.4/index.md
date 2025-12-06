@@ -1,11 +1,11 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.4
-epic_craterlake , Sub-directory or File Count:6
+epic_craterlake , Sub-directory or File Count:7
     Bkg_1SignalPer2usFrame , Sub-directory or File Count:4
         DIS , Sub-directory or File Count:1
             NC , Sub-directory or File Count:2
                 10x100 , Sub-directory or File Count:1
-                    minQ2=1 , Sub-directory or File Count:1250
+                    minQ2=1 , Sub-directory or File Count:3422
                 10x275 , Sub-directory or File Count:1
                     minQ2=1 , Sub-directory or File Count:5922
         EXCLUSIVE , Sub-directory or File Count:2
@@ -46,14 +46,31 @@ epic_craterlake , Sub-directory or File Count:6
                 1.0.0 , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
                         q2_0to1 , Sub-directory or File Count:19993
+    DIS , Sub-directory or File Count:2
+        BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
+            eH2 , Sub-directory or File Count:1
+                10x130 , Sub-directory or File Count:1
+                    q2_1to1000 , Sub-directory or File Count:739
+        DJANGOH4.6.21-1.0 , Sub-directory or File Count:1
+            NC , Sub-directory or File Count:2
+                Rad , Sub-directory or File Count:1
+                    ep , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:1
+                            q2_1to10 , Sub-directory or File Count:8
+                noRad , Sub-directory or File Count:1
+                    ep , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:3
+                            q2_100to1000 , Sub-directory or File Count:17
+                            q2_10to100 , Sub-directory or File Count:16
+                            q2_1to10 , Sub-directory or File Count:1
     EXCLUSIVE , Sub-directory or File Count:1
         DVMP , Sub-directory or File Count:1
             JPsi_MuMu_ABCONV , Sub-directory or File Count:1
                 lAger3.6.1-1.0 , Sub-directory or File Count:2
                     10x130 , Sub-directory or File Count:1
-                        q2_1to50 , Sub-directory or File Count:204
+                        q2_1to50 , Sub-directory or File Count:998
                     10x250 , Sub-directory or File Count:1
-                        q2_1to50 , Sub-directory or File Count:721
+                        q2_1to50 , Sub-directory or File Count:1042
     SIDIS , Sub-directory or File Count:1
         DIJET_ABCONV , Sub-directory or File Count:1
             pythia6.428-dijet-v1.0 , Sub-directory or File Count:1
@@ -260,7 +277,7 @@ epic_craterlake , Sub-directory or File Count:6
             20GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:282
                 3to50deg , Sub-directory or File Count:474
-                45to135deg , Sub-directory or File Count:228
+                45to135deg , Sub-directory or File Count:229
             2GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:22
                 3to50deg , Sub-directory or File Count:35
