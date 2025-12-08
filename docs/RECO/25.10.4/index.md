@@ -1,11 +1,11 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.4
-epic_craterlake , Sub-directory or File Count:7
+epic_craterlake , Sub-directory or File Count:8
     Bkg_1SignalPer2usFrame , Sub-directory or File Count:4
         DIS , Sub-directory or File Count:1
             NC , Sub-directory or File Count:2
                 10x100 , Sub-directory or File Count:1
-                    minQ2=1 , Sub-directory or File Count:4441
+                    minQ2=1 , Sub-directory or File Count:4975
                 10x275 , Sub-directory or File Count:1
                     minQ2=1 , Sub-directory or File Count:5922
         EXCLUSIVE , Sub-directory or File Count:2
@@ -34,6 +34,18 @@ epic_craterlake , Sub-directory or File Count:7
             EXCLUSIVE , Sub-directory or File Count:1
                 DVCS_ABCONV , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:20103
+    Bkg_Exactly1SignalPer2usFrame , Sub-directory or File Count:2
+        EXCLUSIVE , Sub-directory or File Count:1
+            DVMP , Sub-directory or File Count:1
+                EpIC1.1.6-1.1 , Sub-directory or File Count:1
+                    unpolarised , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:1
+                            q2_1_1000 , Sub-directory or File Count:10096
+        SIDIS , Sub-directory or File Count:1
+            D0_ABCONV , Sub-directory or File Count:1
+                pythia8.306-1.0 , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        hiDiv , Sub-directory or File Count:16718
     Bkg_OnlyPer2usFrame , Sub-directory or File Count:1
         BACKGROUNDS , Sub-directory or File Count:1
             BEAMGAS , Sub-directory or File Count:1
@@ -56,26 +68,31 @@ epic_craterlake , Sub-directory or File Count:7
                 Rad , Sub-directory or File Count:1
                     ep , Sub-directory or File Count:1
                         18x275 , Sub-directory or File Count:4
-                            q2_1000to10000 , Sub-directory or File Count:79
-                            q2_100to1000 , Sub-directory or File Count:410
-                            q2_10to100 , Sub-directory or File Count:427
-                            q2_1to10 , Sub-directory or File Count:284
+                            q2_1000to10000 , Sub-directory or File Count:80
+                            q2_100to1000 , Sub-directory or File Count:444
+                            q2_10to100 , Sub-directory or File Count:439
+                            q2_1to10 , Sub-directory or File Count:317
                 noRad , Sub-directory or File Count:1
                     ep , Sub-directory or File Count:1
                         18x275 , Sub-directory or File Count:4
-                            q2_1000to10000 , Sub-directory or File Count:69
-                            q2_100to1000 , Sub-directory or File Count:390
-                            q2_10to100 , Sub-directory or File Count:331
-                            q2_1to10 , Sub-directory or File Count:5
+                            q2_1000to10000 , Sub-directory or File Count:75
+                            q2_100to1000 , Sub-directory or File Count:436
+                            q2_10to100 , Sub-directory or File Count:397
+                            q2_1to10 , Sub-directory or File Count:297
         pythia6.428-1.0 , Sub-directory or File Count:1
             NC , Sub-directory or File Count:1
                 noRad , Sub-directory or File Count:1
-                    ep , Sub-directory or File Count:1
+                    ep , Sub-directory or File Count:2
                         10x130 , Sub-directory or File Count:4
-                            q2_1000to10000 , Sub-directory or File Count:72
-                            q2_100to1000 , Sub-directory or File Count:465
-                            q2_10to100 , Sub-directory or File Count:486
-                            q2_1to10 , Sub-directory or File Count:423
+                            q2_1000to10000 , Sub-directory or File Count:100
+                            q2_100to1000 , Sub-directory or File Count:703
+                            q2_10to100 , Sub-directory or File Count:642
+                            q2_1to10 , Sub-directory or File Count:477
+                        10x250 , Sub-directory or File Count:4
+                            q2_1000to10000 , Sub-directory or File Count:136
+                            q2_100to1000 , Sub-directory or File Count:935
+                            q2_10to100 , Sub-directory or File Count:803
+                            q2_1to10 , Sub-directory or File Count:693
     EXCLUSIVE , Sub-directory or File Count:1
         DVMP , Sub-directory or File Count:1
             JPsi_MuMu_ABCONV , Sub-directory or File Count:1
