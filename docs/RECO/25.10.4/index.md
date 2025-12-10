@@ -4,8 +4,9 @@ epic_craterlake , Sub-directory or File Count:9
     BACKGROUNDS , Sub-directory or File Count:1
         BEAMGAS , Sub-directory or File Count:1
             proton , Sub-directory or File Count:1
-                pythia8.306-1.0 , Sub-directory or File Count:1
-                    275GeV , Sub-directory or File Count:590
+                pythia8.306-1.0 , Sub-directory or File Count:2
+                    100GeV , Sub-directory or File Count:654
+                    275GeV , Sub-directory or File Count:10679
     Bkg_1SignalPer2usFrame , Sub-directory or File Count:4
         DIS , Sub-directory or File Count:1
             NC , Sub-directory or File Count:2
@@ -56,10 +57,14 @@ epic_craterlake , Sub-directory or File Count:9
                         18x275 , Sub-directory or File Count:1
                             q2_1_1000 , Sub-directory or File Count:10097
         SIDIS , Sub-directory or File Count:1
-            D0_ABCONV , Sub-directory or File Count:1
+            D0_ABCONV , Sub-directory or File Count:2
                 pythia8.306-1.0 , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
                         hiDiv , Sub-directory or File Count:16720
+                pythia8.306-1.1 , Sub-directory or File Count:1
+                    10x100 , Sub-directory or File Count:1
+                        q2_100 , Sub-directory or File Count:1
+                            hiDiv , Sub-directory or File Count:254
     Bkg_OnlyPer2usFrame , Sub-directory or File Count:1
         BACKGROUNDS , Sub-directory or File Count:1
             BEAMGAS , Sub-directory or File Count:1
