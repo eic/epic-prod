@@ -1,12 +1,45 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.4
 epic_craterlake , Sub-directory or File Count:9
-    BACKGROUNDS , Sub-directory or File Count:1
-        BEAMGAS , Sub-directory or File Count:1
+    BACKGROUNDS , Sub-directory or File Count:2
+        BEAMGAS , Sub-directory or File Count:2
+            electron , Sub-directory or File Count:4
+                GETaLM1.0.0-1.0 , Sub-directory or File Count:1
+                    10GeV , Sub-directory or File Count:1806
+                GETaLM1.0.0-1.1 , Sub-directory or File Count:1
+                    18GeV , Sub-directory or File Count:1844
+                coulomb , Sub-directory or File Count:1
+                    EIC_ESR_Xsuite , Sub-directory or File Count:1
+                        dataprod_rel_1.0.1 , Sub-directory or File Count:3
+                            10x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime50s , Sub-directory or File Count:274
+                            18x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime50s , Sub-directory or File Count:29
+                            5x100 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime50s , Sub-directory or File Count:219
+                touschek , Sub-directory or File Count:1
+                    EIC_ESR_Xsuite , Sub-directory or File Count:1
+                        dataprod_rel_1.0.1 , Sub-directory or File Count:3
+                            10x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime50s , Sub-directory or File Count:622
+                            18x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime50s , Sub-directory or File Count:20
+                            5x100 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime50s , Sub-directory or File Count:6365
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:654
-                    275GeV , Sub-directory or File Count:10679
+                    100GeV , Sub-directory or File Count:4395
+                    275GeV , Sub-directory or File Count:11151
+        SYNRAD , Sub-directory or File Count:1
+            dataprod_rel_1.0.0 , Sub-directory or File Count:2
+                10x275 , Sub-directory or File Count:150
+                18x275 , Sub-directory or File Count:146
     Bkg_1SignalPer2usFrame , Sub-directory or File Count:4
         DIS , Sub-directory or File Count:1
             NC , Sub-directory or File Count:2
@@ -62,9 +95,11 @@ epic_craterlake , Sub-directory or File Count:9
                     18x275 , Sub-directory or File Count:1
                         hiDiv , Sub-directory or File Count:16720
                 pythia8.306-1.1 , Sub-directory or File Count:1
-                    10x100 , Sub-directory or File Count:1
+                    10x100 , Sub-directory or File Count:2
+                        q2_1 , Sub-directory or File Count:1
+                            hiDiv , Sub-directory or File Count:490
                         q2_100 , Sub-directory or File Count:1
-                            hiDiv , Sub-directory or File Count:254
+                            hiDiv , Sub-directory or File Count:500
     Bkg_OnlyPer2usFrame , Sub-directory or File Count:1
         BACKGROUNDS , Sub-directory or File Count:1
             BEAMGAS , Sub-directory or File Count:1
