@@ -25,7 +25,7 @@ epic_craterlake , Sub-directory or File Count:9
                         dataprod_rel_1.0.1 , Sub-directory or File Count:3
                             10x275 , Sub-directory or File Count:1
                                 10000Ahr , Sub-directory or File Count:1
-                                    MachineRuntime50s , Sub-directory or File Count:888
+                                    MachineRuntime50s , Sub-directory or File Count:899
                             18x275 , Sub-directory or File Count:1
                                 10000Ahr , Sub-directory or File Count:1
                                     MachineRuntime50s , Sub-directory or File Count:20
@@ -64,7 +64,7 @@ epic_craterlake , Sub-directory or File Count:9
             pythia6-eic , Sub-directory or File Count:1
                 1.0.0 , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
-                        q2_0to1 , Sub-directory or File Count:104
+                        q2_0to1 , Sub-directory or File Count:1
         Synrad_18GeV_Vac_10000Ahr_Runtime_50s_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:2
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
