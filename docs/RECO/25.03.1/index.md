@@ -15,10 +15,9 @@ epic_craterlake , Sub-directory or File Count:5
             eCu , Sub-directory or File Count:2
                 en , Sub-directory or File Count:1
                     10x115 , Sub-directory or File Count:1
-                        q2_1to1000 , Sub-directory or File Count:490
                 ep , Sub-directory or File Count:1
                     10x115 , Sub-directory or File Count:1
-                        q2_1to1000 , Sub-directory or File Count:412
+                        q2_1to1000 , Sub-directory or File Count:1
             eHe3 , Sub-directory or File Count:1
                 10x166 , Sub-directory or File Count:3
             eRu , Sub-directory or File Count:2
