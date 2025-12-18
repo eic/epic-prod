@@ -5,8 +5,8 @@ epic_craterlake , Sub-directory or File Count:3
         BEAMGAS , Sub-directory or File Count:1
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:3301
-                    275GeV , Sub-directory or File Count:6350
+                    100GeV , Sub-directory or File Count:3908
+                    275GeV , Sub-directory or File Count:6356
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:2
@@ -102,7 +102,7 @@ epic_craterlake , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:33
                 3to50deg , Sub-directory or File Count:31
                 45to135deg , Sub-directory or File Count:38
-                etaScan , Sub-directory or File Count:463
+                etaScan , Sub-directory or File Count:464
             200MeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:15
                 3to50deg , Sub-directory or File Count:21
