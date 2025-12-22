@@ -3,27 +3,39 @@ root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.12.0
 epic_craterlake , Sub-directory or File Count:3
     BACKGROUNDS , Sub-directory or File Count:1
         BEAMGAS , Sub-directory or File Count:2
-            electron , Sub-directory or File Count:3
+            electron , Sub-directory or File Count:4
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
-                    10GeV , Sub-directory or File Count:4194
+                    10GeV , Sub-directory or File Count:4238
                 GETaLM1.0.0-1.1 , Sub-directory or File Count:1
-                    18GeV , Sub-directory or File Count:4077
+                    18GeV , Sub-directory or File Count:4092
+                coulomb , Sub-directory or File Count:1
+                    EIC_ESR_Xsuite , Sub-directory or File Count:1
+                        dataprod_rel_1.0.1 , Sub-directory or File Count:3
+                            10x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime50s , Sub-directory or File Count:607
+                            18x275 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime50s , Sub-directory or File Count:33
+                            5x100 , Sub-directory or File Count:1
+                                10000Ahr , Sub-directory or File Count:1
+                                    MachineRuntime50s , Sub-directory or File Count:1500
                 touschek , Sub-directory or File Count:1
                     EIC_ESR_Xsuite , Sub-directory or File Count:1
                         dataprod_rel_1.0.1 , Sub-directory or File Count:3
                             10x275 , Sub-directory or File Count:1
                                 10000Ahr , Sub-directory or File Count:1
-                                    MachineRuntime50s , Sub-directory or File Count:426
+                                    MachineRuntime50s , Sub-directory or File Count:1329
                             18x275 , Sub-directory or File Count:1
                                 10000Ahr , Sub-directory or File Count:1
                                     MachineRuntime50s , Sub-directory or File Count:25
                             5x100 , Sub-directory or File Count:1
                                 10000Ahr , Sub-directory or File Count:1
-                                    MachineRuntime50s , Sub-directory or File Count:6085
+                                    MachineRuntime50s , Sub-directory or File Count:24254
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:4265
-                    275GeV , Sub-directory or File Count:14711
+                    275GeV , Sub-directory or File Count:14714
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:2
@@ -184,7 +196,7 @@ epic_craterlake , Sub-directory or File Count:3
                 45to135deg , Sub-directory or File Count:29
             10GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:168
-                3to50deg , Sub-directory or File Count:149
+                3to50deg , Sub-directory or File Count:150
                 45to135deg , Sub-directory or File Count:190
             1GeV , Sub-directory or File Count:3
                 130to177deg , Sub-directory or File Count:42

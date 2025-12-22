@@ -5,39 +5,30 @@ epic_craterlake , Sub-directory or File Count:8
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:5
                 GETaLM1.0.0-1.0 , Sub-directory or File Count:1
-                    10GeV , Sub-directory or File Count:2402
                 GETaLM1.0.0-1.1 , Sub-directory or File Count:1
-                    18GeV , Sub-directory or File Count:3722
                 brems , Sub-directory or File Count:1
                     EIC_ESR_Xsuite , Sub-directory or File Count:1
                         dataprod_rel_1.0.0 , Sub-directory or File Count:1
                             18x275 , Sub-directory or File Count:1
                                 10000Ahr , Sub-directory or File Count:1
-                                    MachineRuntime10ms , Sub-directory or File Count:1
                 coulomb , Sub-directory or File Count:1
                     EIC_ESR_Xsuite , Sub-directory or File Count:1
                         dataprod_rel_1.0.0 , Sub-directory or File Count:1
                             18x275 , Sub-directory or File Count:1
                                 10000Ahr , Sub-directory or File Count:1
-                                    MachineRuntime10ms , Sub-directory or File Count:7
                 touschek , Sub-directory or File Count:1
                     EIC_ESR_Xsuite , Sub-directory or File Count:1
                         dataprod_rel_1.0.0 , Sub-directory or File Count:1
                             18x275 , Sub-directory or File Count:1
                                 10000Ahr , Sub-directory or File Count:1
-                                    MachineRuntime10ms , Sub-directory or File Count:4
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    100GeV , Sub-directory or File Count:4476
-                    275GeV , Sub-directory or File Count:11180
+                    275GeV , Sub-directory or File Count:2
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
-                    1SignalPerFrame , Sub-directory or File Count:13
-                    RealisticSignalPerFrame , Sub-directory or File Count:31
         SYNRAD , Sub-directory or File Count:1
             dataprod_rel_1.0.0 , Sub-directory or File Count:1
-                18x275 , Sub-directory or File Count:90
     Bkg_1SignalPer2usFrame , Sub-directory or File Count:2
         Synrad_18GeV_Vac_10000Ahr_Runtime_10ms_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
@@ -67,8 +58,7 @@ epic_craterlake , Sub-directory or File Count:8
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:4
             eAu , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:6294
-                    q2_1to10 , Sub-directory or File Count:5099
+                    q2_10to100 , Sub-directory or File Count:1
             eCu , Sub-directory or File Count:2
                 en , Sub-directory or File Count:1
                     10x115 , Sub-directory or File Count:1
@@ -91,10 +81,7 @@ epic_craterlake , Sub-directory or File Count:8
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:1
                 minQ2=10 , Sub-directory or File Count:1
-                minQ2=1000 , Sub-directory or File Count:1
             5x41 , Sub-directory or File Count:3
-                minQ2=10 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:2
     EXCLUSIVE , Sub-directory or File Count:8
         DEMP , Sub-directory or File Count:2
             DEMPgen-1.2.2 , Sub-directory or File Count:3
@@ -106,7 +93,6 @@ epic_craterlake , Sub-directory or File Count:8
                     q2_10_20 , Sub-directory or File Count:1
                         pi+ , Sub-directory or File Count:1
                     q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:1
                     q2_3_10 , Sub-directory or File Count:1
                 5x41 , Sub-directory or File Count:4
                     q2_10_20 , Sub-directory or File Count:2
@@ -117,7 +103,6 @@ epic_craterlake , Sub-directory or File Count:8
                 10x130 , Sub-directory or File Count:3
                     q2_10_20 , Sub-directory or File Count:2
                     q2_20_35 , Sub-directory or File Count:2
-                        pi+ , Sub-directory or File Count:1
                     q2_3_10 , Sub-directory or File Count:2
         DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:3
             coherent_eCu , Sub-directory or File Count:1
@@ -134,7 +119,6 @@ epic_craterlake , Sub-directory or File Count:8
                 5x41 , Sub-directory or File Count:1
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:4
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:3
             coherent_eCu , Sub-directory or File Count:1
                 eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
                     10x115 , Sub-directory or File Count:1
@@ -148,7 +132,6 @@ epic_craterlake , Sub-directory or File Count:8
         DVCS_ABCONV , Sub-directory or File Count:4
             EpIC_v1.1.6-1.1 , Sub-directory or File Count:1
                 10x130 , Sub-directory or File Count:1
-                    q2_1_100 , Sub-directory or File Count:1
         DVMP , Sub-directory or File Count:1
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
@@ -160,13 +143,12 @@ epic_craterlake , Sub-directory or File Count:8
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:33678
+                    q2_0to1 , Sub-directory or File Count:1
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:63236
+                    q2_0to1 , Sub-directory or File Count:2
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:18789
+                    q2_0to1 , Sub-directory or File Count:4
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:20251
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
