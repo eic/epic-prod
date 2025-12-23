@@ -1,6 +1,6 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.12.0
-epic_craterlake , Sub-directory or File Count:3
+epic_craterlake , Sub-directory or File Count:4
     BACKGROUNDS , Sub-directory or File Count:1
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:4
@@ -13,13 +13,13 @@ epic_craterlake , Sub-directory or File Count:3
                         dataprod_rel_1.0.1 , Sub-directory or File Count:3
                             10x275 , Sub-directory or File Count:1
                                 10000Ahr , Sub-directory or File Count:1
-                                    MachineRuntime50s , Sub-directory or File Count:607
+                                    MachineRuntime50s , Sub-directory or File Count:621
                             18x275 , Sub-directory or File Count:1
                                 10000Ahr , Sub-directory or File Count:1
-                                    MachineRuntime50s , Sub-directory or File Count:33
+                                    MachineRuntime50s , Sub-directory or File Count:34
                             5x100 , Sub-directory or File Count:1
                                 10000Ahr , Sub-directory or File Count:1
-                                    MachineRuntime50s , Sub-directory or File Count:1500
+                                    MachineRuntime50s , Sub-directory or File Count:1614
                 touschek , Sub-directory or File Count:1
                     EIC_ESR_Xsuite , Sub-directory or File Count:1
                         dataprod_rel_1.0.1 , Sub-directory or File Count:3
@@ -41,12 +41,20 @@ epic_craterlake , Sub-directory or File Count:3
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:9092
                 minQ2=1000 , Sub-directory or File Count:10664
-        NC , Sub-directory or File Count:1
+        NC , Sub-directory or File Count:2
+            10x100 , Sub-directory or File Count:4
+                minQ2=1 , Sub-directory or File Count:4057
+                minQ2=10 , Sub-directory or File Count:6679
+                minQ2=100 , Sub-directory or File Count:6835
+                minQ2=1000 , Sub-directory or File Count:1177
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:8833
                 minQ2=10 , Sub-directory or File Count:9105
                 minQ2=100 , Sub-directory or File Count:10533
                 minQ2=1000 , Sub-directory or File Count:14007
+    EXCLUSIVE , Sub-directory or File Count:1
+        DVCS_ABCONV , Sub-directory or File Count:1
+            5x41 , Sub-directory or File Count:1137
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
