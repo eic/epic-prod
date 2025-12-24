@@ -41,20 +41,57 @@ epic_craterlake , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:9092
                 minQ2=1000 , Sub-directory or File Count:10664
-        NC , Sub-directory or File Count:2
+        NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:4057
-                minQ2=10 , Sub-directory or File Count:6679
-                minQ2=100 , Sub-directory or File Count:6835
-                minQ2=1000 , Sub-directory or File Count:1177
+                minQ2=1 , Sub-directory or File Count:5319
+                minQ2=10 , Sub-directory or File Count:7925
+                minQ2=100 , Sub-directory or File Count:9643
+                minQ2=1000 , Sub-directory or File Count:12185
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:8833
                 minQ2=10 , Sub-directory or File Count:9105
                 minQ2=100 , Sub-directory or File Count:10533
                 minQ2=1000 , Sub-directory or File Count:14007
-    EXCLUSIVE , Sub-directory or File Count:1
-        DVCS_ABCONV , Sub-directory or File Count:1
-            5x41 , Sub-directory or File Count:1137
+            5x41 , Sub-directory or File Count:3
+                minQ2=1 , Sub-directory or File Count:4188
+                minQ2=10 , Sub-directory or File Count:6041
+                minQ2=100 , Sub-directory or File Count:6268
+    EXCLUSIVE , Sub-directory or File Count:4
+        DEMP , Sub-directory or File Count:1
+            DEMPgen-1.2.4 , Sub-directory or File Count:2
+                10x130 , Sub-directory or File Count:3
+                    q2_10_20 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:456
+                    q2_20_35 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:453
+                    q2_3_10 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:450
+                10x250 , Sub-directory or File Count:3
+                    q2_10_20 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:611
+                    q2_20_35 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:600
+                    q2_3_10 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:603
+        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
+            sartre1.39-1.0 , Sub-directory or File Count:1
+                eAu , Sub-directory or File Count:1
+                    coherent , Sub-directory or File Count:1
+                        bsat , Sub-directory or File Count:1
+                            10x100 , Sub-directory or File Count:2589
+        DVCS_ABCONV , Sub-directory or File Count:4
+            10x100 , Sub-directory or File Count:1189
+            18x275 , Sub-directory or File Count:969
+            5x41 , Sub-directory or File Count:2256
+            EpIC_v1.1.6-1.1 , Sub-directory or File Count:1
+                10x130 , Sub-directory or File Count:1
+                    q2_1_100 , Sub-directory or File Count:737
+        DVMP , Sub-directory or File Count:2
+            EpIC1.0.0-1.1 , Sub-directory or File Count:79
+            EpIC1.1.6-1.0 , Sub-directory or File Count:1
+                unpolarised , Sub-directory or File Count:1
+                    10x130 , Sub-directory or File Count:1
+                        q2_1_1000 , Sub-directory or File Count:882
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
