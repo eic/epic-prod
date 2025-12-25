@@ -1,6 +1,6 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.4
-epic_craterlake , Sub-directory or File Count:9
+epic_craterlake , Sub-directory or File Count:10
     BACKGROUNDS , Sub-directory or File Count:2
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:4
@@ -112,6 +112,11 @@ epic_craterlake , Sub-directory or File Count:9
                 1.0.0 , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
                         q2_0to1 , Sub-directory or File Count:19993
+    DDIS , Sub-directory or File Count:1
+        rapgap3.310-1.0 , Sub-directory or File Count:1
+            noRad , Sub-directory or File Count:1
+                ep , Sub-directory or File Count:1
+                    10x100 , Sub-directory or File Count:3905
     DIS , Sub-directory or File Count:3
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
             eH2 , Sub-directory or File Count:1

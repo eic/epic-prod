@@ -1,6 +1,6 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.12.0
-epic_craterlake , Sub-directory or File Count:4
+epic_craterlake , Sub-directory or File Count:5
     BACKGROUNDS , Sub-directory or File Count:1
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:4
@@ -36,11 +36,21 @@ epic_craterlake , Sub-directory or File Count:4
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:4265
                     275GeV , Sub-directory or File Count:14714
+    DDIS , Sub-directory or File Count:1
+        rapgap3.310-1.0 , Sub-directory or File Count:1
+            noRad , Sub-directory or File Count:1
+                ep , Sub-directory or File Count:1
+                    10x100 , Sub-directory or File Count:3940
     DIS , Sub-directory or File Count:2
-        CC , Sub-directory or File Count:1
+        CC , Sub-directory or File Count:3
+            10x100 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:4965
+                minQ2=1000 , Sub-directory or File Count:4932
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:9092
                 minQ2=1000 , Sub-directory or File Count:10664
+            5x41 , Sub-directory or File Count:1
+                minQ2=100 , Sub-directory or File Count:2277
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:5319
@@ -55,7 +65,7 @@ epic_craterlake , Sub-directory or File Count:4
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:4188
                 minQ2=10 , Sub-directory or File Count:6041
-                minQ2=100 , Sub-directory or File Count:6268
+                minQ2=100 , Sub-directory or File Count:6271
     EXCLUSIVE , Sub-directory or File Count:4
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.2.4 , Sub-directory or File Count:2
