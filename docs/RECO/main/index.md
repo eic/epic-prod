@@ -1618,11 +1618,9 @@ epic_craterlake , Sub-directory or File Count:7
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
-                        minQ2=1 , Sub-directory or File Count:1
             SINGLE , Sub-directory or File Count:1
                 e+ , Sub-directory or File Count:1
                     100MeV , Sub-directory or File Count:1
-                        130to177deg , Sub-directory or File Count:1
         2025-06-25_18-09-42 , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
@@ -1910,7 +1908,6 @@ epic_craterlake , Sub-directory or File Count:7
                 DIS , Sub-directory or File Count:1
                     NC , Sub-directory or File Count:1
                         18x275 , Sub-directory or File Count:1
-                            minQ2=1 , Sub-directory or File Count:1
             2025-06-27_17-33-09 , Sub-directory or File Count:1
                 DIS , Sub-directory or File Count:1
                     NC , Sub-directory or File Count:1

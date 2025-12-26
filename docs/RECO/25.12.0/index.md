@@ -40,17 +40,21 @@ epic_craterlake , Sub-directory or File Count:5
         rapgap3.310-1.0 , Sub-directory or File Count:1
             noRad , Sub-directory or File Count:1
                 ep , Sub-directory or File Count:1
-                    10x100 , Sub-directory or File Count:3940
-    DIS , Sub-directory or File Count:2
+                    10x100 , Sub-directory or File Count:3952
+    DIS , Sub-directory or File Count:3
+        BeAGLE1.03.02-1.2 , Sub-directory or File Count:1
+            eHe3 , Sub-directory or File Count:1
+                10x166 , Sub-directory or File Count:1
+                    q2_2to10 , Sub-directory or File Count:5
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:4965
-                minQ2=1000 , Sub-directory or File Count:4932
+                minQ2=100 , Sub-directory or File Count:4971
+                minQ2=1000 , Sub-directory or File Count:4989
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:9092
                 minQ2=1000 , Sub-directory or File Count:10664
             5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:2277
+                minQ2=100 , Sub-directory or File Count:3001
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:5319
@@ -71,37 +75,39 @@ epic_craterlake , Sub-directory or File Count:5
             DEMPgen-1.2.4 , Sub-directory or File Count:2
                 10x130 , Sub-directory or File Count:3
                     q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:456
+                        pi+ , Sub-directory or File Count:459
                     q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:453
+                        pi+ , Sub-directory or File Count:459
                     q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:450
+                        pi+ , Sub-directory or File Count:459
                 10x250 , Sub-directory or File Count:3
                     q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:611
+                        pi+ , Sub-directory or File Count:613
                     q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:600
+                        pi+ , Sub-directory or File Count:610
                     q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:603
-        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:611
+        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:2
+            Sartre , Sub-directory or File Count:1
+                Coherent , Sub-directory or File Count:25924
             sartre1.39-1.0 , Sub-directory or File Count:1
                 eAu , Sub-directory or File Count:1
                     coherent , Sub-directory or File Count:1
                         bsat , Sub-directory or File Count:1
-                            10x100 , Sub-directory or File Count:2589
+                            10x100 , Sub-directory or File Count:2617
         DVCS_ABCONV , Sub-directory or File Count:4
-            10x100 , Sub-directory or File Count:1189
-            18x275 , Sub-directory or File Count:969
-            5x41 , Sub-directory or File Count:2256
+            10x100 , Sub-directory or File Count:1192
+            18x275 , Sub-directory or File Count:978
+            5x41 , Sub-directory or File Count:2271
             EpIC_v1.1.6-1.1 , Sub-directory or File Count:1
                 10x130 , Sub-directory or File Count:1
-                    q2_1_100 , Sub-directory or File Count:737
+                    q2_1_100 , Sub-directory or File Count:748
         DVMP , Sub-directory or File Count:2
             EpIC1.0.0-1.1 , Sub-directory or File Count:79
             EpIC1.1.6-1.0 , Sub-directory or File Count:1
                 unpolarised , Sub-directory or File Count:1
                     10x130 , Sub-directory or File Count:1
-                        q2_1_1000 , Sub-directory or File Count:882
+                        q2_1_1000 , Sub-directory or File Count:903
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
