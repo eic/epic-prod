@@ -1,6 +1,6 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.12.0
-epic_craterlake , Sub-directory or File Count:5
+epic_craterlake , Sub-directory or File Count:6
     BACKGROUNDS , Sub-directory or File Count:1
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:4
@@ -43,9 +43,23 @@ epic_craterlake , Sub-directory or File Count:5
                     10x100 , Sub-directory or File Count:3952
     DIS , Sub-directory or File Count:3
         BeAGLE1.03.02-1.2 , Sub-directory or File Count:1
-            eHe3 , Sub-directory or File Count:1
-                10x166 , Sub-directory or File Count:1
-                    q2_2to10 , Sub-directory or File Count:5
+            eHe3 , Sub-directory or File Count:4
+                10x110 , Sub-directory or File Count:3
+                    q2_100to10000 , Sub-directory or File Count:2866
+                    q2_10to100 , Sub-directory or File Count:2431
+                    q2_2to10 , Sub-directory or File Count:2278
+                10x166 , Sub-directory or File Count:3
+                    q2_100to10000 , Sub-directory or File Count:4757
+                    q2_10to100 , Sub-directory or File Count:3866
+                    q2_2to10 , Sub-directory or File Count:3660
+                18x110 , Sub-directory or File Count:3
+                    q2_100to10000 , Sub-directory or File Count:2866
+                    q2_10to100 , Sub-directory or File Count:2800
+                    q2_2to10 , Sub-directory or File Count:2288
+                5x41 , Sub-directory or File Count:3
+                    q2_100to10000 , Sub-directory or File Count:1920
+                    q2_10to100 , Sub-directory or File Count:1377
+                    q2_2to10 , Sub-directory or File Count:1384
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:4971
@@ -89,7 +103,7 @@ epic_craterlake , Sub-directory or File Count:5
                         pi+ , Sub-directory or File Count:611
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:2
             Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:25924
+                Coherent , Sub-directory or File Count:26292
             sartre1.39-1.0 , Sub-directory or File Count:1
                 eAu , Sub-directory or File Count:1
                     coherent , Sub-directory or File Count:1
@@ -108,6 +122,21 @@ epic_craterlake , Sub-directory or File Count:5
                 unpolarised , Sub-directory or File Count:1
                     10x130 , Sub-directory or File Count:1
                         q2_1_1000 , Sub-directory or File Count:903
+    SIDIS , Sub-directory or File Count:2
+        D0_ABCONV , Sub-directory or File Count:1
+            HFsim-PYTHIA , Sub-directory or File Count:1
+                pythia8.306-1.2 , Sub-directory or File Count:1
+                    ep , Sub-directory or File Count:1
+                        5x41 , Sub-directory or File Count:1
+                            q2_1to10000 , Sub-directory or File Count:1
+                                hiDiv , Sub-directory or File Count:1960
+        Lc_ABCONV , Sub-directory or File Count:1
+            HFsim-PYTHIA , Sub-directory or File Count:1
+                pythia8.306-1.2 , Sub-directory or File Count:1
+                    ep , Sub-directory or File Count:1
+                        10x100 , Sub-directory or File Count:1
+                            q2_1to10000 , Sub-directory or File Count:1
+                                hiDiv , Sub-directory or File Count:4971
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
