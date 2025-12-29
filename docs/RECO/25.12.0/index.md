@@ -84,7 +84,7 @@ epic_craterlake , Sub-directory or File Count:6
                 minQ2=1 , Sub-directory or File Count:4188
                 minQ2=10 , Sub-directory or File Count:6041
                 minQ2=100 , Sub-directory or File Count:6271
-    EXCLUSIVE , Sub-directory or File Count:4
+    EXCLUSIVE , Sub-directory or File Count:5
         DEMP , Sub-directory or File Count:1
             DEMPgen-1.2.4 , Sub-directory or File Count:2
                 10x130 , Sub-directory or File Count:3
@@ -122,6 +122,13 @@ epic_craterlake , Sub-directory or File Count:6
                 unpolarised , Sub-directory or File Count:1
                     10x130 , Sub-directory or File Count:1
                         q2_1_1000 , Sub-directory or File Count:903
+        PHOTOPRODUCTION_JPSI_ABCONV , Sub-directory or File Count:1
+            coherent_ep , Sub-directory or File Count:1
+                eSTARlight1.3.0-1.0 , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        q2_nocut , Sub-directory or File Count:2
+                            edecay , Sub-directory or File Count:755
+                            mudecay , Sub-directory or File Count:565
     SIDIS , Sub-directory or File Count:2
         D0_ABCONV , Sub-directory or File Count:1
             HFsim-PYTHIA , Sub-directory or File Count:1
@@ -484,4 +491,26 @@ epic_craterlake , Sub-directory or File Count:6
                 130to177deg , Sub-directory or File Count:112
                 3to50deg , Sub-directory or File Count:74
                 45to135deg , Sub-directory or File Count:99
+epic_craterlake_without_zdc , Sub-directory or File Count:2
+    DIS , Sub-directory or File Count:1
+        BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
+            eAu , Sub-directory or File Count:1
+                10x100 , Sub-directory or File Count:2
+                    q2_10to100 , Sub-directory or File Count:6177
+                    q2_1to10 , Sub-directory or File Count:8193
+    SIDIS , Sub-directory or File Count:2
+        D0_ABCONV , Sub-directory or File Count:1
+            HFsim-BeAGLE , Sub-directory or File Count:1
+                BeAGLE1.03.01-2.0 , Sub-directory or File Count:1
+                    eAu , Sub-directory or File Count:2
+                        10x100 , Sub-directory or File Count:1
+                            q2_1to10000 , Sub-directory or File Count:8
+                        5x41 , Sub-directory or File Count:1
+                            q2_1to10000 , Sub-directory or File Count:1813
+        Lc_ABCONV , Sub-directory or File Count:1
+            HFsim-BeAGLE , Sub-directory or File Count:1
+                BeAGLE1.03.01-2.0 , Sub-directory or File Count:1
+                    eAu , Sub-directory or File Count:1
+                        10x100 , Sub-directory or File Count:1
+                            q2_1to10000 , Sub-directory or File Count:196
 ```
