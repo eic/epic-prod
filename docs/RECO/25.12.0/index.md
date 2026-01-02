@@ -41,7 +41,22 @@ epic_craterlake , Sub-directory or File Count:6
             noRad , Sub-directory or File Count:1
                 ep , Sub-directory or File Count:1
                     10x100 , Sub-directory or File Count:3952
-    DIS , Sub-directory or File Count:3
+    DIS , Sub-directory or File Count:4
+        BeAGLE1.03.02-1.0 , Sub-directory or File Count:2
+            eCu , Sub-directory or File Count:2
+                en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:805
+                ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:669
+            eRu , Sub-directory or File Count:2
+                en , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:776
+                ep , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_1to1000 , Sub-directory or File Count:452
         BeAGLE1.03.02-1.2 , Sub-directory or File Count:1
             eHe3 , Sub-directory or File Count:4
                 10x110 , Sub-directory or File Count:3
@@ -84,8 +99,45 @@ epic_craterlake , Sub-directory or File Count:6
                 minQ2=1 , Sub-directory or File Count:4188
                 minQ2=10 , Sub-directory or File Count:6041
                 minQ2=100 , Sub-directory or File Count:6271
-    EXCLUSIVE , Sub-directory or File Count:5
-        DEMP , Sub-directory or File Count:1
+    EXCLUSIVE , Sub-directory or File Count:8
+        DEMP , Sub-directory or File Count:3
+            DEMPgen-1.2.2 , Sub-directory or File Count:3
+                10x100 , Sub-directory or File Count:3
+                    q2_10_20 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:240
+                    q2_20_35 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:527
+                    q2_3_10 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:455
+                18x275 , Sub-directory or File Count:3
+                    q2_10_20 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:312
+                    q2_20_35 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:732
+                    q2_3_10 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:495
+                5x41 , Sub-directory or File Count:4
+                    q2_10_20 , Sub-directory or File Count:2
+                        K+Lambda , Sub-directory or File Count:170
+                        pi+ , Sub-directory or File Count:165
+                    q2_1_10 , Sub-directory or File Count:1
+                        K+Lambda , Sub-directory or File Count:473
+                    q2_20_35 , Sub-directory or File Count:2
+                        K+Lambda , Sub-directory or File Count:385
+                        pi+ , Sub-directory or File Count:375
+                    q2_3_10 , Sub-directory or File Count:1
+                        pi+ , Sub-directory or File Count:329
+            DEMPgen-1.2.3 , Sub-directory or File Count:1
+                10x130 , Sub-directory or File Count:3
+                    q2_10_20 , Sub-directory or File Count:2
+                        K+Lambda , Sub-directory or File Count:149
+                        pi+ , Sub-directory or File Count:255
+                    q2_20_35 , Sub-directory or File Count:2
+                        K+Lambda , Sub-directory or File Count:147
+                        pi+ , Sub-directory or File Count:246
+                    q2_3_10 , Sub-directory or File Count:2
+                        K+Lambda , Sub-directory or File Count:144
+                        pi+ , Sub-directory or File Count:258
             DEMPgen-1.2.4 , Sub-directory or File Count:2
                 10x130 , Sub-directory or File Count:3
                     q2_10_20 , Sub-directory or File Count:1
@@ -101,9 +153,37 @@ epic_craterlake , Sub-directory or File Count:6
                         pi+ , Sub-directory or File Count:610
                     q2_3_10 , Sub-directory or File Count:1
                         pi+ , Sub-directory or File Count:611
-        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:2
+        DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:3
+            coherent_eCu , Sub-directory or File Count:1
+                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_0to10 , Sub-directory or File Count:223
+            coherent_eRu , Sub-directory or File Count:1
+                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_0to10 , Sub-directory or File Count:303
+            lAger3.6.1-1.0 , Sub-directory or File Count:5
+                10x100 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:148
+                10x130 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:215
+                18x275 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:397
+                5x100 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:123
+                5x41 , Sub-directory or File Count:1
+                    hiAcc , Sub-directory or File Count:45
+        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:4
             Sartre , Sub-directory or File Count:1
                 Coherent , Sub-directory or File Count:26292
+            coherent_eCu , Sub-directory or File Count:1
+                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_0to10 , Sub-directory or File Count:278
+            coherent_eRu , Sub-directory or File Count:1
+                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
+                    10x115 , Sub-directory or File Count:1
+                        q2_0to10 , Sub-directory or File Count:313
             sartre1.39-1.0 , Sub-directory or File Count:1
                 eAu , Sub-directory or File Count:1
                     coherent , Sub-directory or File Count:1
@@ -129,6 +209,10 @@ epic_craterlake , Sub-directory or File Count:6
                         q2_nocut , Sub-directory or File Count:2
                             edecay , Sub-directory or File Count:767
                             mudecay , Sub-directory or File Count:574
+        UCHANNEL_PI0 , Sub-directory or File Count:1
+            18x275 , Sub-directory or File Count:150
+        UCHANNEL_RHO , Sub-directory or File Count:1
+            10x100 , Sub-directory or File Count:71
     SIDIS , Sub-directory or File Count:2
         D0_ABCONV , Sub-directory or File Count:1
             HFsim-PYTHIA , Sub-directory or File Count:1
@@ -507,7 +591,7 @@ epic_craterlake_without_zdc , Sub-directory or File Count:2
                 BeAGLE1.03.01-2.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:2
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:1875
+                            q2_1to10000 , Sub-directory or File Count:1881
                         5x41 , Sub-directory or File Count:1
                             q2_1to10000 , Sub-directory or File Count:1889
         Lc_ABCONV , Sub-directory or File Count:1
@@ -515,5 +599,5 @@ epic_craterlake_without_zdc , Sub-directory or File Count:2
                 BeAGLE1.03.01-2.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:1
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:1898
+                            q2_1to10000 , Sub-directory or File Count:1899
 ```
