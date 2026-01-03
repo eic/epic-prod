@@ -23,7 +23,6 @@ epic_craterlake , Sub-directory or File Count:3
                     coherent , Sub-directory or File Count:1
                         bsat , Sub-directory or File Count:1
                             10x100 , Sub-directory or File Count:1
-                                q2_1to20 , Sub-directory or File Count:2255
         DVMP , Sub-directory or File Count:1
             EpIC1.1.6-1.1 , Sub-directory or File Count:1
                 unpolarised , Sub-directory or File Count:2
@@ -57,7 +56,6 @@ epic_craterlake , Sub-directory or File Count:3
                     DIS , Sub-directory or File Count:1
                         NC , Sub-directory or File Count:1
                             10x275 , Sub-directory or File Count:1
-                                minQ2=1 , Sub-directory or File Count:130
 epic_craterlake_without_zdc , Sub-directory or File Count:1
     SIDIS , Sub-directory or File Count:2
         D0_ABCONV , Sub-directory or File Count:1
@@ -67,11 +65,9 @@ epic_craterlake_without_zdc , Sub-directory or File Count:1
                         10x100 , Sub-directory or File Count:1
                             q2_1to10000 , Sub-directory or File Count:73923
                         5x41 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:29707
         Lc_ABCONV , Sub-directory or File Count:1
             HFsim-BeAGLE , Sub-directory or File Count:1
                 BeAGLE1.03.01-2.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:1
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:56857
 ```
