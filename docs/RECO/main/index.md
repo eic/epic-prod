@@ -1098,7 +1098,7 @@ epic_craterlake , Sub-directory or File Count:7
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
-    CI , Sub-directory or File Count:103
+    CI , Sub-directory or File Count:104
         2025-01-10_14-26-17 , Sub-directory or File Count:1
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
@@ -1894,7 +1894,12 @@ epic_craterlake , Sub-directory or File Count:7
                 NC , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
                         minQ2=1 , Sub-directory or File Count:1
-        Backgrounds , Sub-directory or File Count:35
+        2026-01-06_16-03-09 , Sub-directory or File Count:1
+            DIS , Sub-directory or File Count:1
+                NC , Sub-directory or File Count:1
+                    18x275 , Sub-directory or File Count:1
+                        minQ2=1 , Sub-directory or File Count:1
+        Backgrounds , Sub-directory or File Count:36
             2025-06-24_12-13-16 , Sub-directory or File Count:1
                 DIS , Sub-directory or File Count:1
                     NC , Sub-directory or File Count:1
@@ -2059,6 +2064,11 @@ epic_craterlake , Sub-directory or File Count:7
                         18x275 , Sub-directory or File Count:1
                             minQ2=1 , Sub-directory or File Count:1
             2026-01-02_16-21-42 , Sub-directory or File Count:1
+                DIS , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:1
+                        18x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:1
+            2026-01-06_16-03-09 , Sub-directory or File Count:1
                 DIS , Sub-directory or File Count:1
                     NC , Sub-directory or File Count:1
                         18x275 , Sub-directory or File Count:1
