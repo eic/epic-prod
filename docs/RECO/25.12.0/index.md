@@ -99,7 +99,7 @@ epic_craterlake , Sub-directory or File Count:6
                 minQ2=1 , Sub-directory or File Count:4237
                 minQ2=10 , Sub-directory or File Count:6108
                 minQ2=100 , Sub-directory or File Count:6308
-    EXCLUSIVE , Sub-directory or File Count:9
+    EXCLUSIVE , Sub-directory or File Count:11
         DDVCS_ABCONV , Sub-directory or File Count:1
             EpIC1.1.6-1.0 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:1
@@ -203,6 +203,13 @@ epic_craterlake , Sub-directory or File Count:6
                     coherent , Sub-directory or File Count:1
                         bsat , Sub-directory or File Count:1
                             10x100 , Sub-directory or File Count:2617
+        DIFFRACTIVE_RHO_ABCONV , Sub-directory or File Count:1
+            sartre1.39-1.1 , Sub-directory or File Count:1
+                eAu , Sub-directory or File Count:1
+                    coherent , Sub-directory or File Count:1
+                        bsat , Sub-directory or File Count:1
+                            10x100 , Sub-directory or File Count:1
+                                q2_1to20 , Sub-directory or File Count:2847
         DVCS_ABCONV , Sub-directory or File Count:4
             10x100 , Sub-directory or File Count:1192
             18x275 , Sub-directory or File Count:978
@@ -241,7 +248,8 @@ epic_craterlake , Sub-directory or File Count:6
             18x275 , Sub-directory or File Count:151
         UCHANNEL_RHO , Sub-directory or File Count:1
             10x100 , Sub-directory or File Count:72
-    SIDIS , Sub-directory or File Count:2
+        UPSILON_ABCONV , Sub-directory or File Count:32
+    SIDIS , Sub-directory or File Count:3
         D0_ABCONV , Sub-directory or File Count:3
             HFsim-PYTHIA , Sub-directory or File Count:1
                 pythia8.306-1.2 , Sub-directory or File Count:1
@@ -258,6 +266,13 @@ epic_craterlake , Sub-directory or File Count:6
                         hiDiv , Sub-directory or File Count:1276
                     q2_100 , Sub-directory or File Count:1
                         hiDiv , Sub-directory or File Count:1274
+        DIJET_ABCONV , Sub-directory or File Count:1
+            pythia6.428-dijet-v1.0 , Sub-directory or File Count:1
+                PGF , Sub-directory or File Count:1
+                    noRC , Sub-directory or File Count:1
+                        ep , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                q2_1to20000 , Sub-directory or File Count:790
         Lc_ABCONV , Sub-directory or File Count:1
             HFsim-PYTHIA , Sub-directory or File Count:1
                 pythia8.306-1.2 , Sub-directory or File Count:1
