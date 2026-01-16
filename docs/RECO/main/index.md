@@ -1756,7 +1756,6 @@ epic_craterlake , Sub-directory or File Count:7
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
-                        minQ2=1 , Sub-directory or File Count:1
         2025-07-16_15-57-56 , Sub-directory or File Count:2
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
