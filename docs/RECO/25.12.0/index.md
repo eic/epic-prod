@@ -1,6 +1,6 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.12.0
-epic_craterlake , Sub-directory or File Count:6
+epic_craterlake , Sub-directory or File Count:7
     BACKGROUNDS , Sub-directory or File Count:1
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:4
@@ -36,6 +36,22 @@ epic_craterlake , Sub-directory or File Count:6
                 pythia8.306-1.0 , Sub-directory or File Count:2
                     100GeV , Sub-directory or File Count:4265
                     275GeV , Sub-directory or File Count:14714
+    Bkg_Exactly1SignalPer2usFrame , Sub-directory or File Count:1
+        GoldCoating , Sub-directory or File Count:2
+            10um , Sub-directory or File Count:1
+                DIS , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:2
+                        10x100 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:299
+                        10x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:299
+            5um , Sub-directory or File Count:1
+                DIS , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:2
+                        10x100 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:285
+                        10x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:299
     DDIS , Sub-directory or File Count:1
         rapgap3.310-1.0 , Sub-directory or File Count:1
             noRad , Sub-directory or File Count:1
@@ -91,7 +107,7 @@ epic_craterlake , Sub-directory or File Count:6
                 minQ2=100 , Sub-directory or File Count:9690
                 minQ2=1000 , Sub-directory or File Count:12244
             10x275 , Sub-directory or File Count:1
-                minQ2=1 , Sub-directory or File Count:608
+                minQ2=1 , Sub-directory or File Count:7176
             18x275 , Sub-directory or File Count:4
                 minQ2=1 , Sub-directory or File Count:8833
                 minQ2=10 , Sub-directory or File Count:9105
@@ -211,7 +227,7 @@ epic_craterlake , Sub-directory or File Count:6
                     coherent , Sub-directory or File Count:1
                         bsat , Sub-directory or File Count:1
                             10x100 , Sub-directory or File Count:1
-                                q2_1to20 , Sub-directory or File Count:2861
+                                q2_1to20 , Sub-directory or File Count:2863
         DVCS_ABCONV , Sub-directory or File Count:4
             10x100 , Sub-directory or File Count:1192
             18x275 , Sub-directory or File Count:978
@@ -274,7 +290,7 @@ epic_craterlake , Sub-directory or File Count:6
                     noRC , Sub-directory or File Count:1
                         ep , Sub-directory or File Count:1
                             18x275 , Sub-directory or File Count:1
-                                q2_1to20000 , Sub-directory or File Count:797
+                                q2_1to20000 , Sub-directory or File Count:800
         Lc_ABCONV , Sub-directory or File Count:1
             HFsim-PYTHIA , Sub-directory or File Count:1
                 pythia8.306-1.2 , Sub-directory or File Count:1
@@ -637,7 +653,7 @@ epic_craterlake_without_zdc , Sub-directory or File Count:2
                     q2_10to100 , Sub-directory or File Count:9196
                     q2_1to10 , Sub-directory or File Count:8295
                 5x41 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:6291
+                    q2_10to100 , Sub-directory or File Count:6292
                     q2_1to10 , Sub-directory or File Count:4897
     SIDIS , Sub-directory or File Count:2
         D0_ABCONV , Sub-directory or File Count:1
@@ -653,5 +669,5 @@ epic_craterlake_without_zdc , Sub-directory or File Count:2
                 BeAGLE1.03.01-2.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:1
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:1983
+                            q2_1to10000 , Sub-directory or File Count:1990
 ```
