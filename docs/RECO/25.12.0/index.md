@@ -42,16 +42,18 @@ epic_craterlake , Sub-directory or File Count:7
                 DIS , Sub-directory or File Count:1
                     NC , Sub-directory or File Count:2
                         10x100 , Sub-directory or File Count:1
-                            minQ2=1 , Sub-directory or File Count:299
+                            minQ2=1 , Sub-directory or File Count:300
                         10x275 , Sub-directory or File Count:1
                             minQ2=1 , Sub-directory or File Count:299
             5um , Sub-directory or File Count:1
                 DIS , Sub-directory or File Count:1
-                    NC , Sub-directory or File Count:2
+                    NC , Sub-directory or File Count:3
                         10x100 , Sub-directory or File Count:1
                             minQ2=1 , Sub-directory or File Count:300
                         10x275 , Sub-directory or File Count:1
                             minQ2=1 , Sub-directory or File Count:299
+                        18x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:97
     DDIS , Sub-directory or File Count:1
         rapgap3.310-1.0 , Sub-directory or File Count:1
             noRad , Sub-directory or File Count:1
