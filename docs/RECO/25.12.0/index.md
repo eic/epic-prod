@@ -45,7 +45,7 @@ epic_craterlake , Sub-directory or File Count:7
                             minQ2=1 , Sub-directory or File Count:300
                         10x275 , Sub-directory or File Count:1
                             minQ2=1 , Sub-directory or File Count:299
-            5um , Sub-directory or File Count:1
+            5um , Sub-directory or File Count:2
                 DIS , Sub-directory or File Count:1
                     NC , Sub-directory or File Count:3
                         10x100 , Sub-directory or File Count:1
@@ -53,7 +53,13 @@ epic_craterlake , Sub-directory or File Count:7
                         10x275 , Sub-directory or File Count:1
                             minQ2=1 , Sub-directory or File Count:299
                         18x275 , Sub-directory or File Count:1
-                            minQ2=1 , Sub-directory or File Count:97
+                            minQ2=1 , Sub-directory or File Count:100
+                EXCLUSIVE , Sub-directory or File Count:1
+                    DVMP , Sub-directory or File Count:1
+                        EpIC1.1.6-1.1 , Sub-directory or File Count:1
+                            unpolarised , Sub-directory or File Count:1
+                                18x275 , Sub-directory or File Count:1
+                                    q2_1_1000 , Sub-directory or File Count:5667
     DDIS , Sub-directory or File Count:1
         rapgap3.310-1.0 , Sub-directory or File Count:1
             noRad , Sub-directory or File Count:1
@@ -268,7 +274,7 @@ epic_craterlake , Sub-directory or File Count:7
             18x275 , Sub-directory or File Count:151
         UCHANNEL_RHO , Sub-directory or File Count:1
             10x100 , Sub-directory or File Count:72
-        UPSILON_ABCONV , Sub-directory or File Count:32
+        UPSILON_ABCONV , Sub-directory or File Count:35
     SIDIS , Sub-directory or File Count:3
         D0_ABCONV , Sub-directory or File Count:3
             HFsim-PYTHIA , Sub-directory or File Count:1
