@@ -69,8 +69,9 @@ epic_craterlake , Sub-directory or File Count:7
                                     mudecay , Sub-directory or File Count:2
                                         hminus , Sub-directory or File Count:3659
                                         hplus , Sub-directory or File Count:3662
-                    DVCS_ABCONV , Sub-directory or File Count:1
-                        18x275 , Sub-directory or File Count:15599
+                    DVCS_ABCONV , Sub-directory or File Count:2
+                        10x100 , Sub-directory or File Count:2323
+                        18x275 , Sub-directory or File Count:15864
                     DVMP , Sub-directory or File Count:1
                         EpIC1.1.6-1.1 , Sub-directory or File Count:1
                             unpolarised , Sub-directory or File Count:1
@@ -92,7 +93,7 @@ epic_craterlake , Sub-directory or File Count:7
                         q2_1to1000 , Sub-directory or File Count:689
             eH2 , Sub-directory or File Count:1
                 10x130 , Sub-directory or File Count:1
-                    q2_1to1000 , Sub-directory or File Count:1271
+                    q2_1to1000 , Sub-directory or File Count:1272
             eRu , Sub-directory or File Count:2
                 en , Sub-directory or File Count:1
                     10x115 , Sub-directory or File Count:1
@@ -149,13 +150,13 @@ epic_craterlake , Sub-directory or File Count:7
                 noRad , Sub-directory or File Count:1
                     ep , Sub-directory or File Count:2
                         10x130 , Sub-directory or File Count:4
-                            q2_1000to10000 , Sub-directory or File Count:90
+                            q2_1000to10000 , Sub-directory or File Count:93
                             q2_100to1000 , Sub-directory or File Count:733
-                            q2_10to100 , Sub-directory or File Count:598
+                            q2_10to100 , Sub-directory or File Count:600
                             q2_1to10 , Sub-directory or File Count:484
                         10x250 , Sub-directory or File Count:4
                             q2_1000to10000 , Sub-directory or File Count:123
-                            q2_100to1000 , Sub-directory or File Count:952
+                            q2_100to1000 , Sub-directory or File Count:953
                             q2_10to100 , Sub-directory or File Count:844
                             q2_1to10 , Sub-directory or File Count:701
     EXCLUSIVE , Sub-directory or File Count:11
