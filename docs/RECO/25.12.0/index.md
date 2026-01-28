@@ -1,6 +1,6 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.12.0
-epic_craterlake , Sub-directory or File Count:7
+epic_craterlake , Sub-directory or File Count:8
     BACKGROUNDS , Sub-directory or File Count:2
         BEAMGAS , Sub-directory or File Count:2
             electron , Sub-directory or File Count:4
@@ -40,6 +40,16 @@ epic_craterlake , Sub-directory or File Count:7
             dataprod_rel_1.0.0 , Sub-directory or File Count:2
                 10x275 , Sub-directory or File Count:164
                 18x275 , Sub-directory or File Count:173
+    Bkg_Exact1S_2us , Sub-directory or File Count:1
+        GoldCoat , Sub-directory or File Count:1
+            5um , Sub-directory or File Count:1
+                EXCLUSIVE , Sub-directory or File Count:1
+                    PHOTOPRODUCTION_JPSI_ABCONV , Sub-directory or File Count:1
+                        coherent_ep , Sub-directory or File Count:1
+                            eSTARlight1.3.0-1.0 , Sub-directory or File Count:1
+                                18x275 , Sub-directory or File Count:1
+                                    q2_nocut , Sub-directory or File Count:1
+                                        edecay , Sub-directory or File Count:5314
     Bkg_Exactly1SignalPer2usFrame , Sub-directory or File Count:1
         GoldCoating , Sub-directory or File Count:2
             10um , Sub-directory or File Count:1
@@ -70,7 +80,7 @@ epic_craterlake , Sub-directory or File Count:7
                                         hminus , Sub-directory or File Count:3659
                                         hplus , Sub-directory or File Count:3662
                     DVCS_ABCONV , Sub-directory or File Count:2
-                        10x100 , Sub-directory or File Count:2323
+                        10x100 , Sub-directory or File Count:3811
                         18x275 , Sub-directory or File Count:15864
                     DVMP , Sub-directory or File Count:1
                         EpIC1.1.6-1.1 , Sub-directory or File Count:1
@@ -150,14 +160,14 @@ epic_craterlake , Sub-directory or File Count:7
                 noRad , Sub-directory or File Count:1
                     ep , Sub-directory or File Count:2
                         10x130 , Sub-directory or File Count:4
-                            q2_1000to10000 , Sub-directory or File Count:93
+                            q2_1000to10000 , Sub-directory or File Count:97
                             q2_100to1000 , Sub-directory or File Count:733
-                            q2_10to100 , Sub-directory or File Count:600
+                            q2_10to100 , Sub-directory or File Count:604
                             q2_1to10 , Sub-directory or File Count:484
                         10x250 , Sub-directory or File Count:4
-                            q2_1000to10000 , Sub-directory or File Count:123
-                            q2_100to1000 , Sub-directory or File Count:953
-                            q2_10to100 , Sub-directory or File Count:844
+                            q2_1000to10000 , Sub-directory or File Count:128
+                            q2_100to1000 , Sub-directory or File Count:958
+                            q2_10to100 , Sub-directory or File Count:854
                             q2_1to10 , Sub-directory or File Count:701
     EXCLUSIVE , Sub-directory or File Count:11
         DDVCS_ABCONV , Sub-directory or File Count:1
