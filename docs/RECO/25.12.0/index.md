@@ -138,13 +138,18 @@ epic_craterlake , Sub-directory or File Count:8
                     q2_100to10000 , Sub-directory or File Count:1920
                     q2_10to100 , Sub-directory or File Count:1377
                     q2_2to10 , Sub-directory or File Count:1384
-        CC , Sub-directory or File Count:3
+        CC , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:4979
                 minQ2=1000 , Sub-directory or File Count:5010
+            10x275 , Sub-directory or File Count:1
+                minQ2=100 , Sub-directory or File Count:7769
             18x275 , Sub-directory or File Count:2
                 minQ2=100 , Sub-directory or File Count:9092
                 minQ2=1000 , Sub-directory or File Count:10664
+            5x100 , Sub-directory or File Count:2
+                minQ2=100 , Sub-directory or File Count:4386
+                minQ2=1000 , Sub-directory or File Count:3411
             5x41 , Sub-directory or File Count:1
                 minQ2=100 , Sub-directory or File Count:3024
         NC , Sub-directory or File Count:5
@@ -161,10 +166,10 @@ epic_craterlake , Sub-directory or File Count:8
                 minQ2=100 , Sub-directory or File Count:10533
                 minQ2=1000 , Sub-directory or File Count:14007
             5x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:4425
-                minQ2=10 , Sub-directory or File Count:5530
-                minQ2=100 , Sub-directory or File Count:3402
-                minQ2=1000 , Sub-directory or File Count:191
+                minQ2=1 , Sub-directory or File Count:4434
+                minQ2=10 , Sub-directory or File Count:5580
+                minQ2=100 , Sub-directory or File Count:6574
+                minQ2=1000 , Sub-directory or File Count:6237
             5x41 , Sub-directory or File Count:3
                 minQ2=1 , Sub-directory or File Count:4237
                 minQ2=10 , Sub-directory or File Count:6108
