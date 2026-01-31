@@ -117,7 +117,7 @@ epic_craterlake , Sub-directory or File Count:10
             noRad , Sub-directory or File Count:1
                 ep , Sub-directory or File Count:1
                     10x100 , Sub-directory or File Count:3960
-    DIS , Sub-directory or File Count:3
+    DIS , Sub-directory or File Count:4
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
             eH2 , Sub-directory or File Count:1
                 10x130 , Sub-directory or File Count:1
@@ -138,6 +138,9 @@ epic_craterlake , Sub-directory or File Count:10
                             q2_100to1000 , Sub-directory or File Count:436
                             q2_10to100 , Sub-directory or File Count:397
                             q2_1to10 , Sub-directory or File Count:301
+        NC , Sub-directory or File Count:1
+            5x100 , Sub-directory or File Count:1
+                minQ2=1 , Sub-directory or File Count:1
         pythia6.428-1.0 , Sub-directory or File Count:1
             NC , Sub-directory or File Count:1
                 noRad , Sub-directory or File Count:1
