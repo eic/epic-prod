@@ -8,7 +8,7 @@ layout: default
 {% include layouts/title.md %}
 
 ### Dataset Acceptance Requirements
-To be included in production, all datasets need to be provided in hepmc3.tree.root format and need to meet generator source code and steering files version tracking requirements. The generator source code and scripts, steering files, meta data relevant to reproducing that dataset should be tracked in a repository maintained by the EIC, Jefferson Lab or BNL github organisation.  
+To be included in production, all datasets need to be provided in hepmc3.tree.root format and need to meet generator source code and steering files version tracking requirements. The generator source code and scripts, steering files, meta data relevant to reproducing that dataset should be tracked in a repository maintained by the EIC, Jefferson Lab or BNL github organisation. Please also document all steps including pre- and post-processing like using [eic-smear](https://github.com/eic/eic-smear) and [afterburner](https://github.com/eic/afterburner) in a detailed README document. 
 - www.github.com/eic
 - www.github.com/JeffersonLab
 - https://github.com/BNLNPPS
