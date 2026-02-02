@@ -140,7 +140,7 @@ epic_craterlake , Sub-directory or File Count:10
                             q2_1to10 , Sub-directory or File Count:301
         NC , Sub-directory or File Count:1
             5x100 , Sub-directory or File Count:1
-                minQ2=1 , Sub-directory or File Count:824
+                minQ2=1 , Sub-directory or File Count:4428
         pythia6.428-1.0 , Sub-directory or File Count:1
             NC , Sub-directory or File Count:1
                 noRad , Sub-directory or File Count:1
