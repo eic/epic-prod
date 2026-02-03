@@ -51,7 +51,7 @@ epic_craterlake , Sub-directory or File Count:8
                                     q2_nocut , Sub-directory or File Count:1
                                         edecay , Sub-directory or File Count:5315
         GoldCt , Sub-directory or File Count:1
-            5um , Sub-directory or File Count:1
+            5um , Sub-directory or File Count:2
                 EXCLUSIVE , Sub-directory or File Count:1
                     PHOTOPRODUCTION_JPSI_ABCONV , Sub-directory or File Count:1
                         coherent_ep , Sub-directory or File Count:1
@@ -59,6 +59,11 @@ epic_craterlake , Sub-directory or File Count:8
                                 18x275 , Sub-directory or File Count:1
                                     q2_nocut , Sub-directory or File Count:1
                                         mudecay , Sub-directory or File Count:4030
+                SIDIS , Sub-directory or File Count:1
+                    D0_ABCONV , Sub-directory or File Count:1
+                        pythia8.306-1.0 , Sub-directory or File Count:1
+                            18x275 , Sub-directory or File Count:1
+                                hiDiv , Sub-directory or File Count:3579
     Bkg_Exactly1SignalPer2usFrame , Sub-directory or File Count:1
         GoldCoating , Sub-directory or File Count:2
             10um , Sub-directory or File Count:1
