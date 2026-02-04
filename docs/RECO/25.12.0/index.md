@@ -63,7 +63,7 @@ epic_craterlake , Sub-directory or File Count:8
                     D0_ABCONV , Sub-directory or File Count:1
                         pythia8.306-1.0 , Sub-directory or File Count:1
                             18x275 , Sub-directory or File Count:1
-                                hiDiv , Sub-directory or File Count:3579
+                                hiDiv , Sub-directory or File Count:3616
     Bkg_Exactly1SignalPer2usFrame , Sub-directory or File Count:1
         GoldCoating , Sub-directory or File Count:2
             10um , Sub-directory or File Count:1
