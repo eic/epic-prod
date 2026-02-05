@@ -60,10 +60,14 @@ epic_craterlake , Sub-directory or File Count:8
                                     q2_nocut , Sub-directory or File Count:1
                                         mudecay , Sub-directory or File Count:4030
                 SIDIS , Sub-directory or File Count:1
-                    D0_ABCONV , Sub-directory or File Count:1
+                    D0_ABCONV , Sub-directory or File Count:2
                         pythia8.306-1.0 , Sub-directory or File Count:1
                             18x275 , Sub-directory or File Count:1
                                 hiDiv , Sub-directory or File Count:3616
+                        pythia8.306-1.1 , Sub-directory or File Count:1
+                            10x100 , Sub-directory or File Count:1
+                                q2_100 , Sub-directory or File Count:1
+                                    hiDiv , Sub-directory or File Count:225
     Bkg_Exactly1SignalPer2usFrame , Sub-directory or File Count:1
         GoldCoating , Sub-directory or File Count:2
             10um , Sub-directory or File Count:1
