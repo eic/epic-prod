@@ -1,6 +1,11 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/26.02.0
-epic_craterlake , Sub-directory or File Count:2
+epic_craterlake , Sub-directory or File Count:3
+    DIS , Sub-directory or File Count:1
+        NC , Sub-directory or File Count:1
+            10x100 , Sub-directory or File Count:2
+                minQ2=1 , Sub-directory or File Count:4330
+                minQ2=10 , Sub-directory or File Count:2820
     EXCLUSIVE , Sub-directory or File Count:8
         DDVCS_ABCONV , Sub-directory or File Count:1
             EpIC1.1.6-1.0 , Sub-directory or File Count:1
@@ -35,9 +40,9 @@ epic_craterlake , Sub-directory or File Count:2
                 10x130 , Sub-directory or File Count:1
                     hiAcc , Sub-directory or File Count:144
                 18x275 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:295
+                    hiAcc , Sub-directory or File Count:300
                 5x100 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:69
+                    hiAcc , Sub-directory or File Count:74
                 5x41 , Sub-directory or File Count:1
                     hiAcc , Sub-directory or File Count:34
         DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
@@ -51,7 +56,7 @@ epic_craterlake , Sub-directory or File Count:2
                     coherent , Sub-directory or File Count:1
                         bsat , Sub-directory or File Count:1
                             10x100 , Sub-directory or File Count:1
-                                q2_1to20 , Sub-directory or File Count:2064
+                                q2_1to20 , Sub-directory or File Count:2098
         DVMP , Sub-directory or File Count:3
             EpIC1.1.6-1.0 , Sub-directory or File Count:1
                 unpolarised , Sub-directory or File Count:1
@@ -78,7 +83,7 @@ epic_craterlake , Sub-directory or File Count:2
                         q2_nocut , Sub-directory or File Count:2
                             edecay , Sub-directory or File Count:451
                             mudecay , Sub-directory or File Count:339
-        UPSILON_ABCONV , Sub-directory or File Count:32
+        UPSILON_ABCONV , Sub-directory or File Count:33
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
@@ -431,8 +436,9 @@ epic_craterlake_without_zdc , Sub-directory or File Count:1
         BeAGLE1.03.02-2.0 , Sub-directory or File Count:1
             eAu , Sub-directory or File Count:2
                 10x100 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:4539
-                    q2_1to10 , Sub-directory or File Count:3072
-                5x41 , Sub-directory or File Count:1
-                    q2_1to10 , Sub-directory or File Count:231
+                    q2_10to100 , Sub-directory or File Count:5298
+                    q2_1to10 , Sub-directory or File Count:3196
+                5x41 , Sub-directory or File Count:2
+                    q2_10to100 , Sub-directory or File Count:2697
+                    q2_1to10 , Sub-directory or File Count:1998
 ```
