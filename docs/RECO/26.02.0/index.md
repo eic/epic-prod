@@ -2,10 +2,14 @@
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/26.02.0
 epic_craterlake , Sub-directory or File Count:3
     DIS , Sub-directory or File Count:1
-        NC , Sub-directory or File Count:1
-            10x100 , Sub-directory or File Count:2
-                minQ2=1 , Sub-directory or File Count:4330
-                minQ2=10 , Sub-directory or File Count:2820
+        NC , Sub-directory or File Count:2
+            10x100 , Sub-directory or File Count:4
+                minQ2=1 , Sub-directory or File Count:4567
+                minQ2=10 , Sub-directory or File Count:5998
+                minQ2=100 , Sub-directory or File Count:6705
+                minQ2=1000 , Sub-directory or File Count:8319
+            18x275 , Sub-directory or File Count:1
+                minQ2=10 , Sub-directory or File Count:9307
     EXCLUSIVE , Sub-directory or File Count:8
         DDVCS_ABCONV , Sub-directory or File Count:1
             EpIC1.1.6-1.0 , Sub-directory or File Count:1
@@ -439,6 +443,6 @@ epic_craterlake_without_zdc , Sub-directory or File Count:1
                     q2_10to100 , Sub-directory or File Count:5298
                     q2_1to10 , Sub-directory or File Count:3196
                 5x41 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:2697
-                    q2_1to10 , Sub-directory or File Count:1998
+                    q2_10to100 , Sub-directory or File Count:2698
+                    q2_1to10 , Sub-directory or File Count:1999
 ```
