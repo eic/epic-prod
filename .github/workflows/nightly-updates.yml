@@ -81,11 +81,38 @@ jobs:
         run: |
           campaign="${{ matrix.campaign }}"
           echo "Processing reco campaign: ${campaign}"
-          # Add your processing logic here
-          ROOT=${RECO}/${campaign}
-          # Save output directly to file
-          xrdfs ${XROOTD_HOST} ls -R ${ROOT} | sed "s%${ROOT}/%%g" | awk 'BEGIN{FS=OFS="/"}{NF--;print}' | sort | uniq --count > reco-${campaign}.md
-          cat reco-${campaign}.md
+          output_file="reco-${campaign}.md"
+          > "${output_file}"
+
+          # List all dataset DIDs under this campaign
+          mapfile -t dids < <(
+            rucio list-dids --filter type=DATASET "eic:EPIC/RECO/${campaign}/*" 2>/dev/null \
+              | awk -F'|' 'NF>=4 && !/SCOPE/ && !/^[+]/ {
+                  scope=$2; name=$3
+                  gsub(/[[:space:]]/, "", scope); gsub(/[[:space:]]/, "", name)
+                  if(scope!="" && name!="") print scope":"name
+                }'
+          )
+
+          if [ ${#dids[@]} -eq 0 ]; then
+            echo "No dataset DIDs found for campaign: ${campaign}" >> "${output_file}"
+          else
+            for did in "${dids[@]}"; do
+              [ -z "$did" ] && continue
+              echo "=== ${did} ===" >> "${output_file}"
+              # Get file count and total size per RSE for this dataset DID
+              rucio list-dataset-replicas "${did}" 2>/dev/null \
+                | awk -F'|' 'NF>=6 && !/RSE/ && !/^[+]/ {
+                    rse=$4; files=$5; bytes=$6
+                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", rse)
+                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", files)
+                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", bytes)
+                    if(rse!="") printf "  RSE: %-40s  Files: %-10s  Size: %s bytes\n", rse, files, bytes
+                  }' >> "${output_file}"
+              echo "" >> "${output_file}"
+            done
+          fi
+          cat "${output_file}"
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -107,39 +134,17 @@ jobs:
       - name: Display downloaded artifacts
         shell: bash
         run: |
-          print_tree() {
-           local input_file="$1"
-    
-           if [[ ! -f "$input_file" ]]; then
-             echo "Error: File '$input_file' does not exist."
-             return 1
-           fi
-           echo "\`\`\`"
-           first_line=true
-           while read line; do
-             if $first_line; then
-               first_line=false
-               printf "%s/%s/%s\n" "${XROOTD_HOST}" "${RECO}" "$2"
-               continue
-             fi
-             # Determine depth based on number of forward slashes in path
-             level=$(tr -cd '/' <<< "$line" | wc -c)
-
-             # Print line with appropriate indentation
-             prefix=$(printf "%*s" $((level * 4)) "")
-             content=$(echo ${line#"${line%%[^ ]*}"} | awk '{print $2" , Sub-directory or File Count:"$1}' | awk -F"/" '{print $NF}')
-             printf "%s%s\n" "$prefix" "$content"
-           done < "$input_file"
-           echo "\`\`\`"
-          }
-          
-          file_list=$(ls reco-*|grep -v ":")
+          file_list=$(ls reco-* | grep -v ":")
           echo $file_list
           for file in $file_list; do
             echo "Listing $file"
             base=$(echo $file | awk -F'reco-|.md' '{print $2}')
             mkdir -p ./docs/RECO/${base}
-            print_tree "$file/$file" $base > ./docs/RECO/${base}/index.md
+            {
+              echo "\`\`\`"
+              cat "$file/$file"
+              echo "\`\`\`"
+            } > ./docs/RECO/${base}/index.md
           done
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
