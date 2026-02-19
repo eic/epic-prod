@@ -7,9 +7,6 @@ on:
   pull_request:
 
 env:
-  RECO: "/volatile/eic/EPIC/RECO"
-  FULL: "/work/eic2/EPIC/FULL"
-  XROOTD_HOST: root://dtn-eic.jlab.org
   REPOSITORY: "${{github.repository}}"
 
 jobs:
@@ -19,14 +16,26 @@ jobs:
       campaigns: ${{ steps.campaigns_reco.outputs.campaigns }}
 
     container:
-      image: rucio/test-xrootd
+      image: rucio/rucio-clients
 
     steps:
+      - name: Configure Rucio
+        run: |
+          echo "${{ secrets.RUCIO_CFG }}" > rucio.cfg
+          echo "RUCIO_CONFIG=$(pwd)/rucio.cfg" >> $GITHUB_ENV
       - name: List campaigns
         id: campaigns_reco
         shell: bash
         run: |
-          mapfile -t campaigns < <(xrdfs ${XROOTD_HOST} ls ${RECO} | awk -F'/' '{print $NF}' | sort -n)
+          mapfile -t campaigns < <(
+            rucio list-dids --filter type=CONTAINER "eic:EPIC/RECO/*" 2>/dev/null \
+              | awk -F'|' 'NF>=4 && !/SCOPE/ && !/^[+]/ {
+                  name=$3
+                  gsub(/[[:space:]]/, "", name)
+                  n=split(name, parts, "/")
+                  if(n>=3 && parts[3]!="") print parts[3]
+                }' | sort -n
+          )
 
           # Check if campaigns are found
           if [ ${#campaigns[@]} -eq 0 ]; then
@@ -70,12 +79,16 @@ jobs:
   process_campaigns_reco:
     needs: campaigns_reco
     container:
-      image: rucio/test-xrootd
+      image: rucio/rucio-clients
     runs-on: ubuntu-latest
     strategy:
       matrix:
         campaign: ${{ fromJson(needs.campaigns_reco.outputs.campaigns) }}
     steps:
+      - name: Configure Rucio
+        run: |
+          echo "${{ secrets.RUCIO_CFG }}" > rucio.cfg
+          echo "RUCIO_CONFIG=$(pwd)/rucio.cfg" >> $GITHUB_ENV
       - name: Process reco campaigns
         id: process_campaigns_reco
         run: |
