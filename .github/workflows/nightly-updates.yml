@@ -129,9 +129,37 @@ jobs:
               for rse in "${rses[@]}"; do
                 [ -z "$rse" ] && continue
                 rucio list-file-replicas --rse "${rse}" "${did}" 2>/dev/null \
-                  | awk -v rse="${rse}" '
-                      /^Total files :/ {files=$4}
-                      /^Total size :/ {size=$4 " " $5; printf "  RSE: %-40s  Files: %-10s  Size: %s\n", rse, files, size}
+                  | awk -F'|' -v rse="${rse}" '
+                      NF>=4 && !/SCOPE/ && !/^[+]/ && !/^[-]+$/ {
+                        size_str = $3
+                        gsub(/^[[:space:]]+|[[:space:]]+$/, "", size_str)
+
+                        if (match(size_str, /([0-9.]+)[[:space:]]*([A-Z]+)/, arr)) {
+                          value = arr[1]
+                          unit = arr[2]
+
+                          bytes = value
+                          if (unit == "KB") bytes = value * 1024
+                          else if (unit == "MB") bytes = value * 1024 * 1024
+                          else if (unit == "GB") bytes = value * 1024 * 1024 * 1024
+                          else if (unit == "TB") bytes = value * 1024 * 1024 * 1024 * 1024
+
+                          total_bytes += bytes
+                          file_count++
+                        }
+                      }
+                      END {
+                        if (total_bytes >= 1024*1024*1024*1024)
+                          printf "  RSE: %-40s  Files: %-10d  Size: %.3f TB\n", rse, file_count, total_bytes/(1024*1024*1024*1024)
+                        else if (total_bytes >= 1024*1024*1024)
+                          printf "  RSE: %-40s  Files: %-10d  Size: %.3f GB\n", rse, file_count, total_bytes/(1024*1024*1024)
+                        else if (total_bytes >= 1024*1024)
+                          printf "  RSE: %-40s  Files: %-10d  Size: %.3f MB\n", rse, file_count, total_bytes/(1024*1024)
+                        else if (total_bytes >= 1024)
+                          printf "  RSE: %-40s  Files: %-10d  Size: %.3f KB\n", rse, file_count, total_bytes/1024
+                        else
+                          printf "  RSE: %-40s  Files: %-10d  Size: %.0f bytes\n", rse, file_count, total_bytes
+                      }
                     ' >> "${output_file}"
               done
               echo "" >> "${output_file}"
