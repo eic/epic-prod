@@ -120,7 +120,8 @@ jobs:
               [ -z "$did" ] && continue
               echo "=== ${did} ===" >> "${output_file}"
 
-              # Get RSEs with their replica status and completion ratio
+              # Get RSEs with their replica status and completion ratio (reset per dataset)
+              unset rse_found rse_total
               declare -A rse_found
               declare -A rse_total
               while IFS='|' read -r rse found total status; do
@@ -141,7 +142,10 @@ jobs:
                     }'
               )
 
-              # Get total dataset size and file count
+              # Get total dataset size and file count (reset variables first)
+              dataset_bytes=""
+              dataset_size_str=""
+              dataset_files=""
               read -r dataset_bytes dataset_size_str dataset_files < <(
                 rucio list-files "${did}" 2>/dev/null \
                   | awk '/^Total files :/ {files=$4}
@@ -348,7 +352,8 @@ jobs:
               [ -z "$did" ] && continue
               echo "=== ${did} ===" >> "${output_file}"
 
-              # Get RSEs with their replica status and completion ratio
+              # Get RSEs with their replica status and completion ratio (reset per dataset)
+              unset rse_found rse_total
               declare -A rse_found
               declare -A rse_total
               while IFS='|' read -r rse found total status; do
@@ -369,7 +374,10 @@ jobs:
                     }'
               )
 
-              # Get total dataset size and file count
+              # Get total dataset size and file count (reset variables first)
+              dataset_bytes=""
+              dataset_size_str=""
+              dataset_files=""
               read -r dataset_bytes dataset_size_str dataset_files < <(
                 rucio list-files "${did}" 2>/dev/null \
                   | awk '/^Total files :/ {files=$4}
