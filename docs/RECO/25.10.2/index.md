@@ -1,199 +1,156 @@
 ```
-root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.2
-epic_craterlake , Sub-directory or File Count:3
-    DIS , Sub-directory or File Count:2
-        BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
-            eCu , Sub-directory or File Count:2
-                en , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_1to1000 , Sub-directory or File Count:544
-                ep , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_1to1000 , Sub-directory or File Count:683
-            eHe3 , Sub-directory or File Count:1
-                10x166 , Sub-directory or File Count:3
-                    q2_100to10000 , Sub-directory or File Count:596
-                    q2_10to100 , Sub-directory or File Count:595
-                    q2_1to10 , Sub-directory or File Count:297
-            eRu , Sub-directory or File Count:2
-                en , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_1to1000 , Sub-directory or File Count:589
-                ep , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_1to1000 , Sub-directory or File Count:312
-        BeAGLE1.03.02-1.2 , Sub-directory or File Count:1
-            eHe3 , Sub-directory or File Count:4
-                10x110 , Sub-directory or File Count:3
-                    q2_100to10000 , Sub-directory or File Count:2618
-                    q2_10to100 , Sub-directory or File Count:2312
-                    q2_2to10 , Sub-directory or File Count:2222
-                10x166 , Sub-directory or File Count:3
-                    q2_100to10000 , Sub-directory or File Count:3145
-                    q2_10to100 , Sub-directory or File Count:2770
-                    q2_2to10 , Sub-directory or File Count:2530
-                18x110 , Sub-directory or File Count:3
-                    q2_100to10000 , Sub-directory or File Count:2650
-                    q2_10to100 , Sub-directory or File Count:2458
-                    q2_2to10 , Sub-directory or File Count:2358
-                5x41 , Sub-directory or File Count:3
-                    q2_100to10000 , Sub-directory or File Count:1253
-                    q2_10to100 , Sub-directory or File Count:789
-                    q2_2to10 , Sub-directory or File Count:669
-    EXCLUSIVE , Sub-directory or File Count:8
-        DEMP , Sub-directory or File Count:3
-            DEMPgen-1.2.2 , Sub-directory or File Count:3
-                10x100 , Sub-directory or File Count:3
-                    q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:315
-                    q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:687
-                    q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:603
-                18x275 , Sub-directory or File Count:3
-                    q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:507
-                    q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:1128
-                    q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:775
-                5x41 , Sub-directory or File Count:4
-                    q2_10_20 , Sub-directory or File Count:2
-                        K+Lambda , Sub-directory or File Count:300
-                        pi+ , Sub-directory or File Count:265
-                    q2_1_10 , Sub-directory or File Count:1
-                        K+Lambda , Sub-directory or File Count:793
-                    q2_20_35 , Sub-directory or File Count:2
-                        K+Lambda , Sub-directory or File Count:651
-                        pi+ , Sub-directory or File Count:599
-                    q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:524
-            DEMPgen-1.2.3 , Sub-directory or File Count:1
-                10x130 , Sub-directory or File Count:3
-                    q2_10_20 , Sub-directory or File Count:2
-                        K+Lambda , Sub-directory or File Count:193
-                        pi+ , Sub-directory or File Count:458
-                    q2_20_35 , Sub-directory or File Count:2
-                        K+Lambda , Sub-directory or File Count:190
-                        pi+ , Sub-directory or File Count:458
-                    q2_3_10 , Sub-directory or File Count:2
-                        K+Lambda , Sub-directory or File Count:189
-                        pi+ , Sub-directory or File Count:458
-            DEMPgen-1.2.4 , Sub-directory or File Count:2
-                10x130 , Sub-directory or File Count:3
-                    q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:692
-                    q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:691
-                    q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:692
-                10x250 , Sub-directory or File Count:3
-                    q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:1057
-                    q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:1055
-                    q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:1053
-        DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:3
-            coherent_eCu , Sub-directory or File Count:1
-                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_0to10 , Sub-directory or File Count:385
-            coherent_eRu , Sub-directory or File Count:1
-                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_0to10 , Sub-directory or File Count:667
-            lAger3.6.1-1.0 , Sub-directory or File Count:5
-                10x100 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:235
-                10x130 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:314
-                18x275 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:899
-                5x100 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:146
-                5x41 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:65
-        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:4
-            Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:33417
-            coherent_eCu , Sub-directory or File Count:1
-                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_0to10 , Sub-directory or File Count:401
-            coherent_eRu , Sub-directory or File Count:1
-                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-                        q2_0to10 , Sub-directory or File Count:667
-            sartre1.39-1.0 , Sub-directory or File Count:1
-                eAu , Sub-directory or File Count:1
-                    coherent , Sub-directory or File Count:1
-                        bsat , Sub-directory or File Count:1
-                            10x100 , Sub-directory or File Count:2352
-        DVCS_ABCONV , Sub-directory or File Count:4
-            10x100 , Sub-directory or File Count:2075
-            18x275 , Sub-directory or File Count:4228
-            5x41 , Sub-directory or File Count:4017
-            EpIC_v1.1.6-1.1 , Sub-directory or File Count:1
-                10x130 , Sub-directory or File Count:1
-                    q2_1_100 , Sub-directory or File Count:1095
-        DVMP , Sub-directory or File Count:2
-            EpIC1.0.0-1.1 , Sub-directory or File Count:110
-            EpIC1.1.6-1.0 , Sub-directory or File Count:1
-                unpolarised , Sub-directory or File Count:1
-                    10x130 , Sub-directory or File Count:1
-                        q2_1_1000 , Sub-directory or File Count:1234
-        TCS_ABCONV , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:1
-                hel_minus , Sub-directory or File Count:6567
-            18x275 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:3958
-                hel_plus , Sub-directory or File Count:3959
-            5x41 , Sub-directory or File Count:2
-                hel_minus , Sub-directory or File Count:1080
-                hel_plus , Sub-directory or File Count:1080
-        UCHANNEL_PI0 , Sub-directory or File Count:1
-            18x275 , Sub-directory or File Count:204
-        UCHANNEL_RHO , Sub-directory or File Count:1
-            10x100 , Sub-directory or File Count:117
-    SIDIS , Sub-directory or File Count:2
-        D0_ABCONV , Sub-directory or File Count:1
-            HFsim-PYTHIA , Sub-directory or File Count:1
-                pythia8.306-1.2 , Sub-directory or File Count:1
-                    ep , Sub-directory or File Count:1
-                        5x41 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:1
-                                hiDiv , Sub-directory or File Count:1997
-        Lc_ABCONV , Sub-directory or File Count:1
-            HFsim-PYTHIA , Sub-directory or File Count:1
-                pythia8.306-1.2 , Sub-directory or File Count:1
-                    ep , Sub-directory or File Count:1
-                        10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:1
-                                hiDiv , Sub-directory or File Count:4994
-epic_craterlake_without_zdc , Sub-directory or File Count:2
-    DIS , Sub-directory or File Count:1
-        BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
-            eAu , Sub-directory or File Count:2
-                10x100 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:6493
-                    q2_1to10 , Sub-directory or File Count:4998
-                5x41 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:3696
-                    q2_1to10 , Sub-directory or File Count:2796
-    SIDIS , Sub-directory or File Count:2
-        D0_ABCONV , Sub-directory or File Count:1
-            HFsim-BeAGLE , Sub-directory or File Count:1
-                BeAGLE1.03.01-1.0 , Sub-directory or File Count:1
-                    eAu , Sub-directory or File Count:2
-                        10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:6339
-                        5x41 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:35712
-        Lc_ABCONV , Sub-directory or File Count:1
-            HFsim-BeAGLE , Sub-directory or File Count:1
-                BeAGLE1.03.01-1.0 , Sub-directory or File Count:1
-                    eAu , Sub-directory or File Count:1
-                        10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:1560
+=== -----------------------------------------------------------------------------------------------------------------------+-------------- ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/coherent_eCu/eSTARlight1.2.0-1.0/10x115/q2_0to10 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/5x41/q2_1to10000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/10x110/q2_100to10000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/18x110/q2_10to100 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/5x41/q2_2to10 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/5x41/q2_100to10000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eCu/ep/10x115/q2_1to1000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eHe3/10x166/q2_10to100 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/10x100 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/Sartre/Coherent ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/TCS_ABCONV/10x100/hel_minus ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x100/hiAcc ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/10x100/q2_20_35/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/10x100/q2_3_10/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/18x275/q2_3_10/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/5x41/q2_10_20/K+Lambda ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/5x41/q2_1_10/K+Lambda ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x250/q2_20_35/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x250/q2_3_10/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/5x41/q2_1to10 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/5x41/q2_10to100 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/10x166/q2_10to100 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/10x110/q2_2to10 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/coherent_eCu/eSTARlight1.2.0-1.0/10x115/q2_0to10 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/coherent_eRu/eSTARlight1.2.0-1.0/10x115/q2_0to10 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/18x110/q2_2to10 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/5x41/q2_10to100 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eRu/en/10x115/q2_1to1000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eHe3/10x166/q2_100to10000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eRu/ep/10x115/q2_1to1000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/5x41 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.1/10x130/q2_1_100 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/sartre1.39-1.0/eAu/coherent/bsat/10x100 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/18x275/hiAcc ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x130/hiAcc ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/5x100/hiAcc ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/5x41/hiAcc ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/10x100/q2_10_20/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/18x275/q2_10_20/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/18x275/q2_20_35/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/5x41/q2_20_35/K+Lambda ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/5x41/q2_10_20/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/5x41/q2_20_35/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_20_35/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_3_10/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x250/q2_10_20/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/coherent_eRu/eSTARlight1.2.0-1.0/10x115/q2_0to10 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/10x100/q2_1to10 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/10x100/q2_10to100 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake_without_zdc/SIDIS/Lc_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/SIDIS/Lc_ABCONV/HFsim-PYTHIA/pythia8.306-1.2/ep/10x100/q2_1to10000/hiDiv ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/SIDIS/D0_ABCONV/HFsim-PYTHIA/pythia8.306-1.2/ep/5x41/q2_1to10000/hiDiv ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/10x166/q2_2to10 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/10x110/q2_10to100 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/10x166/q2_100to10000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/18x110/q2_100to10000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eCu/en/10x115/q2_1to1000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eHe3/10x166/q2_1to10 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/18x275 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/TCS_ABCONV/5x41/hel_minus ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/TCS_ABCONV/5x41/hel_plus ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/TCS_ABCONV/18x275/hel_minus ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/TCS_ABCONV/18x275/hel_plus ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.2/5x41/q2_3_10/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.3/10x130/q2_10_20/K+Lambda ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.3/10x130/q2_20_35/K+Lambda ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.3/10x130/q2_3_10/K+Lambda ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.3/10x130/q2_10_20/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.3/10x130/q2_20_35/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.3/10x130/q2_3_10/pi+ ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DVMP/EpIC1.0.0-1.1 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DVMP/EpIC1.1.6-1.0/unpolarised/10x130/q2_1_1000 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/UCHANNEL_PI0/18x275 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/UCHANNEL_RHO/10x100 ===
+
+=== epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_10_20/pi+ ===
+
 ```

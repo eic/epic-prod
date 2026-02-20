@@ -1,37 +1,36 @@
 ```
-root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.1
-epic_craterlake , Sub-directory or File Count:1
-    EXCLUSIVE , Sub-directory or File Count:3
-        DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:3
-            coherent_eCu , Sub-directory or File Count:1
-                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-            coherent_eRu , Sub-directory or File Count:1
-                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-            lAger3.6.1-1.0 , Sub-directory or File Count:5
-                10x100 , Sub-directory or File Count:1
-                10x130 , Sub-directory or File Count:1
-                18x275 , Sub-directory or File Count:1
-                5x100 , Sub-directory or File Count:1
-                5x41 , Sub-directory or File Count:1
-        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:3
-            Sartre , Sub-directory or File Count:1
-                Coherent , Sub-directory or File Count:3
-            coherent_eCu , Sub-directory or File Count:1
-                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-            coherent_eRu , Sub-directory or File Count:1
-                eSTARlight1.2.0-1.0 , Sub-directory or File Count:1
-                    10x115 , Sub-directory or File Count:1
-        DVCS_ABCONV , Sub-directory or File Count:4
-            EpIC_v1.1.6-1.1 , Sub-directory or File Count:1
-                10x130 , Sub-directory or File Count:1
-epic_craterlake_without_zdc , Sub-directory or File Count:1
-    DIS , Sub-directory or File Count:1
-        BeAGLE1.03.02-1.0 , Sub-directory or File Count:1
-            eAu , Sub-directory or File Count:1
-                10x100 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:18
-                    q2_1to10 , Sub-directory or File Count:1
+=== -----------------------------------------------------------------------------------------------------------------------+-------------- ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/18x275 ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/18x275/hiAcc ===
+
+=== epic:/RECO/25.10.1/epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/10x100/q2_1to10 ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.1/10x130/q2_1_100 ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/5x41 ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/10x100 ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/coherent_eCu/eSTARlight1.2.0-1.0/10x115/q2_0to10 ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/5x41/hiAcc ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/coherent_eRu/eSTARlight1.2.0-1.0/10x115/q2_0to10 ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x100/hiAcc ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x130/hiAcc ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/Sartre/Coherent ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/coherent_eRu/eSTARlight1.2.0-1.0/10x115/q2_0to10 ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/5x100/hiAcc ===
+
+=== epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/coherent_eCu/eSTARlight1.2.0-1.0/10x115/q2_0to10 ===
+
+=== epic:/RECO/25.10.1/epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/10x100/q2_10to100 ===
+
 ```

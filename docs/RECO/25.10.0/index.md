@@ -1,46 +1,46 @@
 ```
-root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.0
-epic_craterlake , Sub-directory or File Count:3
-    Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
-        Synrad_10GeV_Vac_10000Ahr_Runtime_50s_Egas_10GeV_Hgas_275GeV , Sub-directory or File Count:1
-            DIS , Sub-directory or File Count:1
-                NC , Sub-directory or File Count:1
-                    10x275 , Sub-directory or File Count:1
-                        minQ2=1 , Sub-directory or File Count:6
-    DIS , Sub-directory or File Count:2
-        CC , Sub-directory or File Count:3
-            10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:9820
-                minQ2=1000 , Sub-directory or File Count:9024
-            18x275 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:14237
-                minQ2=1000 , Sub-directory or File Count:15334
-            5x41 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:4726
-        NC , Sub-directory or File Count:4
-            10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:8434
-                minQ2=10 , Sub-directory or File Count:10041
-                minQ2=100 , Sub-directory or File Count:11903
-                minQ2=1000 , Sub-directory or File Count:12908
-            10x275 , Sub-directory or File Count:1
-                minQ2=1 , Sub-directory or File Count:9853
-            18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:11379
-                minQ2=10 , Sub-directory or File Count:13116
-                minQ2=100 , Sub-directory or File Count:14350
-                minQ2=1000 , Sub-directory or File Count:18651
-            5x41 , Sub-directory or File Count:3
-                minQ2=1 , Sub-directory or File Count:5301
-                minQ2=10 , Sub-directory or File Count:5838
-                minQ2=100 , Sub-directory or File Count:5813
-    SIDIS , Sub-directory or File Count:1
-        pythia6-eic , Sub-directory or File Count:1
-            1.0.0 , Sub-directory or File Count:3
-                10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:42028
-                10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:104537
-                18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:73507
+=== ----------------------------------------------------------------------------------------------------------------------------------------------+-------------- ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/10x100/minQ2=100 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/5x41/minQ2=10 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/5x41/minQ2=1 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/10x275/minQ2=1 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/CC/10x100/minQ2=100 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/CC/18x275/minQ2=100 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/CC/18x275/minQ2=1000 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/CC/5x41/minQ2=100 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/SIDIS/pythia6-eic/1.0.0/10x275/q2_0to1 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/18x275/minQ2=1 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/18x275/minQ2=10 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/18x275/minQ2=100 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/18x275/minQ2=1000 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/SIDIS/pythia6-eic/1.0.0/18x275/q2_0to1 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/5x41/minQ2=100 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/SIDIS/pythia6-eic/1.0.0/10x100/q2_0to1 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/Bkg_1SignalPer2usFrame/Synrad_10GeV_Vac_10000Ahr_Runtime_50s_Egas_10GeV_Hgas_275GeV/DIS/NC/10x275/minQ2=1 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/10x100/minQ2=1 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/10x100/minQ2=10 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/NC/10x100/minQ2=1000 ===
+
+=== epic:/RECO/25.10.0/epic_craterlake/DIS/CC/10x100/minQ2=1000 ===
+
 ```

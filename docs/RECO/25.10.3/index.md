@@ -1,77 +1,40 @@
 ```
-root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.3
-epic_craterlake , Sub-directory or File Count:3
-    EXCLUSIVE , Sub-directory or File Count:6
-        DDVCS_ABCONV , Sub-directory or File Count:1
-            EpIC1.1.6-1.0 , Sub-directory or File Count:1
-                18x275 , Sub-directory or File Count:1
-                    q2_0_10 , Sub-directory or File Count:2
-                        edecay , Sub-directory or File Count:2
-                            hminus , Sub-directory or File Count:1954
-                            hplus , Sub-directory or File Count:1954
-                        mudecay , Sub-directory or File Count:2
-                            hminus , Sub-directory or File Count:1920
-                            hplus , Sub-directory or File Count:1920
-        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
-            BeAGLE1.03.02-1.1 , Sub-directory or File Count:1
-                eAu , Sub-directory or File Count:1
-                    10x100 , Sub-directory or File Count:1
-                        q2_1to10000 , Sub-directory or File Count:2599
-        DIFFRACTIVE_RHO_ABCONV , Sub-directory or File Count:1
-            sartre1.39-1.1 , Sub-directory or File Count:1
-                eAu , Sub-directory or File Count:1
-                    coherent , Sub-directory or File Count:1
-                        bsat , Sub-directory or File Count:1
-                            10x100 , Sub-directory or File Count:1
-                                q2_1to20 , Sub-directory or File Count:2255
-        DVMP , Sub-directory or File Count:1
-            EpIC1.1.6-1.1 , Sub-directory or File Count:1
-                unpolarised , Sub-directory or File Count:2
-                    18x275 , Sub-directory or File Count:1
-                        q2_1_1000 , Sub-directory or File Count:1078
-                    5x41 , Sub-directory or File Count:1
-                        q2_1_1000 , Sub-directory or File Count:2421
-        PHOTOPRODUCTION_JPSI_ABCONV , Sub-directory or File Count:1
-            coherent_ep , Sub-directory or File Count:1
-                eSTARlight1.3.0-1.0 , Sub-directory or File Count:1
-                    18x275 , Sub-directory or File Count:1
-                        q2_nocut , Sub-directory or File Count:2
-                            edecay , Sub-directory or File Count:2193
-                            mudecay , Sub-directory or File Count:2049
-        UPSILON_ABCONV , Sub-directory or File Count:33
-    SIDIS , Sub-directory or File Count:1
-        D0_ABCONV , Sub-directory or File Count:2
-            pythia8.306-1.0 , Sub-directory or File Count:1
-                18x275 , Sub-directory or File Count:1
-                    hiDiv , Sub-directory or File Count:3493
-            pythia8.306-1.1 , Sub-directory or File Count:1
-                10x100 , Sub-directory or File Count:2
-                    q2_1 , Sub-directory or File Count:1
-                        hiDiv , Sub-directory or File Count:3136
-                    q2_100 , Sub-directory or File Count:1
-                        hiDiv , Sub-directory or File Count:3137
-    Test , Sub-directory or File Count:1
-        2025-11-10_06-22-00 , Sub-directory or File Count:1
-            1Bkg_1SignalPer2usFrame , Sub-directory or File Count:1
-                Synrad_10GeV_Vac_10000Ahr_Runtime_50s_Egas_10GeV_Hgas_275GeV , Sub-directory or File Count:1
-                    DIS , Sub-directory or File Count:1
-                        NC , Sub-directory or File Count:1
-                            10x275 , Sub-directory or File Count:1
-                                minQ2=1 , Sub-directory or File Count:130
-epic_craterlake_without_zdc , Sub-directory or File Count:1
-    SIDIS , Sub-directory or File Count:2
-        D0_ABCONV , Sub-directory or File Count:1
-            HFsim-BeAGLE , Sub-directory or File Count:1
-                BeAGLE1.03.01-2.0 , Sub-directory or File Count:1
-                    eAu , Sub-directory or File Count:2
-                        10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:73923
-                        5x41 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:29707
-        Lc_ABCONV , Sub-directory or File Count:1
-            HFsim-BeAGLE , Sub-directory or File Count:1
-                BeAGLE1.03.01-2.0 , Sub-directory or File Count:1
-                    eAu , Sub-directory or File Count:1
-                        10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:56857
+=== ------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------- ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_1/hiDiv ===
+
+=== epic:/RECO/25.10.3/epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/5x41/q2_1to10000 ===
+
+=== epic:/RECO/25.10.3/epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/10x100/q2_1to10000 ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/Test/2025-11-10_06-22-00/1Bkg_1SignalPer2usFrame/Synrad_10GeV_Vac_10000Ahr_Runtime_50s_Egas_10GeV_Hgas_275GeV/DIS/NC/10x275/minQ2=1 ===
+
+=== epic:/RECO/25.10.3/epic_craterlake_without_zdc/SIDIS/Lc_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/10x100/q2_1to10000 ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/PHOTOPRODUCTION_JPSI_ABCONV/coherent_ep/eSTARlight1.3.0-1.0/18x275/q2_nocut/mudecay ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/edecay/hminus ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/edecay/hplus ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/mudecay/hminus ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/mudecay/hplus ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.0/18x275/hiDiv ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/PHOTOPRODUCTION_JPSI_ABCONV/coherent_ep/eSTARlight1.3.0-1.0/18x275/q2_nocut/edecay ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_100/hiDiv ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DVMP/EpIC1.1.6-1.1/unpolarised/18x275/q2_1_1000 ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DVMP/EpIC1.1.6-1.1/unpolarised/5x41/q2_1_1000 ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/UPSILON_ABCONV ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_RHO_ABCONV/sartre1.39-1.1/eAu/coherent/bsat/10x100/q2_1to20 ===
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/BeAGLE1.03.02-1.1/eAu/10x100/q2_1to10000 ===
+
 ```

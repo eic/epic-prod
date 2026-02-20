@@ -1,473 +1,604 @@
 ```
-root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/26.02.0
-epic_craterlake , Sub-directory or File Count:4
-    Bkg_Exact1S_2us , Sub-directory or File Count:1
-        GoldCt , Sub-directory or File Count:2
-            10um , Sub-directory or File Count:1
-                DIS , Sub-directory or File Count:1
-                    NC , Sub-directory or File Count:1
-                        10x100 , Sub-directory or File Count:1
-                            minQ2=1 , Sub-directory or File Count:912
-            5um , Sub-directory or File Count:1
-                DIS , Sub-directory or File Count:1
-                    NC , Sub-directory or File Count:1
-                        10x100 , Sub-directory or File Count:1
-                            minQ2=1 , Sub-directory or File Count:5486
-    DIS , Sub-directory or File Count:1
-        NC , Sub-directory or File Count:5
-            10x100 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:4609
-                minQ2=10 , Sub-directory or File Count:6077
-                minQ2=100 , Sub-directory or File Count:6825
-                minQ2=1000 , Sub-directory or File Count:8491
-            10x275 , Sub-directory or File Count:3
-                minQ2=10 , Sub-directory or File Count:9073
-                minQ2=100 , Sub-directory or File Count:10080
-                minQ2=1000 , Sub-directory or File Count:12791
-            18x275 , Sub-directory or File Count:3
-                minQ2=10 , Sub-directory or File Count:12158
-                minQ2=100 , Sub-directory or File Count:11514
-                minQ2=1000 , Sub-directory or File Count:13661
-            5x100 , Sub-directory or File Count:3
-                minQ2=10 , Sub-directory or File Count:5275
-                minQ2=100 , Sub-directory or File Count:6455
-                minQ2=1000 , Sub-directory or File Count:5243
-            5x41 , Sub-directory or File Count:2
-                minQ2=10 , Sub-directory or File Count:4065
-                minQ2=100 , Sub-directory or File Count:4425
-    EXCLUSIVE , Sub-directory or File Count:8
-        DDVCS_ABCONV , Sub-directory or File Count:1
-            EpIC1.1.6-1.0 , Sub-directory or File Count:1
-                18x275 , Sub-directory or File Count:1
-                    q2_0_10 , Sub-directory or File Count:2
-                        edecay , Sub-directory or File Count:2
-                            hminus , Sub-directory or File Count:249
-                            hplus , Sub-directory or File Count:249
-                        mudecay , Sub-directory or File Count:2
-                            hminus , Sub-directory or File Count:161
-                            hplus , Sub-directory or File Count:161
-        DEMP , Sub-directory or File Count:1
-            DEMPgen-1.2.4 , Sub-directory or File Count:2
-                10x130 , Sub-directory or File Count:3
-                    q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:392
-                    q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:392
-                    q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:392
-                10x250 , Sub-directory or File Count:3
-                    q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:564
-                    q2_20_35 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:563
-                    q2_3_10 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:561
-        DIFFRACTIVE_JPSI_ABCONV , Sub-directory or File Count:1
-            lAger3.6.1-1.0 , Sub-directory or File Count:5
-                10x100 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:135
-                10x130 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:144
-                18x275 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:300
-                5x100 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:74
-                5x41 , Sub-directory or File Count:1
-                    hiAcc , Sub-directory or File Count:34
-        DIFFRACTIVE_PHI_ABCONV , Sub-directory or File Count:1
-            BeAGLE1.03.02-1.1 , Sub-directory or File Count:1
-                eAu , Sub-directory or File Count:1
-                    10x100 , Sub-directory or File Count:1
-                        q2_1to10000 , Sub-directory or File Count:999
-        DIFFRACTIVE_RHO_ABCONV , Sub-directory or File Count:1
-            sartre1.39-1.1 , Sub-directory or File Count:1
-                eAu , Sub-directory or File Count:1
-                    coherent , Sub-directory or File Count:1
-                        bsat , Sub-directory or File Count:1
-                            10x100 , Sub-directory or File Count:1
-                                q2_1to20 , Sub-directory or File Count:2142
-        DVMP , Sub-directory or File Count:3
-            EpIC1.1.6-1.0 , Sub-directory or File Count:1
-                unpolarised , Sub-directory or File Count:1
-                    10x130 , Sub-directory or File Count:1
-                        q2_1_1000 , Sub-directory or File Count:696
-            EpIC1.1.6-1.1 , Sub-directory or File Count:1
-                unpolarised , Sub-directory or File Count:2
-                    18x275 , Sub-directory or File Count:1
-                        q2_1_1000 , Sub-directory or File Count:576
-                    5x41 , Sub-directory or File Count:1
-                        q2_1_1000 , Sub-directory or File Count:393
-            JPsi_MuMu_ABCONV , Sub-directory or File Count:1
-                lAger3.6.1-1.0 , Sub-directory or File Count:3
-                    10x130 , Sub-directory or File Count:1
-                        q2_1to50 , Sub-directory or File Count:2555
-                    10x250 , Sub-directory or File Count:1
-                        q2_1to50 , Sub-directory or File Count:2433
-                    18x275 , Sub-directory or File Count:1
-                        q2_1to50 , Sub-directory or File Count:3331
-        PHOTOPRODUCTION_JPSI_ABCONV , Sub-directory or File Count:1
-            coherent_ep , Sub-directory or File Count:1
-                eSTARlight1.3.0-1.0 , Sub-directory or File Count:1
-                    18x275 , Sub-directory or File Count:1
-                        q2_nocut , Sub-directory or File Count:2
-                            edecay , Sub-directory or File Count:452
-                            mudecay , Sub-directory or File Count:339
-        UPSILON_ABCONV , Sub-directory or File Count:33
-    SINGLE , Sub-directory or File Count:11
-        e+ , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:17
-                3to50deg , Sub-directory or File Count:28
-                45to135deg , Sub-directory or File Count:18
-            10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:390
-                3to50deg , Sub-directory or File Count:392
-                45to135deg , Sub-directory or File Count:243
-            1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:43
-                3to50deg , Sub-directory or File Count:53
-                45to135deg , Sub-directory or File Count:40
-            200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:15
-                3to50deg , Sub-directory or File Count:64
-                45to135deg , Sub-directory or File Count:26
-            20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:397
-                3to50deg , Sub-directory or File Count:603
-                45to135deg , Sub-directory or File Count:443
-            2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:58
-                3to50deg , Sub-directory or File Count:161
-                45to135deg , Sub-directory or File Count:75
-            500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:44
-                3to50deg , Sub-directory or File Count:69
-                45to135deg , Sub-directory or File Count:33
-            5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:115
-                3to50deg , Sub-directory or File Count:261
-                45to135deg , Sub-directory or File Count:137
-        e- , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:18
-                3to50deg , Sub-directory or File Count:29
-                45to135deg , Sub-directory or File Count:17
-            10GeV , Sub-directory or File Count:4
-                130to177deg , Sub-directory or File Count:196
-                3to50deg , Sub-directory or File Count:425
-                45to135deg , Sub-directory or File Count:331
-                etaScan , Sub-directory or File Count:1158
-            1GeV , Sub-directory or File Count:4
-                130to177deg , Sub-directory or File Count:33
-                3to50deg , Sub-directory or File Count:108
-                45to135deg , Sub-directory or File Count:55
-                etaScan , Sub-directory or File Count:211
-            200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:15
-                3to50deg , Sub-directory or File Count:22
-                45to135deg , Sub-directory or File Count:23
-            20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:396
-                3to50deg , Sub-directory or File Count:844
-                45to135deg , Sub-directory or File Count:582
-            2GeV , Sub-directory or File Count:4
-                130to177deg , Sub-directory or File Count:58
-                3to50deg , Sub-directory or File Count:158
-                45to135deg , Sub-directory or File Count:71
-                etaScan , Sub-directory or File Count:380
-            500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:32
-                3to50deg , Sub-directory or File Count:81
-                45to135deg , Sub-directory or File Count:53
-            5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:120
-                3to50deg , Sub-directory or File Count:238
-                45to135deg , Sub-directory or File Count:134
-        gamma , Sub-directory or File Count:10
-            100MeV , Sub-directory or File Count:4
-                130to177deg , Sub-directory or File Count:18
-                3to50deg , Sub-directory or File Count:29
-                45to135deg , Sub-directory or File Count:18
-                etaScan , Sub-directory or File Count:79
-            10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:197
-                3to50deg , Sub-directory or File Count:354
-                45to135deg , Sub-directory or File Count:213
-            1GeV , Sub-directory or File Count:4
-                130to177deg , Sub-directory or File Count:20
-                3to50deg , Sub-directory or File Count:84
-                45to135deg , Sub-directory or File Count:34
-                etaScan , Sub-directory or File Count:174
-            200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:15
-                3to50deg , Sub-directory or File Count:25
-                45to135deg , Sub-directory or File Count:15
-            20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:431
-                3to50deg , Sub-directory or File Count:597
-                45to135deg , Sub-directory or File Count:403
-            2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:47
-                3to50deg , Sub-directory or File Count:98
-                45to135deg , Sub-directory or File Count:57
-            40GeV , Sub-directory or File Count:1
-                3to50deg , Sub-directory or File Count:1321
-            500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:108
-                3to50deg , Sub-directory or File Count:52
-                45to135deg , Sub-directory or File Count:23
-            5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:101
-                3to50deg , Sub-directory or File Count:182
-                45to135deg , Sub-directory or File Count:113
-            60GeV , Sub-directory or File Count:1
-                3to50deg , Sub-directory or File Count:1802
-        kaon+ , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:27
-                3to50deg , Sub-directory or File Count:50
-                45to135deg , Sub-directory or File Count:20
-            10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:112
-                3to50deg , Sub-directory or File Count:212
-                45to135deg , Sub-directory or File Count:130
-            1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:28
-                3to50deg , Sub-directory or File Count:28
-                45to135deg , Sub-directory or File Count:28
-            200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:23
-                3to50deg , Sub-directory or File Count:32
-                45to135deg , Sub-directory or File Count:23
-            20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:200
-                3to50deg , Sub-directory or File Count:413
-                45to135deg , Sub-directory or File Count:227
-            2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:42
-                3to50deg , Sub-directory or File Count:128
-                45to135deg , Sub-directory or File Count:47
-            500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:17
-                3to50deg , Sub-directory or File Count:56
-                45to135deg , Sub-directory or File Count:18
-            5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:66
-                3to50deg , Sub-directory or File Count:222
-                45to135deg , Sub-directory or File Count:98
-        kaon- , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
-                3to50deg , Sub-directory or File Count:51
-                45to135deg , Sub-directory or File Count:22
-            10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:129
-                3to50deg , Sub-directory or File Count:581
-                45to135deg , Sub-directory or File Count:139
-            1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:28
-                3to50deg , Sub-directory or File Count:57
-                45to135deg , Sub-directory or File Count:32
-            200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:24
-                3to50deg , Sub-directory or File Count:24
-                45to135deg , Sub-directory or File Count:27
-            20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:222
-                3to50deg , Sub-directory or File Count:386
-                45to135deg , Sub-directory or File Count:238
-            2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:39
-                3to50deg , Sub-directory or File Count:101
-                45to135deg , Sub-directory or File Count:63
-            500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
-                3to50deg , Sub-directory or File Count:60
-                45to135deg , Sub-directory or File Count:25
-            5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:74
-                3to50deg , Sub-directory or File Count:267
-                45to135deg , Sub-directory or File Count:86
-        mu- , Sub-directory or File Count:1
-            10GeV , Sub-directory or File Count:1
-                etaScan , Sub-directory or File Count:147
-        neutron , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:17
-                3to50deg , Sub-directory or File Count:26
-                45to135deg , Sub-directory or File Count:18
-            10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:95
-                3to50deg , Sub-directory or File Count:146
-                45to135deg , Sub-directory or File Count:90
-            1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:15
-                3to50deg , Sub-directory or File Count:28
-                45to135deg , Sub-directory or File Count:15
-            200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:15
-                3to50deg , Sub-directory or File Count:22
-                45to135deg , Sub-directory or File Count:15
-            20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:203
-                3to50deg , Sub-directory or File Count:336
-                45to135deg , Sub-directory or File Count:191
-            2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:25
-                3to50deg , Sub-directory or File Count:88
-                45to135deg , Sub-directory or File Count:17
-            500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:15
-                3to50deg , Sub-directory or File Count:33
-                45to135deg , Sub-directory or File Count:15
-            5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:51
-                3to50deg , Sub-directory or File Count:90
-                45to135deg , Sub-directory or File Count:51
-        pi+ , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:17
-                3to50deg , Sub-directory or File Count:27
-                45to135deg , Sub-directory or File Count:18
-            10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:119
-                3to50deg , Sub-directory or File Count:239
-                45to135deg , Sub-directory or File Count:133
-            1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:33
-                3to50deg , Sub-directory or File Count:77
-                45to135deg , Sub-directory or File Count:35
-            200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:15
-                3to50deg , Sub-directory or File Count:23
-                45to135deg , Sub-directory or File Count:15
-            20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:196
-                3to50deg , Sub-directory or File Count:878
-                45to135deg , Sub-directory or File Count:245
-            2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:38
-                3to50deg , Sub-directory or File Count:121
-                45to135deg , Sub-directory or File Count:54
-            500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:24
-                3to50deg , Sub-directory or File Count:32
-                45to135deg , Sub-directory or File Count:24
-            5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:74
-                3to50deg , Sub-directory or File Count:152
-                45to135deg , Sub-directory or File Count:75
-        pi- , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:18
-                3to50deg , Sub-directory or File Count:30
-                45to135deg , Sub-directory or File Count:18
-            10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:131
-                3to50deg , Sub-directory or File Count:245
-                45to135deg , Sub-directory or File Count:137
-            1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:32
-                3to50deg , Sub-directory or File Count:116
-                45to135deg , Sub-directory or File Count:41
-            200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:15
-                3to50deg , Sub-directory or File Count:23
-                45to135deg , Sub-directory or File Count:15
-            20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:233
-                3to50deg , Sub-directory or File Count:445
-                45to135deg , Sub-directory or File Count:243
-            2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:42
-                3to50deg , Sub-directory or File Count:111
-                45to135deg , Sub-directory or File Count:54
-            500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:26
-                3to50deg , Sub-directory or File Count:62
-                45to135deg , Sub-directory or File Count:24
-            5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:78
-                3to50deg , Sub-directory or File Count:279
-                45to135deg , Sub-directory or File Count:87
-        pi0 , Sub-directory or File Count:10
-            100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:17
-                3to50deg , Sub-directory or File Count:48
-                45to135deg , Sub-directory or File Count:18
-            10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:201
-                3to50deg , Sub-directory or File Count:380
-                45to135deg , Sub-directory or File Count:221
-            1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:32
-                3to50deg , Sub-directory or File Count:46
-                45to135deg , Sub-directory or File Count:38
-            200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:19
-                3to50deg , Sub-directory or File Count:66
-                45to135deg , Sub-directory or File Count:15
-            20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:370
-                3to50deg , Sub-directory or File Count:650
-                45to135deg , Sub-directory or File Count:420
-            2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:61
-                3to50deg , Sub-directory or File Count:130
-                45to135deg , Sub-directory or File Count:60
-            40GeV , Sub-directory or File Count:1
-                3to50deg , Sub-directory or File Count:1327
-            500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:22
-                3to50deg , Sub-directory or File Count:38
-                45to135deg , Sub-directory or File Count:35
-            5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:118
-                3to50deg , Sub-directory or File Count:205
-                45to135deg , Sub-directory or File Count:125
-            60GeV , Sub-directory or File Count:1
-                3to50deg , Sub-directory or File Count:1740
-        proton , Sub-directory or File Count:8
-            100MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:17
-                3to50deg , Sub-directory or File Count:27
-                45to135deg , Sub-directory or File Count:18
-            10GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:100
-                3to50deg , Sub-directory or File Count:439
-                45to135deg , Sub-directory or File Count:108
-            1GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:15
-                3to50deg , Sub-directory or File Count:28
-                45to135deg , Sub-directory or File Count:15
-            200MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:15
-                3to50deg , Sub-directory or File Count:72
-                45to135deg , Sub-directory or File Count:14
-            20GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:212
-                3to50deg , Sub-directory or File Count:363
-                45to135deg , Sub-directory or File Count:215
-            2GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:20
-                3to50deg , Sub-directory or File Count:54
-                45to135deg , Sub-directory or File Count:36
-            500MeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:15
-                3to50deg , Sub-directory or File Count:33
-                45to135deg , Sub-directory or File Count:15
-            5GeV , Sub-directory or File Count:3
-                130to177deg , Sub-directory or File Count:77
-                3to50deg , Sub-directory or File Count:180
-                45to135deg , Sub-directory or File Count:67
-epic_craterlake_without_zdc , Sub-directory or File Count:1
-    DIS , Sub-directory or File Count:1
-        BeAGLE1.03.02-2.0 , Sub-directory or File Count:1
-            eAu , Sub-directory or File Count:2
-                10x100 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:5299
-                    q2_1to10 , Sub-directory or File Count:3198
-                5x41 , Sub-directory or File Count:2
-                    q2_10to100 , Sub-directory or File Count:2699
-                    q2_1to10 , Sub-directory or File Count:2000
+=== ----------------------------------------------------------------------------------------------------------------------------------+-------------- ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/20GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DVMP/JPsi_MuMu_ABCONV/lAger3.6.1-1.0/18x275/q2_1to50 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/100MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/2GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/500MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_10_20/pi+ ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_20_35/pi+ ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_3_10/pi+ ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x250/q2_10_20/pi+ ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x250/q2_20_35/pi+ ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x250/q2_3_10/pi+ ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/100MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/10GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/20GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/5GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/1GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/200MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DVMP/JPsi_MuMu_ABCONV/lAger3.6.1-1.0/10x130/q2_1to50 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/100MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/200MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/2GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/5GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/500MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/10GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DVMP/JPsi_MuMu_ABCONV/lAger3.6.1-1.0/10x250/q2_1to50 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/1GeV/etaScan ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DVMP/EpIC1.1.6-1.0/unpolarised/10x130/q2_1_1000 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DVMP/EpIC1.1.6-1.1/unpolarised/18x275/q2_1_1000 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DVMP/EpIC1.1.6-1.1/unpolarised/5x41/q2_1_1000 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/10x100/minQ2=10 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-2.0/eAu/5x41/q2_1to10 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-2.0/eAu/5x41/q2_10to100 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/10x100/minQ2=1000 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/1GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/10GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/1GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/20GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/200MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/2GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/40GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/500MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/100MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/200MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/5GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/10GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/60GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/edecay/hplus ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/mudecay/hplus ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/edecay/hminus ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/100MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/mudecay/hminus ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/PHOTOPRODUCTION_JPSI_ABCONV/coherent_ep/eSTARlight1.3.0-1.0/18x275/q2_nocut/edecay ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/2GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/5GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/1GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/20GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/500MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/1GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/10GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/500MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/PHOTOPRODUCTION_JPSI_ABCONV/coherent_ep/eSTARlight1.3.0-1.0/18x275/q2_nocut/mudecay ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/20GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/2GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/100MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/5GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/10GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/5GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/500MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/2GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/100MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/BeAGLE1.03.02-1.1/eAu/10x100/q2_1to10000 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/20GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/1GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/20GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/5GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/2GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/10GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/200MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/500MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/100MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/1GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/5GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/200MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/500MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/10GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/100MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/20GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/200MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/200MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/2GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/10GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/2GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/20GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/40GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/1GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/2GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/1GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/5GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/60GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/20GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/100MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/200MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/500MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/10GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/1GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/2GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/5GeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/500MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/20GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/100MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/100MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/10GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/5GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/10GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/20GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/100MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/1GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/200MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/5GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/500MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/200MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/500MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/20GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/1GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/1GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/10GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_RHO_ABCONV/sartre1.39-1.1/eAu/coherent/bsat/10x100/q2_1to20 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/500MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/100MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/2GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/10x100/minQ2=100 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/100MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/5GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/100MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/200MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/5x41/hiAcc ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/20GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/500MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/2GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/10GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/1GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-2.0/eAu/10x100/q2_1to10 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/20GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/2GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/10GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/1GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/5GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/200MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/2GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/1GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/2GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/500MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/500MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/5GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/10GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/20GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/500MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/UPSILON_ABCONV ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/200MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/5GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/1GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x100/hiAcc ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/2GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/2GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/20GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/10GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/100MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/10GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/18x275/hiAcc ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/20GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/1GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/5GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/500MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x130/hiAcc ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/200MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/2GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/5x100/hiAcc ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/5GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/10GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/100MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/20GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/2GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/10GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/1GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/200MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/5GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/5GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/20GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/500MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/1GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/2GeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/100MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/200MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/100MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/500MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/200MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/100MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/100MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/10GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/20GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/500MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/10x100/minQ2=1 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/200MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/20GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/5GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/2GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/20GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/10GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/10GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/5GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/200MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/1GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/200MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/100MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/500MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/5GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/2GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/1GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-2.0/eAu/10x100/q2_10to100 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/100MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/1GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/2GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/500MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/200MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/2GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/10GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/20GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/1GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/5GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e+/500MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/20GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/1GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/500MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/5GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/10GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/10GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/20GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/1GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/100MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/5GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/200MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/2GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi-/500MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/200MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/10GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/2GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/20GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/1GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/5GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/10GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/500MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/1GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/100MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/500MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/5GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/20GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/200MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/10GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/200MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/proton/200MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi+/2GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/20GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/pi0/100MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/100MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/1GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/200MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/5GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/1GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/2GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/10GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/100MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon-/500MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/2GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/20GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/5GeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/mu-/10GeV/etaScan ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/10GeV/etaScan ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/kaon+/500MeV/130to177deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/200MeV/3to50deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/100MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/1GeV/etaScan ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/neutron/200MeV/45to135deg ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/e-/2GeV/etaScan ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/SINGLE/gamma/100MeV/etaScan ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/5x100/minQ2=100 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/18x275/minQ2=10 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/18x275/minQ2=100 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/5x41/minQ2=100 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/10x275/minQ2=10 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/10x275/minQ2=100 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/5x41/minQ2=10 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/5x100/minQ2=10 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/18x275/minQ2=1000 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x100/minQ2=1 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/5um/DIS/NC/10x275/minQ2=1 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/5x100/minQ2=1000 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/5um/DIS/NC/10x100/minQ2=1 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/DIS/NC/10x275/minQ2=1000 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x275/minQ2=1 ===
+
+=== epic:/RECO/26.02.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/5um/DIS/NC/18x275/minQ2=1 ===
+
 ```
