@@ -115,53 +115,20 @@ jobs:
               [ -z "$did" ] && continue
               echo "=== ${did} ===" >> "${output_file}"
 
-              # Get list of RSEs and their file counts
-              mapfile -t rses < <(
-                rucio list-dataset-replicas "${did}" 2>/dev/null \
-                  | awk -F'|' 'NF>=4 && !/RSE/ && !/FOUND/ && !/^[+]/ && !/^[-]+$/ {
-                      rse=$2
-                      gsub(/^[[:space:]]+|[[:space:]]+$/, "", rse)
-                      if(rse!="" && rse!="RSE") print rse
-                    }'
-              )
+              # Get file count per RSE for this dataset DID
+              rucio list-dataset-replicas "${did}" 2>/dev/null \
+                | awk -F'|' 'NF>=4 && !/RSE/ && !/FOUND/ && !/^[+]/ && !/^[-]+$/ {
+                    rse=$2; found=$3; total=$4
+                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", rse)
+                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", found)
+                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", total)
+                    if(rse!="" && rse!="RSE") printf "  RSE: %-40s  Files: %s/%s\n", rse, found, total
+                  }' >> "${output_file}"
 
-              # For each RSE, get file count and total size
-              for rse in "${rses[@]}"; do
-                [ -z "$rse" ] && continue
-                rucio list-file-replicas --rse "${rse}" "${did}" 2>/dev/null \
-                  | awk -F'|' -v rse="${rse}" '
-                      NF>=4 && !/SCOPE/ && !/^[+]/ && !/^[-]+$/ {
-                        size_str = $3
-                        gsub(/^[[:space:]]+|[[:space:]]+$/, "", size_str)
+              # Get total dataset size from list-files summary
+              rucio list-files "${did}" 2>/dev/null \
+                | awk '/^Total files :/ {files=$4} /^Total size :/ {size=$4 " " $5; print "  Total Size: " size " (" files " files)"}' >> "${output_file}"
 
-                        if (match(size_str, /([0-9.]+)[[:space:]]*([A-Z]+)/, arr)) {
-                          value = arr[1]
-                          unit = arr[2]
-
-                          bytes = value
-                          if (unit == "KB") bytes = value * 1024
-                          else if (unit == "MB") bytes = value * 1024 * 1024
-                          else if (unit == "GB") bytes = value * 1024 * 1024 * 1024
-                          else if (unit == "TB") bytes = value * 1024 * 1024 * 1024 * 1024
-
-                          total_bytes += bytes
-                          file_count++
-                        }
-                      }
-                      END {
-                        if (total_bytes >= 1024*1024*1024*1024)
-                          printf "  RSE: %-40s  Files: %-10d  Size: %.3f TB\n", rse, file_count, total_bytes/(1024*1024*1024*1024)
-                        else if (total_bytes >= 1024*1024*1024)
-                          printf "  RSE: %-40s  Files: %-10d  Size: %.3f GB\n", rse, file_count, total_bytes/(1024*1024*1024)
-                        else if (total_bytes >= 1024*1024)
-                          printf "  RSE: %-40s  Files: %-10d  Size: %.3f MB\n", rse, file_count, total_bytes/(1024*1024)
-                        else if (total_bytes >= 1024)
-                          printf "  RSE: %-40s  Files: %-10d  Size: %.3f KB\n", rse, file_count, total_bytes/1024
-                        else
-                          printf "  RSE: %-40s  Files: %-10d  Size: %.0f bytes\n", rse, file_count, total_bytes
-                      }
-                    ' >> "${output_file}"
-              done
               echo "" >> "${output_file}"
             done
           fi
