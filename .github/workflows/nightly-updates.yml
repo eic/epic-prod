@@ -59,7 +59,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Update reco content list
         shell: bash
@@ -74,7 +74,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add ./docs/
           git commit -m "Update summary lists in RECO directory" || echo "No changes to commit"
-          git push origin ${{ github.ref_name }}
+          git push origin ${{ github.head_ref || github.ref_name }}
           
   process_campaigns_reco:
     needs: campaigns_reco
@@ -139,7 +139,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Download artifacts
         uses: actions/download-artifact@v4
@@ -163,7 +163,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add ./docs/RECO
           git commit -m "Update contents of RECO directory" || echo "No changes to commit"
-          git push origin ${{ github.ref_name }}
+          git push origin ${{ github.head_ref || github.ref_name }}
 
       
 
