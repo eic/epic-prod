@@ -120,8 +120,14 @@ jobs:
               [ -z "$did" ] && continue
               echo "=== ${did} ===" >> "${output_file}"
 
-              # Get RSEs that have complete replicas (FOUND == TOTAL)
-              mapfile -t complete_rses < <(
+              # Get RSEs with their replica status and completion ratio
+              declare -A rse_found
+              declare -A rse_total
+              while IFS='|' read -r rse found total status; do
+                rse_found["$rse"]=$found
+                rse_total["$rse"]=$total
+                echo "  RSE: $(printf '%-40s' "$rse")  Files: $found/$total $status" >> "${output_file}"
+              done < <(
                 rucio list-dataset-replicas "${did}" 2>/dev/null \
                   | awk -F'|' 'NF>=4 && !/RSE/ && !/FOUND/ && !/^[+]/ && !/^[-]+$/ {
                       rse=$2; found=$3; total=$4
@@ -129,13 +135,10 @@ jobs:
                       gsub(/^[[:space:]]+|[[:space:]]+$/, "", found)
                       gsub(/^[[:space:]]+|[[:space:]]+$/, "", total)
                       if(rse!="" && rse!="RSE") {
-                        printf "  RSE: %-40s  Files: %s/%s", rse, found, total
-                        if(found == total) print " (complete)"
-                        else print " (incomplete)"
+                        status = (found == total) ? "(complete)" : "(incomplete)"
+                        print rse "|" found "|" total "|" status
                       }
-                      if(rse!="" && rse!="RSE" && found == total) print rse > "/dev/stderr"
-                    }' 2>&1 1>>"${output_file}" \
-                  | grep -v "^[[:space:]]*$"
+                    }'
               )
 
               # Get total dataset size and file count
@@ -156,11 +159,17 @@ jobs:
               if [ -n "$dataset_bytes" ] && [ -n "$dataset_files" ]; then
                 echo "  Total Size: ${dataset_size_str/_/ } (${dataset_files} files)" >> "${output_file}"
 
-                # Add to per-RSE totals for complete replicas only
-                for rse in "${complete_rses[@]}"; do
-                  [ -z "$rse" ] && continue
-                  rse_total_bytes[$rse]=$((${rse_total_bytes[$rse]:-0} + dataset_bytes))
-                  rse_file_count[$rse]=$((${rse_file_count[$rse]:-0} + dataset_files))
+                # Add to per-RSE totals proportionally based on found/total ratio
+                for rse in "${!rse_found[@]}"; do
+                  found=${rse_found[$rse]}
+                  total=${rse_total[$rse]}
+                  [ -z "$found" ] || [ -z "$total" ] || [ "$total" -eq 0 ] && continue
+
+                  # Calculate proportional bytes for this RSE
+                  proportional_bytes=$(awk "BEGIN {printf \"%.0f\", $dataset_bytes * ($found / $total)}")
+
+                  rse_total_bytes[$rse]=$((${rse_total_bytes[$rse]:-0} + proportional_bytes))
+                  rse_file_count[$rse]=$((${rse_file_count[$rse]:-0} + found))
                 done
               else
                 echo "  Total Size: Unknown" >> "${output_file}"
@@ -339,8 +348,14 @@ jobs:
               [ -z "$did" ] && continue
               echo "=== ${did} ===" >> "${output_file}"
 
-              # Get RSEs that have complete replicas (FOUND == TOTAL)
-              mapfile -t complete_rses < <(
+              # Get RSEs with their replica status and completion ratio
+              declare -A rse_found
+              declare -A rse_total
+              while IFS='|' read -r rse found total status; do
+                rse_found["$rse"]=$found
+                rse_total["$rse"]=$total
+                echo "  RSE: $(printf '%-40s' "$rse")  Files: $found/$total $status" >> "${output_file}"
+              done < <(
                 rucio list-dataset-replicas "${did}" 2>/dev/null \
                   | awk -F'|' 'NF>=4 && !/RSE/ && !/FOUND/ && !/^[+]/ && !/^[-]+$/ {
                       rse=$2; found=$3; total=$4
@@ -348,13 +363,10 @@ jobs:
                       gsub(/^[[:space:]]+|[[:space:]]+$/, "", found)
                       gsub(/^[[:space:]]+|[[:space:]]+$/, "", total)
                       if(rse!="" && rse!="RSE") {
-                        printf "  RSE: %-40s  Files: %s/%s", rse, found, total
-                        if(found == total) print " (complete)"
-                        else print " (incomplete)"
+                        status = (found == total) ? "(complete)" : "(incomplete)"
+                        print rse "|" found "|" total "|" status
                       }
-                      if(rse!="" && rse!="RSE" && found == total) print rse > "/dev/stderr"
-                    }' 2>&1 1>>"${output_file}" \
-                  | grep -v "^[[:space:]]*$"
+                    }'
               )
 
               # Get total dataset size and file count
@@ -375,11 +387,17 @@ jobs:
               if [ -n "$dataset_bytes" ] && [ -n "$dataset_files" ]; then
                 echo "  Total Size: ${dataset_size_str/_/ } (${dataset_files} files)" >> "${output_file}"
 
-                # Add to per-RSE totals for complete replicas only
-                for rse in "${complete_rses[@]}"; do
-                  [ -z "$rse" ] && continue
-                  rse_total_bytes[$rse]=$((${rse_total_bytes[$rse]:-0} + dataset_bytes))
-                  rse_file_count[$rse]=$((${rse_file_count[$rse]:-0} + dataset_files))
+                # Add to per-RSE totals proportionally based on found/total ratio
+                for rse in "${!rse_found[@]}"; do
+                  found=${rse_found[$rse]}
+                  total=${rse_total[$rse]}
+                  [ -z "$found" ] || [ -z "$total" ] || [ "$total" -eq 0 ] && continue
+
+                  # Calculate proportional bytes for this RSE
+                  proportional_bytes=$(awk "BEGIN {printf \"%.0f\", $dataset_bytes * ($found / $total)}")
+
+                  rse_total_bytes[$rse]=$((${rse_total_bytes[$rse]:-0} + proportional_bytes))
+                  rse_file_count[$rse]=$((${rse_file_count[$rse]:-0} + found))
                 done
               else
                 echo "  Total Size: Unknown" >> "${output_file}"
