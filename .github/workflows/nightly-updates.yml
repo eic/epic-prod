@@ -229,12 +229,222 @@ jobs:
           git commit -m "Update contents of RECO directory" || echo "No changes to commit"
           git push origin ${{ github.head_ref || github.ref_name }}
 
-      
+  campaigns_full:
+    runs-on: ubuntu-latest
+    outputs:
+      campaigns: ${{ steps.campaigns_full.outputs.campaigns }}
 
-  
-    
-        
+    container:
+      image: rucio/rucio-clients
 
-          
-      
-         
+    steps:
+      - name: Configure Rucio
+        run: |
+          echo "${{ secrets.RUCIO_CFG }}" > rucio.cfg
+          echo "RUCIO_CONFIG=$(pwd)/rucio.cfg" >> $GITHUB_ENV
+      - name: List campaigns
+        id: campaigns_full
+        shell: bash
+        run: |
+          mapfile -t campaigns < <(
+            rucio list-dids --filter type=DATASET "epic:/FULL/*/*" 2>/dev/null \
+              | awk -F'|' 'NF>=3 && !/SCOPE/ && !/^[+]/ {
+                  did=$2
+                  gsub(/[[:space:]]/, "", did)
+                  sub(/^[^:]+:/, "", did)
+                  n=split(did, parts, "/")
+                  if(n>=3 && parts[3]!="") print parts[3]
+                }' | sort -u
+          )
+
+          # Check if campaigns are found
+          if [ ${#campaigns[@]} -eq 0 ]; then
+            echo "No campaigns found for type: full"
+            echo "campaigns=[]" >> $GITHUB_OUTPUT  # Output an empty JSON array
+            exit 0  # Exit without error
+          fi
+
+          # Convert array to JSON format for output
+          # Ensure quotes around campaign names
+          campaigns_json=$(printf ',"%s"' "${campaigns[@]}")
+          campaigns_json="[${campaigns_json:1}]"  # Remove leading comma
+
+          # Output campaigns as a JSON array
+          echo "campaigns=${campaigns_json}" >> $GITHUB_OUTPUT
+
+  create_list_full:
+    needs: campaigns_full
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Update full content list
+        shell: bash
+        run: |
+          rm ./docs/_data/full_content.yml
+          touch ./docs/_data/full_content.yml
+          read -r -a campaigns_full <<< $(echo ${{ needs.campaigns_full.outputs.campaigns }} | tr -d '[]"' | tr ',' ' ')
+          for full in "${campaigns_full[@]}"; do
+              echo -e "- text: "$full"\n  url: "/epic-prod/FULL/$full"" >> ./docs/_data/full_content.yml
+          done
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./docs/
+          git commit -m "Update summary lists in FULL directory" || echo "No changes to commit"
+          git push origin ${{ github.head_ref || github.ref_name }}
+
+  process_campaigns_full:
+    needs: campaigns_full
+    container:
+      image: rucio/rucio-clients
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        campaign: ${{ fromJson(needs.campaigns_full.outputs.campaigns) }}
+    steps:
+      - name: Configure Rucio
+        run: |
+          echo "${{ secrets.RUCIO_CFG }}" > rucio.cfg
+          echo "RUCIO_CONFIG=$(pwd)/rucio.cfg" >> $GITHUB_ENV
+      - name: Process full campaigns
+        id: process_campaigns_full
+        shell: bash
+        run: |
+          campaign="${{ matrix.campaign }}"
+          echo "Processing full campaign: ${campaign}"
+          output_file="full-${campaign}.md"
+          > "${output_file}"
+
+          # List all dataset DIDs under this campaign
+          mapfile -t dids < <(
+            rucio list-dids --filter type=DATASET "epic:/FULL/${campaign}/*" 2>/dev/null \
+              | awk -F'|' 'NF>=3 && !/SCOPE/ && !/^[+]/ {
+                  did=$2
+                  gsub(/[[:space:]]/, "", did)
+                  if(did!="") print did
+                }'
+          )
+
+          if [ ${#dids[@]} -eq 0 ]; then
+            echo "No dataset DIDs found for campaign: ${campaign}" >> "${output_file}"
+          else
+            # Initialize associative arrays for per-RSE tracking
+            declare -A rse_total_bytes
+            declare -A rse_file_count
+
+            for did in "${dids[@]}"; do
+              [ -z "$did" ] && continue
+              echo "=== ${did} ===" >> "${output_file}"
+
+              # Get RSEs that have complete replicas (FOUND == TOTAL)
+              mapfile -t complete_rses < <(
+                rucio list-dataset-replicas "${did}" 2>/dev/null \
+                  | awk -F'|' 'NF>=4 && !/RSE/ && !/FOUND/ && !/^[+]/ && !/^[-]+$/ {
+                      rse=$2; found=$3; total=$4
+                      gsub(/^[[:space:]]+|[[:space:]]+$/, "", rse)
+                      gsub(/^[[:space:]]+|[[:space:]]+$/, "", found)
+                      gsub(/^[[:space:]]+|[[:space:]]+$/, "", total)
+                      if(rse!="" && rse!="RSE") {
+                        printf "  RSE: %-40s  Files: %s/%s", rse, found, total
+                        if(found == total) print " (complete)"
+                        else print " (incomplete)"
+                      }
+                      if(rse!="" && rse!="RSE" && found == total) print rse > "/dev/stderr"
+                    }' 2>&1 1>>"${output_file}" \
+                  | grep -v "^[[:space:]]*$"
+              )
+
+              # Get total dataset size and file count
+              read -r dataset_bytes dataset_size_str dataset_files < <(
+                rucio list-files "${did}" 2>/dev/null \
+                  | awk '/^Total files :/ {files=$4}
+                         /^Total size :/ {
+                           size_val=$4; unit=$5
+                           bytes=size_val
+                           if(unit=="KB") bytes=size_val*1024
+                           else if(unit=="MB") bytes=size_val*1024*1024
+                           else if(unit=="GB") bytes=size_val*1024*1024*1024
+                           else if(unit=="TB") bytes=size_val*1024*1024*1024*1024
+                           printf "%.0f %s_%s %s", bytes, size_val, unit, files
+                         }'
+              ) || true
+
+              if [ -n "$dataset_bytes" ] && [ -n "$dataset_files" ]; then
+                echo "  Total Size: ${dataset_size_str/_/ } (${dataset_files} files)" >> "${output_file}"
+
+                # Add to per-RSE totals for complete replicas only
+                for rse in "${complete_rses[@]}"; do
+                  [ -z "$rse" ] && continue
+                  rse_total_bytes[$rse]=$((${rse_total_bytes[$rse]:-0} + dataset_bytes))
+                  rse_file_count[$rse]=$((${rse_file_count[$rse]:-0} + dataset_files))
+                done
+              else
+                echo "  Total Size: Unknown" >> "${output_file}"
+              fi
+
+              echo "" >> "${output_file}"
+            done
+
+            # Output campaign summary with per-RSE totals
+            echo "=== CAMPAIGN SUMMARY ===" >> "${output_file}"
+            for rse in "${!rse_total_bytes[@]}"; do
+              total_bytes=${rse_total_bytes[$rse]}
+              total_files=${rse_file_count[$rse]}
+
+              # Convert bytes to human-readable
+              if ((total_bytes >= 1099511627776)); then
+                size_str=$(awk "BEGIN {printf \"%.3f TB\", $total_bytes/1099511627776}")
+              elif ((total_bytes >= 1073741824)); then
+                size_str=$(awk "BEGIN {printf \"%.3f GB\", $total_bytes/1073741824}")
+              elif ((total_bytes >= 1048576)); then
+                size_str=$(awk "BEGIN {printf \"%.3f MB\", $total_bytes/1048576}")
+              else
+                size_str=$(awk "BEGIN {printf \"%.3f KB\", $total_bytes/1024}")
+              fi
+
+              printf "  RSE: %-40s  Total Size: %-15s  Total Files: %d\n" "$rse" "$size_str" "$total_files" >> "${output_file}"
+            done
+          fi
+          cat "${output_file}"
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-${{ matrix.campaign }}.md
+          path: full-${{ matrix.campaign }}.md
+
+  update_campaigns_full:
+    needs: process_campaigns_full
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+
+      - name: Display downloaded artifacts
+        shell: bash
+        run: |
+          file_list=$(ls full-* | grep -v ":")
+          echo $file_list
+          for file in $file_list; do
+            echo "Listing $file"
+            base=$(echo $file | awk -F'full-|.md' '{print $2}')
+            mkdir -p ./docs/FULL/${base}
+            {
+              echo "\`\`\`"
+              cat "$file/$file"
+              echo "\`\`\`"
+            } > ./docs/FULL/${base}/index.md
+          done
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./docs/FULL
+          git commit -m "Update contents of FULL directory" || echo "No changes to commit"
+          git push origin ${{ github.head_ref || github.ref_name }}
+
