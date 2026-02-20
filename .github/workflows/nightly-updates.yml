@@ -28,13 +28,13 @@ jobs:
         shell: bash
         run: |
           mapfile -t campaigns < <(
-            rucio list-dids --filter type=CONTAINER "eic:EPIC/RECO/*" 2>/dev/null \
+            rucio list-dids --filter type=DATASET "epic:/RECO/*/*" 2>/dev/null \
               | awk -F'|' 'NF>=4 && !/SCOPE/ && !/^[+]/ {
                   name=$3
                   gsub(/[[:space:]]/, "", name)
                   n=split(name, parts, "/")
                   if(n>=3 && parts[3]!="") print parts[3]
-                }' | sort -n
+                }' | sort -u
           )
 
           # Check if campaigns are found
@@ -99,7 +99,7 @@ jobs:
 
           # List all dataset DIDs under this campaign
           mapfile -t dids < <(
-            rucio list-dids --filter type=DATASET "eic:EPIC/RECO/${campaign}/*" 2>/dev/null \
+            rucio list-dids --filter type=DATASET "epic:/RECO/${campaign}/*" 2>/dev/null \
               | awk -F'|' 'NF>=4 && !/SCOPE/ && !/^[+]/ {
                   scope=$2; name=$3
                   gsub(/[[:space:]]/, "", scope); gsub(/[[:space:]]/, "", name)
