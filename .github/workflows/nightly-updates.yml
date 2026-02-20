@@ -92,6 +92,7 @@ jobs:
           echo "RUCIO_CONFIG=$(pwd)/rucio.cfg" >> $GITHUB_ENV
       - name: Process reco campaigns
         id: process_campaigns_reco
+        shell: bash
         run: |
           campaign="${{ matrix.campaign }}"
           echo "Processing reco campaign: ${campaign}"
