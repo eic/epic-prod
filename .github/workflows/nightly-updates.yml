@@ -114,15 +114,18 @@ jobs:
             for did in "${dids[@]}"; do
               [ -z "$did" ] && continue
               echo "=== ${did} ===" >> "${output_file}"
-              # Get file count and total size per RSE for this dataset DID
+              # Get file count per RSE for this dataset DID
               rucio list-dataset-replicas "${did}" 2>/dev/null \
-                | awk -F'|' 'NF>=6 && !/RSE/ && !/^[+]/ {
-                    rse=$4; files=$5; bytes=$6
+                | awk -F'|' 'NF>=4 && !/RSE/ && !/FOUND/ && !/^[+]/ && !/^[-]+$/ {
+                    rse=$2; found=$3; total=$4
                     gsub(/^[[:space:]]+|[[:space:]]+$/, "", rse)
-                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", files)
-                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", bytes)
-                    if(rse!="") printf "  RSE: %-40s  Files: %-10s  Size: %s bytes\n", rse, files, bytes
+                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", found)
+                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", total)
+                    if(rse!="" && rse!="RSE") printf "  RSE: %-40s  Files: %s/%s\n", rse, found, total
                   }' >> "${output_file}"
+              # Get total dataset size
+              rucio list-files "${did}" 2>/dev/null \
+                | awk '/^Total files :/ {files=$4} /^Total size :/ {size=$4 " " $5; print "  Total Size: " size " (" files " files)"}' >> "${output_file}"
               echo "" >> "${output_file}"
             done
           fi
