@@ -111,25 +111,77 @@ jobs:
           if [ ${#dids[@]} -eq 0 ]; then
             echo "No dataset DIDs found for campaign: ${campaign}" >> "${output_file}"
           else
+            # Initialize associative arrays for per-RSE tracking
+            declare -A rse_total_bytes
+            declare -A rse_file_count
+
             for did in "${dids[@]}"; do
               [ -z "$did" ] && continue
               echo "=== ${did} ===" >> "${output_file}"
 
-              # Get file count per RSE for this dataset DID
-              rucio list-dataset-replicas "${did}" 2>/dev/null \
-                | awk -F'|' 'NF>=4 && !/RSE/ && !/FOUND/ && !/^[+]/ && !/^[-]+$/ {
-                    rse=$2; found=$3; total=$4
-                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", rse)
-                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", found)
-                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", total)
-                    if(rse!="" && rse!="RSE") printf "  RSE: %-40s  Files: %s/%s\n", rse, found, total
-                  }' >> "${output_file}"
+              # Get RSEs that have complete replicas (FOUND == TOTAL)
+              mapfile -t complete_rses < <(
+                rucio list-dataset-replicas "${did}" 2>/dev/null \
+                  | awk -F'|' 'NF>=4 && !/RSE/ && !/FOUND/ && !/^[+]/ && !/^[-]+$/ {
+                      rse=$2; found=$3; total=$4
+                      gsub(/^[[:space:]]+|[[:space:]]+$/, "", rse)
+                      gsub(/^[[:space:]]+|[[:space:]]+$/, "", found)
+                      gsub(/^[[:space:]]+|[[:space:]]+$/, "", total)
+                      if(rse!="" && rse!="RSE") {
+                        printf "  RSE: %-40s  Files: %s/%s", rse, found, total
+                        if(found == total) print " (complete)"
+                        else print " (incomplete)"
+                      }
+                      if(rse!="" && rse!="RSE" && found == total) print rse > "/dev/stderr"
+                    }' 2>&1 1>>"${output_file}" \
+                  | grep -v "^[[:space:]]*$"
+              )
 
-              # Get total dataset size from list-files summary
-              rucio list-files "${did}" 2>/dev/null \
-                | awk '/^Total files :/ {files=$4} /^Total size :/ {size=$4 " " $5; print "  Total Size: " size " (" files " files)"}' >> "${output_file}"
+              # Get total dataset size and file count
+              read -r dataset_bytes dataset_size_str dataset_files < <(
+                rucio list-files "${did}" 2>/dev/null \
+                  | awk '/^Total files :/ {files=$4}
+                         /^Total size :/ {
+                           size_val=$4; unit=$5
+                           bytes=size_val
+                           if(unit=="KB") bytes=size_val*1024
+                           else if(unit=="MB") bytes=size_val*1024*1024
+                           else if(unit=="GB") bytes=size_val*1024*1024*1024
+                           else if(unit=="TB") bytes=size_val*1024*1024*1024*1024
+                           printf "%.0f %s_%s %s", bytes, size_val, unit, files
+                         }'
+              )
+
+              echo "  Total Size: ${dataset_size_str/_/ } (${dataset_files} files)" >> "${output_file}"
+
+              # Add to per-RSE totals for complete replicas only
+              for rse in "${complete_rses[@]}"; do
+                [ -z "$rse" ] && continue
+                rse_total_bytes[$rse]=$((${rse_total_bytes[$rse]:-0} + dataset_bytes))
+                rse_file_count[$rse]=$((${rse_file_count[$rse]:-0} + dataset_files))
+              done
 
               echo "" >> "${output_file}"
+            done
+
+            # Output campaign summary with per-RSE totals
+            echo "=== CAMPAIGN SUMMARY ===" >> "${output_file}"
+            for rse in "${!rse_total_bytes[@]}"; do
+              total_bytes=${rse_total_bytes[$rse]}
+              total_files=${rse_file_count[$rse]}
+
+              # Convert bytes to human-readable
+              if ((total_bytes >= 1099511627776)); then
+                size_str=$(awk "BEGIN {printf \"%.3f TB\", $total_bytes/1099511627776}")
+              elif ((total_bytes >= 1073741824)); then
+                size_str=$(awk "BEGIN {printf \"%.3f GB\", $total_bytes/1073741824}")
+              elif ((total_bytes >= 1048576)); then
+                size_str=$(awk "BEGIN {printf \"%.3f MB\", $total_bytes/1048576}")
+              else
+                size_str=$(awk "BEGIN {printf \"%.3f KB\", $total_bytes/1024}")
+              fi
+
+              printf "  RSE: %-40s  Total Size: %-15s  Total Files: %d\n" "$rse" "$size_str" "$total_files" >> "${output_file}"
             done
           fi
           cat "${output_file}"
