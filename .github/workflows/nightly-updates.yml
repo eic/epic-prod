@@ -28,7 +28,7 @@ jobs:
         shell: bash
         run: |
           mapfile -t campaigns < <(
-            rucio list-dids --filter type=DATASET "epic:/RECO/*/*" 2>/dev/null \
+            rucio did list --filter type=DATASET "epic:/RECO/*/*" 2>/dev/null \
               | awk -F'|' 'NF>=3 && !/SCOPE/ && !/^[+]/ {
                   did=$2
                   gsub(/[[:space:]]/, "", did)
@@ -101,7 +101,7 @@ jobs:
 
           # List all dataset DIDs under this campaign
           mapfile -t dids < <(
-            rucio list-dids --filter type=DATASET "epic:/RECO/${campaign}/*" 2>/dev/null \
+            rucio did list --filter type=DATASET "epic:/RECO/${campaign}/*" 2>/dev/null \
               | awk -F'|' 'NF>=3 && !/SCOPE/ && !/^[+]/ {
                   did=$2
                   gsub(/[[:space:]]/, "", did)
@@ -129,7 +129,7 @@ jobs:
                 rse_total["$rse"]=$total
                 echo "  RSE: $(printf '%-40s' "$rse")  Files: $found/$total $status" >> "${output_file}"
               done < <(
-                rucio list-dataset-replicas "${did}" 2>/dev/null \
+                rucio replica list dataset "${did}" 2>/dev/null \
                   | awk -F'|' 'NF>=4 && !/RSE/ && !/FOUND/ && !/^[+]/ && !/^[-]+$/ {
                       rse=$2; found=$3; total=$4
                       gsub(/^[[:space:]]+|[[:space:]]+$/, "", rse)
@@ -260,7 +260,7 @@ jobs:
         shell: bash
         run: |
           mapfile -t campaigns < <(
-            rucio list-dids --filter type=DATASET "epic:/FULL/*/*" 2>/dev/null \
+            rucio did list --filter type=DATASET "epic:/FULL/*/*" 2>/dev/null \
               | awk -F'|' 'NF>=3 && !/SCOPE/ && !/^[+]/ {
                   did=$2
                   gsub(/[[:space:]]/, "", did)
@@ -333,7 +333,7 @@ jobs:
 
           # List all dataset DIDs under this campaign
           mapfile -t dids < <(
-            rucio list-dids --filter type=DATASET "epic:/FULL/${campaign}/*" 2>/dev/null \
+            rucio did list --filter type=DATASET "epic:/FULL/${campaign}/*" 2>/dev/null \
               | awk -F'|' 'NF>=3 && !/SCOPE/ && !/^[+]/ {
                   did=$2
                   gsub(/[[:space:]]/, "", did)
@@ -361,7 +361,7 @@ jobs:
                 rse_total["$rse"]=$total
                 echo "  RSE: $(printf '%-40s' "$rse")  Files: $found/$total $status" >> "${output_file}"
               done < <(
-                rucio list-dataset-replicas "${did}" 2>/dev/null \
+                rucio replica list dataset "${did}" 2>/dev/null \
                   | awk -F'|' 'NF>=4 && !/RSE/ && !/FOUND/ && !/^[+]/ && !/^[-]+$/ {
                       rse=$2; found=$3; total=$4
                       gsub(/^[[:space:]]+|[[:space:]]+$/, "", rse)
