@@ -1,18 +1,24 @@
 ```
 root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/26.02.0
-epic_craterlake , Sub-directory or File Count:4
+epic_craterlake , Sub-directory or File Count:5
     Bkg_Exact1S_2us , Sub-directory or File Count:1
         GoldCt , Sub-directory or File Count:2
             10um , Sub-directory or File Count:1
                 DIS , Sub-directory or File Count:1
-                    NC , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:2
                         10x100 , Sub-directory or File Count:1
                             minQ2=1 , Sub-directory or File Count:912
+                        10x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:5499
             5um , Sub-directory or File Count:1
                 DIS , Sub-directory or File Count:1
-                    NC , Sub-directory or File Count:1
+                    NC , Sub-directory or File Count:3
                         10x100 , Sub-directory or File Count:1
-                            minQ2=1 , Sub-directory or File Count:5486
+                            minQ2=1 , Sub-directory or File Count:5494
+                        10x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:5344
+                        18x275 , Sub-directory or File Count:1
+                            minQ2=1 , Sub-directory or File Count:1998
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:5
             10x100 , Sub-directory or File Count:4
@@ -113,6 +119,17 @@ epic_craterlake , Sub-directory or File Count:4
                             edecay , Sub-directory or File Count:452
                             mudecay , Sub-directory or File Count:339
         UPSILON_ABCONV , Sub-directory or File Count:33
+    SIDIS , Sub-directory or File Count:1
+        D0_ABCONV , Sub-directory or File Count:2
+            pythia8.306-1.0 , Sub-directory or File Count:1
+                18x275 , Sub-directory or File Count:1
+                    hiDiv , Sub-directory or File Count:1441
+            pythia8.306-1.1 , Sub-directory or File Count:1
+                10x100 , Sub-directory or File Count:2
+                    q2_1 , Sub-directory or File Count:1
+                        hiDiv , Sub-directory or File Count:1268
+                    q2_100 , Sub-directory or File Count:1
+                        hiDiv , Sub-directory or File Count:1267
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3

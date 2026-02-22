@@ -8,7 +8,6 @@ epic_craterlake , Sub-directory or File Count:5
                 GETaLM1.0.0-1.1 , Sub-directory or File Count:1
             proton , Sub-directory or File Count:1
                 pythia8.306-1.0 , Sub-directory or File Count:2
-                    275GeV , Sub-directory or File Count:4
         MERGED , Sub-directory or File Count:1
             HEPMC_merger-1.0.2 , Sub-directory or File Count:1
                 10x100 , Sub-directory or File Count:2
@@ -35,15 +34,11 @@ epic_craterlake , Sub-directory or File Count:5
                 18x110 , Sub-directory or File Count:3
         CC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:2
-                minQ2=100 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:2
-                minQ2=1000 , Sub-directory or File Count:1
             5x41 , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:1
-                minQ2=100 , Sub-directory or File Count:2
             5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:8
         DEMP , Sub-directory or File Count:3
@@ -130,11 +125,8 @@ epic_craterlake , Sub-directory or File Count:5
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
                 10x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:2
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:1
                 5x41 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
@@ -177,7 +169,6 @@ epic_craterlake , Sub-directory or File Count:5
         kaon- , Sub-directory or File Count:8
             100MeV , Sub-directory or File Count:3
             10GeV , Sub-directory or File Count:3
-                45to135deg , Sub-directory or File Count:1
             1GeV , Sub-directory or File Count:3
             200MeV , Sub-directory or File Count:3
             20GeV , Sub-directory or File Count:3
@@ -192,7 +183,6 @@ epic_craterlake , Sub-directory or File Count:5
             1GeV , Sub-directory or File Count:3
             200MeV , Sub-directory or File Count:3
             20GeV , Sub-directory or File Count:3
-                45to135deg , Sub-directory or File Count:1
             2GeV , Sub-directory or File Count:3
             500MeV , Sub-directory or File Count:3
             5GeV , Sub-directory or File Count:3
@@ -252,5 +242,4 @@ epic_craterlake_without_zdc , Sub-directory or File Count:2
                 BeAGLE1.03.01-1.0 , Sub-directory or File Count:1
                     eAu , Sub-directory or File Count:1
                         10x100 , Sub-directory or File Count:1
-                            q2_1to10000 , Sub-directory or File Count:2
 ```

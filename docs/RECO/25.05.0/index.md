@@ -17,21 +17,18 @@ epic_craterlake , Sub-directory or File Count:8
             DIS , Sub-directory or File Count:1
                 NC , Sub-directory or File Count:1
                     18x275 , Sub-directory or File Count:1
-                        minQ2=1 , Sub-directory or File Count:1
     Bkg_OnlyPer2usFrame , Sub-directory or File Count:1
         Synrad_18GeV_Vac_10000Ahr_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
             BACKGROUNDS , Sub-directory or File Count:1
                 BEAMGAS , Sub-directory or File Count:1
                     proton , Sub-directory or File Count:1
                         pythia8.306-1.0 , Sub-directory or File Count:1
-                            275GeV , Sub-directory or File Count:1
     Bkg_RealisticSignalPer2usFrame , Sub-directory or File Count:1
         Synrad_18GeV_Vac_10000Ahr_Egas_18GeV_Hgas_275GeV , Sub-directory or File Count:1
             SIDIS , Sub-directory or File Count:1
                 pythia6-eic , Sub-directory or File Count:1
                     1.0.0 , Sub-directory or File Count:1
                         18x275 , Sub-directory or File Count:1
-                            q2_0to1 , Sub-directory or File Count:2
     DIS , Sub-directory or File Count:3
         BeAGLE1.03.02-1.0 , Sub-directory or File Count:3
             eCu , Sub-directory or File Count:2
@@ -53,7 +50,6 @@ epic_craterlake , Sub-directory or File Count:8
         NC , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:4
             18x275 , Sub-directory or File Count:4
-                minQ2=1 , Sub-directory or File Count:1
             5x41 , Sub-directory or File Count:3
     EXCLUSIVE , Sub-directory or File Count:8
         DEMP , Sub-directory or File Count:2
@@ -64,7 +60,6 @@ epic_craterlake , Sub-directory or File Count:8
                     q2_3_10 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:3
                     q2_10_20 , Sub-directory or File Count:1
-                        pi+ , Sub-directory or File Count:1
                     q2_20_35 , Sub-directory or File Count:1
                     q2_3_10 , Sub-directory or File Count:1
                 5x41 , Sub-directory or File Count:4
@@ -109,7 +104,6 @@ epic_craterlake , Sub-directory or File Count:8
         TCS_ABCONV , Sub-directory or File Count:3
             10x100 , Sub-directory or File Count:1
             18x275 , Sub-directory or File Count:2
-                hel_plus , Sub-directory or File Count:1
             5x41 , Sub-directory or File Count:2
         UCHANNEL_PI0 , Sub-directory or File Count:1
         UCHANNEL_RHO , Sub-directory or File Count:1
@@ -117,10 +111,8 @@ epic_craterlake , Sub-directory or File Count:8
         pythia6-eic , Sub-directory or File Count:1
             1.0.0 , Sub-directory or File Count:4
                 10x100 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:9
                 10x275 , Sub-directory or File Count:1
                 18x275 , Sub-directory or File Count:1
-                    q2_0to1 , Sub-directory or File Count:5
                 5x41 , Sub-directory or File Count:1
     SINGLE , Sub-directory or File Count:11
         e+ , Sub-directory or File Count:8
@@ -170,7 +162,6 @@ epic_craterlake , Sub-directory or File Count:8
             2GeV , Sub-directory or File Count:3
             500MeV , Sub-directory or File Count:3
             5GeV , Sub-directory or File Count:3
-                3to50deg , Sub-directory or File Count:1
         mu- , Sub-directory or File Count:1
             10GeV , Sub-directory or File Count:1
         neutron , Sub-directory or File Count:8
