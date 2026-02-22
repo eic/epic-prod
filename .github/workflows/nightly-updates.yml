@@ -338,7 +338,7 @@ jobs:
                   did=$2
                   gsub(/[[:space:]]/, "", did)
                   if(did!="") print did
-                }'
+                }' | sort -V
           )
 
           if [ ${#dids[@]} -eq 0 ]; then
