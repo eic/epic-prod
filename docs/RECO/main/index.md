@@ -1,7 +1,4 @@
 ```
-=== ---------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------- ===
-  Total Size: Unknown
-
 === epic:/RECO/main/epic_craterlake/Bkg_1SignalPer2usFrame/Synrad_18GeV_Vac_10000Ahr_Egas_18GeV_Hgas_275GeV/DIS/NC/18x275/minQ2=1 ===
   Total Size: 0.000 B (0 files)
 
@@ -1061,37 +1058,37 @@
   RSE: EIC-XRD                                   Files: 1179/1179 (complete)
   Total Size: 29.456 GB (1179 files)
 
-=== epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/100MeV/3to50deg ===
-  RSE: EIC-XRD                                   Files: 16/16 (complete)
-  Total Size: 3.919 GB (16 files)
-
-=== epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/10GeV/3to50deg ===
-  RSE: EIC-XRD                                   Files: 301/301 (complete)
-  Total Size: 36.033 GB (301 files)
-
 === epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/1GeV/3to50deg ===
   RSE: EIC-XRD                                   Files: 67/67 (complete)
   Total Size: 12.717 GB (67 files)
-
-=== epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/200MeV/3to50deg ===
-  RSE: EIC-XRD                                   Files: 23/23 (complete)
-  Total Size: 4.634 GB (23 files)
-
-=== epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/20GeV/3to50deg ===
-  RSE: EIC-XRD                                   Files: 475/475 (complete)
-  Total Size: 53.180 GB (475 files)
 
 === epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/2GeV/3to50deg ===
   RSE: EIC-XRD                                   Files: 94/94 (complete)
   Total Size: 16.466 GB (94 files)
 
-=== epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/500MeV/3to50deg ===
-  RSE: EIC-XRD                                   Files: 60/60 (complete)
-  Total Size: 8.636 GB (60 files)
-
 === epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/5GeV/3to50deg ===
   RSE: EIC-XRD                                   Files: 199/199 (complete)
   Total Size: 24.421 GB (199 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/10GeV/3to50deg ===
+  RSE: EIC-XRD                                   Files: 301/301 (complete)
+  Total Size: 36.033 GB (301 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/20GeV/3to50deg ===
+  RSE: EIC-XRD                                   Files: 475/475 (complete)
+  Total Size: 53.180 GB (475 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/100MeV/3to50deg ===
+  RSE: EIC-XRD                                   Files: 16/16 (complete)
+  Total Size: 3.919 GB (16 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/200MeV/3to50deg ===
+  RSE: EIC-XRD                                   Files: 23/23 (complete)
+  Total Size: 4.634 GB (23 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2025-02-19_18-57-00/SINGLE/e-/500MeV/3to50deg ===
+  RSE: EIC-XRD                                   Files: 60/60 (complete)
+  Total Size: 8.636 GB (60 files)
 
 === epic:/RECO/main/epic_craterlake/Test/2025-04-11_14-07-00/EXCLUSIVE/DVCS_ABCONV/10x100 ===
   RSE: EIC-XRD                                   Files: 5/5 (complete)
@@ -1206,6 +1203,9 @@
 === epic:/RECO/main/epic_craterlake/Test/Tutorials_June2025/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/sartre1.39-1.0/eCa/coherent/bsat/18x137.5/q2_1to10 ===
   RSE: EIC-XRD                                   Files: 694/694 (complete)
   Total Size: 33.686 GB (694 files)
+
+=== ---------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------- ===
+  Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 1.307 TB         Total Files: 22283

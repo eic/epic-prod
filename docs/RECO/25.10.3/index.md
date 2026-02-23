@@ -1,7 +1,4 @@
 ```
-=== ------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------- ===
-  Total Size: Unknown
-
 === epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/edecay/hminus ===
   RSE: JLAB-TAPE-SE                              Files: 1954/1954 (complete)
   RSE: EIC-XRD                                   Files: 1954/1954 (complete)
@@ -32,15 +29,15 @@
   RSE: EIC-XRD                                   Files: 2255/2255 (complete)
   Total Size: 508.199 GB (2255 files)
 
-=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DVMP/EpIC1.1.6-1.1/unpolarised/18x275/q2_1_1000 ===
-  RSE: JLAB-TAPE-SE                              Files: 1078/1078 (complete)
-  RSE: EIC-XRD                                   Files: 1078/1078 (complete)
-  Total Size: 49.735 GB (1078 files)
-
 === epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DVMP/EpIC1.1.6-1.1/unpolarised/5x41/q2_1_1000 ===
   RSE: JLAB-TAPE-SE                              Files: 2421/2421 (complete)
   RSE: EIC-XRD                                   Files: 2421/2421 (complete)
   Total Size: 56.320 GB (2421 files)
+
+=== epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/DVMP/EpIC1.1.6-1.1/unpolarised/18x275/q2_1_1000 ===
+  RSE: JLAB-TAPE-SE                              Files: 1078/1078 (complete)
+  RSE: EIC-XRD                                   Files: 1078/1078 (complete)
+  Total Size: 49.735 GB (1078 files)
 
 === epic:/RECO/25.10.3/epic_craterlake/EXCLUSIVE/PHOTOPRODUCTION_JPSI_ABCONV/coherent_ep/eSTARlight1.3.0-1.0/18x275/q2_nocut/edecay ===
   RSE: JLAB-TAPE-SE                              Files: 2193/2193 (complete)
@@ -77,20 +74,23 @@
   RSE: EIC-XRD                                   Files: 129/129 (complete)
   Total Size: 535.318 MB (129 files)
 
-=== epic:/RECO/25.10.3/epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/10x100/q2_1to10000 ===
-  RSE: JLAB-TAPE-SE                              Files: 73919/73919 (complete)
-  RSE: EIC-XRD                                   Files: 73919/73919 (complete)
-  Total Size: 357.879 GB (73919 files)
-
 === epic:/RECO/25.10.3/epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/5x41/q2_1to10000 ===
   RSE: JLAB-TAPE-SE                              Files: 29707/29707 (complete)
   RSE: EIC-XRD                                   Files: 29707/29707 (complete)
   Total Size: 230.345 GB (29707 files)
 
+=== epic:/RECO/25.10.3/epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/10x100/q2_1to10000 ===
+  RSE: JLAB-TAPE-SE                              Files: 73919/73919 (complete)
+  RSE: EIC-XRD                                   Files: 73919/73919 (complete)
+  Total Size: 357.879 GB (73919 files)
+
 === epic:/RECO/25.10.3/epic_craterlake_without_zdc/SIDIS/Lc_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/10x100/q2_1to10000 ===
   RSE: JLAB-TAPE-SE                              Files: 56857/56857 (complete)
   RSE: EIC-XRD                                   Files: 56857/56857 (complete)
   Total Size: 251.386 GB (56857 files)
+
+=== ------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------- ===
+  Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 3.722 TB         Total Files: 190753
