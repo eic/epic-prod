@@ -5,8 +5,8 @@
   Total Size: 152.545 GB (544 files)
 
 === epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eCu/ep/10x115/q2_1to1000 ===
-  RSE: EIC-XRD                                   Files: 683/683 (complete)
   RSE: JLAB-TAPE-SE                              Files: 683/683 (complete)
+  RSE: EIC-XRD                                   Files: 683/683 (complete)
   Total Size: 127.977 GB (683 files)
 
 === epic:/RECO/25.10.2/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eHe3/10x166/q2_1to10 ===
