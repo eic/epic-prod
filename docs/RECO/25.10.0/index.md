@@ -90,18 +90,18 @@
   Total Size: 3.935 TB (18626 files)
 
 === epic:/RECO/25.10.0/epic_craterlake/SIDIS/pythia6-eic/1.0.0/10x100/q2_0to1 ===
-  RSE: EIC-XRD                                   Files: 42019/42019 (complete)
   RSE: JLAB-TAPE-SE                              Files: 42019/42019 (complete)
+  RSE: EIC-XRD                                   Files: 42019/42019 (complete)
   Total Size: 10.899 TB (42019 files)
 
 === epic:/RECO/25.10.0/epic_craterlake/SIDIS/pythia6-eic/1.0.0/10x275/q2_0to1 ===
-  RSE: EIC-XRD                                   Files: 104513/104513 (complete)
   RSE: JLAB-TAPE-SE                              Files: 104513/104513 (complete)
+  RSE: EIC-XRD                                   Files: 104513/104513 (complete)
   Total Size: 11.104 TB (104513 files)
 
 === epic:/RECO/25.10.0/epic_craterlake/SIDIS/pythia6-eic/1.0.0/18x275/q2_0to1 ===
-  RSE: EIC-XRD                                   Files: 73482/73482 (complete)
   RSE: JLAB-TAPE-SE                              Files: 73482/73482 (complete)
+  RSE: EIC-XRD                                   Files: 73482/73482 (complete)
   Total Size: 15.367 TB (73482 files)
 
 === ----------------------------------------------------------------------------------------------------------------------------------------------+-------------- ===
