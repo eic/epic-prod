@@ -1198,7 +1198,7 @@
   Total Size: 8.549 MB (5 files)
 
 === epic:/RECO/main/epic_craterlake/Test/2026-02-30_16-00-00/SINGLE/e-/10GeV/etaScan ===
-  RSE: JLAB-TAPE-SE                              Files: 0/5 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 1/5 (incomplete)
   RSE: EIC-XRD                                   Files: 5/5 (complete)
   Total Size: 8.549 MB (5 files)
 
@@ -1220,5 +1220,5 @@
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 1.307 TB         Total Files: 22293
   RSE: BNL-XRD                                   Total Size: 0.000 KB         Total Files: 0
-  RSE: JLAB-TAPE-SE                              Total Size: 440.845 GB       Total Files: 3843
+  RSE: JLAB-TAPE-SE                              Total Size: 440.847 GB       Total Files: 3844
 ```
