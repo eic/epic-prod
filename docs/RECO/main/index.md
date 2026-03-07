@@ -1202,6 +1202,51 @@
   RSE: EIC-XRD                                   Files: 5/5 (complete)
   Total Size: 8.549 MB (5 files)
 
+=== epic:/RECO/main/epic_craterlake/Test/2026-03-07_14-00-00/SINGLE/e-/10GeV/etaScan ===
+  RSE: JLAB-TAPE-SE                              Files: 5/5 (complete)
+  RSE: EIC-XRD                                   Files: 5/5 (complete)
+  Total Size: 8.550 MB (5 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2026-03-07_15-00-00/SINGLE/e-/10GeV/etaScan ===
+  RSE: JLAB-TAPE-SE                              Files: 5/5 (complete)
+  RSE: EIC-XRD                                   Files: 5/5 (complete)
+  Total Size: 8.550 MB (5 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2026-03-07_16-00-00/SINGLE/e-/10GeV/etaScan ===
+  RSE: BNL-XRD                                   Files: 0/0 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/0 (complete)
+  Total Size: 0.000 B (0 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2026-03-07_18-00-00/SINGLE/e-/10GeV/etaScan ===
+  RSE: BNL-XRD                                   Files: 0/0 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/0 (complete)
+  Total Size: 0.000 B (0 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2026-03-07_19-00-00/SINGLE/e-/10GeV/etaScan ===
+  RSE: BNL-XRD                                   Files: 5/5 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/5 (incomplete)
+  Total Size: 8.550 MB (5 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2026-03-07_20-00-00/SINGLE/e-/10GeV/etaScan ===
+  RSE: BNL-XRD                                   Files: 0/0 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/0 (complete)
+  Total Size: 0.000 B (0 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2026-03-07_21-00-00/SINGLE/e-/10GeV/etaScan ===
+  RSE: BNL-XRD                                   Files: 0/0 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/0 (complete)
+  Total Size: 0.000 B (0 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2026-03-07_22-00-00/SINGLE/e-/10GeV/etaScan ===
+  RSE: BNL-XRD                                   Files: 0/0 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/0 (complete)
+  Total Size: 0.000 B (0 files)
+
+=== epic:/RECO/main/epic_craterlake/Test/2026-03-07_23-00-00/SINGLE/e-/10GeV/etaScan ===
+  RSE: JLAB-TAPE-SE                              Files: 5/5 (complete)
+  RSE: EIC-XRD                                   Files: 5/5 (complete)
+  Total Size: 8.624 MB (5 files)
+
 === epic:/RECO/main/epic_craterlake/Test/CI_2025-02-15_11-09-00/EXCLUSIVE/DVCS_ABCONV/18x275 ===
   RSE: EIC-XRD                                   Files: 0/0 (complete)
   Total Size: 0.000 B (0 files)
@@ -1218,7 +1263,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 1.307 TB         Total Files: 22293
-  RSE: BNL-XRD                                   Total Size: 0.000 KB         Total Files: 0
-  RSE: JLAB-TAPE-SE                              Total Size: 440.866 GB       Total Files: 3849
+  RSE: EIC-XRD                                   Total Size: 1.307 TB         Total Files: 22308
+  RSE: BNL-XRD                                   Total Size: 8.550 MB         Total Files: 5
+  RSE: JLAB-TAPE-SE                              Total Size: 440.892 GB       Total Files: 3864
 ```
