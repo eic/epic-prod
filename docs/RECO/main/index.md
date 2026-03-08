@@ -256,7 +256,7 @@
   Total Size: 1.115 MB (1 files)
 
 === epic:/RECO/main/epic_craterlake/CI/2025-03-15_12-52-38/DIS/NC/18x275/minQ2=1 ===
-  RSE: BNL-XRD                                   Files: 0/1 (incomplete)
+  RSE: BNL-XRD                                   Files: 1/1 (complete)
   RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 2.112 MB (1 files)
 
@@ -1264,6 +1264,6 @@
 
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 1.307 TB         Total Files: 22308
-  RSE: BNL-XRD                                   Total Size: 8.550 MB         Total Files: 5
+  RSE: BNL-XRD                                   Total Size: 10.662 MB        Total Files: 6
   RSE: JLAB-TAPE-SE                              Total Size: 440.892 GB       Total Files: 3864
 ```
