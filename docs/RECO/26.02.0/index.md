@@ -35,9 +35,9 @@
   Total Size: 1.124 TB (7741 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/5um/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_3_10/pi+ ===
-  RSE: JLAB-TAPE-SE                              Files: 11106/11107 (incomplete)
-  RSE: EIC-XRD                                   Files: 11107/11107 (complete)
-  Total Size: 8.080 TB (11107 files)
+  RSE: JLAB-TAPE-SE                              Files: 11110/11110 (complete)
+  RSE: EIC-XRD                                   Files: 11110/11110 (complete)
+  Total Size: 8.083 TB (11110 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/5um/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_10_20/pi+ ===
   RSE: JLAB-TAPE-SE                              Files: 11110/11110 (complete)
@@ -130,14 +130,14 @@
   Total Size: 452.457 GB (2583 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_2to10 ===
-  RSE: JLAB-TAPE-SE                              Files: 11651/11756 (incomplete)
-  RSE: EIC-XRD                                   Files: 11756/11756 (complete)
-  Total Size: 1.071 TB (11756 files)
+  RSE: JLAB-TAPE-SE                              Files: 11764/11764 (complete)
+  RSE: EIC-XRD                                   Files: 11764/11764 (complete)
+  Total Size: 1.072 TB (11764 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_10to100 ===
-  RSE: JLAB-TAPE-SE                              Files: 12591/12591 (complete)
-  RSE: EIC-XRD                                   Files: 12591/12591 (complete)
-  Total Size: 1.532 TB (12591 files)
+  RSE: JLAB-TAPE-SE                              Files: 12594/12594 (complete)
+  RSE: EIC-XRD                                   Files: 12594/12594 (complete)
+  Total Size: 1.532 TB (12594 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_100to10000 ===
   RSE: JLAB-TAPE-SE                              Files: 14303/14303 (complete)
@@ -425,24 +425,24 @@
   Total Size: 380.113 GB (3331 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/MESON_SF_ABCONV/eicMesonSFGen-1.0.0/ep/5x41 ===
-  RSE: JLAB-TAPE-SE                              Files: 757/767 (incomplete)
-  RSE: EIC-XRD                                   Files: 767/767 (complete)
-  Total Size: 185.560 GB (767 files)
+  RSE: JLAB-TAPE-SE                              Files: 795/795 (complete)
+  RSE: EIC-XRD                                   Files: 795/795 (complete)
+  Total Size: 192.371 GB (795 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/MESON_SF_ABCONV/eicMesonSFGen-1.0.0/ep/10x100 ===
-  RSE: JLAB-TAPE-SE                              Files: 905/943 (incomplete)
-  RSE: EIC-XRD                                   Files: 943/943 (complete)
-  Total Size: 187.562 GB (943 files)
+  RSE: JLAB-TAPE-SE                              Files: 983/983 (complete)
+  RSE: EIC-XRD                                   Files: 983/983 (complete)
+  Total Size: 195.555 GB (983 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/MESON_SF_ABCONV/eicMesonSFGen-1.0.0/ep/10x130 ===
-  RSE: JLAB-TAPE-SE                              Files: 936/949 (incomplete)
-  RSE: EIC-XRD                                   Files: 949/949 (complete)
-  Total Size: 192.699 GB (949 files)
+  RSE: JLAB-TAPE-SE                              Files: 990/990 (complete)
+  RSE: EIC-XRD                                   Files: 990/990 (complete)
+  Total Size: 200.975 GB (990 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/MESON_SF_ABCONV/eicMesonSFGen-1.0.0/ep/18x275 ===
-  RSE: JLAB-TAPE-SE                              Files: 1353/1372 (incomplete)
-  RSE: EIC-XRD                                   Files: 1372/1372 (complete)
-  Total Size: 260.913 GB (1372 files)
+  RSE: JLAB-TAPE-SE                              Files: 1396/1396 (complete)
+  RSE: EIC-XRD                                   Files: 1396/1396 (complete)
+  Total Size: 265.504 GB (1396 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/PHOTOPRODUCTION_JPSI_ABCONV/coherent_ep/eSTARlight1.3.0-1.0/18x275/q2_nocut/edecay ===
   RSE: JLAB-TAPE-SE                              Files: 452/452 (complete)
@@ -460,7 +460,7 @@
   Total Size: 7.833 GB (33 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/SIDIS/D0_ABCONV/HFsim-PYTHIA/pythia8.306-1.2/ep/5x41/q2_1to10000/hiDiv ===
-  RSE: JLAB-TAPE-SE                              Files: 1994/1998 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 1998/1998 (complete)
   RSE: EIC-XRD                                   Files: 1998/1998 (complete)
   Total Size: 210.105 GB (1998 files)
 
@@ -480,7 +480,7 @@
   Total Size: 473.860 GB (1267 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/SIDIS/DIJET_ABCONV/pythia6.428-dijet-v1.0/PGF/noRC/ep/18x275/q2_1to20000 ===
-  RSE: JLAB-TAPE-SE                              Files: 697/699 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 699/699 (complete)
   RSE: EIC-XRD                                   Files: 699/699 (complete)
   Total Size: 137.307 GB (699 files)
 
@@ -1763,6 +1763,6 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 126.178 TB       Total Files: 465369
-  RSE: JLAB-TAPE-SE                              Total Size: 126.150 TB       Total Files: 465174
+  RSE: EIC-XRD                                   Total Size: 126.209 TB       Total Files: 465516
+  RSE: JLAB-TAPE-SE                              Total Size: 126.208 TB       Total Files: 465513
 ```
