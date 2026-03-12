@@ -376,9 +376,9 @@
   Total Size: 215.651 GB (999 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/sartre1.39-1.0/eAu/coherent/bsat/10x100 ===
-  RSE: JLAB-TAPE-SE                              Files: 0/68 (incomplete)
-  RSE: EIC-XRD                                   Files: 68/68 (complete)
-  Total Size: 15.588 GB (68 files)
+  RSE: JLAB-TAPE-SE                              Files: 1888/1888 (complete)
+  RSE: EIC-XRD                                   Files: 1888/1888 (complete)
+  Total Size: 433.064 GB (1888 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_RHO_ABCONV/sartre1.39-1.1/eAu/coherent/bsat/10x100/q2_1to20 ===
   RSE: JLAB-TAPE-SE                              Files: 2142/2142 (complete)
@@ -1779,7 +1779,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 131.221 TB       Total Files: 474551
+  RSE: EIC-XRD                                   Total Size: 131.629 TB       Total Files: 476371
   RSE: BNL-XRD                                   Total Size: 4.285 TB         Total Files: 5489
-  RSE: JLAB-TAPE-SE                              Total Size: 131.205 TB       Total Files: 474480
+  RSE: JLAB-TAPE-SE                              Total Size: 131.628 TB       Total Files: 476368
 ```
