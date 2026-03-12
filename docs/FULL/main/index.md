@@ -2,6 +2,11 @@
 === epic:/FULL/main/epic_craterlake/Bkg_1SignalPer2usFrame/Synrad_18GeV_Vac_10000Ahr_Egas_18GeV_Hgas_275GeV/DIS/NC/18x275/minQ2=1 ===
   Total Size: 0.000 B (0 files)
 
+=== epic:/FULL/main/epic_craterlake/CI/Backgrounds/2026-03-11_11-42-13/DIS/NC/18x275/minQ2=1 ===
+  RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 28.355 MB (1 files)
+
 === epic:/FULL/main/epic_craterlake/DIS/NC/10x100/minQ2=1 ===
   RSE: EIC-XRD                                   Files: 5/5 (complete)
   Total Size: 56.558 MB (5 files)
@@ -31,5 +36,6 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 56.558 MB        Total Files: 5
+  RSE: EIC-XRD                                   Total Size: 84.913 MB        Total Files: 6
+  RSE: JLAB-TAPE-SE                              Total Size: 28.355 MB        Total Files: 1
 ```
