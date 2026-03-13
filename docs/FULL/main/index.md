@@ -3,8 +3,8 @@
   Total Size: 0.000 B (0 files)
 
 === epic:/FULL/main/epic_craterlake/CI/Backgrounds/2026-03-11_11-42-13/DIS/NC/18x275/minQ2=1 ===
-  RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
   RSE: EIC-XRD                                   Files: 1/1 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
   Total Size: 28.355 MB (1 files)
 
 === epic:/FULL/main/epic_craterlake/DIS/NC/10x100/minQ2=1 ===
