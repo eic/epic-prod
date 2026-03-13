@@ -1046,6 +1046,16 @@
   RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 13.104 MB (1 files)
 
+=== epic:/RECO/main/epic_craterlake/CI/Backgrounds/2026-03-12_17-09-27/DIS/NC/18x275/minQ2=1 ===
+  RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 7.341 MB (1 files)
+
+=== epic:/RECO/main/epic_craterlake/CI/Backgrounds/DIS/NC/18x275/minQ2=1 ===
+  RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 7.341 MB (1 files)
+
 === epic:/RECO/main/epic_craterlake/DIS/NC/10x100/minQ2=1 ===
   RSE: EIC-XRD                                   Files: 5/5 (complete)
   Total Size: 9.776 MB (5 files)
@@ -1267,6 +1277,11 @@
   RSE: EIC-XRD                                   Files: 5/5 (complete)
   Total Size: 8.624 MB (5 files)
 
+=== epic:/RECO/main/epic_craterlake/Test/2026-03-11_15-00-00/DIS/NC/5x41/minQ2=1 ===
+  RSE: BNL-XRD                                   Files: 162/162 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/162 (incomplete)
+  Total Size: 31.095 GB (162 files)
+
 === epic:/RECO/main/epic_craterlake/Test/CI_2025-02-15_11-09-00/EXCLUSIVE/DVCS_ABCONV/18x275 ===
   RSE: EIC-XRD                                   Files: 0/0 (complete)
   Total Size: 0.000 B (0 files)
@@ -1283,7 +1298,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 1.307 TB         Total Files: 22311
-  RSE: BNL-XRD                                   Total Size: 13.203 MB        Total Files: 7
-  RSE: JLAB-TAPE-SE                              Total Size: 440.920 GB       Total Files: 3867
+  RSE: EIC-XRD                                   Total Size: 1.307 TB         Total Files: 22313
+  RSE: BNL-XRD                                   Total Size: 31.108 GB        Total Files: 169
+  RSE: JLAB-TAPE-SE                              Total Size: 440.934 GB       Total Files: 3869
 ```
