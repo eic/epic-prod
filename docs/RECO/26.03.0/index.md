@@ -1,13 +1,23 @@
 ```
+=== epic:/RECO/26.03.0/epic_craterlake/DIS/NC/5x41/minQ2=1 ===
+  RSE: JLAB-TAPE-SE                              Files: 25/169 (incomplete)
+  RSE: EIC-XRD                                   Files: 169/169 (complete)
+  Total Size: 33.446 GB (170 files)
+
 === epic:/RECO/26.03.0/epic_craterlake/DIS/NC/10x100/minQ2=1 ===
-  RSE: JLAB-TAPE-SE                              Files: 3554/4157 (incomplete)
-  RSE: EIC-XRD                                   Files: 4157/4157 (complete)
-  Total Size: 605.603 GB (4157 files)
+  RSE: JLAB-TAPE-SE                              Files: 4317/4317 (complete)
+  RSE: EIC-XRD                                   Files: 4317/4317 (complete)
+  Total Size: 628.979 GB (4317 files)
+
+=== epic:/RECO/26.03.0/epic_craterlake/DIS/NC/10x275/minQ2=1 ===
+  RSE: JLAB-TAPE-SE                              Files: 7823/8721 (incomplete)
+  RSE: EIC-XRD                                   Files: 8721/8721 (complete)
+  Total Size: 714.091 GB (8721 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/DIS/NC/18x275/minQ2=1 ===
-  RSE: JLAB-TAPE-SE                              Files: 39/360 (incomplete)
-  RSE: EIC-XRD                                   Files: 360/360 (complete)
-  Total Size: 33.125 GB (360 files)
+  RSE: JLAB-TAPE-SE                              Files: 8568/8578 (incomplete)
+  RSE: EIC-XRD                                   Files: 8578/8578 (complete)
+  Total Size: 790.403 GB (8578 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/SINGLE/e+/1GeV/3to50deg ===
   RSE: JLAB-TAPE-SE                              Files: 49/49 (complete)
@@ -863,6 +873,6 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 8.526 TB         Total Files: 26182
-  RSE: JLAB-TAPE-SE                              Total Size: 8.412 TB         Total Files: 25258
+  RSE: EIC-XRD                                   Total Size: 10.019 TB        Total Files: 43450
+  RSE: JLAB-TAPE-SE                              Total Size: 9.918 TB         Total Files: 42398
 ```
