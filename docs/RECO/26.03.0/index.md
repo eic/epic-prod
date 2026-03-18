@@ -5,7 +5,7 @@
   Total Size: 935.446 GB (5200 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_100/hiDiv ===
-  RSE: JLAB-TAPE-SE                              Files: 999/1000 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 1000/1000 (complete)
   RSE: EIC-XRD                                   Files: 1000/1000 (complete)
   Total Size: 261.177 GB (1000 files)
 
@@ -20,9 +20,9 @@
   Total Size: 1.006 TB (3577 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/DIS/NC/5x41/minQ2=100 ===
-  RSE: JLAB-TAPE-SE                              Files: 300/915 (incomplete)
-  RSE: EIC-XRD                                   Files: 915/915 (complete)
-  Total Size: 307.321 GB (917 files)
+  RSE: JLAB-TAPE-SE                              Files: 4434/4434 (complete)
+  RSE: EIC-XRD                                   Files: 4434/4434 (complete)
+  Total Size: 1.487 TB (4434 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/DIS/NC/5x100/minQ2=1 ===
   RSE: JLAB-TAPE-SE                              Files: 4267/4267 (complete)
@@ -33,6 +33,11 @@
   RSE: JLAB-TAPE-SE                              Files: 5381/5381 (complete)
   RSE: EIC-XRD                                   Files: 5381/5381 (complete)
   Total Size: 1.063 TB (5381 files)
+
+=== epic:/RECO/26.03.0/epic_craterlake/DIS/NC/5x100/minQ2=100 ===
+  RSE: JLAB-TAPE-SE                              Files: 6391/6405 (incomplete)
+  RSE: EIC-XRD                                   Files: 6404/6405 (incomplete)
+  Total Size: 1.621 TB (6405 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/DIS/NC/10x100/minQ2=1 ===
   RSE: JLAB-TAPE-SE                              Files: 4323/4323 (complete)
@@ -45,7 +50,7 @@
   Total Size: 1.274 TB (5863 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/DIS/NC/10x100/minQ2=100 ===
-  RSE: JLAB-TAPE-SE                              Files: 6773/6775 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 6775/6775 (complete)
   RSE: EIC-XRD                                   Files: 6775/6775 (complete)
   Total Size: 1.858 TB (6775 files)
 
@@ -60,9 +65,9 @@
   Total Size: 1.371 TB (9931 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/DIS/NC/10x275/minQ2=100 ===
-  RSE: JLAB-TAPE-SE                              Files: 9442/10241 (incomplete)
-  RSE: EIC-XRD                                   Files: 10241/10241 (complete)
-  Total Size: 1.876 TB (10241 files)
+  RSE: JLAB-TAPE-SE                              Files: 10322/10322 (complete)
+  RSE: EIC-XRD                                   Files: 10322/10322 (complete)
+  Total Size: 1.891 TB (10322 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/DIS/NC/18x275/minQ2=1 ===
   RSE: JLAB-TAPE-SE                              Files: 8583/8583 (complete)
@@ -75,14 +80,19 @@
   Total Size: 1.290 TB (9445 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/DIS/NC/18x275/minQ2=100 ===
-  RSE: JLAB-TAPE-SE                              Files: 11284/11296 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 11296/11296 (complete)
   RSE: EIC-XRD                                   Files: 11296/11296 (complete)
   Total Size: 2.201 TB (11296 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.0/18x275/hiDiv ===
-  RSE: JLAB-TAPE-SE                              Files: 1994/2067 (incomplete)
-  RSE: EIC-XRD                                   Files: 2067/2067 (complete)
-  Total Size: 309.253 GB (2067 files)
+  RSE: JLAB-TAPE-SE                              Files: 2515/2515 (complete)
+  RSE: EIC-XRD                                   Files: 2515/2515 (complete)
+  Total Size: 376.290 GB (2515 files)
+
+=== epic:/RECO/26.03.0/epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_100/hiDiv ===
+  RSE: JLAB-TAPE-SE                              Files: 668/813 (incomplete)
+  RSE: EIC-XRD                                   Files: 813/813 (complete)
+  Total Size: 142.792 GB (813 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/SINGLE/e+/1GeV/3to50deg ===
   RSE: JLAB-TAPE-SE                              Files: 49/49 (complete)
@@ -938,7 +948,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 23.612 TB        Total Files: 116580
+  RSE: EIC-XRD                                   Total Size: 26.639 TB        Total Files: 127845
   RSE: BNL-XRD                                   Total Size: 1.274 TB         Total Files: 5863
-  RSE: JLAB-TAPE-SE                              Total Size: 23.250 TB        Total Files: 115078
+  RSE: JLAB-TAPE-SE                              Total Size: 26.611 TB        Total Files: 127687
 ```
