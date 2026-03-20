@@ -1,7 +1,7 @@
 ```
 === epic:/RECO/25.10.0/epic_craterlake/Bkg_1SignalPer2usFrame/Synrad_10GeV_Vac_10000Ahr_Runtime_50s_Egas_10GeV_Hgas_275GeV/DIS/NC/10x275/minQ2=1 ===
-  RSE: EIC-XRD                                   Files: 6/6 (complete)
   RSE: JLAB-TAPE-SE                              Files: 6/6 (complete)
+  RSE: EIC-XRD                                   Files: 6/6 (complete)
   Total Size: 34.149 MB (6 files)
 
 === epic:/RECO/25.10.0/epic_craterlake/DIS/CC/5x41/minQ2=100 ===
@@ -10,18 +10,18 @@
   Total Size: 1.294 TB (4726 files)
 
 === epic:/RECO/25.10.0/epic_craterlake/DIS/CC/10x100/minQ2=100 ===
-  RSE: EIC-XRD                                   Files: 9814/9814 (complete)
   RSE: JLAB-TAPE-SE                              Files: 9814/9814 (complete)
+  RSE: EIC-XRD                                   Files: 9814/9814 (complete)
   Total Size: 2.234 TB (9814 files)
 
 === epic:/RECO/25.10.0/epic_craterlake/DIS/CC/10x100/minQ2=1000 ===
-  RSE: EIC-XRD                                   Files: 9007/9007 (complete)
   RSE: JLAB-TAPE-SE                              Files: 9007/9007 (complete)
+  RSE: EIC-XRD                                   Files: 9007/9007 (complete)
   Total Size: 1.937 TB (9007 files)
 
 === epic:/RECO/25.10.0/epic_craterlake/DIS/CC/18x275/minQ2=100 ===
-  RSE: EIC-XRD                                   Files: 14235/14235 (complete)
   RSE: JLAB-TAPE-SE                              Files: 14235/14235 (complete)
+  RSE: EIC-XRD                                   Files: 14235/14235 (complete)
   Total Size: 3.025 TB (14235 files)
 
 === epic:/RECO/25.10.0/epic_craterlake/DIS/CC/18x275/minQ2=1000 ===
