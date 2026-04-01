@@ -20,9 +20,9 @@
   Total Size: 3.880 GB (24 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/touschek/EIC_ESR_Xsuite/dataprod_rel_1.0.1/5x100/10000Ahr/MachineRuntime50s ===
-  RSE: BNL-XRD                                   Files: 3640/3640 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 0/3640 (incomplete)
-  Total Size: 560.305 GB (3641 files)
+  RSE: BNL-XRD                                   Files: 6573/6573 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/6573 (incomplete)
+  Total Size: 1.021 TB (6573 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/touschek/EIC_ESR_Xsuite/dataprod_rel_1.0.1/18x275/10000Ahr/MachineRuntime50s ===
   RSE: BNL-XRD                                   Files: 17/17 (complete)
@@ -30,14 +30,14 @@
   Total Size: 2.331 GB (17 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/BACKGROUNDS/BEAMGAS/proton/pythia8.306-1.0/100GeV ===
-  RSE: JLAB-TAPE-SE                              Files: 3585/3943 (incomplete)
-  RSE: EIC-XRD                                   Files: 3943/3943 (complete)
-  Total Size: 597.981 GB (3944 files)
+  RSE: JLAB-TAPE-SE                              Files: 4800/4800 (complete)
+  RSE: EIC-XRD                                   Files: 4800/4800 (complete)
+  Total Size: 727.883 GB (4800 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/BACKGROUNDS/BEAMGAS/proton/pythia8.306-1.0/275GeV ===
-  RSE: JLAB-TAPE-SE                              Files: 472/472 (complete)
-  RSE: EIC-XRD                                   Files: 472/472 (complete)
-  Total Size: 63.190 GB (472 files)
+  RSE: JLAB-TAPE-SE                              Files: 1888/2015 (incomplete)
+  RSE: EIC-XRD                                   Files: 2015/2015 (complete)
+  Total Size: 269.081 GB (2015 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x100/minQ2=1 ===
   RSE: JLAB-TAPE-SE                              Files: 5200/5200 (complete)
@@ -1488,7 +1488,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 29.662 TB        Total Files: 143987
-  RSE: BNL-XRD                                   Total Size: 32.099 TB        Total Files: 119491
-  RSE: JLAB-TAPE-SE                              Total Size: 29.609 TB        Total Files: 143629
+  RSE: EIC-XRD                                   Total Size: 29.990 TB        Total Files: 146387
+  RSE: BNL-XRD                                   Total Size: 32.573 TB        Total Files: 122424
+  RSE: JLAB-TAPE-SE                              Total Size: 29.974 TB        Total Files: 146260
 ```
