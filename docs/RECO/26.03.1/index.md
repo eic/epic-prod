@@ -1,4 +1,19 @@
 ```
+=== epic:/RECO/26.03.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eH2/10x130/q2_1to1000 ===
+  RSE: BNL-XRD                                   Files: 1335/1335 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/1335 (incomplete)
+  Total Size: 205.960 GB (1335 files)
+
+=== epic:/RECO/26.03.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eRu/en/10x115/q2_1to1000 ===
+  RSE: BNL-XRD                                   Files: 432/432 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/432 (incomplete)
+  Total Size: 87.734 GB (432 files)
+
+=== epic:/RECO/26.03.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eRu/ep/10x115/q2_1to1000 ===
+  RSE: BNL-XRD                                   Files: 185/185 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/185 (incomplete)
+  Total Size: 39.715 GB (186 files)
+
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/edecay/hminus ===
   RSE: BNL-XRD                                   Files: 257/257 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/257 (incomplete)
@@ -159,10 +174,15 @@
   RSE: JLAB-TAPE-SE                              Files: 0/28 (incomplete)
   Total Size: 7.574 GB (28 files)
 
+=== epic:/RECO/26.03.1/epic_craterlake/SIDIS/DIJET_ABCONV/pythia6.428-dijet-v1.0/PGF/noRC/ep/18x275/q2_1to20000 ===
+  RSE: BNL-XRD                                   Files: 1092/1092 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/1092 (incomplete)
+  Total Size: 113.759 GB (1092 files)
+
 === ----------------------------------------------------------------------------------------------------------------------------------+-------------- ===
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: BNL-XRD                                   Total Size: 3.330 TB         Total Files: 22653
+  RSE: BNL-XRD                                   Total Size: 3.766 TB         Total Files: 25697
   RSE: JLAB-TAPE-SE                              Total Size: 0.000 KB         Total Files: 0
 ```
