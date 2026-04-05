@@ -175,14 +175,14 @@
   Total Size: 7.574 GB (28 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/SIDIS/DIJET_ABCONV/pythia6.428-dijet-v1.0/PGF/noRC/ep/18x275/q2_1to20000 ===
-  RSE: BNL-XRD                                   Files: 1095/1095 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 0/1095 (incomplete)
-  Total Size: 114.070 GB (1095 files)
+  RSE: BNL-XRD                                   Files: 1098/1098 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/1098 (incomplete)
+  Total Size: 114.380 GB (1098 files)
 
 === ----------------------------------------------------------------------------------------------------------------------------------+-------------- ===
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: BNL-XRD                                   Total Size: 3.799 TB         Total Files: 25878
+  RSE: BNL-XRD                                   Total Size: 3.799 TB         Total Files: 25881
   RSE: JLAB-TAPE-SE                              Total Size: 0.000 KB         Total Files: 0
 ```
