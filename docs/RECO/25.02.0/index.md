@@ -1,7 +1,7 @@
 ```
 === epic:/RECO/25.02.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/GETaLM1.0.0-1.0/10GeV ===
   RSE: JLAB-TAPE-SE                              Files: 2946/2946 (complete)
-  Total Size: 163.056 GB (2946 files)
+  Total Size: 129.532 GB (2341 files)
 
 === epic:/RECO/25.02.0/epic_craterlake/BACKGROUNDS/BEAMGAS/proton/pythia8.306-1.0/100GeV ===
   RSE: JLAB-TAPE-SE                              Files: 5595/5595 (complete)
@@ -1243,5 +1243,5 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: JLAB-TAPE-SE                              Total Size: 42.461 TB        Total Files: 422291
+  RSE: JLAB-TAPE-SE                              Total Size: 42.428 TB        Total Files: 422291
 ```
