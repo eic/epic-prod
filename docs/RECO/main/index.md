@@ -825,7 +825,7 @@
 
 === epic:/RECO/main/epic_craterlake/CI/2026-03-11_11-42-13/DIS/NC/18x275/minQ2=1 ===
   RSE: BNL-XRD                                   Files: 1/1 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
   Total Size: 2.541 MB (1 files)
 
 === epic:/RECO/main/epic_craterlake/CI/2026-04-07_15-49-05/DIS/NC/18x275/minQ2=1 ===
@@ -1470,5 +1470,5 @@
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 1.307 TB         Total Files: 22347
   RSE: BNL-XRD                                   Total Size: 580.479 GB       Total Files: 3030
-  RSE: JLAB-TAPE-SE                              Total Size: 441.089 GB       Total Files: 3903
+  RSE: JLAB-TAPE-SE                              Total Size: 441.091 GB       Total Files: 3904
 ```
