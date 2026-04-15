@@ -29,7 +29,7 @@
 
 === epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/Sartre/Coherent ===
   RSE: JLAB-TAPE-SE                              Files: 21782/21782 (complete)
-  Total Size: 1.550 TB (21782 files)
+  Total Size: 1.485 TB (21000 files)
 
 === epic:/RECO/25.10.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/coherent_eCu/eSTARlight1.2.0-1.0/10x115/q2_0to10 ===
   RSE: JLAB-TAPE-SE                              Files: 304/304 (complete)
@@ -67,5 +67,5 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: JLAB-TAPE-SE                              Total Size: 4.800 TB         Total Files: 43942
+  RSE: JLAB-TAPE-SE                              Total Size: 4.735 TB         Total Files: 43942
 ```
