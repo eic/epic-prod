@@ -40,9 +40,9 @@
   Total Size: 1.417 TB (9143 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/touschek/EIC_ESR_Xsuite/dataprod_rel_1.0.1/10x275/10000Ahr/MachineRuntime50s ===
-  RSE: BNL-XRD                                   Files: 1108/1108 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 1098/1108 (incomplete)
-  Total Size: 322.685 GB (1108 files)
+  RSE: BNL-XRD                                   Files: 1115/1115 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 1115/1115 (complete)
+  Total Size: 327.115 GB (1115 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/touschek/EIC_ESR_Xsuite/dataprod_rel_1.0.1/18x275/10000Ahr/MachineRuntime50s ===
   RSE: BNL-XRD                                   Files: 17/17 (complete)
@@ -1539,6 +1539,6 @@
 
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 30.985 TB        Total Files: 153773
-  RSE: BNL-XRD                                   Total Size: 54.184 TB        Total Files: 246075
-  RSE: JLAB-TAPE-SE                              Total Size: 52.188 TB        Total Files: 274805
+  RSE: BNL-XRD                                   Total Size: 54.188 TB        Total Files: 246082
+  RSE: JLAB-TAPE-SE                              Total Size: 52.195 TB        Total Files: 274822
 ```

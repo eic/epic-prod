@@ -38,7 +38,7 @@
 === epic:/RECO/26.02.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/5um/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_3_10/pi+ ===
   RSE: JLAB-TAPE-SE                              Files: 11110/11110 (complete)
   RSE: EIC-XRD                                   Files: 11110/11110 (complete)
-  Total Size: 2.517 TB (3460 files)
+  Total Size: 8.083 TB (11110 files)
 
 === epic:/RECO/26.02.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/5um/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_10_20/pi+ ===
   RSE: JLAB-TAPE-SE                              Files: 11110/11110 (complete)
@@ -1779,7 +1779,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 126.064 TB       Total Files: 476376
+  RSE: EIC-XRD                                   Total Size: 131.630 TB       Total Files: 476376
   RSE: BNL-XRD                                   Total Size: 4.285 TB         Total Files: 5489
-  RSE: JLAB-TAPE-SE                              Total Size: 126.063 TB       Total Files: 476373
+  RSE: JLAB-TAPE-SE                              Total Size: 131.629 TB       Total Files: 476373
 ```
