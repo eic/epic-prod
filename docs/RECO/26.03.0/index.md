@@ -10,9 +10,9 @@
   Total Size: 367.813 GB (1848 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/brems/EIC_ESR_Xsuite/dataprod_rel_1.0.1/5x100/10000Ahr/MachineRuntime50s ===
-  RSE: BNL-XRD                                   Files: 1382/1382 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 1382/1382 (complete)
-  Total Size: 344.266 GB (1382 files)
+  RSE: BNL-XRD                                   Files: 1383/1383 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 1382/1383 (incomplete)
+  Total Size: 344.267 GB (1383 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/brems/EIC_ESR_Xsuite/dataprod_rel_1.0.1/10x275/10000Ahr/MachineRuntime50s ===
   RSE: BNL-XRD                                   Files: 1043/1043 (complete)
@@ -275,9 +275,9 @@
   Total Size: 5.376 TB (28359 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/SIDIS/pythia6-eic/1.0.0/10x275/q2_0to1 ===
-  RSE: BNL-XRD                                   Files: 45962/45962 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 45962/45962 (complete)
-  Total Size: 6.912 TB (45962 files)
+  RSE: BNL-XRD                                   Files: 45975/45975 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 45968/45975 (incomplete)
+  Total Size: 6.914 TB (45975 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/SIDIS/pythia6-eic/1.0.0/18x275/q2_0to1 ===
   RSE: BNL-XRD                                   Files: 42199/42199 (complete)
@@ -1539,6 +1539,6 @@
 
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 30.985 TB        Total Files: 153773
-  RSE: BNL-XRD                                   Total Size: 54.881 TB        Total Files: 250701
-  RSE: JLAB-TAPE-SE                              Total Size: 52.888 TB        Total Files: 279441
+  RSE: BNL-XRD                                   Total Size: 54.883 TB        Total Files: 250715
+  RSE: JLAB-TAPE-SE                              Total Size: 52.889 TB        Total Files: 279447
 ```
