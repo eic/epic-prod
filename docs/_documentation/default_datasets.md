@@ -16,7 +16,7 @@ It tracks both completed and pending requests to aid planning and prioritisation
     <tr>
       <th>DSC or PWG</th>
       <th>Dataset Path</th>
-      <th>Generator Config</th>
+      <th>Generator/Dataset Version</th>
       <th>Number of Events</th>
       <th>Background</th>
       <th>New Request</th>
@@ -33,7 +33,7 @@ It tracks both completed and pending requests to aid planning and prioritisation
       <tr>
         <td>{{ row["DSC or PWG"] }}</td>
         <td>{{ row["Dataset Path"] }}</td>
-        <td>{{ row["Generator Config"] }}</td>
+        <td>{{ row["Generator/Dataset Version"] }}</td>
         <td>{{ row["Number of Events"] }}</td>
         <td>{{ row["Background"] }}</td>
         <td>{{ row["New Request"] }}</td>
