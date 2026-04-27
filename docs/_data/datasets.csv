@@ -1,4 +1,4 @@
-DSC or PWG,Dataset Path,Generator Config,Number of Events,Background,New Request,Pre-TDR Use,Early Science Use,Other Use,Description,Priority
+DSC or PWG,Dataset Path,Generator/Dataset Version,Number of Events,Background,New Request,Pre-TDR Use,Early Science Use,Other Use,Description,Priority
 Exclusive/Diffractive/Tagging,Input Files: /w/eic-scshelf2104/users/sjdkay/Jul2025_Campaign_Input/Afterburner_Output/pion,DEMPgen1.2.4,2.4M,No,No,Maybe,Yes,Potential ZDC performance studies,"DEMP events for pion and kaon structure studies. Two configurations, ep 10x130 and 10x250, for early science impact studies. New version of event generator that utilises a restrcited -t range to boost statistics in the crucial (for FPi studies) low t region. ",1
 Exclusive/Diffractive/Tagging,"/w/eic-scshelf2104/users/
 gbxalex/SimCampaign_Input",lAger3.6.1,2.75M,No,Yes,No,Yes,Muon ID studies,"DVMP events for J/Psi studies. For the 10x130 configuration, 

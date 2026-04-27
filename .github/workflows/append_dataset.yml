@@ -48,7 +48,7 @@ jobs:
           row = [
               clean(raw.get("dsc_or_pwg", "")),
               clean(raw.get("dataset_path", "")),
-              clean(raw.get("generator_config", "")),
+              clean(raw.get("generator_dataset_version", "")),
               clean(raw.get("number_of_events", "")) or "All",
               clean(raw.get("background", "")),
               clean(raw.get("new_request", "")),

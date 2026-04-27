@@ -29,11 +29,11 @@ body:
       required: false
 
   - type: input
-    id: generator_config
+    id: generator_dataset_version
     attributes:
-      label: Generator Config
-      description: Event generator name and version (e.g. Pythia8, EpIC, BeAGLE 1.03.02)
-      placeholder: "e.g. EpIC, Pythia 8.306, BeAGLE 1.03.02"
+      label: Generator/Dataset Version
+      description: Please provide a link to the tagged release of the generator/dataset repository (e.g. https://github.com/org/repo/releases/tag/v1.0)
+      placeholder: "e.g. https://github.com/org/repo/releases/tag/v1.0"
     validations:
       required: false
 
