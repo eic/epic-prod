@@ -1,0 +1,124 @@
+name: Correct Dataset Request
+
+on:
+  issue_comment:
+    types:
+      - created
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: append-dataset
+  cancel-in-progress: false
+
+jobs:
+  correct-dataset:
+    if: |
+      startsWith(github.event.comment.body, '!update') &&
+      contains(github.event.issue.labels.*.name, 'dataset-request')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: dataset-request/issue-${{ github.event.issue.number }}
+
+      - name: Apply correction to CSV
+        id: correction
+        shell: python3 {0}
+        env:
+          COMMENT: ${{ github.event.comment.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          import csv, io, os, re, sys
+
+          comment = os.environ["COMMENT"].strip()
+          issue_number = os.environ["ISSUE_NUMBER"]
+
+          # Parse: !update Field Name: new value
+          m = re.match(r'^!update\s+(.+?):\s*(.+)$', comment, re.DOTALL)
+          if not m:
+              print("ERROR: Could not parse correction comment.")
+              print("Expected format: !update Field Name: new value")
+              sys.exit(1)
+
+          field_name = m.group(1).strip()
+          new_value = m.group(2).strip()
+
+          csv_path = "docs/_data/datasets.csv"
+          with open(csv_path, newline="") as f:
+              reader = csv.DictReader(f)
+              rows = list(reader)
+              fieldnames = list(reader.fieldnames)
+
+          # Validate field name
+          if field_name not in fieldnames:
+              print(f"ERROR: Unknown field '{field_name}'")
+              print(f"Valid fields: {', '.join(fieldnames)}")
+              sys.exit(1)
+
+          # Find the row for this issue
+          target_idx = None
+          for i, row in enumerate(rows):
+              if row.get("Issue", "").strip() == issue_number:
+                  target_idx = i
+                  break
+
+          if target_idx is None:
+              print(f"ERROR: No CSV row found for issue #{issue_number}")
+              sys.exit(1)
+
+          old_value = rows[target_idx][field_name]
+          rows[target_idx][field_name] = new_value
+
+          # Write back
+          out = io.StringIO()
+          writer = csv.DictWriter(out, fieldnames=fieldnames, quoting=csv.QUOTE_MINIMAL)
+          writer.writeheader()
+          writer.writerows(rows)
+
+          with open(csv_path, "w", newline="") as f:
+              f.write(out.getvalue())
+
+          print(f"Updated '{field_name}': '{old_value}' -> '{new_value}'")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"field_name={field_name}\n")
+              f.write(f"old_value={old_value}\n")
+              f.write(f"new_value={new_value}\n")
+
+      - name: Commit correction
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/_data/datasets.csv
+          git commit -m "Correct dataset request #${{ github.event.issue.number }}: update ${{ steps.correction.outputs.field_name }}"
+          git pull --rebase origin dataset-request/issue-${{ github.event.issue.number }}
+          git push origin dataset-request/issue-${{ github.event.issue.number }}
+
+      - name: Comment confirmation
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Correction applied to the open PR:\n\n**${{ steps.correction.outputs.field_name }}**: ~~${{ steps.correction.outputs.old_value }}~~ → \`${{ steps.correction.outputs.new_value }}\``
+            });
+
+      - name: Comment on error
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Could not apply correction. Please check the format:\n\n\`\`\`\n!update Field Name: new value\n\`\`\`\n\nValid field names: DSC or PWG, Dataset Path, Generator/Dataset Version, Number of Events, Background, New Request, Pre-TDR Use, Early Science Use, Other Use, Description, Priority`
+            });

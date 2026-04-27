@@ -33,6 +33,7 @@ jobs:
         shell: python3 {0}
         env:
           PARSED_JSON: ${{ steps.issue_parser.outputs.jsonString }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
           import csv, json, os, re
 
@@ -57,6 +58,7 @@ jobs:
               clean(raw.get("other_use", "")),
               clean(raw.get("description", "")),
               priority_num(raw.get("priority", "")),
+              os.environ["ISSUE_NUMBER"],
           ]
 
           csv_path = "docs/_data/datasets.csv"
