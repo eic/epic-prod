@@ -1,0 +1,90 @@
+name: Append Dataset Request to CSV
+
+on:
+  issues:
+    types:
+      - labeled
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: append-dataset
+  cancel-in-progress: false
+
+jobs:
+  append-dataset:
+    if: github.event.label.name == 'dataset-request'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Parse issue body
+        id: issue_parser
+        uses: stefanbuck/github-issue-parser@v3
+        with:
+          template-path: .github/ISSUE_TEMPLATE/dataset_request.yml
+
+      - name: Append row to datasets CSV
+        shell: python3 {0}
+        env:
+          PARSED_JSON: ${{ steps.issue_parser.outputs.jsonString }}
+        run: |
+          import csv, json, os, re
+
+          raw = json.loads(os.environ["PARSED_JSON"])
+
+          def clean(v):
+              return (v or "").strip()
+
+          def priority_num(v):
+              m = re.match(r'^(-?\d+)', clean(v))
+              return m.group(1) if m else clean(v)
+
+          row = [
+              clean(raw.get("dsc_or_pwg", "")),
+              clean(raw.get("dataset_path", "")),
+              clean(raw.get("generator_config", "")),
+              clean(raw.get("number_of_events", "")) or "All",
+              clean(raw.get("background", "")),
+              clean(raw.get("new_request", "")),
+              clean(raw.get("pre_tdr_use", "")),
+              clean(raw.get("early_science_use", "")),
+              clean(raw.get("other_use", "")),
+              clean(raw.get("description", "")),
+              priority_num(raw.get("priority", "")),
+          ]
+
+          csv_path = "docs/_data/datasets.csv"
+          with open(csv_path, "a", newline="") as f:
+              csv.writer(f, quoting=csv.QUOTE_MINIMAL).writerow(row)
+
+          print(f"Appended row: {row}")
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v6
+        id: cpr
+        with:
+          commit-message: "Add dataset request from issue #${{ github.event.issue.number }}"
+          branch: "dataset-request/issue-${{ github.event.issue.number }}"
+          title: "[Dataset Request] ${{ github.event.issue.title }}"
+          body: |
+            Adds a new row to `docs/_data/datasets.csv` from issue #${{ github.event.issue.number }}.
+
+            Please review the appended row before merging. Once merged, the Jekyll site will rebuild automatically and the new entry will appear on the Campaign Datasets page.
+          labels: dataset-request
+
+      - name: Comment on issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Thank you for your dataset request! A pull request has been opened for review: ${{ steps.cpr.outputs.pull-request-url }}\n\nThis issue will be closed once the PR is merged.`
+            });

@@ -1,0 +1,127 @@
+name: Dataset Request
+description: Submit a new simulation dataset request
+title: "[Dataset Request] "
+labels:
+  - dataset-request
+body:
+  - type: dropdown
+    id: dsc_or_pwg
+    attributes:
+      label: DSC or PWG
+      description: Name of the DSC or PWG requesting the simulation production
+      options:
+        - Exclusive/Diffractive/Tagging
+        - Inclusive
+        - Jets & HF
+        - SIDIS
+        - BSM/EW
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: dataset_path
+    attributes:
+      label: Dataset Path
+      description: Path or URL where simulation input files are stored
+      placeholder: "/gpfs/path/to/files or http://..."
+    validations:
+      required: false
+
+  - type: input
+    id: generator_config
+    attributes:
+      label: Generator Config
+      description: Event generator name and version (e.g. Pythia8, EpIC, BeAGLE 1.03.02)
+      placeholder: "e.g. EpIC, Pythia 8.306, BeAGLE 1.03.02"
+    validations:
+      required: false
+
+  - type: input
+    id: number_of_events
+    attributes:
+      label: Number of Events
+      description: Number of events requested. Leave blank to default to "All".
+      placeholder: "e.g. 1M, 2.75M, 100k"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: background
+    attributes:
+      label: Background
+      description: Does the request include machine background events?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: new_request
+    attributes:
+      label: New Request
+      description: Is this a newly submitted request, or a production already being generated?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pre_tdr_use
+    attributes:
+      label: Pre-TDR Use
+      description: Is this production relevant for the pre-TDR?
+      options:
+        - "No"
+        - "Yes"
+        - "Maybe"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: early_science_use
+    attributes:
+      label: Early Science Use
+      description: Is this production relevant for the early science program?
+      options:
+        - "No"
+        - "Yes"
+        - "Maybe"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: other_use
+    attributes:
+      label: Other Use
+      description: Is this production relevant for other physics studies?
+      options:
+        - "No"
+        - "Yes"
+        - "Maybe"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Short explanation of the physics study this simulation supports
+      placeholder: "e.g. DVCS ep 10x130 sample for GPD studies..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: "Urgency of the request: 1 = Highest, 2 = Medium, 3 = Lower, -1 = N/A"
+      options:
+        - "1 (Highest)"
+        - "2 (Medium)"
+        - "3 (Lower)"
+        - "-1 (N/A)"
+    validations:
+      required: true
