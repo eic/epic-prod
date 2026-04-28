@@ -64,7 +64,7 @@ jobs:
           # Find the row for this issue
           target_idx = None
           for i, row in enumerate(rows):
-              if row.get("Issue", "").strip() == issue_number:
+              if (row.get("Issue") or "").strip() == issue_number:
                   target_idx = i
                   break
 
