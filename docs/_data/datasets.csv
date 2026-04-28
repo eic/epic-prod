@@ -1,138 +1,138 @@
 DSC or PWG,Dataset Path,Generator/Dataset Version,Number of Events,Background,New Request,Pre-TDR Use,Early Science Use,Other Use,Description,Priority,Issue
-Exclusive/Diffractive/Tagging,Input Files: /w/eic-scshelf2104/users/sjdkay/Jul2025_Campaign_Input/Afterburner_Output/pion,DEMPgen1.2.4,2.4M,No,No,Maybe,Yes,Potential ZDC performance studies,"DEMP events for pion and kaon structure studies. Two configurations, ep 10x130 and 10x250, for early science impact studies. New version of event generator that utilises a restrcited -t range to boost statistics in the crucial (for FPi studies) low t region. ",1
+Exclusive/Diffractive/Tagging,Input Files: /w/eic-scshelf2104/users/sjdkay/Jul2025_Campaign_Input/Afterburner_Output/pion,DEMPgen1.2.4,2.4M,No,No,Maybe,Yes,Potential ZDC performance studies,"DEMP events for pion and kaon structure studies. Two configurations, ep 10x130 and 10x250, for early science impact studies. New version of event generator that utilises a restrcited -t range to boost statistics in the crucial (for FPi studies) low t region. ",1,
 Exclusive/Diffractive/Tagging,"/w/eic-scshelf2104/users/
 gbxalex/SimCampaign_Input",lAger3.6.1,2.75M,No,Yes,No,Yes,Muon ID studies,"DVMP events for J/Psi studies. For the 10x130 configuration, 
-for early science impact studies. ",1
+for early science impact studies. ",1,
 Exclusive/Diffractive/Tagging,"/w/eic-scshelf2104/users/
 gbxalex/SimCampaign_Input",lAger3.6.1,3.85M,No,Yes,No,Yes,Muon ID studies,"DVMP events for J/Psi studies. For the 10x250 configuration, 
-for early science impact studies. ",1
+for early science impact studies. ",1,
 Exclusive/Diffractive/Tagging,"/w/eic-scshelf2104/users/
-gbxalex/SimCampaign_Input",lAger3.6.1,,No,Yes,No,Yes,Muon ID studies,DVMP events for J/Psi studies. For the 18x275 configuration,
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/wlin/docu/eHe3_10x166_5M,BeAGLE,3M,No,No,No,Yes,,"eHe3 10x166. en DIS study. A1He3, A1n, g1n. Tagging study.",1
-Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_18x110_1M,BeAGLE,3M,No,No,Yes,No,,"eHe3 18x110. en DIS study.  A1He3, A1n, g1n. Tagging study.",2
-Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_10x110_1M,BeAGLE,3M,No,No,Yes,Yes,,"eHe3 10x110. en DIS study.  A1He3, A1n, g1n.  Tagging study.",1
-Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_5x41_1M,BeAGLE,3M,No,No,Yes,No,,"eHe3 5x41. en DIS study.  A1He3, A1n, g1n. Tagging study.",2
+gbxalex/SimCampaign_Input",lAger3.6.1,,No,Yes,No,Yes,Muon ID studies,DVMP events for J/Psi studies. For the 18x275 configuration,,
+Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/wlin/docu/eHe3_10x166_5M,BeAGLE,3M,No,No,No,Yes,,"eHe3 10x166. en DIS study. A1He3, A1n, g1n. Tagging study.",1,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_18x110_1M,BeAGLE,3M,No,No,Yes,No,,"eHe3 18x110. en DIS study.  A1He3, A1n, g1n. Tagging study.",2,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_10x110_1M,BeAGLE,3M,No,No,Yes,Yes,,"eHe3 10x110. en DIS study.  A1He3, A1n, g1n.  Tagging study.",1,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_5x41_1M,BeAGLE,3M,No,No,Yes,No,,"eHe3 5x41. en DIS study.  A1He3, A1n, g1n. Tagging study.",2,
 Exclusive/Diffractive/Tagging,/gpfs02/eic/jkim/DVpi0P/sim_data/,EpIC,1M,Yes,No,No,Yes,"EDT Paper, possible machine background mixing","DVpi0P ep 10x130. Exclusive pi0 study. GPD and OAM physics + Background to DVCS.
-Nucleon tomography and Spin programs",1
+Nucleon tomography and Spin programs",1,
 Exclusive/Diffractive/Tagging,/gpfs02/eic/jkim/DVpi0P/sim_data/,EpIC,1M,No,No,Yes,No,Physics background to DVCS for preTDR,"DVpi0P ep 5x41. Exclusive pi0 study. GPD and OAM physics + Background to DVCS.
-Nucleon tomography and Spin programs",3
+Nucleon tomography and Spin programs",3,
 Exclusive/Diffractive/Tagging,/gpfs02/eic/jkim/DVpi0P/sim_data/,EpIC,,Yes,No,Yes,No,For both pre-TDR and EDT paper – machine background mixing,"DVpi0P ep 18x275. Exclusive pi0 study. GPD and OAM physics + Background to DVCS.
-Nucleon tomography and Spin programs",3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_18x275,EpIC,2M,Yes,No,Yes,No,Background to 18x275 J/psi,DDVCS e+e-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_18x275,EpIC,2M,No,No,Yes,No,Background to 18x275 J/psi,DDVCS e+e-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_10x130,EpIC,,Yes,Yes,No,Yes,,DDVCS e+e-(Effective TCS) events. 10x130 early science. Files are afterburned and in hepmc rootfile format,1
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_10x130,EpIC,,No,Yes,No,Yes,,DDVCS e+e-(Effective TCS) events. 10x130 early science. Files are afterburned and in hepmc rootfile format,1
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_muon_18x275,EpIC,2M,Yes,No,No,No,Background to 18x275 J/psi,DDVCS mu+mu-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_muon_18x275,EpIC,2M,No,No,Yes,No,Background to 18x275 J/psi,DDVCS mu+mu-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_18x275,eStarlight,1M,Yes,No,Yes,No,Background to 18x275 TCS,ep J/psi->e+e- events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_18x276,eStarlight,1M,No,No,Yes,No,Background to 18x275 TCS,ep J/psi->e+e- events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_muon_18x276,eStarlight,1M,Yes,No,Yes,No,Background to 18x275 muon TCS,ep J/psi->mu+mu- events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_muon_18x276,eStarlight,1M,No,No,Yes,No,Background to 18x275 muon TCS,ep J/psi->mu+mu- events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/5x41,EpIC,1M,No,No,Yes,No,,DVCS ep 5x41 sample (DVCS ONLY),-1
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/10x100,EpIC,1M,No,No,Yes,No,,DVCS ep 10x100 sample (DVCS ONLY),-1
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/18x275,EpIC,1M,No,No,Yes,No,,DVCS ep 18x275 sample (DVCS ONLY),-1
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.1/10x130/q2_1_100/,EpIC,1M,No,No,No,Yes,,DVCS ep 10x130 sample (DVCS+BH+int.),-1
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/18x275,EpIC,1M + ?,Yes,No,Yes,No,Machine background,DVCS + machine background mixed sample. (18x275),-1
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/10x100,EpIC,,Yes,No,Yes,No,Machine background,DVCS + machine background mixed sample. (10x100),-1
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/BeAGLE/10x100,BeAGLE,,No,No,Yes,Yes,Background study,Incoherent diffractive phi production in eAu 10x100 for background study in diffractive phi analysis.,1
-Exclusive/Diffractive/Tagging,eictest/ATHENA/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 1s (18x275),3
-Exclusive/Diffractive/Tagging,eictest/ATHENA/ EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon2sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 2s (18x275),3
-Exclusive/Diffractive/Tagging,eictest/ATHENA/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon3sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 3s (18x275),3
-Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiAcc_10x100.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (10x100),2
-Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiDiv_10x100.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (10x100),2
-Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiAcc_18x275.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (18x275),3
-Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiDiv_18x275.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (18x275),3
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_RHO_ABCONV/sartre1.39-1.01/eAu/10x100,Sartre,,No,No,Yes,Yes,Background study,Coherent diffractive rho production in eAu 10x100 for background study in diffractive phi analysis.,1
-Exclusive/Diffractive/Tagging, /gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/Sartre/eAu/10x100,Sartre,,No,No,Yes,Yes,Background study,Coherent diffractive phi production in eAu 10x100 for background study in diffractive phi analysis.,1
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/janvanek/eic/BeAGLE/run-BeAGLE/production/for_campaign/BeAGLE_10x130_ep_10M,BeAGLE 1.03.02,,No,Yes,Yes,No,,TDIS eD (proton),1
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/janvanek/eic/BeAGLE/run-BeAGLE/production/for_campaign/BeAGLE_10x130_en_10M,BeAGLE 1.03.02,,No,Yes,Yes,No,,TDIS eD (neutron),1
+Nucleon tomography and Spin programs",3,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_18x275,EpIC,2M,Yes,No,Yes,No,Background to 18x275 J/psi,DDVCS e+e-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_18x275,EpIC,2M,No,No,Yes,No,Background to 18x275 J/psi,DDVCS e+e-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_10x130,EpIC,,Yes,Yes,No,Yes,,DDVCS e+e-(Effective TCS) events. 10x130 early science. Files are afterburned and in hepmc rootfile format,1,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_10x130,EpIC,,No,Yes,No,Yes,,DDVCS e+e-(Effective TCS) events. 10x130 early science. Files are afterburned and in hepmc rootfile format,1,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_muon_18x275,EpIC,2M,Yes,No,No,No,Background to 18x275 J/psi,DDVCS mu+mu-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_muon_18x275,EpIC,2M,No,No,Yes,No,Background to 18x275 J/psi,DDVCS mu+mu-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_18x275,eStarlight,1M,Yes,No,Yes,No,Background to 18x275 TCS,ep J/psi->e+e- events. 18x275. Files are afterburned and in hepmc rootfile format,3,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_18x276,eStarlight,1M,No,No,Yes,No,Background to 18x275 TCS,ep J/psi->e+e- events. 18x275. Files are afterburned and in hepmc rootfile format,3,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_muon_18x276,eStarlight,1M,Yes,No,Yes,No,Background to 18x275 muon TCS,ep J/psi->mu+mu- events. 18x275. Files are afterburned and in hepmc rootfile format,3,
+Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_muon_18x276,eStarlight,1M,No,No,Yes,No,Background to 18x275 muon TCS,ep J/psi->mu+mu- events. 18x275. Files are afterburned and in hepmc rootfile format,3,
+Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/5x41,EpIC,1M,No,No,Yes,No,,DVCS ep 5x41 sample (DVCS ONLY),-1,
+Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/10x100,EpIC,1M,No,No,Yes,No,,DVCS ep 10x100 sample (DVCS ONLY),-1,
+Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/18x275,EpIC,1M,No,No,Yes,No,,DVCS ep 18x275 sample (DVCS ONLY),-1,
+Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.1/10x130/q2_1_100/,EpIC,1M,No,No,No,Yes,,DVCS ep 10x130 sample (DVCS+BH+int.),-1,
+Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/18x275,EpIC,1M + ?,Yes,No,Yes,No,Machine background,DVCS + machine background mixed sample. (18x275),-1,
+Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/10x100,EpIC,,Yes,No,Yes,No,Machine background,DVCS + machine background mixed sample. (10x100),-1,
+Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/BeAGLE/10x100,BeAGLE,,No,No,Yes,Yes,Background study,Incoherent diffractive phi production in eAu 10x100 for background study in diffractive phi analysis.,1,
+Exclusive/Diffractive/Tagging,eictest/ATHENA/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 1s (18x275),3,
+Exclusive/Diffractive/Tagging,eictest/ATHENA/ EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon2sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 2s (18x275),3,
+Exclusive/Diffractive/Tagging,eictest/ATHENA/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon3sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 3s (18x275),3,
+Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiAcc_10x100.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (10x100),2,
+Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiDiv_10x100.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (10x100),2,
+Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiAcc_18x275.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (18x275),3,
+Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiDiv_18x275.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (18x275),3,
+Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_RHO_ABCONV/sartre1.39-1.01/eAu/10x100,Sartre,,No,No,Yes,Yes,Background study,Coherent diffractive rho production in eAu 10x100 for background study in diffractive phi analysis.,1,
+Exclusive/Diffractive/Tagging, /gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/Sartre/eAu/10x100,Sartre,,No,No,Yes,Yes,Background study,Coherent diffractive phi production in eAu 10x100 for background study in diffractive phi analysis.,1,
+Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/janvanek/eic/BeAGLE/run-BeAGLE/production/for_campaign/BeAGLE_10x130_ep_10M,BeAGLE 1.03.02,,No,Yes,Yes,No,,TDIS eD (proton),1,
+Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/janvanek/eic/BeAGLE/run-BeAGLE/production/for_campaign/BeAGLE_10x130_en_10M,BeAGLE 1.03.02,,No,Yes,Yes,No,,TDIS eD (neutron),1,
 Exclusive/Diffractive/Tagging,,RAPGAP 3.303-1.0,,No,No,No,Yes,Potential DiffPDFimpact study,"   Inclusive diffractive DIS events for 10x100 GeV configuration. Q² range: 1 to 10⁴ GeV². Generated with RAPGAP 3.303 for forward proton tagging (Roman Pot/B0) and Large Rapidity Gap (LRG) selection methods. Used for diffractive structure function
-measurements and cross-section extraction in ePIC early science.",1
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/5x41,EpIC,,No,Yes,Yes,No,,DVCS 5x41 new files (DVCS + BH + Int),3
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x100,EpIC,,No,Yes,Yes,No,,DVCS 10x100 new files (DVCS + BH + Int),3
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x130,EpIC,,No,Yes,No,Yes,,DVCS 10x130 new files (DVCS + BH + Int),1
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x250,EpIC,,No,Yes,No,Yes,,DVCS 10x250 new files (DVCS + BH + Int),1
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/18x275,EpIC,,No,Yes,Yes,No,,DVCS 18x275 new files (DVCS + BH + Int),3
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/18x275,EpIC,,Yes,Yes,Yes,No,Machine background,DVCS 18x275 new files (DVCS + BH + Int),3
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x100,EpIC,,Yes,Yes,Yes,Yes,Machine background,DVCS 10x100 new files (DVCS + BH + Int),1
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/Mar2025_Campaign_Input/Afterburner_Output/pion,DEMPgen1.2.2,,No,No,Yes,Yes,Potential ZDC performance studies,Outdated DEMPgen 1.2.2 files,-1
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/Mar2025_Campaign_Input/Afterburner_Output/kaonLambda,DEMPgen1.2.2,,No,No,Yes,Yes,Potential ZDC performance studies,Outdated DEMPgen 1.2.2 files,-1
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_5x41.hepmc,lAger3.6.1,,No,No,No,No,,5x41 - J/Psi -> e+e-,3
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_5x100.hepmc,lAger3.6.1,,No,No,No,No,,5x100 - J/Psi -> e+e-,3
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_10x100.hepmc,lAger3.6.1,,No,No,No,No,,10x100 - J/Psi -> e+e-,3
-Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x130/hiAcc,lAger3.6.1,,No,No,No,Yes,,10x130 - J/Psi -> e+e-,1
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_18x275.hepmc,lAger3.6.1,,No,No,No,No,,18x275 - J/Psi -> e+e-,3
-Exclusive/Diffractive/Tagging,/volatile/eic/romanov/meson-structure-2025-10/afterburner,https://github.com/JeffersonLab/eic_mesonsf_generator,,No,No,Yes,No,FF Lambda reconstruction,18x275 TDIS Kaon Structure Function (lambda production),2
-Exclusive/Diffractive/Tagging,/volatile/eic/romanov/meson-structure-2025-10/afterburner,https://github.com/JeffersonLab/eic_mesonsf_generator,,Yes,No,Yes,No,FF Lambda reconstruction,18x275 TDIS Kaon Structure Function (lambda production) with machine BG,2
-,,,,,,,,,,
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,18x275 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,Yes,No,Yes,No,,18x275 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,10x275 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,10x100 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,5x100 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,5x41 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,18x275 ep CC DIS,3
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,10x275 ep CC DIS,3
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,10x100 ep CC DIS,3
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,5x100 ep CC DIS,3
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,5x41 ep CC DIS,3
-Inclusive,/gpfs02/eic/maples/pythia6_ep_early_science,Pythia 6.428,1.55M,No,No,No,Yes,,10x130 ep NC DIS for Early Science,1
-Inclusive,/gpfs02/eic/maples/pythia6_ep_early_science,Pythia 6.428,1.55M,No,No,No,Yes,,10x250 ep NC DIS for Early Science,1
-Inclusive,/gpfs02/eic/baraks/djangoh/djangoh_local/outfiles,Djangoh 4.6.21,100k,No,No,Yes,Yes,,10x100 ep NC DIS with QED Radiative effects on for studies of QED radiative corrections,3
-Inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eAu/10x100,BeAGLE,,No,No,Yes,Yes,,eAu events for nuclear structure functions,1
-Inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eH2/10x130,BeAGLE,,No,No,Yes,Yes,,eD events for nuclear structure functions,1
-Inclusive,volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eRu,BeAGLE,,No,Yes,No,Yes,,eRu for Early Science nuclear SF,1
-Inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eCu,BeAGLE,,No,Yes,No,Yes,,eCu for Early Science nuclear SF,1
-Inclusive,/gpfs02/eic/DATA/YR_SIDIS/ep_10x100/hepmc_ip6/noradcor/,PYTHIA-RAD-CORR,,No,Yes,Yes,Yes,"ep NC DIS, no QED radiation","Pythia 6 ep NC DIS samples, currently essential for pion contamination in eID study",1
-Inclusive,/gpfs02/eic/DATA/YR_SIDIS/ep_18x275/hepmc_ip6/noradcor/,PYTHIA-RAD-CORR,,No,Yes,Yes,No,"ep NC DIS, no QED radiation","Pythia 6 ep NC DIS samples, currently essential for pion contamination in eID study",2
-,,,,,,,,,,
-Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.0/18x275/hiDiv,Pythia 8.306,,Yes,No,Yes,No,Background study,,3
-Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.0/18x275/hiDiv,Pythia 8.306,,No,No,Yes,No,Background study,,3
-Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_1/hiDiv,Pythia 8.306,,No,No,Yes,Yes,,,2
-Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_1/hiDiv,Pythia 8.306,,Yes,No,Yes,Yes,Background study,,1
-Jets & HF,epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000,BeAGLE,,No,No,Yes,Yes,,,1
-Jets & HF,epic_craterlake/SIDIS/Lc_ABCONV/HFsim-PYTHIA/pythia8.306-1.2/ep/10x100/q2_1to10000/hiDiv,Pythia 8.306,,No,No,Yes,Yes,,,3
-Jets & HF,epic_craterlake_without_zdc/SIDIS/Lc_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000,BeAGLE,,No,No,Yes,Yes,,,2
-Jets & HF,epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/10x100/q2_1to10,BeAGLE,,No,No,Yes,Yes,,,1
-Jets & HF,epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/10x100/q2_10to100,BeAGLE,,No,No,Yes,Yes,,,1
-Jets & HF,/gpfs/mnt/gpfs02/eic/rongrong/SC_requests/dijet/pythia6_ep_18x275_Q2min1/ab_hepmc,Pythia 6.428,,No,Yes,Yes,No,,Simulation of photon-gluon and photon-quark processes,3
-Jets & HF,D0 at 10x130,,,,,No,Yes,,Place holder for Mach - new request will be submited soon,Will be 1
-Jets & HF,D0 at 10x250,,,,,No,Yes,,Place holder for Mach - new request will be submited soon,Will be 1
-Jets & HF,Lc at 10x250,,,,,No,Yes,,Place holder for Mach - new request will be submited soon,Will be 1
-Jets & HF,/volatile/eic/EPIC/RECO/25.10.4/epic_craterlake/Bkg_1SignalPer2usFrame/DIS/NC/10x100/minQ2=1,Pythia 8.306,,Yes,Yes,No,Yes,tracking study,10 x 100 NC min Q2=1 DIS sample with machine background,1
-,,,,,,,,,,
-SIDIS,pythia6-eic/1.0.0/10x100/q2_0to1,Pythia 6,,No,No,,,,Low Q2/Photoproduction studies+background,3
-SIDIS,pythia6-eic/1.0.0/10x275/q2_0to1,Pythia 6,,No,No,,,,Low Q2/Photoproduction studies+background,3
-SIDIS,pythia6-eic/1.0.0/18x275/q2_0to1,Pythia 6,,No,No,,,,Low Q2/Photoproduction studies+background,3
-,,,,,,,,,,
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_20.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_20.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_20.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_20.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_20.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_20.0.list",1
-Exclusive/Diffractive/Tagging,/gpfs,www.github.com,All,No,Yes,No,No,No,test,1,112
+measurements and cross-section extraction in ePIC early science.",1,
+Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/5x41,EpIC,,No,Yes,Yes,No,,DVCS 5x41 new files (DVCS + BH + Int),3,
+Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x100,EpIC,,No,Yes,Yes,No,,DVCS 10x100 new files (DVCS + BH + Int),3,
+Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x130,EpIC,,No,Yes,No,Yes,,DVCS 10x130 new files (DVCS + BH + Int),1,
+Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x250,EpIC,,No,Yes,No,Yes,,DVCS 10x250 new files (DVCS + BH + Int),1,
+Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/18x275,EpIC,,No,Yes,Yes,No,,DVCS 18x275 new files (DVCS + BH + Int),3,
+Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/18x275,EpIC,,Yes,Yes,Yes,No,Machine background,DVCS 18x275 new files (DVCS + BH + Int),3,
+Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x100,EpIC,,Yes,Yes,Yes,Yes,Machine background,DVCS 10x100 new files (DVCS + BH + Int),1,
+Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/Mar2025_Campaign_Input/Afterburner_Output/pion,DEMPgen1.2.2,,No,No,Yes,Yes,Potential ZDC performance studies,Outdated DEMPgen 1.2.2 files,-1,
+Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/Mar2025_Campaign_Input/Afterburner_Output/kaonLambda,DEMPgen1.2.2,,No,No,Yes,Yes,Potential ZDC performance studies,Outdated DEMPgen 1.2.2 files,-1,
+Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_5x41.hepmc,lAger3.6.1,,No,No,No,No,,5x41 - J/Psi -> e+e-,3,
+Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_5x100.hepmc,lAger3.6.1,,No,No,No,No,,5x100 - J/Psi -> e+e-,3,
+Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_10x100.hepmc,lAger3.6.1,,No,No,No,No,,10x100 - J/Psi -> e+e-,3,
+Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x130/hiAcc,lAger3.6.1,,No,No,No,Yes,,10x130 - J/Psi -> e+e-,1,
+Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_18x275.hepmc,lAger3.6.1,,No,No,No,No,,18x275 - J/Psi -> e+e-,3,
+Exclusive/Diffractive/Tagging,/volatile/eic/romanov/meson-structure-2025-10/afterburner,https://github.com/JeffersonLab/eic_mesonsf_generator,,No,No,Yes,No,FF Lambda reconstruction,18x275 TDIS Kaon Structure Function (lambda production),2,
+Exclusive/Diffractive/Tagging,/volatile/eic/romanov/meson-structure-2025-10/afterburner,https://github.com/JeffersonLab/eic_mesonsf_generator,,Yes,No,Yes,No,FF Lambda reconstruction,18x275 TDIS Kaon Structure Function (lambda production) with machine BG,2,
+,,,,,,,,,,,
+Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,18x275 ep NC DIS,2,
+Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,Yes,No,Yes,No,,18x275 ep NC DIS,2,
+Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,10x275 ep NC DIS,2,
+Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,10x100 ep NC DIS,2,
+Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,5x100 ep NC DIS,2,
+Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,5x41 ep NC DIS,2,
+Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,18x275 ep CC DIS,3,
+Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,10x275 ep CC DIS,3,
+Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,10x100 ep CC DIS,3,
+Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,5x100 ep CC DIS,3,
+Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,5x41 ep CC DIS,3,
+Inclusive,/gpfs02/eic/maples/pythia6_ep_early_science,Pythia 6.428,1.55M,No,No,No,Yes,,10x130 ep NC DIS for Early Science,1,
+Inclusive,/gpfs02/eic/maples/pythia6_ep_early_science,Pythia 6.428,1.55M,No,No,No,Yes,,10x250 ep NC DIS for Early Science,1,
+Inclusive,/gpfs02/eic/baraks/djangoh/djangoh_local/outfiles,Djangoh 4.6.21,100k,No,No,Yes,Yes,,10x100 ep NC DIS with QED Radiative effects on for studies of QED radiative corrections,3,
+Inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eAu/10x100,BeAGLE,,No,No,Yes,Yes,,eAu events for nuclear structure functions,1,
+Inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eH2/10x130,BeAGLE,,No,No,Yes,Yes,,eD events for nuclear structure functions,1,
+Inclusive,volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eRu,BeAGLE,,No,Yes,No,Yes,,eRu for Early Science nuclear SF,1,
+Inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eCu,BeAGLE,,No,Yes,No,Yes,,eCu for Early Science nuclear SF,1,
+Inclusive,/gpfs02/eic/DATA/YR_SIDIS/ep_10x100/hepmc_ip6/noradcor/,PYTHIA-RAD-CORR,,No,Yes,Yes,Yes,"ep NC DIS, no QED radiation","Pythia 6 ep NC DIS samples, currently essential for pion contamination in eID study",1,
+Inclusive,/gpfs02/eic/DATA/YR_SIDIS/ep_18x275/hepmc_ip6/noradcor/,PYTHIA-RAD-CORR,,No,Yes,Yes,No,"ep NC DIS, no QED radiation","Pythia 6 ep NC DIS samples, currently essential for pion contamination in eID study",2,
+,,,,,,,,,,,
+Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.0/18x275/hiDiv,Pythia 8.306,,Yes,No,Yes,No,Background study,,3,
+Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.0/18x275/hiDiv,Pythia 8.306,,No,No,Yes,No,Background study,,3,
+Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_1/hiDiv,Pythia 8.306,,No,No,Yes,Yes,,,2,
+Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_1/hiDiv,Pythia 8.306,,Yes,No,Yes,Yes,Background study,,1,
+Jets & HF,epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000,BeAGLE,,No,No,Yes,Yes,,,1,
+Jets & HF,epic_craterlake/SIDIS/Lc_ABCONV/HFsim-PYTHIA/pythia8.306-1.2/ep/10x100/q2_1to10000/hiDiv,Pythia 8.306,,No,No,Yes,Yes,,,3,
+Jets & HF,epic_craterlake_without_zdc/SIDIS/Lc_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000,BeAGLE,,No,No,Yes,Yes,,,2,
+Jets & HF,epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/10x100/q2_1to10,BeAGLE,,No,No,Yes,Yes,,,1,
+Jets & HF,epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/10x100/q2_10to100,BeAGLE,,No,No,Yes,Yes,,,1,
+Jets & HF,/gpfs/mnt/gpfs02/eic/rongrong/SC_requests/dijet/pythia6_ep_18x275_Q2min1/ab_hepmc,Pythia 6.428,,No,Yes,Yes,No,,Simulation of photon-gluon and photon-quark processes,3,
+Jets & HF,D0 at 10x130,,,,,No,Yes,,Place holder for Mach - new request will be submited soon,Will be 1,
+Jets & HF,D0 at 10x250,,,,,No,Yes,,Place holder for Mach - new request will be submited soon,Will be 1,
+Jets & HF,Lc at 10x250,,,,,No,Yes,,Place holder for Mach - new request will be submited soon,Will be 1,
+Jets & HF,/volatile/eic/EPIC/RECO/25.10.4/epic_craterlake/Bkg_1SignalPer2usFrame/DIS/NC/10x100/minQ2=1,Pythia 8.306,,Yes,Yes,No,Yes,tracking study,10 x 100 NC min Q2=1 DIS sample with machine background,1,
+,,,,,,,,,,,
+SIDIS,pythia6-eic/1.0.0/10x100/q2_0to1,Pythia 6,,No,No,,,,Low Q2/Photoproduction studies+background,3,
+SIDIS,pythia6-eic/1.0.0/10x275/q2_0to1,Pythia 6,,No,No,,,,Low Q2/Photoproduction studies+background,3,
+SIDIS,pythia6-eic/1.0.0/18x275/q2_0to1,Pythia 6,,No,No,,,,Low Q2/Photoproduction studies+background,3,
+,,,,,,,,,,,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_1.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_2.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_5.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_10.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_20.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_1.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_2.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_5.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_10.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_20.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_1.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_2.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_5.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_10.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_20.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_1.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_2.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_5.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_10.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_20.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_1.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_2.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_5.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_10.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_20.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_1.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_2.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_5.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_10.0.list",1,
+BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_20.0.list",1,
+Exclusive/Diffractive/Tagging,/gpfs,www.github.com,All,No,Yes,No,No,No,test,2,112
