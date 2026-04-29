@@ -14,6 +14,7 @@ It tracks both completed and pending requests to aid planning and prioritisation
 <table border="1" width="100%" style="font-size:0.85em;">
   <thead>
     <tr>
+      <th>Index</th>
       <th>DSC or PWG</th>
       <th>Dataset Path</th>
       <th>Generator/Dataset Version</th>
@@ -31,6 +32,7 @@ It tracks both completed and pending requests to aid planning and prioritisation
     {% for row in site.data.datasets %}
       {% if row["DSC or PWG"] == "" or row["DSC or PWG"] == nil %}{% continue %}{% endif %}
       <tr>
+        <td>{{ forloop.index }}</td>
         <td>{{ row["DSC or PWG"] }}</td>
         <td>{{ row["Dataset Path"] }}</td>
         <td>{{ row["Generator/Dataset Version"] }}</td>
