@@ -29,10 +29,12 @@ It tracks both completed and pending requests to aid planning and prioritisation
     </tr>
   </thead>
   <tbody>
+    {% assign counter = 0 %}
     {% for row in site.data.datasets %}
       {% if row["DSC or PWG"] == "" or row["DSC or PWG"] == nil %}{% continue %}{% endif %}
+      {% assign counter = counter | plus: 1 %}
       <tr>
-        <td>{{ forloop.index }}</td>
+        <td>{{ counter }}</td>
         <td>{{ row["DSC or PWG"] }}</td>
         <td>{{ row["Dataset Path"] }}</td>
         <td>{{ row["Generator/Dataset Version"] }}</td>
