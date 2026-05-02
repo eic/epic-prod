@@ -65,8 +65,6 @@ Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulati
 Exclusive/Diffractive/Tagging,/volatile/eic/romanov/meson-structure-2025-10/afterburner,https://github.com/JeffersonLab/eic_mesonsf_generator,,No,No,Yes,No,FF Lambda reconstruction,18x275 TDIS Kaon Structure Function (lambda production),2,
 Exclusive/Diffractive/Tagging,/volatile/eic/romanov/meson-structure-2025-10/afterburner,https://github.com/JeffersonLab/eic_mesonsf_generator,,Yes,No,Yes,No,FF Lambda reconstruction,18x275 TDIS Kaon Structure Function (lambda production) with machine BG,2,
 ,,,,,,,,,,,
-Inclusive,/gpfs02/eic/maples/pythia6_ep_early_science,Pythia 6.428,1.55M,No,No,No,Yes,,10x130 ep NC DIS for Early Science,1,
-Inclusive,/gpfs02/eic/maples/pythia6_ep_early_science,Pythia 6.428,1.55M,No,No,No,Yes,,10x250 ep NC DIS for Early Science,1,
 Inclusive,/gpfs02/eic/baraks/djangoh/djangoh_local/outfiles,Djangoh 4.6.21,100k,No,No,Yes,Yes,,10x100 ep NC DIS with QED Radiative effects on for studies of QED radiative corrections,3,
 Inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eAu/10x100,BeAGLE,,No,No,Yes,Yes,,eAu events for nuclear structure functions,1,
 Inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eH2/10x130,BeAGLE,,No,No,Yes,Yes,,eD events for nuclear structure functions,1,
