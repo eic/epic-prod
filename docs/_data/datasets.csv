@@ -163,7 +163,7 @@ TBD,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.2/eHe3/5x41/q2_2to10,BeAGLE1.03
 TBD,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_100to10000,BeAGLE1.03.02-2.1,,,,,,,From log.txt: DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_100to10000,,
 TBD,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_10to100,BeAGLE1.03.02-2.1,,,,,,,From log.txt: DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_10to100,,
 TBD,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_2to10,BeAGLE1.03.02-2.1,,,,,,,From log.txt: DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_2to10,,
-TBD,/volatile/eic/EPIC/EVGEN/DIS/CC/10x100/minQ2=100,TBD,,,,,,,From log.txt: DIS/CC/10x100/minQ2=100,,
+Inclusive,/volatile/eic/EPIC/EVGEN/DIS/CC/10x100/minQ2=100,Pythia 8,,No,No,No,No,,10x100 ep CC DIS with minQ2=100,3,
 Inclusive,/volatile/eic/EPIC/EVGEN/DIS/CC/10x100/minQ2=1000,TBD,,No,No,No,No,,10x100 ep CC DIS with minQ2=1000,3,
 Inclusive,/volatile/eic/EPIC/EVGEN/DIS/CC/10x275/minQ2=100,TBD,,No,No,No,No,,10x275 ep CC DIS with minQ2=100,3,
 Inclusive,/volatile/eic/EPIC/EVGEN/DIS/CC/10x275/minQ2=1000,TBD,,No,No,No,No,,10x275 ep CC DIS with minQ2=1000,3,
