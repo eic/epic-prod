@@ -996,7 +996,7 @@
 
 === epic:/RECO/26.04.1/epic_craterlake/SINGLE/kaon-/200MeV/45to135deg ===
   RSE: BNL-XRD                                   Files: 21/21 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 20/21 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 21/21 (complete)
   Total Size: 18.836 GB (21 files)
 
 === epic:/RECO/26.04.1/epic_craterlake/SINGLE/kaon-/200MeV/130to177deg ===
@@ -1639,5 +1639,5 @@
 
 === CAMPAIGN SUMMARY ===
   RSE: BNL-XRD                                   Total Size: 114.696 TB       Total Files: 280139
-  RSE: JLAB-TAPE-SE                              Total Size: 114.695 TB       Total Files: 280137
+  RSE: JLAB-TAPE-SE                              Total Size: 114.696 TB       Total Files: 280138
 ```

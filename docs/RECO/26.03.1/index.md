@@ -361,7 +361,7 @@
 
 === epic:/RECO/26.03.1/epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/10x100/q2_1to10000 ===
   RSE: BNL-XRD                                   Files: 1987/1987 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 1986/1987 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 1987/1987 (complete)
   Total Size: 177.266 GB (1987 files)
 
 === epic:/RECO/26.03.1/epic_craterlake_without_zdc/SIDIS/Lc_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/10x100/q2_1to10000 ===
@@ -375,5 +375,5 @@
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 16.923 TB        Total Files: 87924
   RSE: BNL-XRD                                   Total Size: 11.756 TB        Total Files: 90286
-  RSE: JLAB-TAPE-SE                              Total Size: 25.349 TB        Total Files: 155556
+  RSE: JLAB-TAPE-SE                              Total Size: 25.349 TB        Total Files: 155557
 ```
