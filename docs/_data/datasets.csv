@@ -1,12 +1,4 @@
 DSC or PWG,Dataset Path,Generator/Dataset Version,Number of Events,Background,New Request,Pre-TDR Use,Early Science Use,Other Use,Description,Priority,Issue
-Exclusive/Diffractive/Tagging,"/w/eic-scshelf2104/users/
-gbxalex/SimCampaign_Input",lAger3.6.1,2.75M,No,Yes,No,Yes,Muon ID studies,"DVMP events for J/Psi studies. For the 10x130 configuration, 
-for early science impact studies. ",1,
-Exclusive/Diffractive/Tagging,"/w/eic-scshelf2104/users/
-gbxalex/SimCampaign_Input",lAger3.6.1,3.85M,No,Yes,No,Yes,Muon ID studies,"DVMP events for J/Psi studies. For the 10x250 configuration, 
-for early science impact studies. ",1,
-Exclusive/Diffractive/Tagging,"/w/eic-scshelf2104/users/
-gbxalex/SimCampaign_Input",lAger3.6.1,,No,Yes,No,Yes,Muon ID studies,DVMP events for J/Psi studies. For the 18x275 configuration,,
 Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/wlin/docu/eHe3_10x166_5M,BeAGLE,3M,No,No,No,Yes,,"eHe3 10x166. en DIS study. A1He3, A1n, g1n. Tagging study.",1,
 Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_18x110_1M,BeAGLE,3M,No,No,Yes,No,,"eHe3 18x110. en DIS study.  A1He3, A1n, g1n. Tagging study.",2,
 Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_10x110_1M,BeAGLE,3M,No,No,Yes,Yes,,"eHe3 10x110. en DIS study.  A1He3, A1n, g1n.  Tagging study.",1,
