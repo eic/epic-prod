@@ -33,7 +33,6 @@ Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/E
 Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.1/10x130/q2_1_100/,EpIC,1M,No,No,No,Yes,,DVCS ep 10x130 sample (DVCS+BH+int.),-1,
 Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/18x275,EpIC,1M + ?,Yes,No,Yes,No,Machine background,DVCS + machine background mixed sample. (18x275),-1,
 Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/10x100,EpIC,,Yes,No,Yes,No,Machine background,DVCS + machine background mixed sample. (10x100),-1,
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/BeAGLE/10x100,BeAGLE,,No,No,Yes,Yes,Background study,Incoherent diffractive phi production in eAu 10x100 for background study in diffractive phi analysis.,1,
 Exclusive/Diffractive/Tagging,eictest/ATHENA/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 1s (18x275),3,
 Exclusive/Diffractive/Tagging,eictest/ATHENA/ EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon2sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 2s (18x275),3,
 Exclusive/Diffractive/Tagging,eictest/ATHENA/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon3sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 3s (18x275),3,
@@ -41,8 +40,6 @@ Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/
 Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiDiv_10x100.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (10x100),2,
 Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiAcc_18x275.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (18x275),3,
 Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiDiv_18x275.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (18x275),3,
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_RHO_ABCONV/sartre1.39-1.01/eAu/10x100,Sartre,,No,No,Yes,Yes,Background study,Coherent diffractive rho production in eAu 10x100 for background study in diffractive phi analysis.,1,
-Exclusive/Diffractive/Tagging, /gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/Sartre/eAu/10x100,Sartre,,No,No,Yes,Yes,Background study,Coherent diffractive phi production in eAu 10x100 for background study in diffractive phi analysis.,1,
 Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/janvanek/eic/BeAGLE/run-BeAGLE/production/for_campaign/BeAGLE_10x130_ep_10M,BeAGLE 1.03.02,,No,Yes,Yes,No,,TDIS eD (proton),1,
 Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/janvanek/eic/BeAGLE/run-BeAGLE/production/for_campaign/BeAGLE_10x130_en_10M,BeAGLE 1.03.02,,No,Yes,Yes,No,,TDIS eD (neutron),1,
 Exclusive/Diffractive/Tagging,,RAPGAP 3.303-1.0,,No,No,No,Yes,Potential DiffPDFimpact study,"   Inclusive diffractive DIS events for 10x100 GeV configuration. Q² range: 1 to 10⁴ GeV². Generated with RAPGAP 3.303 for forward proton tagging (Roman Pot/B0) and Large Rapidity Gap (LRG) selection methods. Used for diffractive structure function
