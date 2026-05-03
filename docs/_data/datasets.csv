@@ -38,13 +38,6 @@ Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/janvanek/eic/BeAGLE/run-BeAGL
 Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/janvanek/eic/BeAGLE/run-BeAGLE/production/for_campaign/BeAGLE_10x130_en_10M,BeAGLE 1.03.02,,No,Yes,Yes,No,,TDIS eD (neutron),1,
 Exclusive/Diffractive/Tagging,,RAPGAP 3.303-1.0,,No,No,No,Yes,Potential DiffPDFimpact study,"   Inclusive diffractive DIS events for 10x100 GeV configuration. Q² range: 1 to 10⁴ GeV². Generated with RAPGAP 3.303 for forward proton tagging (Roman Pot/B0) and Large Rapidity Gap (LRG) selection methods. Used for diffractive structure function
 measurements and cross-section extraction in ePIC early science.",1,
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/5x41,EpIC,,No,Yes,Yes,No,,DVCS 5x41 new files (DVCS + BH + Int),3,
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x100,EpIC,,No,Yes,Yes,No,,DVCS 10x100 new files (DVCS + BH + Int),3,
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x130,EpIC,,No,Yes,No,Yes,,DVCS 10x130 new files (DVCS + BH + Int),1,
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x250,EpIC,,No,Yes,No,Yes,,DVCS 10x250 new files (DVCS + BH + Int),1,
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/18x275,EpIC,,No,Yes,Yes,No,,DVCS 18x275 new files (DVCS + BH + Int),3,
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/18x275,EpIC,,Yes,Yes,Yes,No,Machine background,DVCS 18x275 new files (DVCS + BH + Int),3,
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x100,EpIC,,Yes,Yes,Yes,Yes,Machine background,DVCS 10x100 new files (DVCS + BH + Int),1,
 Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/Mar2025_Campaign_Input/Afterburner_Output/pion,DEMPgen1.2.2,,No,No,Yes,Yes,Potential ZDC performance studies,Outdated DEMPgen 1.2.2 files,-1,
 Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/Mar2025_Campaign_Input/Afterburner_Output/kaonLambda,DEMPgen1.2.2,,No,No,Yes,Yes,Potential ZDC performance studies,Outdated DEMPgen 1.2.2 files,-1,
 Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_5x41.hepmc,lAger3.6.1,,No,No,No,No,,5x41 - J/Psi -> e+e-,3,
