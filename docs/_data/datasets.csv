@@ -11,12 +11,6 @@ Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/wlin/docu/eHe3_10x166_5M,BeAG
 Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_18x110_1M,BeAGLE,3M,No,No,Yes,No,,"eHe3 18x110. en DIS study.  A1He3, A1n, g1n. Tagging study.",2,
 Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_10x110_1M,BeAGLE,3M,No,No,Yes,Yes,,"eHe3 10x110. en DIS study.  A1He3, A1n, g1n.  Tagging study.",1,
 Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_5x41_1M,BeAGLE,3M,No,No,Yes,No,,"eHe3 5x41. en DIS study.  A1He3, A1n, g1n. Tagging study.",2,
-Exclusive/Diffractive/Tagging,/gpfs02/eic/jkim/DVpi0P/sim_data/,EpIC,1M,Yes,No,No,Yes,"EDT Paper, possible machine background mixing","DVpi0P ep 10x130. Exclusive pi0 study. GPD and OAM physics + Background to DVCS.
-Nucleon tomography and Spin programs",1,
-Exclusive/Diffractive/Tagging,/gpfs02/eic/jkim/DVpi0P/sim_data/,EpIC,1M,No,No,Yes,No,Physics background to DVCS for preTDR,"DVpi0P ep 5x41. Exclusive pi0 study. GPD and OAM physics + Background to DVCS.
-Nucleon tomography and Spin programs",3,
-Exclusive/Diffractive/Tagging,/gpfs02/eic/jkim/DVpi0P/sim_data/,EpIC,,Yes,No,Yes,No,For both pre-TDR and EDT paper – machine background mixing,"DVpi0P ep 18x275. Exclusive pi0 study. GPD and OAM physics + Background to DVCS.
-Nucleon tomography and Spin programs",3,
 Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_18x275,EpIC,2M,Yes,No,Yes,No,Background to 18x275 J/psi,DDVCS e+e-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3,
 Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_18x275,EpIC,2M,No,No,Yes,No,Background to 18x275 J/psi,DDVCS e+e-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3,
 Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_10x130,EpIC,,Yes,Yes,No,Yes,,DDVCS e+e-(Effective TCS) events. 10x130 early science. Files are afterburned and in hepmc rootfile format,1,
