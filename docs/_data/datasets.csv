@@ -144,6 +144,7 @@ Jets & HF,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_100
 SIDIS,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.0.0/10x100/q2_0to1,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.0.0,,No,No,Yes,No,,Low Q2/Photoproduction studies+background,3,
 SIDIS,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.0.0/10x275/q2_0to1,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.0.0,,No,No,Yes,No,,Low Q2/Photoproduction studies+background,3,
 SIDIS,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.0.0/18x275/q2_0to1,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.0.0,,No,No,Yes,No,,Low Q2/Photoproduction studies+background,3,
+SIDIS,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/10x100/q2_0to1,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,Yes,,ep NC DIS no QED radiation 10x100,1,
 SIDIS,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/10x100/q2_1to10,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,Yes,,ep NC DIS no QED radiation 10x100,1,
 SIDIS,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/10x100/q2_10to100,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,Yes,,ep NC DIS no QED radiation 10x100,1,
 SIDIS,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/10x100/q2_100to1000,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,Yes,,ep NC DIS no QED radiation 10x100,1,
