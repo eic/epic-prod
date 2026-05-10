@@ -68,8 +68,6 @@ inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eRu/ep/10x115/q2_1to1
 inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eRu/en/10x115/q2_1to1000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.0,,No,Yes,No,Yes,,eRu en events for Early Science nuclear SF. 10x115 q2=1-1000,
 inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eCu/ep/10x115/q2_1to1000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.0,,No,Yes,No,Yes,,eCu ep events for Early Science nuclear SF. 10x115 q2=1-1000,
 inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eCu/en/10x115/q2_1to1000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.0,,No,Yes,No,Yes,,eCu en events for Early Science nuclear SF. 10x115 q2=1-1000,
-inclusive,1,/gpfs02/eic/DATA/YR_SIDIS/ep_10x100/hepmc_ip6/noradcor/,PYTHIA-RAD-CORR,,No,Yes,Yes,Yes,"ep NC DIS, no QED radiation","Pythia 6 ep NC DIS samples, currently essential for pion contamination in eID study",
-inclusive,2,/gpfs02/eic/DATA/YR_SIDIS/ep_18x275/hepmc_ip6/noradcor/,PYTHIA-RAD-CORR,,No,Yes,Yes,No,"ep NC DIS, no QED radiation","Pythia 6 ep NC DIS samples, currently essential for pion contamination in eID study",
 ,,,,,,,,,,,
 Jets & HF,1,epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000,BeAGLE,,No,No,Yes,Yes,,,
 Jets & HF,3,epic_craterlake/SIDIS/Lc_ABCONV/HFsim-PYTHIA/pythia8.306-1.2/ep/10x100/q2_1to10000/hiDiv,Pythia 8.306,,No,No,Yes,Yes,,,
