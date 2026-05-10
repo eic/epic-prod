@@ -24,6 +24,7 @@ It tracks both completed and pending requests to aid planning and prioritisation
     <tr>
       <th>Index</th>
       <th>DSC or PWG</th>
+      <th>Priority</th>
       <th>Dataset Path</th>
       <th>Generator/Dataset Version</th>
       <th>Number of Events</th>
@@ -33,7 +34,6 @@ It tracks both completed and pending requests to aid planning and prioritisation
       <th>Early Science Use</th>
       <th>Other Use</th>
       <th>Description</th>
-      <th>Priority</th>
     </tr>
   </thead>
   <tbody>
@@ -45,6 +45,7 @@ It tracks both completed and pending requests to aid planning and prioritisation
       <tr class="{{ pwg_class }}">
         <td>{{ forloop.index }}</td>
         <td>{{ row["DSC or PWG"] }}</td>
+        <td>{{ row["Priority"] }}</td>
         <td>{{ row["Dataset Path"] }}</td>
         <td>{{ row["Generator/Dataset Version"] }}</td>
         <td>{{ row["Number of Events"] }}</td>
@@ -54,7 +55,6 @@ It tracks both completed and pending requests to aid planning and prioritisation
         <td>{{ row["Early Science Use"] }}</td>
         <td>{{ row["Other Use"] }}</td>
         <td>{{ row["Description"] }}</td>
-        <td>{{ row["Priority"] }}</td>
       </tr>
     {% endfor %}
   </tbody>
