@@ -1,137 +1,407 @@
-DSC or PWG,Dataset Path,Generator/Dataset Version,Number of Events,Background,New Request,Pre-TDR Use,Early Science Use,Other Use,Description,Priority,Issue
-Exclusive/Diffractive/Tagging,Input Files: /w/eic-scshelf2104/users/sjdkay/Jul2025_Campaign_Input/Afterburner_Output/pion,DEMPgen1.2.4,2.4M,No,No,Maybe,Yes,Potential ZDC performance studies,"DEMP events for pion and kaon structure studies. Two configurations, ep 10x130 and 10x250, for early science impact studies. New version of event generator that utilises a restrcited -t range to boost statistics in the crucial (for FPi studies) low t region. ",1
-Exclusive/Diffractive/Tagging,"/w/eic-scshelf2104/users/
-gbxalex/SimCampaign_Input",lAger3.6.1,2.75M,No,Yes,No,Yes,Muon ID studies,"DVMP events for J/Psi studies. For the 10x130 configuration, 
-for early science impact studies. ",1
-Exclusive/Diffractive/Tagging,"/w/eic-scshelf2104/users/
-gbxalex/SimCampaign_Input",lAger3.6.1,3.85M,No,Yes,No,Yes,Muon ID studies,"DVMP events for J/Psi studies. For the 10x250 configuration, 
-for early science impact studies. ",1
-Exclusive/Diffractive/Tagging,"/w/eic-scshelf2104/users/
-gbxalex/SimCampaign_Input",lAger3.6.1,,No,Yes,No,Yes,Muon ID studies,DVMP events for J/Psi studies. For the 18x275 configuration,
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/wlin/docu/eHe3_10x166_5M,BeAGLE,3M,No,No,No,Yes,,"eHe3 10x166. en DIS study. A1He3, A1n, g1n. Tagging study.",1
-Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_18x110_1M,BeAGLE,3M,No,No,Yes,No,,"eHe3 18x110. en DIS study.  A1He3, A1n, g1n. Tagging study.",2
-Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_10x110_1M,BeAGLE,3M,No,No,Yes,Yes,,"eHe3 10x110. en DIS study.  A1He3, A1n, g1n.  Tagging study.",1
-Exclusive/Diffractive/Tagging,/gpfs02/eic/wlin/docu/eHe3_5x41_1M,BeAGLE,3M,No,No,Yes,No,,"eHe3 5x41. en DIS study.  A1He3, A1n, g1n. Tagging study.",2
-Exclusive/Diffractive/Tagging,/gpfs02/eic/jkim/DVpi0P/sim_data/,EpIC,1M,Yes,No,No,Yes,"EDT Paper, possible machine background mixing","DVpi0P ep 10x130. Exclusive pi0 study. GPD and OAM physics + Background to DVCS.
-Nucleon tomography and Spin programs",1
-Exclusive/Diffractive/Tagging,/gpfs02/eic/jkim/DVpi0P/sim_data/,EpIC,1M,No,No,Yes,No,Physics background to DVCS for preTDR,"DVpi0P ep 5x41. Exclusive pi0 study. GPD and OAM physics + Background to DVCS.
-Nucleon tomography and Spin programs",3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/jkim/DVpi0P/sim_data/,EpIC,,Yes,No,Yes,No,For both pre-TDR and EDT paper – machine background mixing,"DVpi0P ep 18x275. Exclusive pi0 study. GPD and OAM physics + Background to DVCS.
-Nucleon tomography and Spin programs",3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_18x275,EpIC,2M,Yes,No,Yes,No,Background to 18x275 J/psi,DDVCS e+e-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_18x275,EpIC,2M,No,No,Yes,No,Background to 18x275 J/psi,DDVCS e+e-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_10x130,EpIC,,Yes,Yes,No,Yes,,DDVCS e+e-(Effective TCS) events. 10x130 early science. Files are afterburned and in hepmc rootfile format,1
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_10x130,EpIC,,No,Yes,No,Yes,,DDVCS e+e-(Effective TCS) events. 10x130 early science. Files are afterburned and in hepmc rootfile format,1
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_muon_18x275,EpIC,2M,Yes,No,No,No,Background to 18x275 J/psi,DDVCS mu+mu-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/DDVCS_muon_18x275,EpIC,2M,No,No,Yes,No,Background to 18x275 J/psi,DDVCS mu+mu-(Effective TCS) events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_18x275,eStarlight,1M,Yes,No,Yes,No,Background to 18x275 TCS,ep J/psi->e+e- events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_18x276,eStarlight,1M,No,No,Yes,No,Background to 18x275 TCS,ep J/psi->e+e- events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_muon_18x276,eStarlight,1M,Yes,No,Yes,No,Background to 18x275 muon TCS,ep J/psi->mu+mu- events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,/gpfs02/eic/gpenman/JPsi_muon_18x276,eStarlight,1M,No,No,Yes,No,Background to 18x275 muon TCS,ep J/psi->mu+mu- events. 18x275. Files are afterburned and in hepmc rootfile format,3
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/5x41,EpIC,1M,No,No,Yes,No,,DVCS ep 5x41 sample (DVCS ONLY),-1
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/10x100,EpIC,1M,No,No,Yes,No,,DVCS ep 10x100 sample (DVCS ONLY),-1
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/18x275,EpIC,1M,No,No,Yes,No,,DVCS ep 18x275 sample (DVCS ONLY),-1
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.1/10x130/q2_1_100/,EpIC,1M,No,No,No,Yes,,DVCS ep 10x130 sample (DVCS+BH+int.),-1
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/18x275,EpIC,1M + ?,Yes,No,Yes,No,Machine background,DVCS + machine background mixed sample. (18x275),-1
-Exclusive/Diffractive/Tagging,http://dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/10x100,EpIC,,Yes,No,Yes,No,Machine background,DVCS + machine background mixed sample. (10x100),-1
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/BeAGLE/10x100,BeAGLE,,No,No,Yes,Yes,Background study,Incoherent diffractive phi production in eAu 10x100 for background study in diffractive phi analysis.,1
-Exclusive/Diffractive/Tagging,eictest/ATHENA/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 1s (18x275),3
-Exclusive/Diffractive/Tagging,eictest/ATHENA/ EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon2sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 2s (18x275),3
-Exclusive/Diffractive/Tagging,eictest/ATHENA/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon3sphoto_ab_hiAcc_18x275_NEW.hepmc,eSTARlight,,No,No,Yes,No,,Upsilon 3s (18x275),3
-Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiAcc_10x100.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (10x100),2
-Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiDiv_10x100.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (10x100),2
-Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiAcc_18x275.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (18x275),3
-Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiDiv_18x275.hepmc,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s (18x275),3
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_RHO_ABCONV/sartre1.39-1.01/eAu/10x100,Sartre,,No,No,Yes,Yes,Background study,Coherent diffractive rho production in eAu 10x100 for background study in diffractive phi analysis.,1
-Exclusive/Diffractive/Tagging, /gpfs02/eic/macink/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/Sartre/eAu/10x100,Sartre,,No,No,Yes,Yes,Background study,Coherent diffractive phi production in eAu 10x100 for background study in diffractive phi analysis.,1
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/janvanek/eic/BeAGLE/run-BeAGLE/production/for_campaign/BeAGLE_10x130_ep_10M,BeAGLE 1.03.02,,No,Yes,Yes,No,,TDIS eD (proton),1
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/janvanek/eic/BeAGLE/run-BeAGLE/production/for_campaign/BeAGLE_10x130_en_10M,BeAGLE 1.03.02,,No,Yes,Yes,No,,TDIS eD (neutron),1
-Exclusive/Diffractive/Tagging,,RAPGAP 3.303-1.0,,No,No,No,Yes,Potential DiffPDFimpact study,"   Inclusive diffractive DIS events for 10x100 GeV configuration. Q² range: 1 to 10⁴ GeV². Generated with RAPGAP 3.303 for forward proton tagging (Roman Pot/B0) and Large Rapidity Gap (LRG) selection methods. Used for diffractive structure function
-measurements and cross-section extraction in ePIC early science.",1
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/5x41,EpIC,,No,Yes,Yes,No,,DVCS 5x41 new files (DVCS + BH + Int),3
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x100,EpIC,,No,Yes,Yes,No,,DVCS 10x100 new files (DVCS + BH + Int),3
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x130,EpIC,,No,Yes,No,Yes,,DVCS 10x130 new files (DVCS + BH + Int),1
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x250,EpIC,,No,Yes,No,Yes,,DVCS 10x250 new files (DVCS + BH + Int),1
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/18x275,EpIC,,No,Yes,Yes,No,,DVCS 18x275 new files (DVCS + BH + Int),3
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/18x275,EpIC,,Yes,Yes,Yes,No,Machine background,DVCS 18x275 new files (DVCS + BH + Int),3
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/DVCS/EpIC_1.1.6-1.2/10x100,EpIC,,Yes,Yes,Yes,Yes,Machine background,DVCS 10x100 new files (DVCS + BH + Int),1
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/Mar2025_Campaign_Input/Afterburner_Output/pion,DEMPgen1.2.2,,No,No,Yes,Yes,Potential ZDC performance studies,Outdated DEMPgen 1.2.2 files,-1
-Exclusive/Diffractive/Tagging,/w/eic-scshelf2104/users/sjdkay/Mar2025_Campaign_Input/Afterburner_Output/kaonLambda,DEMPgen1.2.2,,No,No,Yes,Yes,Potential ZDC performance studies,Outdated DEMPgen 1.2.2 files,-1
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_5x41.hepmc,lAger3.6.1,,No,No,No,No,,5x41 - J/Psi -> e+e-,3
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_5x100.hepmc,lAger3.6.1,,No,No,No,No,,5x100 - J/Psi -> e+e-,3
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_10x100.hepmc,lAger3.6.1,,No,No,No,No,,10x100 - J/Psi -> e+e-,3
-Exclusive/Diffractive/Tagging,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x130/hiAcc,lAger3.6.1,,No,No,No,Yes,,10x130 - J/Psi -> e+e-,1
-Exclusive/Diffractive/Tagging,/gpfs/mnt/gpfs02/eic/ajentsch/ePIC_dd4hep_simulations/mcData/lagerFromOlaiya/ab_jpsi_18x275.hepmc,lAger3.6.1,,No,No,No,No,,18x275 - J/Psi -> e+e-,3
-Exclusive/Diffractive/Tagging,/volatile/eic/romanov/meson-structure-2025-10/afterburner,https://github.com/JeffersonLab/eic_mesonsf_generator,,No,No,Yes,No,FF Lambda reconstruction,18x275 TDIS Kaon Structure Function (lambda production),2
-Exclusive/Diffractive/Tagging,/volatile/eic/romanov/meson-structure-2025-10/afterburner,https://github.com/JeffersonLab/eic_mesonsf_generator,,Yes,No,Yes,No,FF Lambda reconstruction,18x275 TDIS Kaon Structure Function (lambda production) with machine BG,2
-,,,,,,,,,,
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,18x275 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,Yes,No,Yes,No,,18x275 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,10x275 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,10x100 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,5x100 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/NC,Pythia 8,,No,No,Yes,No,,5x41 ep NC DIS,2
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,18x275 ep CC DIS,3
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,10x275 ep CC DIS,3
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,10x100 ep CC DIS,3
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,5x100 ep CC DIS,3
-Inclusive,dtn-eic.jlab.org//volatile/eic/EPIC/EVGEN/CC,Pythia 8,,No,No,No,No,,5x41 ep CC DIS,3
-Inclusive,/gpfs02/eic/maples/pythia6_ep_early_science,Pythia 6.428,1.55M,No,No,No,Yes,,10x130 ep NC DIS for Early Science,1
-Inclusive,/gpfs02/eic/maples/pythia6_ep_early_science,Pythia 6.428,1.55M,No,No,No,Yes,,10x250 ep NC DIS for Early Science,1
-Inclusive,/gpfs02/eic/baraks/djangoh/djangoh_local/outfiles,Djangoh 4.6.21,100k,No,No,Yes,Yes,,10x100 ep NC DIS with QED Radiative effects on for studies of QED radiative corrections,3
-Inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eAu/10x100,BeAGLE,,No,No,Yes,Yes,,eAu events for nuclear structure functions,1
-Inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eH2/10x130,BeAGLE,,No,No,Yes,Yes,,eD events for nuclear structure functions,1
-Inclusive,volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eRu,BeAGLE,,No,Yes,No,Yes,,eRu for Early Science nuclear SF,1
-Inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eCu,BeAGLE,,No,Yes,No,Yes,,eCu for Early Science nuclear SF,1
-Inclusive,/gpfs02/eic/DATA/YR_SIDIS/ep_10x100/hepmc_ip6/noradcor/,PYTHIA-RAD-CORR,,No,Yes,Yes,Yes,"ep NC DIS, no QED radiation","Pythia 6 ep NC DIS samples, currently essential for pion contamination in eID study",1
-Inclusive,/gpfs02/eic/DATA/YR_SIDIS/ep_18x275/hepmc_ip6/noradcor/,PYTHIA-RAD-CORR,,No,Yes,Yes,No,"ep NC DIS, no QED radiation","Pythia 6 ep NC DIS samples, currently essential for pion contamination in eID study",2
-,,,,,,,,,,
-Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.0/18x275/hiDiv,Pythia 8.306,,Yes,No,Yes,No,Background study,,3
-Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.0/18x275/hiDiv,Pythia 8.306,,No,No,Yes,No,Background study,,3
-Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_1/hiDiv,Pythia 8.306,,No,No,Yes,Yes,,,2
-Jets & HF,epic_craterlake/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_1/hiDiv,Pythia 8.306,,Yes,No,Yes,Yes,Background study,,1
-Jets & HF,epic_craterlake_without_zdc/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000,BeAGLE,,No,No,Yes,Yes,,,1
-Jets & HF,epic_craterlake/SIDIS/Lc_ABCONV/HFsim-PYTHIA/pythia8.306-1.2/ep/10x100/q2_1to10000/hiDiv,Pythia 8.306,,No,No,Yes,Yes,,,3
-Jets & HF,epic_craterlake_without_zdc/SIDIS/Lc_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000,BeAGLE,,No,No,Yes,Yes,,,2
-Jets & HF,epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/10x100/q2_1to10,BeAGLE,,No,No,Yes,Yes,,,1
-Jets & HF,epic_craterlake_without_zdc/DIS/BeAGLE1.03.02-1.0/eAu/10x100/q2_10to100,BeAGLE,,No,No,Yes,Yes,,,1
-Jets & HF,/gpfs/mnt/gpfs02/eic/rongrong/SC_requests/dijet/pythia6_ep_18x275_Q2min1/ab_hepmc,Pythia 6.428,,No,Yes,Yes,No,,Simulation of photon-gluon and photon-quark processes,3
-Jets & HF,D0 at 10x130,,,,,No,Yes,,Place holder for Mach - new request will be submited soon,Will be 1
-Jets & HF,D0 at 10x250,,,,,No,Yes,,Place holder for Mach - new request will be submited soon,Will be 1
-Jets & HF,Lc at 10x250,,,,,No,Yes,,Place holder for Mach - new request will be submited soon,Will be 1
-Jets & HF,/volatile/eic/EPIC/RECO/25.10.4/epic_craterlake/Bkg_1SignalPer2usFrame/DIS/NC/10x100/minQ2=1,Pythia 8.306,,Yes,Yes,No,Yes,tracking study,10 x 100 NC min Q2=1 DIS sample with machine background,1
-,,,,,,,,,,
-SIDIS,pythia6-eic/1.0.0/10x100/q2_0to1,Pythia 6,,No,No,,,,Low Q2/Photoproduction studies+background,3
-SIDIS,pythia6-eic/1.0.0/10x275/q2_0to1,Pythia 6,,No,No,,,,Low Q2/Photoproduction studies+background,3
-SIDIS,pythia6-eic/1.0.0/18x275/q2_0to1,Pythia 6,,No,No,,,,Low Q2/Photoproduction studies+background,3
-,,,,,,,,,,
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/5x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (5x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_5x110_q2_0to0_ma_20.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/10x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (10x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_10x110_q2_0to0_ma_20.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_axem/out/madgraph5-3.5.13/18x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Non-decaying ALP + background (18x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_axem_18x110_q2_0to0_ma_20.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/5x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (5x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_5x110_q2_0to0_ma_20.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/10x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (10x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_10x110_q2_0to0_ma_20.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_1.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 1 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_1.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_2.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 2 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_2.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_5.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 5 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_5.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_10.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 10 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_10.0.list",1
-BSM/EW,/gpfs/mnt/gpfs02/eic/namjae/madgraph/out/20260326/aem_ax_emmupmum/out/madgraph5-3.5.13/18x110/ma_20.0/,MadGraph5 3.5.13,,Yes,Yes,No,No,NIM-A (Oct 26) Contribution,"Dimuon-decaying ALP + background (18x110, M_{ALP} = 20 GeV), file list = /gpfs/mnt/gpfs02/eic/namjae/madgraph/lists/official/madgraph5-3.5.13_aem_ax_emmupmum_18x110_q2_0to0_ma_20.0.list",1
+DSC or PWG,Priority,Dataset Path,Generator/Dataset Version,Number of Events,Background,New Request,Pre-TDR Use,Early Science Use,Other Use,Description,Issue
+edt,1,/volatile/eic/EPIC/EVGEN/DDIS/rapgap3.310-1.0/noRad/ep/10x100,https://github.com/eic/rapgap-inc-diffr-dis/releases/tag/rapgap3.310-1.0,,No,No,No,Yes,Potential DiffPDFimpact study,"Inclusive diffractive DIS events for 10x100 GeV configuration. Q² range: 1 to 10⁴ GeV². Generated with RAPGAP 3.303 for forward proton tagging (Roman Pot/B0) and Large Rapidity Gap (LRG) selection methods. Used for diffractive structure function
+measurements and cross-section extraction in ePIC early science.",
+edt,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eH2/10x130,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.0,,No,No,Yes,Yes,,eD events for nuclear structure functions,
+edt,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.3/eH2/en/10x130/q2_1to1000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.3,,No,No,Yes,Yes,,eD events for nuclear structure functions,
+edt,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.3/eH2/ep/10x130/q2_1to1000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.3,,No,No,Yes,Yes,,eD events for nuclear structure functions,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/edecay/hminus,https://github.com/eic/DDVCSdataset/releases/tag/EpIC1.1.6-1.0,,Yes,No,Yes,No,Background to 18x275 J/psi,DDVCS e+e-(Effective TCS) events. 18x275. hminus helicity.,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/edecay/hplus,https://github.com/eic/DDVCSdataset/releases/tag/EpIC1.1.6-1.0,,Yes,No,Yes,No,Background to 18x275 J/psi,DDVCS e+e-(Effective TCS) events. 18x275. hplus helicity.,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/mudecay/hminus,https://github.com/eic/DDVCSdataset/releases/tag/EpIC1.1.6-1.0,,Yes,No,Yes,No,Background to 18x275 J/psi,DDVCS mu+mu-(Effective TCS) events. 18x275. hminus helicity.,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/mudecay/hplus,https://github.com/eic/DDVCSdataset/releases/tag/EpIC1.1.6-1.0,,Yes,No,Yes,No,Background to 18x275 J/psi,DDVCS mu+mu-(Effective TCS) events. 18x275. hplus helicity.,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.1/10x130/q2_0_10/edecay/hminus,https://github.com/eic/DDVCSdataset/releases/tag/EpIC1.1.6-1.1,,Yes,Yes,No,Yes,,DDVCS e+e-(Effective TCS) events. 10x130 early science. hminus helicity.,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.1/10x130/q2_0_10/edecay/hplus,https://github.com/eic/DDVCSdataset/releases/tag/EpIC1.1.6-1.1,,Yes,Yes,No,Yes,,DDVCS e+e-(Effective TCS) events. 10x130 early science. hplus helicity.,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_10_20/pi+,https://github.com/JeffersonLab/DEMPgen/releases/tag/v1.2.4,400k,No,No,Maybe,Yes,Potential ZDC performance studies,DEMP pion 10x130 q2=10-20. Pion structure studies. Low -t region boost for statistics.,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_20_35/pi+,https://github.com/JeffersonLab/DEMPgen/releases/tag/v1.2.4,400k,No,No,Maybe,Yes,Potential ZDC performance studies,DEMP pion 10x130 q2=20-35. Pion structure studies. Low -t region boost for statistics.,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_3_10/pi+,https://github.com/JeffersonLab/DEMPgen/releases/tag/v1.2.4,400k,No,No,Maybe,Yes,Potential ZDC performance studies,DEMP pion 10x130 q2=3-10. Pion structure studies. Low -t region boost for statistics.,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x250/q2_10_20/pi+,https://github.com/JeffersonLab/DEMPgen/releases/tag/v1.2.4,400k,No,No,Maybe,Yes,Potential ZDC performance studies,DEMP pion 10x250 q2=10-20. Pion structure studies. Low -t region boost for statistics.,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x250/q2_20_35/pi+,https://github.com/JeffersonLab/DEMPgen/releases/tag/v1.2.4,400k,No,No,Maybe,Yes,Potential ZDC performance studies,DEMP pion 10x250 q2=20-35. Pion structure studies. Low -t region boost for statistics.,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x250/q2_3_10/pi+,https://github.com/JeffersonLab/DEMPgen/releases/tag/v1.2.4,400k,No,No,Maybe,Yes,Potential ZDC performance studies,DEMP pion 10x250 q2=3-10. Pion structure studies. Low -t region boost for statistics.,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x100/hiAcc,https://github.com/eic/JPsiDataSet/releases/tag/lAger3.6.1-1.0,,No,No,No,No,,10x100 - J/Psi -> e+e-,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x130/hiAcc,https://github.com/eic/JPsiDataSet/releases/tag/lAger3.6.1-1.0,,No,No,No,Yes,,10x130 - J/Psi -> e+e-,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/18x275/hiAcc,https://github.com/eic/JPsiDataSet/releases/tag/lAger3.6.1-1.0,,No,No,No,No,,18x275 - J/Psi -> e+e-,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/5x100/hiAcc,https://github.com/eic/JPsiDataSet/releases/tag/lAger3.6.1-1.0,,No,No,No,No,,5x100 - J/Psi -> e+e-,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/5x41/hiAcc,https://github.com/eic/JPsiDataSet/releases/tag/lAger3.6.1-1.0,,No,No,No,No,,5x41 - J/Psi -> e+e-,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/BeAGLE1.03.02-1.1/eAu/10x100/q2_1to10000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.1,,No,No,Yes,Yes,Background study,Incoherent diffractive phi production in eAu 10x100 for background study in diffractive phi analysis.,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/sartre1.39-1.0/eAu/coherent/bsat/10x100,https://github.com/eic/SARTREdataset/releases/tag/sartre1.39-1.0,,No,No,Yes,Yes,Background study,Coherent diffractive phi production in eAu 10x100 for background study in diffractive phi analysis.,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DIFFRACTIVE_RHO_ABCONV/sartre1.39-1.1/eAu/coherent/bsat/10x100/q2_1to20,https://github.com/eic/SARTREdataset/releases/tag/sartre1.39-1.1,,No,No,Yes,Yes,Background study,Coherent diffractive rho production in eAu 10x100 for background study in diffractive phi analysis.,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x100/q2_1_100,https://github.com/eic/EpIC_generator_MC_samples/releases/tag/1.2,,Yes,Yes,Yes,Yes,Machine background,DVCS 10x100 new files (DVCS + BH + Int),
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x130/q2_1_100,https://github.com/eic/EpIC_generator_MC_samples/releases/tag/1.2,,No,Yes,No,Yes,,DVCS 10x130 new files (DVCS + BH + Int),
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x250/q2_1_100,https://github.com/eic/EpIC_generator_MC_samples/releases/tag/1.2,,No,Yes,No,Yes,,DVCS 10x250 new files (DVCS + BH + Int),
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/18x275/q2_1_100,https://github.com/eic/EpIC_generator_MC_samples/releases/tag/1.2,,Yes,Yes,Yes,No,Machine background,DVCS 18x275 new files (DVCS + BH + Int),
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/5x41/q2_1_100,https://github.com/eic/EpIC_generator_MC_samples/releases/tag/1.2,,No,Yes,Yes,No,,DVCS 5x41 new files (DVCS + BH + Int),
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVMP/EpIC1.1.6-1.0/unpolarised/10x130/q2_1_1000,https://github.com/eic/DVMPdataset/releases/tag/EpIC1.1.6-1.0,1M,Yes,No,No,Yes,"EDT Paper, possible machine background mixing",DVpi0P ep 10x130. Exclusive pi0 study. GPD and OAM physics + Background to DVCS. Nucleon tomography and Spin programs,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVMP/EpIC1.1.6-1.1/unpolarised/18x275/q2_1_1000,https://github.com/eic/DVMPdataset/releases/tag/EpIC1.1.6-1.1,,Yes,No,Yes,No,For both pre-TDR and EDT paper – machine background mixing,DVpi0P ep 18x275. Exclusive pi0 study. GPD and OAM physics + Background to DVCS. Nucleon tomography and Spin programs,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVMP/EpIC1.1.6-1.1/unpolarised/5x41/q2_1_1000,https://github.com/eic/DVMPdataset/releases/tag/EpIC1.1.6-1.1,1M,No,No,Yes,No,Physics background to DVCS for preTDR,DVpi0P ep 5x41. Exclusive pi0 study. GPD and OAM physics + Background to DVCS. Nucleon tomography and Spin programs,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVMP/JPsi_MuMu_ABCONV/lAger3.6.1-1.0/10x130/q2_1to50,https://github.com/eic/lAger_JPsi_MuMu_Dataset/releases/tag/lAger3.6.1-1.0,2.75M,No,Yes,No,Yes,Muon ID studies,"DVMP events for J/Psi studies. For the 10x130 configuration, for early science impact studies.",
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVMP/JPsi_MuMu_ABCONV/lAger3.6.1-1.0/10x250/q2_1to50,https://github.com/eic/lAger_JPsi_MuMu_Dataset/releases/tag/lAger3.6.1-1.0,3.85M,No,Yes,No,Yes,Muon ID studies,"DVMP events for J/Psi studies. For the 10x250 configuration, for early science impact studies.",
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/DVMP/JPsi_MuMu_ABCONV/lAger3.6.1-1.0/18x275/q2_1to50,https://github.com/eic/lAger_JPsi_MuMu_Dataset/releases/tag/lAger3.6.1-1.0,,No,Yes,Yes,No,Muon ID studies,DVMP events for J/Psi studies. For the 18x275 configuration,
+edt,2,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/MESON_SF_ABCONV/eicMesonSFGen-1.0.0/ep/10x100,https://github.com/JeffersonLab/eic_mesonsf_generator/releases/tag/v1.0.0,,No,No,Yes,No,FF Lambda reconstruction,TDIS Kaon Structure Function (lambda production) - 10x100,
+edt,1,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/MESON_SF_ABCONV/eicMesonSFGen-1.0.0/ep/10x130,https://github.com/JeffersonLab/eic_mesonsf_generator/releases/tag/v1.0.0,,No,No,Yes,Yes,FF Lambda reconstruction,TDIS Kaon Structure Function (lambda production) - 10x130,
+edt,2,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/MESON_SF_ABCONV/eicMesonSFGen-1.0.0/ep/18x275,https://github.com/JeffersonLab/eic_mesonsf_generator/releases/tag/v1.0.0,,Yes,No,Yes,No,FF Lambda reconstruction,TDIS Kaon Structure Function (lambda production) - 18x275,
+edt,2,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/MESON_SF_ABCONV/eicMesonSFGen-1.0.0/ep/5x41,https://github.com/JeffersonLab/eic_mesonsf_generator/releases/tag/v1.0.0,,No,No,Yes,No,FF Lambda reconstruction,TDIS Kaon Structure Function (lambda production) - 5x41,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/PHOTOPRODUCTION_JPSI_ABCONV/coherent_ep/eSTARlight1.3.0-1.0/18x275/q2_nocut/edecay,https://github.com/eic/ep_JPsi_dataset/releases/tag/eSTARlight1.3.0-1.0,1M,Yes,No,Yes,No,Background to 18x275 TCS,ep J/psi->e+e- events. 18x275 PHOTOPRODUCTION. Files are afterburned and in hepmc rootfile format,
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/PHOTOPRODUCTION_JPSI_ABCONV/coherent_ep/eSTARlight1.3.0-1.0/18x275/q2_nocut/mudecay,https://github.com/eic/ep_JPsi_dataset/releases/tag/eSTARlight1.3.0-1.0,1M,Yes,No,Yes,No,Background to 18x275 muon TCS,ep J/psi->mu+mu- events. 18x275 PHOTOPRODUCTION. Files are afterburned and in hepmc rootfile format,
+edt,2,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiAcc_10x100.hepmc3.tree.root,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s threshold hiAcc (10x100),
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiAcc_18x275.hepmc3.tree.root,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s threshold hiAcc (18x275),
+edt,2,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiDiv_10x100.hepmc3.tree.root,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s threshold hiDiv (10x100),
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1s_threshold_ab_hiDiv_18x275.hepmc3.tree.root,eSTARlight,,No,Yes,Yes,No,,Upsilon 1s threshold hiDiv (18x275),
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1sphoto_ab_hiAcc_18x275_NEW.hepmc3.tree.root,eSTARlight,,No,No,Yes,No,,Upsilon 1s photoproduction hiAcc (18x275),
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon1sphoto_ab_hiDiv_18x275_NEW.hepmc3.tree.root,eSTARlight,,No,No,Yes,No,,Upsilon 1s photoproduction hiDiv (18x275),
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon2sphoto_ab_hiAcc_18x275_NEW.hepmc3.tree.root,eSTARlight,,No,No,Yes,No,,Upsilon 2s photoproduction hiAcc (18x275),
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon2sphoto_ab_hiDiv_18x275_NEW.hepmc3.tree.root,eSTARlight,,No,No,Yes,No,,Upsilon 2s photoproduction hiDiv (18x275),
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon3sphoto_ab_hiAcc_18x275_NEW.hepmc3.tree.root,eSTARlight,,No,No,Yes,No,,Upsilon 3s photoproduction hiAcc (18x275),
+edt,3,/volatile/eic/EPIC/EVGEN/EXCLUSIVE/UPSILON_ABCONV/upsilon3sphoto_ab_hiDiv_18x275_NEW.hepmc3.tree.root,eSTARlight,,No,No,Yes,No,,Upsilon 3s photoproduction hiDiv (18x275),
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eCu/en/10x115/q2_1to1000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.0,,No,Yes,No,Yes,,eCu en events for Early Science nuclear SF. 10x115 q2=1-1000,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eCu/ep/10x115/q2_1to1000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.0,,No,Yes,No,Yes,,eCu ep events for Early Science nuclear SF. 10x115 q2=1-1000,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eRu/en/10x115/q2_1to1000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.0,,No,Yes,No,Yes,,eRu en events for Early Science nuclear SF. 10x115 q2=1-1000,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eRu/ep/10x115/q2_1to1000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.0,,No,Yes,No,Yes,,eRu ep events for Early Science nuclear SF. 10x115 q2=1-1000,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.2/eHe3/10x110/q2_100to10000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.2,,No,No,Yes,Yes,,eHe3 10x110. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.2/eHe3/10x110/q2_10to100,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.2,,No,No,Yes,Yes,,eHe3 10x110. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.2/eHe3/10x110/q2_2to10,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.2,,No,No,Yes,Yes,,eHe3 10x110. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.2/eHe3/18x110/q2_100to10000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.2,,No,No,Yes,No,,eHe3 18x110. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.2/eHe3/18x110/q2_10to100,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.2,,No,No,Yes,No,,eHe3 18x110. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.2/eHe3/18x110/q2_2to10,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.2,,No,No,Yes,No,,eHe3 18x110. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.2/eHe3/5x41/q2_100to10000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.2,,No,No,Yes,No,,eHe3 5x41. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.2/eHe3/5x41/q2_10to100,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.2,,No,No,Yes,No,,eHe3 5x41. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.2/eHe3/5x41/q2_2to10,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.2,,No,No,Yes,No,,eHe3 5x41. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-2.0/eAu/10x100/q2_10to100,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-2.0,,No,No,Yes,Yes,,eAu events for nuclear structure functions. 10x100 q2=10-100,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-2.0/eAu/10x100/q2_1to10,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-2.0,,No,No,Yes,Yes,,eAu events for nuclear structure functions. 10x100 q2=1-10,
+inclusive,3,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-2.0/eAu/5x41/q2_10to100,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-2.0,,No,No,Yes,No,,eAu events for nuclear structure functions. 5x41 q2=10-100,
+inclusive,3,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-2.0/eAu/5x41/q2_1to10,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-2.0,,No,No,Yes,No,,eAu events for nuclear structure functions. 5x41 q2=1-10,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_100to10000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-2.1,,No,No,No,Yes,,eHe3 10x166. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_10to100,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-2.1,,No,No,No,Yes,,eHe3 10x166. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-2.1/eHe3/10x166/q2_2to10,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-2.1,,No,No,No,Yes,,eHe3 10x166. en DIS study. A1He3 A1n g1n. Tagging study.,
+inclusive,3,/volatile/eic/EPIC/EVGEN/DIS/CC/10x100/minQ2=100,Pythia 8,,No,No,No,No,,10x100 ep CC DIS with minQ2=100,
+inclusive,3,/volatile/eic/EPIC/EVGEN/DIS/CC/10x100/minQ2=1000,pythia8,,No,No,No,No,,10x100 ep CC DIS with minQ2=1000,
+inclusive,3,/volatile/eic/EPIC/EVGEN/DIS/CC/10x275/minQ2=100,pythia8,,No,No,No,No,,10x275 ep CC DIS with minQ2=100,
+inclusive,3,/volatile/eic/EPIC/EVGEN/DIS/CC/10x275/minQ2=1000,pythia8,,No,No,No,No,,10x275 ep CC DIS with minQ2=1000,
+inclusive,3,/volatile/eic/EPIC/EVGEN/DIS/CC/18x275/minQ2=100,pythia8,,No,No,No,No,,18x275 ep CC DIS with minQ2=100,
+inclusive,3,/volatile/eic/EPIC/EVGEN/DIS/CC/18x275/minQ2=1000,pythia8,,No,No,No,No,,18x275 ep CC DIS with minQ2=1000,
+inclusive,3,/volatile/eic/EPIC/EVGEN/DIS/CC/5x100/minQ2=100,pythia8,,No,No,No,No,,5x100 ep CC DIS with minQ2=100,
+inclusive,3,/volatile/eic/EPIC/EVGEN/DIS/CC/5x100/minQ2=1000,pythia8,,No,No,No,No,,5x100 ep CC DIS with minQ2=1000,
+inclusive,3,/volatile/eic/EPIC/EVGEN/DIS/CC/5x41/minQ2=100,pythia8,,No,No,No,No,,5x41 ep CC DIS with minQ2=100,
+inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/noRad/ep/18x275/q2_1000to10000,https://github.com/eic/InclusiveDjangohSamples/releases/tag/DJANGOH4.6.21-1.0,,No,No,Yes,No,,18x275 ep NC DIS without QED radiative corrections. q2=1000-10000,
+inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/noRad/ep/18x275/q2_100to1000,https://github.com/eic/InclusiveDjangohSamples/releases/tag/DJANGOH4.6.21-1.0,,No,No,Yes,No,,18x275 ep NC DIS without QED radiative corrections. q2=100-1000,
+inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/noRad/ep/18x275/q2_10to100,https://github.com/eic/InclusiveDjangohSamples/releases/tag/DJANGOH4.6.21-1.0,,No,No,Yes,No,,18x275 ep NC DIS without QED radiative corrections. q2=10-100,
+inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/noRad/ep/18x275/q2_1to10,https://github.com/eic/InclusiveDjangohSamples/releases/tag/DJANGOH4.6.21-1.0,,No,No,Yes,No,,18x275 ep NC DIS without QED radiative corrections. q2=1-10,
+inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/Rad/ep/18x275/q2_1000to10000,https://github.com/eic/InclusiveDjangohSamples/releases/tag/DJANGOH4.6.21-1.0,,No,No,Yes,No,,18x275 ep NC DIS with QED radiative corrections. q2=1000-10000,
+inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/Rad/ep/18x275/q2_100to1000,https://github.com/eic/InclusiveDjangohSamples/releases/tag/DJANGOH4.6.21-1.0,,No,No,Yes,No,,18x275 ep NC DIS with QED radiative corrections. q2=100-1000,
+inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/Rad/ep/18x275/q2_10to100,https://github.com/eic/InclusiveDjangohSamples/releases/tag/DJANGOH4.6.21-1.0,,No,No,Yes,No,,18x275 ep NC DIS with QED radiative corrections. q2=10-100,
+inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/Rad/ep/18x275/q2_1to10,https://github.com/eic/InclusiveDjangohSamples/releases/tag/DJANGOH4.6.21-1.0,,No,No,Yes,No,,18x275 ep NC DIS with QED radiative corrections. q2=1-10,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=1,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=1,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=10,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=10,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=100,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=100,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=1000,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=1000,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=1,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=1,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=10,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=10,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=100,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=100,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=1000,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=1000,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=1,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=1,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=10,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=10,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=100,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=100,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=1000,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=1000,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=1,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=1,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=10,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=10,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=100,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=100,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=1000,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=1000,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x41/minQ2=1,pythia8,,No,No,Yes,No,,5x41 ep NC DIS with minQ2=1,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x41/minQ2=10,pythia8,,No,No,Yes,No,,5x41 ep NC DIS with minQ2=10,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x41/minQ2=100,pythia8,,No,No,Yes,No,,5x41 ep NC DIS with minQ2=100,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/pythia6.428-1.0/NC/noRad/ep/10x130/q2_1000to10000,https://github.com/eic/InclusiveEarlyScienceSamples/releases/tag/pythia6.428-1.0,500k,No,No,No,Yes,,10x130 ep NC DIS with q2_1000to10000 - noRad,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/pythia6.428-1.0/NC/noRad/ep/10x130/q2_100to1000,https://github.com/eic/InclusiveEarlyScienceSamples/releases/tag/pythia6.428-1.0,5M,No,No,No,Yes,,10x130 ep NC DIS with q2_100to1000 - noRad,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/pythia6.428-1.0/NC/noRad/ep/10x130/q2_10to100,https://github.com/eic/InclusiveEarlyScienceSamples/releases/tag/pythia6.428-1.0,5M,No,No,No,Yes,,10x130 ep NC DIS with q2_10to100 - noRad,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/pythia6.428-1.0/NC/noRad/ep/10x130/q2_1to10,https://github.com/eic/InclusiveEarlyScienceSamples/releases/tag/pythia6.428-1.0,5M,No,No,No,Yes,,10x130 ep NC DIS with q2_1to10 - noRad,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/pythia6.428-1.0/NC/noRad/ep/10x250/q2_1000to10000,https://github.com/eic/InclusiveEarlyScienceSamples/releases/tag/pythia6.428-1.0,500k,No,No,No,Yes,,10x250 ep NC DIS with q2_1000to10000 - noRad,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/pythia6.428-1.0/NC/noRad/ep/10x250/q2_100to1000,https://github.com/eic/InclusiveEarlyScienceSamples/releases/tag/pythia6.428-1.0,5M,No,No,No,Yes,,10x250 ep NC DIS with q2_100to1000 - noRad,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/pythia6.428-1.0/NC/noRad/ep/10x250/q2_10to100,https://github.com/eic/InclusiveEarlyScienceSamples/releases/tag/pythia6.428-1.0,5M,No,No,No,Yes,,10x250 ep NC DIS with q2_10to100 - noRad,
+inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/pythia6.428-1.0/NC/noRad/ep/10x250/q2_1to10,https://github.com/eic/InclusiveEarlyScienceSamples/releases/tag/pythia6.428-1.0,5M,No,No,No,Yes,,10x250 ep NC DIS with q2_1to10 - noRad,
+jets_hf,1,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/10x100/q2_1to10000,https://github.com/eic/HFsim-BeAGLE/releases/tag/BeAGLE1.03.01-2.0,,No,No,Yes,Yes,,,
+jets_hf,3,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/5x41/q2_1to10000,https://github.com/eic/HFsim-BeAGLE/releases/tag/BeAGLE1.03.01-2.0,,No,No,Yes,No,,,
+jets_hf,3,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/HFsim-PYTHIA/pythia8.306-1.2/ep/5x41/q2_1to10000/hiDiv,https://github.com/eic/HFsim-PYTHIA/releases/tag/pythia8.306-1.2,,No,No,Yes,No,,,
+jets_hf,1,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/HFsim-PYTHIA/pythia8.312-2.0/ep/10x130/q2_1,https://github.com/eic/HFsim-PYTHIA/releases/tag/Pythia8.312-2.0,,No,No,Yes,Yes,,,
+jets_hf,1,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/HFsim-PYTHIA/pythia8.312-2.0/ep/10x250/q2_1,https://github.com/eic/HFsim-PYTHIA/releases/tag/Pythia8.312-2.0,,No,No,Yes,Yes,,,
+jets_hf,3,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/pythia8.306-1.0/18x275/hiDiv,https://github.com/eic/HFsim-PYTHIA/releases/tag/pythia8.306-1.0,,Yes,No,Yes,No,Background study,SIDIS D0 18x275 hiDiv,
+jets_hf,1,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_1/hiDiv,https://github.com/eic/HFsim-PYTHIA/releases/tag/pythia8.306-1.1,,Yes,No,Yes,Yes,Background study,SIDIS D0 10x100 q2_1 hiDiv,
+jets_hf,1,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/pythia8.306-1.1/10x100/q2_100/hiDiv,https://github.com/eic/HFsim-PYTHIA/releases/tag/pythia8.306-1.1,,No,No,Yes,Yes,,SIDIS D0 10x100 q2_100 hiDiv,
+jets_hf,3,/volatile/eic/EPIC/EVGEN/SIDIS/DIJET_ABCONV/pythia6.428-dijet-v1.0/PGF/noRC/ep/18x275/q2_1to20000,https://github.com/eic/JetSim-PGF/releases/tag/pythia6.428-dijet-v1.0,,No,Yes,Yes,No,,Simulation of photon-gluon and photon-quark processes,
+jets_hf,2,/volatile/eic/EPIC/EVGEN/SIDIS/Lc_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-2.0/eAu/10x100/q2_1to10000,https://github.com/eic/HFsim-BeAGLE/releases/tag/BeAGLE1.03.01-2.0,,No,No,Yes,Yes,,,
+jets_hf,3,/volatile/eic/EPIC/EVGEN/SIDIS/Lc_ABCONV/HFsim-PYTHIA/pythia8.306-1.2/ep/10x100/q2_1to10000/hiDiv,https://github.com/eic/HFsim-PYTHIA/releases/tag/pythia8.306-1.2,,No,No,Yes,Yes,,,
+jets_hf,1,/volatile/eic/EPIC/EVGEN/SIDIS/Lc_ABCONV/HFsim-PYTHIA/pythia8.312-2.0/ep/10x250/q2_1,https://github.com/eic/HFsim-PYTHIA/releases/tag/Pythia8.312-2.0,,No,No,Yes,Yes,,,
+semi_inclusive,3,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.0.0/10x100/q2_0to1,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.0.0,,No,No,Yes,No,,Low Q2/Photoproduction studies+background,
+semi_inclusive,3,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.0.0/10x275/q2_0to1,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.0.0,,No,No,Yes,No,,Low Q2/Photoproduction studies+background,
+semi_inclusive,3,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.0.0/18x275/q2_0to1,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.0.0,,No,No,Yes,No,,Low Q2/Photoproduction studies+background,
+semi_inclusive,1,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/10x100/q2_0to1,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,Yes,,ep NC DIS no QED radiation 10x100,
+semi_inclusive,1,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/10x100/q2_1000to100000,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,Yes,,ep NC DIS no QED radiation 10x100,
+semi_inclusive,1,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/10x100/q2_100to1000,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,Yes,,ep NC DIS no QED radiation 10x100,
+semi_inclusive,1,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/10x100/q2_10to100,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,Yes,,ep NC DIS no QED radiation 10x100,
+semi_inclusive,1,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/10x100/q2_1to10,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,Yes,,ep NC DIS no QED radiation 10x100,
+semi_inclusive,2,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/18x275/q2_0to1,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,No,,ep NC DIS no QED radiation 18x275,
+semi_inclusive,2,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/18x275/q2_1000to100000,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,No,,ep NC DIS no QED radiation 18x275,
+semi_inclusive,2,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/18x275/q2_100to1000,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,No,,ep NC DIS no QED radiation 18x275,
+semi_inclusive,2,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/18x275/q2_10to100,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,No,,ep NC DIS no QED radiation 18x275,
+semi_inclusive,2,/volatile/eic/EPIC/EVGEN/SIDIS/pythia6-eic/1.2.0/ep_noradcor/18x275/q2_1to10,https://gitlab.com/eic/mceg/PYTHIA-RAD-CORR/-/tree/1.2.0,,No,No,Yes,No,,ep NC DIS no QED radiation 18x275,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/brems/EIC_ESR_Xsuite/dataprod_rel_1.0.1/10x275/10000Ahr/MachineRuntime50s,https://github.com/eic/EIC_ESR_Xsuite/releases/tag/dataprod_rel_1.0.1,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/brems/EIC_ESR_Xsuite/dataprod_rel_1.0.1/18x275/10000Ahr/MachineRuntime50s,https://github.com/eic/EIC_ESR_Xsuite/releases/tag/dataprod_rel_1.0.1,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/brems/EIC_ESR_Xsuite/dataprod_rel_1.0.1/5x100/10000Ahr/MachineRuntime50s,https://github.com/eic/EIC_ESR_Xsuite/releases/tag/dataprod_rel_1.0.1,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/coulomb/EIC_ESR_Xsuite/dataprod_rel_1.0.1/10x275/10000Ahr/MachineRuntime50s,https://github.com/eic/EIC_ESR_Xsuite/releases/tag/dataprod_rel_1.0.1,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/coulomb/EIC_ESR_Xsuite/dataprod_rel_1.0.1/18x275/10000Ahr/MachineRuntime50s,https://github.com/eic/EIC_ESR_Xsuite/releases/tag/dataprod_rel_1.0.1,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/coulomb/EIC_ESR_Xsuite/dataprod_rel_1.0.1/5x100/10000Ahr/MachineRuntime50s,https://github.com/eic/EIC_ESR_Xsuite/releases/tag/dataprod_rel_1.0.1,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/GETaLM1.0.0-1.0/10GeV/,https://github.com/eic/ElectronBeamGas/releases/tag/GETaLM1.0.0-1.0,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/GETaLM1.0.0-1.1/18GeV/,https://github.com/eic/ElectronBeamGas/releases/tag/GETaLM1.0.0-1.1,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/touschek/EIC_ESR_Xsuite/dataprod_rel_1.0.1/10x275/10000Ahr/MachineRuntime50s,https://github.com/eic/EIC_ESR_Xsuite/releases/tag/dataprod_rel_1.0.1,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/touschek/EIC_ESR_Xsuite/dataprod_rel_1.0.1/18x275/10000Ahr/MachineRuntime50s,https://github.com/eic/EIC_ESR_Xsuite/releases/tag/dataprod_rel_1.0.1,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/touschek/EIC_ESR_Xsuite/dataprod_rel_1.0.1/5x100/10000Ahr/MachineRuntime50s,https://github.com/eic/EIC_ESR_Xsuite/releases/tag/dataprod_rel_1.0.1,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/proton/pythia8.306-1.0/100GeV/,https://github.com/eic/ProtonBeamGas/releases/tag/pythia8.306-1.0,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/proton/pythia8.306-1.0/275GeV/,https://github.com/eic/ProtonBeamGas/releases/tag/pythia8.306-1.0,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/SYNRAD/dataprod_rel_1.0.0/10x275,https://github.com/eic/EIC_SR_Geant4/releases/tag/dataprod_rel_1.0.0,,,,,,,,
+tracking,2,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/SYNRAD/dataprod_rel_1.0.0/18x275,https://github.com/eic/EIC_SR_Geant4/releases/tag/dataprod_rel_1.0.0,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/100MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/100MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/100MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/10GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/10GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/10GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/1GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/1GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/1GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/200MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/200MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/200MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/20GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/20GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/20GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/2GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/2GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/2GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/500MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/500MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/500MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/5GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/5GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e+/5GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/100MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/100MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/100MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/10GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/10GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/10GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/10GeV/etaScan,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/1GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/1GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/1GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/1GeV/etaScan,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/200MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/200MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/200MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/20GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/20GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/20GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/2GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/2GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/2GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/2GeV/etaScan,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/500MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/500MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/500MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/5GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/5GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/e-/5GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/100MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/100MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/100MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/100MeV/etaScan,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/10GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/10GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/10GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/1GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/1GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/1GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/1GeV/etaScan,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/200MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/200MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/200MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/20GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/20GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/20GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/2GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/2GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/2GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/40GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/500MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/500MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/500MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/5GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/5GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/5GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/gamma/60GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/100MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/100MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/100MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/10GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/10GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/10GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/1GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/1GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/1GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/200MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/200MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/200MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/20GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/20GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/20GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/2GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/2GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/2GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/500MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/500MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/500MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/5GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/5GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon+/5GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/100MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/100MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/100MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/10GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/10GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/10GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/1GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/1GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/1GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/200MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/200MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/200MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/20GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/20GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/20GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/2GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/2GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/2GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/500MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/500MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/500MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/5GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/5GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/kaon-/5GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/mu-/10GeV/etaScan,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/100MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/100MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/100MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/10GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/10GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/10GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/1GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/1GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/1GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/200MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/200MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/200MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/20GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/20GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/20GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/2GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/2GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/2GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/500MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/500MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/500MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/5GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/5GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/neutron/5GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/100MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/100MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/100MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/10GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/10GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/10GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/1GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/1GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/1GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/200MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/200MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/200MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/20GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/20GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/20GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/2GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/2GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/2GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/500MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/500MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/500MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/5GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/5GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi+/5GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/100MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/100MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/100MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/10GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/10GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/10GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/1GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/1GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/1GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/200MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/200MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/200MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/20GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/20GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/20GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/2GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/2GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/2GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/500MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/500MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/500MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/5GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/5GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi-/5GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/100MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/100MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/100MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/10GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/10GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/10GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/1GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/1GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/1GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/200MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/200MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/200MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/20GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/20GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/20GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/2GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/2GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/2GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/40GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/500MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/500MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/500MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/5GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/5GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/5GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/pi0/60GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/100MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/100MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/100MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/10GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/10GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/10GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/1GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/1GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/1GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/200MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/200MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/200MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/20GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/20GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/20GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/2GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/2GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/2GeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/500MeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/500MeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/500MeV/45to135deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/5GeV/130to177deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/5GeV/3to50deg,,,,,,,,,
+tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/5GeV/45to135deg,,,,,,,,,
