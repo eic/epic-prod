@@ -10,9 +10,9 @@
   Total Size: 245.566 GB (1500 files)
 
 === epic:/RECO/26.04.1/epic_craterlake/DDIS/rapgap3.310-1.0/noRad/ep/10x100 ===
-  RSE: JLAB-TAPE-SE                              Files: 3907/4117 (incomplete)
-  RSE: EIC-XRD                                   Files: 4117/4117 (complete)
-  Total Size: 1.446 TB (4117 files)
+  RSE: JLAB-TAPE-SE                              Files: 3907/4137 (incomplete)
+  RSE: EIC-XRD                                   Files: 4137/4137 (complete)
+  Total Size: 1.453 TB (4137 files)
 
 === epic:/RECO/26.04.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eCu/en/10x115/q2_1to1000 ===
   RSE: BNL-XRD                                   Files: 432/432 (complete)
@@ -285,9 +285,9 @@
   Total Size: 651.906 GB (1621 files)
 
 === epic:/RECO/26.04.1/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/edecay/hminus ===
-  RSE: BNL-XRD                                   Files: 279/279 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 273/279 (incomplete)
-  Total Size: 86.524 GB (279 files)
+  RSE: BNL-XRD                                   Files: 280/280 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 273/280 (incomplete)
+  Total Size: 86.842 GB (280 files)
 
 === epic:/RECO/26.04.1/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/edecay/hplus ===
   RSE: BNL-XRD                                   Files: 265/265 (complete)
@@ -475,9 +475,9 @@
   Total Size: 880.451 GB (1589 files)
 
 === epic:/RECO/26.04.1/epic_craterlake/SIDIS/DIJET_ABCONV/pythia6.428-dijet-v1.0/PGF/noRC/ep/18x275/q2_1to20000 ===
-  RSE: BNL-XRD                                   Files: 22/22 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 0/22 (incomplete)
-  Total Size: 7.944 GB (29 files)
+  RSE: BNL-XRD                                   Files: 54/54 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 0/54 (incomplete)
+  Total Size: 16.413 GB (59 files)
 
 === epic:/RECO/26.04.1/epic_craterlake/SIDIS/Lc_ABCONV/HFsim-PYTHIA/pythia8.306-1.2/ep/10x100/q2_1to10000/hiDiv ===
   RSE: BNL-XRD                                   Files: 4998/4998 (complete)
@@ -1823,7 +1823,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 1.446 TB         Total Files: 4117
-  RSE: BNL-XRD                                   Total Size: 146.146 TB       Total Files: 369719
+  RSE: EIC-XRD                                   Total Size: 1.453 TB         Total Files: 4137
+  RSE: BNL-XRD                                   Total Size: 146.155 TB       Total Files: 369752
   RSE: JLAB-TAPE-SE                              Total Size: 147.497 TB       Total Files: 373562
 ```
