@@ -51,8 +51,6 @@ edt,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.3/eH2/ep/10x130/q2_1to1000,http
 edt,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.3/eH2/en/10x130/q2_1to1000,https://github.com/eic/BeAGLEsamples/releases/tag/BeAGLE1.03.02-1.3,,No,No,Yes,Yes,,eD events for nuclear structure functions,1,
 edt,/volatile/eic/EPIC/EVGEN/DDIS/rapgap3.310-1.0/noRad/ep/10x100,https://github.com/eic/rapgap-inc-diffr-dis/releases/tag/rapgap3.310-1.0,,No,No,No,Yes,Potential DiffPDFimpact study,"   Inclusive diffractive DIS events for 10x100 GeV configuration. Q² range: 1 to 10⁴ GeV². Generated with RAPGAP 3.303 for forward proton tagging (Roman Pot/B0) and Large Rapidity Gap (LRG) selection methods. Used for diffractive structure function
 measurements and cross-section extraction in ePIC early science.",1,
-Exclusive/Diffractive/Tagging,/volatile/eic/romanov/meson-structure-2025-10/afterburner,https://github.com/JeffersonLab/eic_mesonsf_generator,,No,No,Yes,No,FF Lambda reconstruction,18x275 TDIS Kaon Structure Function (lambda production),2,
-Exclusive/Diffractive/Tagging,/volatile/eic/romanov/meson-structure-2025-10/afterburner,https://github.com/JeffersonLab/eic_mesonsf_generator,,Yes,No,Yes,No,FF Lambda reconstruction,18x275 TDIS Kaon Structure Function (lambda production) with machine BG,2,
 ,,,,,,,,,,,
 inclusive,/gpfs02/eic/baraks/djangoh/djangoh_local/outfiles,Djangoh 4.6.21,100k,No,No,Yes,Yes,,10x100 ep NC DIS with QED Radiative effects on for studies of QED radiative corrections,3,
 inclusive,/volatile/eic/EPIC/EVGEN/DIS/BeAGLE1.03.02-1.0/eAu/10x100,BeAGLE,,No,No,Yes,Yes,,eAu events for nuclear structure functions,1,
