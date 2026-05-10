@@ -77,7 +77,7 @@ Jets & HF,3,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/HFsim-PYTHIA/pythia8.306-1.
 Jets & HF,1,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/HFsim-PYTHIA/pythia8.312-2.0/ep/10x130/q2_1,https://github.com/eic/HFsim-PYTHIA/releases/tag/Pythia8.312-2.0,,No,No,Yes,Yes,,,
 Jets & HF,1,/volatile/eic/EPIC/EVGEN/SIDIS/D0_ABCONV/HFsim-PYTHIA/pythia8.312-2.0/ep/10x250/q2_1,https://github.com/eic/HFsim-PYTHIA/releases/tag/Pythia8.312-2.0,,No,No,Yes,Yes,,,
 Jets & HF,1,/volatile/eic/EPIC/EVGEN/SIDIS/Lc_ABCONV/HFsim-PYTHIA/pythia8.312-2.0/ep/10x250/q2_1,https://github.com/eic/HFsim-PYTHIA/releases/tag/Pythia8.312-2.0,,No,No,Yes,Yes,,,
-Jets & HF,3,/gpfs/mnt/gpfs02/eic/rongrong/SC_requests/dijet/pythia6_ep_18x275_Q2min1/ab_hepmc,Pythia 6.428,,No,Yes,Yes,No,,Simulation of photon-gluon and photon-quark processes,
+Jets & HF,3,/volatile/eic/EPIC/EVGEN/SIDIS/DIJET_ABCONV/pythia6.428-dijet-v1.0/PGF/noRC/ep/18x275/q2_1to20000,https://github.com/eic/JetSim-PGF/releases/tag/pythia6.428-dijet-v1.0,,No,Yes,Yes,No,,Simulation of photon-gluon and photon-quark processes,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 TBD,,/volatile/eic/EPIC/EVGEN/BACKGROUNDS/BEAMGAS/electron/GETaLM1.0.0-1.0/10GeV/,TBD,,,,,,,From log.txt: BACKGROUNDS/BEAMGAS/electron/GETaLM1.0.0-1.0/10GeV/,
