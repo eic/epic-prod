@@ -1,8 +1,8 @@
 ```
 === epic:/RECO/26.03.1/epic_craterlake/DDIS/rapgap3.310-1.0/noRad/ep/10x100 ===
-  RSE: JLAB-TAPE-SE                              Files: 4354/4367 (incomplete)
-  RSE: EIC-XRD                                   Files: 4367/4367 (complete)
-  Total Size: 789.453 GB (4367 files)
+  RSE: JLAB-TAPE-SE                              Files: 4370/4370 (complete)
+  RSE: EIC-XRD                                   Files: 4370/4370 (complete)
+  Total Size: 789.993 GB (4370 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eCu/en/10x115/q2_1to1000 ===
   RSE: BNL-XRD                                   Files: 433/433 (complete)
@@ -398,7 +398,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 17.694 TB        Total Files: 92291
+  RSE: EIC-XRD                                   Total Size: 17.694 TB        Total Files: 92294
   RSE: BNL-XRD                                   Total Size: 12.019 TB        Total Files: 92169
-  RSE: JLAB-TAPE-SE                              Total Size: 26.381 TB        Total Files: 161794
+  RSE: JLAB-TAPE-SE                              Total Size: 26.383 TB        Total Files: 161810
 ```
