@@ -40,9 +40,9 @@
   Total Size: 215.284 GB (137 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/e+/5GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 66/66 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 66/66 (complete)
-  Total Size: 98.177 GB (66 files)
+  RSE: BNL-XRD                                   Files: 67/67 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 67/67 (complete)
+  Total Size: 99.673 GB (67 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/e+/10GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 210/210 (complete)
@@ -135,9 +135,9 @@
   Total Size: 47.791 GB (33 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/e-/1GeV/etaScan ===
-  RSE: BNL-XRD                                   Files: 104/104 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 40/104 (incomplete)
-  Total Size: 135.427 GB (104 files)
+  RSE: BNL-XRD                                   Files: 130/130 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 130/130 (complete)
+  Total Size: 171.156 GB (130 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/e-/2GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 89/89 (complete)
@@ -155,9 +155,9 @@
   Total Size: 79.765 GB (53 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/e-/2GeV/etaScan ===
-  RSE: BNL-XRD                                   Files: 542/542 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 354/542 (incomplete)
-  Total Size: 365.884 GB (542 files)
+  RSE: BNL-XRD                                   Files: 571/571 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 571/571 (complete)
+  Total Size: 405.594 GB (571 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/e-/5GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 159/159 (complete)
@@ -190,9 +190,9 @@
   Total Size: 196.025 GB (165 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/e-/10GeV/etaScan ===
-  RSE: BNL-XRD                                   Files: 870/870 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 724/870 (incomplete)
-  Total Size: 1.107 TB (870 files)
+  RSE: BNL-XRD                                   Files: 921/921 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 921/921 (complete)
+  Total Size: 1.169 TB (921 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/e-/20GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 383/383 (complete)
@@ -270,9 +270,9 @@
   Total Size: 24.814 GB (15 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/gamma/1GeV/etaScan ===
-  RSE: BNL-XRD                                   Files: 257/257 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 157/257 (incomplete)
-  Total Size: 168.657 GB (257 files)
+  RSE: BNL-XRD                                   Files: 281/281 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 281/281 (complete)
+  Total Size: 214.241 GB (281 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/gamma/2GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 61/61 (complete)
@@ -331,7 +331,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/gamma/20GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 228/228 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 226/228 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 228/228 (complete)
   Total Size: 226.122 GB (228 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/gamma/40GeV/3to50deg ===
@@ -360,9 +360,9 @@
   Total Size: 12.184 GB (20 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/gamma/100MeV/etaScan ===
-  RSE: BNL-XRD                                   Files: 65/65 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 47/65 (incomplete)
-  Total Size: 52.152 GB (65 files)
+  RSE: BNL-XRD                                   Files: 66/66 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 66/66 (complete)
+  Total Size: 52.964 GB (66 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/gamma/200MeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 24/24 (complete)
@@ -406,7 +406,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/1GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 14/14 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 12/14 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 14/14 (complete)
   Total Size: 32.744 GB (14 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/2GeV/3to50deg ===
@@ -421,7 +421,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/2GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 24/24 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 23/24 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 24/24 (complete)
   Total Size: 48.339 GB (24 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/5GeV/3to50deg ===
@@ -436,7 +436,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/5GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 48/48 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 47/48 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 48/48 (complete)
   Total Size: 98.590 GB (48 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/10GeV/3to50deg ===
@@ -451,7 +451,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/10GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 56/56 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 54/56 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 56/56 (complete)
   Total Size: 69.291 GB (56 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/20GeV/3to50deg ===
@@ -465,9 +465,9 @@
   Total Size: 158.971 GB (134 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/20GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 108/108 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 98/108 (incomplete)
-  Total Size: 166.568 GB (108 files)
+  RSE: BNL-XRD                                   Files: 109/109 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 109/109 (complete)
+  Total Size: 168.099 GB (109 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/100MeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 33/33 (complete)
@@ -480,9 +480,9 @@
   Total Size: 4.778 GB (5 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/100MeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 7/7 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 2/7 (incomplete)
-  Total Size: 6.441 GB (7 files)
+  RSE: BNL-XRD                                   Files: 10/10 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 10/10 (complete)
+  Total Size: 9.200 GB (10 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/200MeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 28/28 (complete)
@@ -496,7 +496,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/200MeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 11/11 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 10/11 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 11/11 (complete)
   Total Size: 8.206 GB (11 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/500MeV/3to50deg ===
@@ -511,7 +511,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon+/500MeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 11/11 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 10/11 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 11/11 (complete)
   Total Size: 13.612 GB (11 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/1GeV/3to50deg ===
@@ -526,7 +526,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/1GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 12/12 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 10/12 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 12/12 (complete)
   Total Size: 25.808 GB (12 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/2GeV/3to50deg ===
@@ -541,7 +541,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/2GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 29/29 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 27/29 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 29/29 (complete)
   Total Size: 59.954 GB (29 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/5GeV/3to50deg ===
@@ -555,9 +555,9 @@
   Total Size: 27.050 GB (16 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/5GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 51/51 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 46/51 (incomplete)
-  Total Size: 104.307 GB (51 files)
+  RSE: BNL-XRD                                   Files: 53/53 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 53/53 (complete)
+  Total Size: 108.402 GB (53 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/10GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 140/140 (complete)
@@ -570,9 +570,9 @@
   Total Size: 170.679 GB (112 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/10GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 15/15 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 15/15 (complete)
-  Total Size: 26.416 GB (15 files)
+  RSE: BNL-XRD                                   Files: 16/16 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 16/16 (complete)
+  Total Size: 28.174 GB (16 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/20GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 218/218 (complete)
@@ -585,9 +585,9 @@
   Total Size: 252.754 GB (216 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/20GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 162/162 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 153/162 (incomplete)
-  Total Size: 263.278 GB (162 files)
+  RSE: BNL-XRD                                   Files: 164/164 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 164/164 (complete)
+  Total Size: 266.522 GB (164 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/100MeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 27/27 (complete)
@@ -601,7 +601,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/100MeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 3/3 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 2/3 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 3/3 (complete)
   Total Size: 4.035 GB (3 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/200MeV/3to50deg ===
@@ -616,7 +616,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/200MeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 17/17 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 16/17 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 17/17 (complete)
   Total Size: 15.652 GB (17 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/500MeV/3to50deg ===
@@ -631,13 +631,13 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/kaon-/500MeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 14/14 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 10/14 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 14/14 (complete)
   Total Size: 21.665 GB (14 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/mu-/10GeV/etaScan ===
-  RSE: BNL-XRD                                   Files: 88/88 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 0/88 (incomplete)
-  Total Size: 123.638 GB (88 files)
+  RSE: BNL-XRD                                   Files: 107/107 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 107/107 (complete)
+  Total Size: 146.331 GB (107 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/neutron/1GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 17/17 (complete)
@@ -696,7 +696,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/neutron/10GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 83/83 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 69/83 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 83/83 (complete)
   Total Size: 157.263 GB (83 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/neutron/20GeV/3to50deg ===
@@ -710,9 +710,9 @@
   Total Size: 253.065 GB (446 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/neutron/20GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 165/165 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 159/165 (incomplete)
-  Total Size: 284.262 GB (165 files)
+  RSE: BNL-XRD                                   Files: 171/171 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 171/171 (complete)
+  Total Size: 294.645 GB (171 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/neutron/100MeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 17/17 (complete)
@@ -785,9 +785,9 @@
   Total Size: 98.358 GB (49 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi0/2GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 41/41 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 39/41 (incomplete)
-  Total Size: 72.854 GB (41 files)
+  RSE: BNL-XRD                                   Files: 42/42 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 42/42 (complete)
+  Total Size: 74.630 GB (42 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi0/5GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 140/140 (complete)
@@ -801,7 +801,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi0/5GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 93/93 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 92/93 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 93/93 (complete)
   Total Size: 146.427 GB (93 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi0/10GeV/3to50deg ===
@@ -830,9 +830,9 @@
   Total Size: 413.520 GB (361 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi0/20GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 383/383 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 378/383 (incomplete)
-  Total Size: 404.072 GB (383 files)
+  RSE: BNL-XRD                                   Files: 385/385 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 385/385 (complete)
+  Total Size: 406.190 GB (385 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi0/40GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 701/701 (complete)
@@ -946,7 +946,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi+/10GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 86/86 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 85/86 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 86/86 (complete)
   Total Size: 158.601 GB (86 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi+/20GeV/3to50deg ===
@@ -960,9 +960,9 @@
   Total Size: 243.160 GB (227 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi+/20GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 151/151 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 150/151 (incomplete)
-  Total Size: 222.565 GB (151 files)
+  RSE: BNL-XRD                                   Files: 152/152 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 152/152 (complete)
+  Total Size: 224.040 GB (152 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi+/100MeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 16/16 (complete)
@@ -1006,7 +1006,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi+/500MeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 10/10 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 5/10 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 10/10 (complete)
   Total Size: 18.983 GB (10 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi-/1GeV/3to50deg ===
@@ -1050,9 +1050,9 @@
   Total Size: 117.695 GB (75 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi-/5GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 268/268 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 268/268 (complete)
-  Total Size: 113.586 GB (268 files)
+  RSE: BNL-XRD                                   Files: 269/269 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 269/269 (complete)
+  Total Size: 114.011 GB (269 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi-/10GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 125/125 (complete)
@@ -1125,9 +1125,9 @@
   Total Size: 38.431 GB (20 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/pi-/500MeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 11/11 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 11/11 (complete)
-  Total Size: 16.195 GB (11 files)
+  RSE: BNL-XRD                                   Files: 13/13 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 13/13 (complete)
+  Total Size: 19.145 GB (13 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/proton/1GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 17/17 (complete)
@@ -1156,7 +1156,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/proton/2GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 18/18 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 17/18 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 18/18 (complete)
   Total Size: 47.800 GB (18 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/proton/5GeV/3to50deg ===
@@ -1170,9 +1170,9 @@
   Total Size: 112.639 GB (70 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/proton/5GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 54/54 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 46/54 (incomplete)
-  Total Size: 116.755 GB (54 files)
+  RSE: BNL-XRD                                   Files: 55/55 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 55/55 (complete)
+  Total Size: 118.920 GB (55 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/proton/10GeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 109/109 (complete)
@@ -1186,7 +1186,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/proton/10GeV/130to177deg ===
   RSE: BNL-XRD                                   Files: 75/75 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 74/75 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 75/75 (complete)
   Total Size: 67.469 GB (75 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/proton/20GeV/3to50deg ===
@@ -1200,9 +1200,9 @@
   Total Size: 275.575 GB (223 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/proton/20GeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 194/194 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 187/194 (incomplete)
-  Total Size: 317.645 GB (194 files)
+  RSE: BNL-XRD                                   Files: 195/195 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 195/195 (complete)
+  Total Size: 319.247 GB (195 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/proton/100MeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 17/17 (complete)
@@ -1215,9 +1215,9 @@
   Total Size: 5.674 GB (21 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/proton/100MeV/130to177deg ===
-  RSE: BNL-XRD                                   Files: 8/8 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 8/8 (complete)
-  Total Size: 2.389 GB (8 files)
+  RSE: BNL-XRD                                   Files: 9/9 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 9/9 (complete)
+  Total Size: 2.688 GB (9 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/proton/200MeV/3to50deg ===
   RSE: BNL-XRD                                   Files: 16/16 (complete)
@@ -1248,6 +1248,6 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: BNL-XRD                                   Total Size: 26.967 TB        Total Files: 25713
-  RSE: JLAB-TAPE-SE                              Total Size: 26.212 TB        Total Files: 25008
+  RSE: BNL-XRD                                   Total Size: 27.208 TB        Total Files: 25889
+  RSE: JLAB-TAPE-SE                              Total Size: 27.208 TB        Total Files: 25889
 ```
