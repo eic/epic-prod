@@ -1,4 +1,19 @@
 ```
+=== epic:/RECO/26.05.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/coulomb/EIC_ESR_Xsuite/dataprod_rel_1.0.1/5x100/10000Ahr/MachineRuntime50s ===
+  RSE: BNL-XRD                                   Files: 34/34 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 34/34 (complete)
+  Total Size: 6.766 GB (34 files)
+
+=== epic:/RECO/26.05.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/coulomb/EIC_ESR_Xsuite/dataprod_rel_1.0.1/10x275/10000Ahr/MachineRuntime50s ===
+  RSE: BNL-XRD                                   Files: 9/9 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 9/9 (complete)
+  Total Size: 2.772 GB (9 files)
+
+=== epic:/RECO/26.05.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/coulomb/EIC_ESR_Xsuite/dataprod_rel_1.0.1/18x275/10000Ahr/MachineRuntime50s ===
+  RSE: BNL-XRD                                   Files: 10/10 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 10/10 (complete)
+  Total Size: 2.739 GB (10 files)
+
 === epic:/RECO/26.05.0/epic_craterlake/DIS/pythia8.316-1.0/NC/noRad/ep/5x41/q2_1to10 ===
   RSE: BNL-XRD                                   Files: 4211/4211 (complete)
   RSE: JLAB-TAPE-SE                              Files: 4211/4211 (complete)
@@ -1444,10 +1459,10 @@
   RSE: JLAB-TAPE-SE                              Files: 15/15 (complete)
   Total Size: 9.386 GB (15 files)
 
-=== --------------------------------------------------------------------------------------------------+-------------- ===
+=== ---------------------------------------------------------------------------------------------------------------------------------------------+-------------- ===
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: BNL-XRD                                   Total Size: 99.896 TB        Total Files: 248674
-  RSE: JLAB-TAPE-SE                              Total Size: 99.896 TB        Total Files: 248674
+  RSE: BNL-XRD                                   Total Size: 99.908 TB        Total Files: 248727
+  RSE: JLAB-TAPE-SE                              Total Size: 99.908 TB        Total Files: 248727
 ```
