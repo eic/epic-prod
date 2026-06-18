@@ -88,25 +88,25 @@ inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/Rad/ep/18x275/q2_
 inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/Rad/ep/18x275/q2_100to1000,https://github.com/eic/InclusiveDjangohSamples/releases/tag/DJANGOH4.6.21-1.0,,No,No,Yes,No,,18x275 ep NC DIS with QED radiative corrections. q2=100-1000,,s.maple@bham.ac.uk,
 inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/Rad/ep/18x275/q2_10to100,https://github.com/eic/InclusiveDjangohSamples/releases/tag/DJANGOH4.6.21-1.0,,No,No,Yes,No,,18x275 ep NC DIS with QED radiative corrections. q2=10-100,,s.maple@bham.ac.uk,
 inclusive,-1,/volatile/eic/EPIC/EVGEN/DIS/DJANGOH4.6.21-1.0/NC/Rad/ep/18x275/q2_1to10,https://github.com/eic/InclusiveDjangohSamples/releases/tag/DJANGOH4.6.21-1.0,,No,No,Yes,No,,18x275 ep NC DIS with QED radiative corrections. q2=1-10,,s.maple@bham.ac.uk,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=1,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=1,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=10,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=10,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=100,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=100,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=1000,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=1000,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=1,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=1,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=10,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=10,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=100,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=100,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=1000,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=1000,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=1,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=1,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=10,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=10,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=100,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=100,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=1000,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=1000,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=1,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=1,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=10,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=10,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=100,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=100,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=1000,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=1000,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x41/minQ2=1,pythia8,,No,No,Yes,No,,5x41 ep NC DIS with minQ2=1,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x41/minQ2=10,pythia8,,No,No,Yes,No,,5x41 ep NC DIS with minQ2=10,,bpage@bnl.gov,
-inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x41/minQ2=100,pythia8,,No,No,Yes,No,,5x41 ep NC DIS with minQ2=100,,bpage@bnl.gov,
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=1,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=1,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=10,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=10,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=100,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=100,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x100/minQ2=1000,pythia8,,Yes,No,Yes,No,,10x100 ep NC DIS with minQ2=1000,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=1,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=1,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=10,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=10,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=100,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=100,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/10x275/minQ2=1000,pythia8,,Yes,No,Yes,No,,10x275 ep NC DIS with minQ2=1000,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=1,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=1,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=10,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=10,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=100,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=100,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/18x275/minQ2=1000,pythia8,,No,No,Yes,No,,18x275 ep NC DIS with minQ2=1000,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=1,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=1,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=10,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=10,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=100,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=100,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x100/minQ2=1000,pythia8,,No,No,Yes,No,,5x100 ep NC DIS with minQ2=1000,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x41/minQ2=1,pythia8,,No,No,Yes,No,,5x41 ep NC DIS with minQ2=1,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x41/minQ2=10,pythia8,,No,No,Yes,No,,5x41 ep NC DIS with minQ2=10,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
+inclusive,2,/volatile/eic/EPIC/EVGEN/DIS/NC/5x41/minQ2=100,pythia8,,No,No,Yes,No,,5x41 ep NC DIS with minQ2=100,,bpage@bnl.gov,To be decommissioned from 26.05.0 onwards
 inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/pythia6.428-1.0/NC/noRad/ep/10x130/q2_1000to10000,https://github.com/eic/InclusiveEarlyScienceSamples/releases/tag/pythia6.428-1.0,500k,No,No,No,Yes,,10x130 ep NC DIS with q2_1000to10000 - noRad,,rseidl@ribf.riken.jp;s.maple@bham.ac.uk,
 inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/pythia6.428-1.0/NC/noRad/ep/10x130/q2_100to1000,https://github.com/eic/InclusiveEarlyScienceSamples/releases/tag/pythia6.428-1.0,5M,No,No,No,Yes,,10x130 ep NC DIS with q2_100to1000 - noRad,,rseidl@ribf.riken.jp;s.maple@bham.ac.uk,
 inclusive,1,/volatile/eic/EPIC/EVGEN/DIS/pythia6.428-1.0/NC/noRad/ep/10x130/q2_10to100,https://github.com/eic/InclusiveEarlyScienceSamples/releases/tag/pythia6.428-1.0,5M,No,No,No,Yes,,10x130 ep NC DIS with q2_10to100 - noRad,,rseidl@ribf.riken.jp;s.maple@bham.ac.uk,
