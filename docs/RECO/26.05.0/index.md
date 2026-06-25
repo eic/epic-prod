@@ -285,9 +285,9 @@
   Total Size: 12.115 GB (400 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/EW_BSM/ALP/madgraph5-3.7.0-1.0/aem-ax-emmupmum/10x110/ma_5.0 ===
-  RSE: BNL-XRD                                   Files: 373/373 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 373/373 (complete)
-  Total Size: 17.888 GB (373 files)
+  RSE: BNL-XRD                                   Files: 400/400 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 400/400 (complete)
+  Total Size: 19.178 GB (400 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/EW_BSM/ALP/madgraph5-3.7.0-1.0/aem-ax-emmupmum/10x110/ma_10.0 ===
   RSE: BNL-XRD                                   Files: 400/400 (complete)
@@ -1553,6 +1553,6 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: BNL-XRD                                   Total Size: 116.847 TB       Total Files: 289477
-  RSE: JLAB-TAPE-SE                              Total Size: 116.847 TB       Total Files: 289477
+  RSE: BNL-XRD                                   Total Size: 116.849 TB       Total Files: 289504
+  RSE: JLAB-TAPE-SE                              Total Size: 116.849 TB       Total Files: 289504
 ```
