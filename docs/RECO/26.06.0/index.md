@@ -1,4 +1,14 @@
 ```
+=== epic:/RECO/26.06.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/GETaLM1.0.0-1.0/10GeV ===
+  RSE: JLAB-TAPE-SE                              Files: 269/269 (complete)
+  RSE: ASGC-XRD                                  Files: 269/269 (complete)
+  Total Size: 74.430 GB (269 files)
+
+=== epic:/RECO/26.06.0/epic_craterlake/BACKGROUNDS/BEAMGAS/electron/GETaLM1.0.0-1.1/18GeV ===
+  RSE: JLAB-TAPE-SE                              Files: 105/105 (complete)
+  RSE: ASGC-XRD                                  Files: 105/105 (complete)
+  Total Size: 13.672 GB (105 files)
+
 === epic:/RECO/26.06.0/epic_craterlake/DIS/pythia8.316-1.0/NC/noRad/ep/9x130/q2_1to10 ===
   RSE: BNL-XRD                                   Files: 4451/4451 (complete)
   RSE: JLAB-TAPE-SE                              Files: 4451/4451 (complete)
@@ -579,6 +589,6 @@
 
 === CAMPAIGN SUMMARY ===
   RSE: BNL-XRD                                   Total Size: 42.922 TB        Total Files: 101025
-  RSE: JLAB-TAPE-SE                              Total Size: 52.564 TB        Total Files: 110642
-  RSE: ASGC-XRD                                  Total Size: 9.642 TB         Total Files: 9617
+  RSE: JLAB-TAPE-SE                              Total Size: 52.651 TB        Total Files: 111016
+  RSE: ASGC-XRD                                  Total Size: 9.728 TB         Total Files: 9991
 ```
