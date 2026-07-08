@@ -68,7 +68,7 @@ jobs:
           print(f"Appended row: {row}")
 
       - name: Open pull request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         id: cpr
         with:
           commit-message: "Add dataset request from issue #${{ github.event.issue.number }}"
