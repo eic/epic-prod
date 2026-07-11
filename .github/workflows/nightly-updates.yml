@@ -204,7 +204,7 @@ jobs:
           fi
           cat "${output_file}"
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: reco-${{ matrix.campaign }}.md
           path: reco-${{ matrix.campaign }}.md
@@ -436,7 +436,7 @@ jobs:
           fi
           cat "${output_file}"
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: full-${{ matrix.campaign }}.md
           path: full-${{ matrix.campaign }}.md
