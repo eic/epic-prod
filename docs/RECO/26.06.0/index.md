@@ -55,19 +55,19 @@
   Total Size: 4.803 TB (6260 files)
 
 === epic:/RECO/26.06.0/epic_craterlake/DIS/pythia8.316-1.0/NC/noRad/ep/10x275/q2_1to10 ===
-  RSE: BNL-XRD                                   Files: 1325/1325 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 1325/1325 (complete)
-  Total Size: 319.753 GB (1325 files)
+  RSE: BNL-XRD                                   Files: 1445/1445 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 1420/1445 (incomplete)
+  Total Size: 348.700 GB (1445 files)
 
 === epic:/RECO/26.06.0/epic_craterlake/DIS/pythia8.316-1.0/NC/noRad/ep/10x275/q2_10to100 ===
-  RSE: BNL-XRD                                   Files: 2806/2806 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 2806/2806 (complete)
-  Total Size: 1.033 TB (2806 files)
+  RSE: BNL-XRD                                   Files: 3243/3243 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 3243/3243 (complete)
+  Total Size: 1.195 TB (3243 files)
 
 === epic:/RECO/26.06.0/epic_craterlake/DIS/pythia8.316-1.0/NC/noRad/ep/10x275/q2_100to1000 ===
-  RSE: BNL-XRD                                   Files: 4218/4219 (incomplete)
-  RSE: JLAB-TAPE-SE                              Files: 4158/4219 (incomplete)
-  Total Size: 1.833 TB (4219 files)
+  RSE: BNL-XRD                                   Files: 4416/4417 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 4416/4417 (incomplete)
+  Total Size: 1.919 TB (4417 files)
 
 === epic:/RECO/26.06.0/epic_craterlake/DIS/pythia8.316-1.0/NC/noRad/ep/18x275/q2_1to10 ===
   RSE: BNL-XRD                                   Files: 8059/8059 (complete)
@@ -588,7 +588,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: BNL-XRD                                   Total Size: 43.917 TB        Total Files: 103516
-  RSE: JLAB-TAPE-SE                              Total Size: 54.088 TB        Total Files: 115510
+  RSE: BNL-XRD                                   Total Size: 44.194 TB        Total Files: 104271
+  RSE: JLAB-TAPE-SE                              Total Size: 54.384 TB        Total Files: 116300
   RSE: ASGC-XRD                                  Total Size: 10.196 TB        Total Files: 12054
 ```
