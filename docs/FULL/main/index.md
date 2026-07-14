@@ -93,43 +93,43 @@
   Total Size: 195.626 kB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2026-04-06_09-37-00/DIS/NC/18x275/minQ2=1 ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 17.110 MB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2026-04-06_10-01-00/DIS/NC/18x275/minQ2=1 ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 28.355 MB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2026-04-06_11-54-00/DIS/NC/18x275/minQ2=1 ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 28.355 MB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2026-04-06_12-03-00/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000 ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 4.257 MB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2026-04-06_17-25-00/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000 ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 4.257 MB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2026-04-06_18-31-00/DIS/NC/18x275/minQ2=1 ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 29.177 MB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2026-04-06_18-38-00/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000 ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 4.257 MB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2026-04-06_18-49-00/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000 ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 4.257 MB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2026-04-06_20-10-00/SIDIS/D0_ABCONV/HFsim-BeAGLE/BeAGLE1.03.01-1.0/eAu/10x100/q2_1to10000 ===
