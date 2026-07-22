@@ -52,33 +52,33 @@
   Total Size: 237.675 kB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2025-04-06_11-38-00/SINGLE/e+/100MeV/130to177deg ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 237.782 kB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2025-04-06_17-02-00/SINGLE/e+/100MeV/130to177deg ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 237.686 kB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2025-04-06_17-29-00/SINGLE/e+/100MeV/130to177deg ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 237.686 kB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2025-04-06_18-34-00/SINGLE/e+/100MeV/130to177deg ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 237.686 kB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2025-04-06_20-15-00/SINGLE/e+/100MeV/130to177deg ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 247.026 kB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2025-04-06_21-57-00/SINGLE/e+/100MeV/130to177deg ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 247.146 kB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2025-04-11_14-07-00/EXCLUSIVE/DVCS_ABCONV/10x100 ===
@@ -88,8 +88,8 @@
   Total Size: 0.000 B (0 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2026-04-06_01-44-00/BACKGROUNDS/BEAMGAS/electron/GETaLM1.0.0-1.0/10GeV ===
-  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   Total Size: 195.626 kB (1 files)
 
 === epic:/FULL/main/epic_craterlake/Test/2026-04-06_09-37-00/DIS/NC/18x275/minQ2=1 ===
