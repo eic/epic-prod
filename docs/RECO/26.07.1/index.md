@@ -49,6 +49,141 @@
   RSE: ASGC-XRD                                  Files: 99/99 (complete)
   Total Size: 54.185 GB (99 files)
 
+=== epic:/RECO/26.07.1/epic_craterlake/DIS/NC/5x41/minQ2=1 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/116 (incomplete)
+  RSE: ASGC-XRD                                  Files: 116/116 (complete)
+  Total Size: 66.712 GB (116 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/DIS/NC/5x100/minQ2=1 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/340 (incomplete)
+  RSE: ASGC-XRD                                  Files: 340/340 (complete)
+  Total Size: 148.655 GB (340 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/DIS/NC/5x100/minQ2=10 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/181 (incomplete)
+  RSE: ASGC-XRD                                  Files: 181/181 (complete)
+  Total Size: 113.562 GB (181 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/BH_ONLY/9x130/q2_1_100/emhLm ===
+  RSE: JLAB-TAPE-SE                              Files: 363/363 (complete)
+  RSE: ASGC-XRD                                  Files: 363/363 (complete)
+  Total Size: 93.314 GB (363 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/BH_ONLY/9x130/q2_1_100/emhTm ===
+  RSE: JLAB-TAPE-SE                              Files: 408/408 (complete)
+  RSE: ASGC-XRD                                  Files: 408/408 (complete)
+  Total Size: 93.646 GB (408 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/BH_ONLY/9x275/q2_1_100/emhLm ===
+  RSE: JLAB-TAPE-SE                              Files: 394/394 (complete)
+  RSE: ASGC-XRD                                  Files: 394/394 (complete)
+  Total Size: 220.549 GB (394 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/BH_ONLY/9x275/q2_1_100/emhTm ===
+  RSE: JLAB-TAPE-SE                              Files: 332/332 (complete)
+  RSE: ASGC-XRD                                  Files: 332/332 (complete)
+  Total Size: 220.489 GB (332 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x130/q2_1_100/emhLm ===
+  RSE: JLAB-TAPE-SE                              Files: 380/380 (complete)
+  RSE: ASGC-XRD                                  Files: 380/380 (complete)
+  Total Size: 95.049 GB (380 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x130/q2_1_100/emhLp ===
+  RSE: JLAB-TAPE-SE                              Files: 383/383 (complete)
+  RSE: ASGC-XRD                                  Files: 383/383 (complete)
+  Total Size: 95.395 GB (383 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x130/q2_1_100/emhTm ===
+  RSE: JLAB-TAPE-SE                              Files: 375/375 (complete)
+  RSE: ASGC-XRD                                  Files: 375/375 (complete)
+  Total Size: 94.655 GB (375 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x130/q2_1_100/emhTp ===
+  RSE: JLAB-TAPE-SE                              Files: 429/429 (complete)
+  RSE: ASGC-XRD                                  Files: 429/429 (complete)
+  Total Size: 95.999 GB (429 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x130/q2_1_100/ephLm ===
+  RSE: JLAB-TAPE-SE                              Files: 441/441 (complete)
+  RSE: ASGC-XRD                                  Files: 441/441 (complete)
+  Total Size: 95.623 GB (441 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x130/q2_1_100/ephLp ===
+  RSE: JLAB-TAPE-SE                              Files: 397/397 (complete)
+  RSE: ASGC-XRD                                  Files: 397/397 (complete)
+  Total Size: 95.057 GB (397 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x130/q2_1_100/ephTm ===
+  RSE: JLAB-TAPE-SE                              Files: 379/379 (complete)
+  RSE: ASGC-XRD                                  Files: 379/379 (complete)
+  Total Size: 94.747 GB (379 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x130/q2_1_100/ephTp ===
+  RSE: JLAB-TAPE-SE                              Files: 410/410 (complete)
+  RSE: ASGC-XRD                                  Files: 410/410 (complete)
+  Total Size: 95.826 GB (410 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x275/q2_1_100/emhLm ===
+  RSE: JLAB-TAPE-SE                              Files: 365/365 (complete)
+  RSE: ASGC-XRD                                  Files: 365/365 (complete)
+  Total Size: 224.356 GB (365 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x275/q2_1_100/emhLp ===
+  RSE: JLAB-TAPE-SE                              Files: 444/444 (complete)
+  RSE: ASGC-XRD                                  Files: 444/444 (complete)
+  Total Size: 225.206 GB (444 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x275/q2_1_100/emhTm ===
+  RSE: JLAB-TAPE-SE                              Files: 389/389 (complete)
+  RSE: ASGC-XRD                                  Files: 389/389 (complete)
+  Total Size: 224.011 GB (389 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x275/q2_1_100/emhTp ===
+  RSE: JLAB-TAPE-SE                              Files: 426/426 (complete)
+  RSE: ASGC-XRD                                  Files: 426/426 (complete)
+  Total Size: 225.525 GB (426 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x275/q2_1_100/ephLm ===
+  RSE: JLAB-TAPE-SE                              Files: 350/350 (complete)
+  RSE: ASGC-XRD                                  Files: 350/350 (complete)
+  Total Size: 224.957 GB (350 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x275/q2_1_100/ephLp ===
+  RSE: JLAB-TAPE-SE                              Files: 825/825 (complete)
+  RSE: ASGC-XRD                                  Files: 825/825 (complete)
+  Total Size: 225.446 GB (825 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x275/q2_1_100/ephTm ===
+  RSE: JLAB-TAPE-SE                              Files: 446/446 (complete)
+  RSE: ASGC-XRD                                  Files: 446/446 (complete)
+  Total Size: 224.363 GB (446 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_BH/9x275/q2_1_100/ephTp ===
+  RSE: JLAB-TAPE-SE                              Files: 490/490 (complete)
+  RSE: ASGC-XRD                                  Files: 490/490 (complete)
+  Total Size: 225.543 GB (490 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_ONLY/9x130/q2_1_100/emhLm ===
+  RSE: JLAB-TAPE-SE                              Files: 403/403 (complete)
+  RSE: ASGC-XRD                                  Files: 403/403 (complete)
+  Total Size: 115.810 GB (403 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_ONLY/9x130/q2_1_100/emhTm ===
+  RSE: JLAB-TAPE-SE                              Files: 431/431 (complete)
+  RSE: ASGC-XRD                                  Files: 431/431 (complete)
+  Total Size: 115.359 GB (431 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_ONLY/9x275/q2_1_100/emhLm ===
+  RSE: JLAB-TAPE-SE                              Files: 671/671 (complete)
+  RSE: ASGC-XRD                                  Files: 671/671 (complete)
+  Total Size: 275.232 GB (671 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/DVCS_ONLY/9x275/q2_1_100/emhTm ===
+  RSE: JLAB-TAPE-SE                              Files: 646/646 (complete)
+  RSE: ASGC-XRD                                  Files: 646/646 (complete)
+  Total Size: 274.918 GB (646 files)
+
 === epic:/RECO/26.07.1/epic_craterlake/SINGLE/e+/1GeV/3to50deg ===
   RSE: JLAB-TAPE-SE                              Files: 6/6 (complete)
   RSE: ASGC-XRD                                  Files: 6/6 (complete)
@@ -1264,10 +1399,10 @@
   RSE: ASGC-XRD                                  Files: 9/9 (complete)
   Total Size: 2.910 GB (9 files)
 
-=== -------------------------------------------------------------------------------------------------------+-------------- ===
+=== ---------------------------------------------------------------------------------------------------------+-------------- ===
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: JLAB-TAPE-SE                              Total Size: 12.320 TB        Total Files: 14011
-  RSE: ASGC-XRD                                  Total Size: 12.320 TB        Total Files: 14011
+  RSE: JLAB-TAPE-SE                              Total Size: 16.198 TB        Total Files: 24588
+  RSE: ASGC-XRD                                  Total Size: 16.520 TB        Total Files: 25225
 ```
