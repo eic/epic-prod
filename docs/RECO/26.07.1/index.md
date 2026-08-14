@@ -80,29 +80,39 @@
   Total Size: 2.402 TB (2074 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/CC/5x100/minQ2=100 ===
-  RSE: BNL-XRD                                   Files: 1999/1999 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 1775/1999 (incomplete)
-  Total Size: 1.703 TB (1999 files)
+  RSE: BNL-XRD                                   Files: 3555/3555 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 3555/3555 (complete)
+  Total Size: 3.029 TB (3555 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/CC/5x100/minQ2=1000 ===
-  RSE: BNL-XRD                                   Files: 532/532 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 500/532 (incomplete)
-  Total Size: 602.725 GB (532 files)
+  RSE: BNL-XRD                                   Files: 2156/2156 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 2156/2156 (complete)
+  Total Size: 2.442 TB (2156 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/DIS/CC/10x100/minQ2=100 ===
+  RSE: BNL-XRD                                   Files: 2998/2998 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 2761/2998 (incomplete)
+  Total Size: 2.997 TB (2998 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/DIS/CC/10x100/minQ2=1000 ===
+  RSE: BNL-XRD                                   Files: 2623/2623 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 2498/2623 (incomplete)
+  Total Size: 2.938 TB (2626 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/NC/5x41/minQ2=1 ===
-  RSE: JLAB-TAPE-SE                              Files: 767/861 (incomplete)
-  RSE: ASGC-XRD                                  Files: 861/861 (complete)
-  Total Size: 496.268 GB (861 files)
+  RSE: JLAB-TAPE-SE                              Files: 2075/2177 (incomplete)
+  RSE: ASGC-XRD                                  Files: 861/2177 (incomplete)
+  Total Size: 1.255 TB (2177 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/NC/5x41/minQ2=10 ===
-  RSE: JLAB-TAPE-SE                              Files: 0/0 (complete)
-  RSE: ASGC-XRD                                  Files: 0/0 (complete)
-  Total Size: 0.000 B (0 files)
+  RSE: JLAB-TAPE-SE                              Files: 2317/2791 (incomplete)
+  RSE: ASGC-XRD                                  Files: 0/2791 (incomplete)
+  Total Size: 2.191 TB (2791 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/NC/5x41/minQ2=100 ===
-  RSE: JLAB-TAPE-SE                              Files: 0/0 (complete)
-  RSE: ASGC-XRD                                  Files: 0/0 (complete)
-  Total Size: 0.000 B (0 files)
+  RSE: JLAB-TAPE-SE                              Files: 0/56 (incomplete)
+  RSE: ASGC-XRD                                  Files: 0/56 (incomplete)
+  Total Size: 60.974 GB (57 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/NC/5x100/minQ2=1 ===
   RSE: JLAB-TAPE-SE                              Files: 692/715 (incomplete)
@@ -125,9 +135,9 @@
   Total Size: 3.309 TB (4700 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/NC/10x100/minQ2=1 ===
-  RSE: BNL-XRD                                   Files: 476/476 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 476/476 (complete)
-  Total Size: 214.607 GB (476 files)
+  RSE: BNL-XRD                                   Files: 515/515 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 511/515 (incomplete)
+  Total Size: 232.230 GB (515 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/NC/10x100/minQ2=10 ===
   RSE: BNL-XRD                                   Files: 4578/4578 (complete)
@@ -210,19 +220,19 @@
   Total Size: 4.887 TB (5023 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/pythia8.316-1.0/NC/noRad/ep/10x275/q2_1to10 ===
-  RSE: BNL-XRD                                   Files: 4333/4333 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 4248/4333 (incomplete)
-  Total Size: 1.489 TB (4333 files)
+  RSE: BNL-XRD                                   Files: 5561/5561 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 5561/5561 (complete)
+  Total Size: 1.911 TB (5561 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/pythia8.316-1.0/NC/noRad/ep/10x275/q2_10to100 ===
-  RSE: BNL-XRD                                   Files: 4796/4796 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 4794/4796 (incomplete)
-  Total Size: 2.605 TB (4796 files)
+  RSE: BNL-XRD                                   Files: 5533/5533 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 5533/5533 (complete)
+  Total Size: 3.005 TB (5533 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/pythia8.316-1.0/NC/noRad/ep/10x275/q2_100to1000 ===
-  RSE: BNL-XRD                                   Files: 7287/7288 (incomplete)
-  RSE: JLAB-TAPE-SE                              Files: 7287/7288 (incomplete)
-  Total Size: 4.816 TB (7288 files)
+  RSE: BNL-XRD                                   Files: 7866/7867 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 7866/7867 (incomplete)
+  Total Size: 5.198 TB (7867 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/BH_ONLY/9x130/q2_1_100/emhLm ===
   RSE: JLAB-TAPE-SE                              Files: 363/363 (complete)
@@ -1618,7 +1628,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: BNL-XRD                                   Total Size: 72.565 TB        Total Files: 119495
-  RSE: JLAB-TAPE-SE                              Total Size: 89.792 TB        Total Files: 146109
-  RSE: ASGC-XRD                                  Total Size: 17.575 TB        Total Files: 27121
+  RSE: BNL-XRD                                   Total Size: 82.901 TB        Total Files: 130879
+  RSE: JLAB-TAPE-SE                              Total Size: 102.589 TB       Total Files: 161095
+  RSE: ASGC-XRD                                  Total Size: 17.587 TB        Total Files: 27121
 ```
