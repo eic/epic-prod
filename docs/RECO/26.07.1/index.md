@@ -165,14 +165,14 @@
   Total Size: 4.764 TB (6967 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/BeAGLE1.03.02-3.1/eAu/9x100/q2_1to10 ===
-  RSE: BNL-XRD                                   Files: 472/472 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 472/472 (complete)
-  Total Size: 63.836 GB (472 files)
+  RSE: BNL-XRD                                   Files: 3533/3533 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 3489/3533 (incomplete)
+  Total Size: 477.191 GB (3533 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/BeAGLE1.03.02-3.1/eAu/9x100/q2_10to100 ===
-  RSE: BNL-XRD                                   Files: 5792/5792 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 5792/5792 (complete)
-  Total Size: 1.035 TB (5792 files)
+  RSE: BNL-XRD                                   Files: 8097/8097 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 8097/8097 (complete)
+  Total Size: 1.447 TB (8097 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/BeAGLE1.03.02-3.1/eAu/9x100/q2_100to10000 ===
   RSE: BNL-XRD                                   Files: 2/2 (complete)
@@ -287,9 +287,9 @@
   Total Size: 3.309 TB (4700 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/NC/10x100/minQ2=1 ===
-  RSE: BNL-XRD                                   Files: 1576/1576 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 1572/1576 (incomplete)
-  Total Size: 710.564 GB (1576 files)
+  RSE: BNL-XRD                                   Files: 1625/1625 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 1621/1625 (incomplete)
+  Total Size: 732.630 GB (1625 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/NC/10x100/minQ2=10 ===
   RSE: BNL-XRD                                   Files: 4578/4578 (complete)
@@ -445,6 +445,36 @@
   RSE: BNL-XRD                                   Files: 405/405 (complete)
   RSE: JLAB-TAPE-SE                              Files: 405/405 (complete)
   Total Size: 206.021 GB (405 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/5x41/hiAcc ===
+  RSE: BNL-XRD                                   Files: 23/23 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 23/23 (complete)
+  Total Size: 19.936 GB (23 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/5x100/hiAcc ===
+  RSE: BNL-XRD                                   Files: 61/61 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 61/61 (complete)
+  Total Size: 34.557 GB (61 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x100/hiAcc ===
+  RSE: BNL-XRD                                   Files: 90/90 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 90/90 (complete)
+  Total Size: 42.333 GB (90 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/18x275/hiAcc ===
+  RSE: BNL-XRD                                   Files: 203/203 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 203/203 (complete)
+  Total Size: 79.761 GB (203 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.7.0-1.0/9x130/hiAcc ===
+  RSE: BNL-XRD                                   Files: 12/12 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 12/12 (complete)
+  Total Size: 4.615 GB (12 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.7.0-1.0/9x275/hiAcc ===
+  RSE: BNL-XRD                                   Files: 29/29 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 29/29 (complete)
+  Total Size: 15.233 GB (29 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.8-1.4/BH_ONLY/9x130/q2_1_100/emhLm ===
   RSE: JLAB-TAPE-SE                              Files: 363/363 (complete)
@@ -1891,7 +1921,7 @@
 
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 1.202 TB         Total Files: 2084
-  RSE: BNL-XRD                                   Total Size: 192.502 TB       Total Files: 347412
-  RSE: JLAB-TAPE-SE                              Total Size: 211.080 TB       Total Files: 376297
+  RSE: BNL-XRD                                   Total Size: 193.531 TB       Total Files: 353245
+  RSE: JLAB-TAPE-SE                              Total Size: 212.103 TB       Total Files: 382086
   RSE: ASGC-XRD                                  Total Size: 17.090 TB        Total Files: 26260
 ```
