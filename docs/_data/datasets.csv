@@ -405,3 +405,7 @@ tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/500MeV/45to135deg,,,,,,,,,
 tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/5GeV/130to177deg,,,,,,,,,
 tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/5GeV/3to50deg,,,,,,,,,
 tracking,1,/volatile/eic/EPIC/EVGEN/SINGLE/proton/5GeV/45to135deg,,,,,,,,,
+Jets & HF,(1) /eic/u/rongrong/gpfs02/SC_requests/D0/PYTHIA8_ep_NC_9x130_Q2min1/ab_hepmc (2) /eic/u/rongrong/gpfs02/SC_requests/D0/PYTHIA8_ep_NC_9x275_Q2min1/ab_hepmc (3) /eic/u/rongrong/gpfs02/SC_requests/Lc/PYTHIA8_ep_NC_9x275_Q2min1/ab_hepmc,"(1) PYTHIA 8.316 ep, NC, 9x130 Q2 > 1 (2) PYTHIA 8.316 ep, NC, 9x275 Q2 > 1 (3) PYTHIA 8.316 ep, and NC, 9x275 Q2 > 1",(1) ~1.1M (2) ~1M (3) ~770K,No,Yes,No,Yes,Maybe,"Simulation Samples with Updated Energies and Luminosity According to the ES Matrix.
+1. To study pT and rapidity differential Lc/D0 ratio.
+2. ReAu vs fragmentation variable (z). 
+The submission for eAu will also be done at later stage.",1,122
