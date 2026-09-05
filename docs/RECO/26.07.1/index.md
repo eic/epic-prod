@@ -287,9 +287,9 @@
   Total Size: 3.309 TB (4700 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/NC/10x100/minQ2=1 ===
-  RSE: BNL-XRD                                   Files: 2028/2028 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 2023/2028 (incomplete)
-  Total Size: 914.677 GB (2028 files)
+  RSE: BNL-XRD                                   Files: 2125/2125 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 2122/2125 (incomplete)
+  Total Size: 958.401 GB (2125 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/DIS/NC/10x100/minQ2=10 ===
   RSE: BNL-XRD                                   Files: 4578/4578 (complete)
@@ -697,9 +697,9 @@
   Total Size: 716.604 GB (2000 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/SIDIS/D0_ABCONV/HFsim-PYTHIA/pythia8.316-1.0/ep/9x275/q2_1 ===
-  RSE: BNL-XRD                                   Files: 1576/1576 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 1256/1576 (incomplete)
-  Total Size: 566.452 GB (1576 files)
+  RSE: BNL-XRD                                   Files: 2000/2000 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 2000/2000 (complete)
+  Total Size: 718.063 GB (2000 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/SIDIS/Ds_ABCONV/HFsim-BeAGLE/BeAGLE1.03.02-1.0/eAu/9x100/q2_1 ===
   RSE: BNL-XRD                                   Files: 972/972 (complete)
@@ -1991,7 +1991,7 @@
 
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 1.202 TB         Total Files: 2084
-  RSE: BNL-XRD                                   Total Size: 209.266 TB       Total Files: 396729
-  RSE: JLAB-TAPE-SE                              Total Size: 227.732 TB       Total Files: 425293
+  RSE: BNL-XRD                                   Total Size: 209.457 TB       Total Files: 397250
+  RSE: JLAB-TAPE-SE                              Total Size: 228.036 TB       Total Files: 426136
   RSE: ASGC-XRD                                  Total Size: 17.090 TB        Total Files: 26260
 ```
