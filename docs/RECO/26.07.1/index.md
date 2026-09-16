@@ -254,6 +254,16 @@
   RSE: JLAB-TAPE-SE                              Files: 4996/4996 (complete)
   Total Size: 277.265 GB (4996 files)
 
+=== epic:/RECO/26.07.1/epic_craterlake/DIS/DJANGOH4.6.10-2.0/CC/Rad/eMinus-pPlus/9x275/q2_1000to3000 ===
+  RSE: BNL-XRD                                   Files: 4999/4999 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 4999/4999 (complete)
+  Total Size: 360.206 GB (4999 files)
+
+=== epic:/RECO/26.07.1/epic_craterlake/DIS/DJANGOH4.6.10-2.0/CC/Rad/eMinus-pPlus/9x275/q2_3000to9000 ===
+  RSE: BNL-XRD                                   Files: 10000/10000 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 10000/10000 (complete)
+  Total Size: 846.980 GB (10000 files)
+
 === epic:/RECO/26.07.1/epic_craterlake/DIS/NC/5x41/minQ2=1 ===
   RSE: JLAB-TAPE-SE                              Files: 2084/2178 (incomplete)
   RSE: EIC-XRD                                   Files: 2084/2178 (incomplete)
@@ -1996,7 +2006,7 @@
 
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 1.202 TB         Total Files: 2084
-  RSE: BNL-XRD                                   Total Size: 210.012 TB       Total Files: 402827
-  RSE: JLAB-TAPE-SE                              Total Size: 228.592 TB       Total Files: 431716
+  RSE: BNL-XRD                                   Total Size: 211.191 TB       Total Files: 417826
+  RSE: JLAB-TAPE-SE                              Total Size: 229.771 TB       Total Files: 446715
   RSE: ASGC-XRD                                  Total Size: 17.090 TB        Total Files: 26260
 ```
