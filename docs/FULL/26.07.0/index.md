@@ -5,8 +5,6 @@
   Total Size: 204.868 GB (359 files)
 
 === epic:/FULL/26.07.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x100/minQ2=10 ===
-  RSE: ASGC-XRD                                  Files: 370/370 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 370/370 (complete)
   Total Size: 216.013 GB (370 files)
 
 === epic:/FULL/26.07.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x100/minQ2=100 ===
@@ -43,6 +41,6 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: JLAB-TAPE-SE                              Total Size: 1.862 TB         Total Files: 2919
-  RSE: ASGC-XRD                                  Total Size: 1.862 TB         Total Files: 2919
+  RSE: JLAB-TAPE-SE                              Total Size: 1.651 TB         Total Files: 2549
+  RSE: ASGC-XRD                                  Total Size: 1.651 TB         Total Files: 2549
 ```
