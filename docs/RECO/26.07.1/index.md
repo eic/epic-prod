@@ -712,9 +712,9 @@
   Total Size: 677.001 GB (1800 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon1S/9x130/q2_0to0.01/hiAcc ===
-  RSE: BNL-XRD                                   Files: 12499/12499 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 5693/12499 (incomplete)
-  Total Size: 486.884 GB (12499 files)
+  RSE: BNL-XRD                                   Files: 12660/12660 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 8839/12660 (incomplete)
+  Total Size: 493.121 GB (12660 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon1S/9x275/q2_0to0.01/hiAcc ===
   RSE: BNL-XRD                                   Files: 35605/36077 (incomplete)
@@ -728,7 +728,7 @@
 
 === epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon2S/9x130/q2_0to0.01/hiAcc ===
   RSE: BNL-XRD                                   Files: 5135/5135 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 1850/5135 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 3862/5135 (incomplete)
   Total Size: 208.419 GB (5135 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon2S/9x275/q2_0to0.01/hiAcc ===
@@ -747,9 +747,9 @@
   Total Size: 250.126 GB (6073 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon3S/9x275/q2_0to0.01/hiAcc ===
-  RSE: BNL-XRD                                   Files: 7255/7255 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 3397/7255 (incomplete)
-  Total Size: 247.782 GB (7255 files)
+  RSE: BNL-XRD                                   Files: 7293/7293 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 5445/7293 (incomplete)
+  Total Size: 249.077 GB (7293 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon3S/9x275/q2_0to0.01/hiDiv ===
   RSE: BNL-XRD                                   Files: 17142/17550 (incomplete)
@@ -2058,17 +2058,17 @@
 
 === epic:/RECO/26.07.1/epic_craterlake/try2/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon2S/9x275/q2_0to0.01/hiAcc ===
   RSE: BNL-XRD                                   Files: 43564/43564 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 29058/43564 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 34809/43564 (incomplete)
   Total Size: 1.462 TB (43564 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/try2/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon3S/9x130/q2_0to0.01/hiAcc ===
   RSE: BNL-XRD                                   Files: 44178/44178 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 21342/44178 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 30402/44178 (incomplete)
   Total Size: 1.821 TB (44178 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/try2/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon3S/9x275/q2_0to0.01/hiDiv ===
   RSE: BNL-XRD                                   Files: 33030/33030 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 27123/33030 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 30737/33030 (incomplete)
   Total Size: 1.129 TB (33030 files)
 
 === ----------------------------------------------------------------------------------------------------------------------------------------------+-------------- ===
@@ -2076,7 +2076,7 @@
 
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 1.202 TB         Total Files: 2084
-  RSE: BNL-XRD                                   Total Size: 221.196 TB       Total Files: 703027
-  RSE: JLAB-TAPE-SE                              Total Size: 237.623 TB       Total Files: 674537
+  RSE: BNL-XRD                                   Total Size: 221.204 TB       Total Files: 703226
+  RSE: JLAB-TAPE-SE                              Total Size: 238.581 TB       Total Files: 700168
   RSE: ASGC-XRD                                  Total Size: 17.090 TB        Total Files: 26260
 ```
