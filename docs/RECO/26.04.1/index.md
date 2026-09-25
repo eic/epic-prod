@@ -40,8 +40,8 @@
   Total Size: 321.879 GB (1500 files)
 
 === epic:/RECO/26.04.1/epic_craterlake/DDIS/rapgap3.310-1.0/noRad/ep/10x100 ===
-  RSE: JLAB-TAPE-SE                              Files: 4370/4370 (complete)
   RSE: EIC-XRD                                   Files: 4370/4370 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 4370/4370 (complete)
   Total Size: 1.535 TB (4370 files)
 
 === epic:/RECO/26.04.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eCu/en/10x115/q2_1to1000 ===

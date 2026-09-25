@@ -212,13 +212,13 @@
   Total Size: 63.584 GB (490 files)
 
 === epic:/RECO/25.03.1/epic_craterlake/EXCLUSIVE/DIS/BeAGLE1.03.02-1.0/eCu/ep/10x115/q2_1to1000 ===
-  RSE: JLAB-TAPE-SE                              Files: 0/411 (incomplete)
   RSE: EIC-XRD                                   Files: 0/411 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 0/411 (incomplete)
   Total Size: 50.756 GB (411 files)
 
 === epic:/RECO/25.03.1/epic_craterlake/EXCLUSIVE/DIS/BeAGLE1.03.02-1.0/eHe3/10x166/q2_10to100 ===
-  RSE: JLAB-TAPE-SE                              Files: 0/503 (incomplete)
   RSE: EIC-XRD                                   Files: 0/503 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 0/503 (incomplete)
   Total Size: 34.160 GB (503 files)
 
 === epic:/RECO/25.03.1/epic_craterlake/EXCLUSIVE/DIS/BeAGLE1.03.02-1.0/eHe3/10x166/q2_100to1000 ===
@@ -230,8 +230,8 @@
   Total Size: 63.846 GB (476 files)
 
 === epic:/RECO/25.03.1/epic_craterlake/EXCLUSIVE/DIS/BeAGLE1.03.02-1.0/eRu/ep/10x115/q2_1to1000 ===
-  RSE: JLAB-TAPE-SE                              Files: 0/285 (incomplete)
   RSE: EIC-XRD                                   Files: 0/285 (incomplete)
+  RSE: JLAB-TAPE-SE                              Files: 0/285 (incomplete)
   Total Size: 34.059 GB (285 files)
 
 === epic:/RECO/25.03.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/5x41 ===
