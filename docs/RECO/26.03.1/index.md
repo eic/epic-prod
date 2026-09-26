@@ -146,6 +146,7 @@
   Total Size: 54.433 GB (257 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DDVCS_ABCONV/EpIC1.1.6-1.0/18x275/q2_0_10/edecay/hplus ===
+  RSE: ASGC-XRD                                  Files: 0/257 (incomplete)
   RSE: BNL-XRD                                   Files: 257/257 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/257 (incomplete)
   Total Size: 53.972 GB (257 files)
@@ -171,6 +172,7 @@
   Total Size: 51.561 GB (538 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_3_10/pi+ ===
+  RSE: ASGC-XRD                                  Files: 0/287 (incomplete)
   RSE: BNL-XRD                                   Files: 287/287 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/287 (incomplete)
   Total Size: 40.124 GB (287 files)
@@ -181,6 +183,7 @@
   Total Size: 67.921 GB (371 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DEMP/DEMPgen-1.2.4/10x130/q2_20_35/pi+ ===
+  RSE: ASGC-XRD                                  Files: 0/358 (incomplete)
   RSE: BNL-XRD                                   Files: 358/358 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/358 (incomplete)
   Total Size: 71.293 GB (358 files)
@@ -207,26 +210,31 @@
   Total Size: 6.950 GB (35 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/5x100/hiAcc ===
+  RSE: ASGC-XRD                                  Files: 0/81 (incomplete)
   RSE: BNL-XRD                                   Files: 81/81 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/81 (incomplete)
   Total Size: 11.693 GB (81 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x100/hiAcc ===
+  RSE: ASGC-XRD                                  Files: 0/117 (incomplete)
   RSE: BNL-XRD                                   Files: 117/117 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/117 (incomplete)
   Total Size: 14.560 GB (117 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/10x130/hiAcc ===
+  RSE: ASGC-XRD                                  Files: 0/145 (incomplete)
   RSE: BNL-XRD                                   Files: 145/145 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/145 (incomplete)
   Total Size: 16.641 GB (145 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_JPSI_ABCONV/lAger3.6.1-1.0/18x275/hiAcc ===
+  RSE: ASGC-XRD                                  Files: 0/256 (incomplete)
   RSE: BNL-XRD                                   Files: 256/256 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/256 (incomplete)
   Total Size: 30.971 GB (256 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DIFFRACTIVE_PHI_ABCONV/BeAGLE1.03.02-1.1/eAu/10x100/q2_1to10000 ===
+  RSE: ASGC-XRD                                  Files: 0/1194 (incomplete)
   RSE: BNL-XRD                                   Files: 1194/1194 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/1194 (incomplete)
   Total Size: 201.564 GB (1194 files)
@@ -249,16 +257,19 @@
   Total Size: 84.573 GB (754 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x100/q2_1_100 ===
+  RSE: ASGC-XRD                                  Files: 0/1512 (incomplete)
   RSE: BNL-XRD                                   Files: 1512/1512 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/1512 (incomplete)
   Total Size: 89.398 GB (1512 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x130/q2_1_100 ===
+  RSE: ASGC-XRD                                  Files: 0/1559 (incomplete)
   RSE: BNL-XRD                                   Files: 1559/1559 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/1559 (incomplete)
   Total Size: 90.914 GB (1559 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x250/q2_1_100 ===
+  RSE: ASGC-XRD                                  Files: 0/1803 (incomplete)
   RSE: BNL-XRD                                   Files: 1803/1803 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/1803 (incomplete)
   Total Size: 70.584 GB (1803 files)
@@ -281,6 +292,7 @@
   Total Size: 41.143 GB (409 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DVMP/EpIC1.1.6-1.1/unpolarised/18x275/q2_1_1000 ===
+  RSE: ASGC-XRD                                  Files: 0/582 (incomplete)
   RSE: BNL-XRD                                   Files: 582/582 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/582 (incomplete)
   Total Size: 58.176 GB (582 files)
@@ -291,11 +303,13 @@
   Total Size: 160.623 GB (1529 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DVMP/JPsi_MuMu_ABCONV/lAger3.6.1-1.0/10x250/q2_1to50 ===
+  RSE: ASGC-XRD                                  Files: 0/1547 (incomplete)
   RSE: BNL-XRD                                   Files: 1547/1547 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/1547 (incomplete)
   Total Size: 220.967 GB (1547 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/DVMP/JPsi_MuMu_ABCONV/lAger3.6.1-1.0/18x275/q2_1to50 ===
+  RSE: ASGC-XRD                                  Files: 0/1876 (incomplete)
   RSE: BNL-XRD                                   Files: 1876/1876 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/1876 (incomplete)
   Total Size: 350.606 GB (1876 files)
@@ -322,11 +336,13 @@
   Total Size: 264.224 GB (1790 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/PHOTOPRODUCTION_JPSI_ABCONV/coherent_ep/eSTARlight1.3.0-1.0/18x275/q2_nocut/edecay ===
+  RSE: ASGC-XRD                                  Files: 0/483 (incomplete)
   RSE: BNL-XRD                                   Files: 483/483 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/483 (incomplete)
   Total Size: 87.756 GB (483 files)
 
 === epic:/RECO/26.03.1/epic_craterlake/EXCLUSIVE/PHOTOPRODUCTION_JPSI_ABCONV/coherent_ep/eSTARlight1.3.0-1.0/18x275/q2_nocut/mudecay ===
+  RSE: ASGC-XRD                                  Files: 0/358 (incomplete)
   RSE: BNL-XRD                                   Files: 358/358 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/358 (incomplete)
   Total Size: 63.703 GB (358 files)
