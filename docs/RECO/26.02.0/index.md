@@ -1,6 +1,5 @@
 ```
 === epic:/RECO/26.02.0/epic_craterlake/Bkg_Exact1S_2us/GoldCt/5um/DIS/NC/10x100/minQ2=1 ===
-  RSE: BNL-XRD                                   Files: 5489/5489 (complete)
   RSE: JLAB-TAPE-SE                              Files: 5489/5489 (complete)
   Total Size: 4.285 TB (5489 files)
 
@@ -1430,6 +1429,5 @@
 
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 3.252 TB         Total Files: 12788
-  RSE: BNL-XRD                                   Total Size: 4.285 TB         Total Files: 5489
   RSE: JLAB-TAPE-SE                              Total Size: 131.629 TB       Total Files: 476374
 ```
