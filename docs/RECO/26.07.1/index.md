@@ -2077,19 +2077,19 @@
   Total Size: 2.309 TB (4081 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/try2/DIS/pythia8.316-1.0/NC/noRad/ep/18x275/q2_10to100 ===
-  RSE: BNL-XRD                                   Files: 6649/6649 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 3557/6649 (incomplete)
-  Total Size: 451.401 GB (6651 files)
+  RSE: BNL-XRD                                   Files: 39295/39295 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 15594/39295 (incomplete)
+  Total Size: 2.668 TB (39301 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/try2/DIS/pythia8.316-1.0/NC/noRad/ep/18x275/q2_100to1000 ===
-  RSE: BNL-XRD                                   Files: 38629/38629 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 38483/38629 (incomplete)
-  Total Size: 4.708 TB (38636 files)
+  RSE: BNL-XRD                                   Files: 50396/50396 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 48638/50396 (incomplete)
+  Total Size: 6.141 TB (50396 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/try2/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon1S/9x130/q2_0to0.01/hiAcc ===
-  RSE: BNL-XRD                                   Files: 18554/18554 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 18494/18554 (incomplete)
-  Total Size: 722.991 GB (18562 files)
+  RSE: BNL-XRD                                   Files: 20842/20842 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 20841/20842 (incomplete)
+  Total Size: 811.718 GB (20842 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/try2/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon1S/9x275/q2_0to0.01/hiDiv ===
   RSE: BNL-XRD                                   Files: 13984/13984 (complete)
@@ -2097,9 +2097,9 @@
   Total Size: 461.247 GB (13984 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/try2/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon2S/9x130/q2_0to0.01/hiAcc ===
-  RSE: BNL-XRD                                   Files: 17319/17319 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 17218/17319 (incomplete)
-  Total Size: 702.186 GB (17319 files)
+  RSE: BNL-XRD                                   Files: 20452/20452 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 18758/20452 (incomplete)
+  Total Size: 829.326 GB (20460 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/try2/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon2S/9x275/q2_0to0.01/hiAcc ===
   RSE: BNL-XRD                                   Files: 43564/43564 (complete)
@@ -2117,9 +2117,9 @@
   Total Size: 1.821 TB (44178 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/try2/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon3S/9x275/q2_0to0.01/hiAcc ===
-  RSE: BNL-XRD                                   Files: 16914/16914 (complete)
-  RSE: JLAB-TAPE-SE                              Files: 16414/16914 (incomplete)
-  Total Size: 577.645 GB (16914 files)
+  RSE: BNL-XRD                                   Files: 18955/18955 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 17745/18955 (incomplete)
+  Total Size: 647.382 GB (18955 files)
 
 === epic:/RECO/26.07.1/epic_craterlake/try2/EXCLUSIVE/UPSILON_ABCONV/eSTARlight1.3.0-1.0/Upsilon3S/9x275/q2_0to0.01/hiDiv ===
   RSE: BNL-XRD                                   Files: 33030/33030 (complete)
@@ -2141,7 +2141,7 @@
 
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 1.202 TB         Total Files: 2084
-  RSE: BNL-XRD                                   Total Size: 236.730 TB       Total Files: 866823
-  RSE: JLAB-TAPE-SE                              Total Size: 255.059 TB       Total Files: 891632
+  RSE: BNL-XRD                                   Total Size: 240.669 TB       Total Files: 918698
+  RSE: JLAB-TAPE-SE                              Total Size: 257.312 TB       Total Files: 919042
   RSE: ASGC-XRD                                  Total Size: 17.090 TB        Total Files: 26260
 ```
