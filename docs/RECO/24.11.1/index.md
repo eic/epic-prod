@@ -1,5 +1,5 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/RECO/24.11.1
+root://dtn2304.jlab.org:8443//jlab-osdf-ro/eic/EPIC/work/eic2/RECO/24.11.1
 epic_craterlake , Sub-directory or File Count:1
     DIS , Sub-directory or File Count:1
         NC , Sub-directory or File Count:3
