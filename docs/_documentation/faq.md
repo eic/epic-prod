@@ -14,12 +14,12 @@ First open `eic-shell` and connect to the xrootd filesystem
 ```
 xrdfs root://dtn2304.jlab.org:8443
 ```
-Then the relevant directories (EVGEN, RECO, and FULL) can be found in /volatile/eic/EPIC directory
+Then the relevant directories (EVGEN, RECO, and FULL) can be found in /jlab-osdf-ro/eic/EPIC/volatile directory
 ```
-[dtn2304.jlab.org:8443] / > ls /volatile/eic/EPIC
-/volatile/eic/EPIC/EVGEN
-/volatile/eic/EPIC/FULL
-/volatile/eic/EPIC/RECO
+[dtn2304.jlab.org:8443] / > ls /jlab-osdf-ro/eic/EPIC/volatile
+/jlab-osdf-ro/eic/EPIC/volatile/EVGEN
+/jlab-osdf-ro/eic/EPIC/volatile/FULL
+/jlab-osdf-ro/eic/EPIC/volatile/RECO
 ....................
 ....................
 ```
@@ -29,9 +29,9 @@ Then the relevant directories (EVGEN, RECO, and FULL) can be found in /volatile/
 
 The rootfiles are organized under the categories in tagged folders that correlate to the campaigns and detector configs. To list the directories and exit out of the filesystem:
 ```
-[dtn2304.jlab.org:8443] / > ls /volatile/eic/EPIC/RECO/23.06.1/epic_brycecanyon
-/volatile/eic/EPIC/RECO/23.06.1/epic_brycecanyon/DIS
-/volatile/eic/EPIC/RECO/23.06.1/epic_brycecanyon/SIDIS
+[dtn2304.jlab.org:8443] / > ls /jlab-osdf-ro/eic/EPIC/volatile/RECO/23.06.1/epic_brycecanyon
+/jlab-osdf-ro/eic/EPIC/volatile/RECO/23.06.1/epic_brycecanyon/DIS
+/jlab-osdf-ro/eic/EPIC/volatile/RECO/23.06.1/epic_brycecanyon/SIDIS
 
 [dtn2304.jlab.org:8443] / > exit
 Goodbye.
@@ -51,7 +51,6 @@ root pythia8NCDIS_18x275_minQ2=1_beamEffects_xAngle=-0.025_hiDiv_5.1663.eicrecon
 
     
     
-
 
 
 
