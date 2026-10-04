@@ -1,5 +1,5 @@
 ```
-root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/23.09.1
+root://dtn2304.jlab.org:8443//jlab-osdf-ro/eic/EPIC/volatile/RECO/23.09.1
 epic_brycecanyon , Sub-directory or File Count:1
     DIS , Sub-directory or File Count:2
         CC , Sub-directory or File Count:3

@@ -1,5 +1,5 @@
 ```
-root://dtn-eic.jlab.org//work/eic2/EPIC/FULL/23.12.0/
+root://dtn2304.jlab.org:8443//jlab-osdf-ro/eic/EPIC/work/eic2/FULL/23.12.0/
 └─ epic_craterlake
    ├─ BACKGROUNDS
    │  └─ 10x100
