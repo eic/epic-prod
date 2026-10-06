@@ -85,13 +85,15 @@
   Total Size: 433.539 GB (550 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/SIDIS/pythia6-eic/1.0.0/10x100/q2_0to1 ===
-  RSE: JLAB-TAPE-SE                              Files: 386/386 (complete)
   RSE: ASGC-XRD                                  Files: 79/386 (incomplete)
+  RSE: EIC-XRD                                   Files: 386/386 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 386/386 (complete)
   Total Size: 202.818 GB (386 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/SIDIS/pythia6-eic/1.0.0/10x275/q2_0to1 ===
-  RSE: JLAB-TAPE-SE                              Files: 408/408 (complete)
   RSE: ASGC-XRD                                  Files: 99/408 (incomplete)
+  RSE: EIC-XRD                                   Files: 408/408 (complete)
+  RSE: JLAB-TAPE-SE                              Files: 408/408 (complete)
   Total Size: 231.992 GB (408 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e+/1GeV/3to50deg ===
@@ -518,6 +520,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
+  RSE: EIC-XRD                                   Total Size: 434.810 GB       Total Files: 794
   RSE: BNL-XRD                                   Total Size: 1.199 TB         Total Files: 3223
   RSE: JLAB-TAPE-SE                              Total Size: 6.702 TB         Total Files: 11637
   RSE: ASGC-XRD                                  Total Size: 5.174 TB         Total Files: 7798
