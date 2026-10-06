@@ -388,9 +388,9 @@
   Total Size: 67.946 GB (183 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/SINGLE/e+/5GeV/130to177deg ===
-  RSE: ASGC-XRD                                  Files: 0/115 (incomplete)
   RSE: BNL-XRD                                   Files: 115/115 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/115 (incomplete)
+  RSE: ASGC-XRD                                  Files: 0/115 (incomplete)
   Total Size: 57.023 GB (115 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/SINGLE/e+/10GeV/3to50deg ===
@@ -544,9 +544,9 @@
   Total Size: 67.845 GB (142 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/SINGLE/e-/5GeV/130to177deg ===
-  RSE: ASGC-XRD                                  Files: 0/109 (incomplete)
   RSE: BNL-XRD                                   Files: 109/109 (complete)
   RSE: JLAB-TAPE-SE                              Files: 0/109 (incomplete)
+  RSE: ASGC-XRD                                  Files: 0/109 (incomplete)
   Total Size: 56.997 GB (109 files)
 
 === epic:/RECO/26.03.0/epic_craterlake/SINGLE/e-/10GeV/3to50deg ===
