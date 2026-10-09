@@ -46,49 +46,49 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x100/minQ2=1 ===
   RSE: ASGC-XRD                                  Files: 1569/1572 (incomplete)
-  RSE: EIC-XRD                                   Files: 0/1572 (incomplete)
+  RSE: EIC-XRD                                   Files: 1569/1572 (incomplete)
   RSE: JLAB-TAPE-SE                              Files: 1569/1572 (incomplete)
   Total Size: 904.499 GB (1572 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x100/minQ2=10 ===
   RSE: ASGC-XRD                                  Files: 922/922 (complete)
-  RSE: EIC-XRD                                   Files: 0/922 (incomplete)
+  RSE: EIC-XRD                                   Files: 922/922 (complete)
   RSE: JLAB-TAPE-SE                              Files: 922/922 (complete)
   Total Size: 542.690 GB (922 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x100/minQ2=100 ===
   RSE: ASGC-XRD                                  Files: 547/547 (complete)
-  RSE: EIC-XRD                                   Files: 0/547 (incomplete)
+  RSE: EIC-XRD                                   Files: 547/547 (complete)
   RSE: JLAB-TAPE-SE                              Files: 547/547 (complete)
   Total Size: 328.140 GB (547 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x100/minQ2=1000 ===
   RSE: ASGC-XRD                                  Files: 550/550 (complete)
-  RSE: EIC-XRD                                   Files: 500/550 (incomplete)
+  RSE: EIC-XRD                                   Files: 550/550 (complete)
   RSE: JLAB-TAPE-SE                              Files: 550/550 (complete)
   Total Size: 354.125 GB (550 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x275/minQ2=1 ===
   RSE: ASGC-XRD                                  Files: 550/550 (complete)
-  RSE: EIC-XRD                                   Files: 457/550 (incomplete)
+  RSE: EIC-XRD                                   Files: 550/550 (complete)
   RSE: JLAB-TAPE-SE                              Files: 550/550 (complete)
   Total Size: 363.294 GB (550 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x275/minQ2=10 ===
   RSE: ASGC-XRD                                  Files: 550/550 (complete)
-  RSE: EIC-XRD                                   Files: 0/550 (incomplete)
+  RSE: EIC-XRD                                   Files: 550/550 (complete)
   RSE: JLAB-TAPE-SE                              Files: 550/550 (complete)
   Total Size: 377.895 GB (550 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x275/minQ2=100 ===
   RSE: ASGC-XRD                                  Files: 550/550 (complete)
-  RSE: EIC-XRD                                   Files: 0/550 (incomplete)
+  RSE: EIC-XRD                                   Files: 550/550 (complete)
   RSE: JLAB-TAPE-SE                              Files: 550/550 (complete)
   Total Size: 392.581 GB (550 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/Bkg_Exact1S_2us/GoldCt/10um/DIS/NC/10x275/minQ2=1000 ===
   RSE: ASGC-XRD                                  Files: 550/550 (complete)
-  RSE: EIC-XRD                                   Files: 430/550 (incomplete)
+  RSE: EIC-XRD                                   Files: 550/550 (complete)
   RSE: JLAB-TAPE-SE                              Files: 550/550 (complete)
   Total Size: 433.539 GB (550 files)
 
@@ -106,13 +106,13 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e+/1GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 6/6 (complete)
-  RSE: EIC-XRD                                   Files: 0/6 (incomplete)
+  RSE: EIC-XRD                                   Files: 6/6 (complete)
   RSE: JLAB-TAPE-SE                              Files: 6/6 (complete)
   Total Size: 2.248 GB (6 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e+/2GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 10/10 (complete)
-  RSE: EIC-XRD                                   Files: 0/10 (incomplete)
+  RSE: EIC-XRD                                   Files: 10/10 (complete)
   RSE: JLAB-TAPE-SE                              Files: 10/10 (complete)
   Total Size: 5.117 GB (10 files)
 
@@ -130,19 +130,19 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e+/20GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 113/113 (complete)
-  RSE: EIC-XRD                                   Files: 0/113 (incomplete)
+  RSE: EIC-XRD                                   Files: 113/113 (complete)
   RSE: JLAB-TAPE-SE                              Files: 113/113 (complete)
   Total Size: 105.646 GB (113 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e+/100MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 6/6 (complete)
-  RSE: EIC-XRD                                   Files: 0/6 (incomplete)
+  RSE: EIC-XRD                                   Files: 6/6 (complete)
   RSE: JLAB-TAPE-SE                              Files: 6/6 (complete)
   Total Size: 1.142 GB (6 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e+/200MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 5/5 (complete)
-  RSE: EIC-XRD                                   Files: 0/5 (incomplete)
+  RSE: EIC-XRD                                   Files: 5/5 (complete)
   RSE: JLAB-TAPE-SE                              Files: 5/5 (complete)
   Total Size: 1.089 GB (5 files)
 
@@ -154,7 +154,7 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e-/1GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 15/15 (complete)
-  RSE: EIC-XRD                                   Files: 14/15 (incomplete)
+  RSE: EIC-XRD                                   Files: 15/15 (complete)
   RSE: JLAB-TAPE-SE                              Files: 15/15 (complete)
   Total Size: 4.903 GB (15 files)
 
@@ -166,85 +166,85 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e-/5GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 20/20 (complete)
-  RSE: EIC-XRD                                   Files: 0/20 (incomplete)
+  RSE: EIC-XRD                                   Files: 20/20 (complete)
   RSE: JLAB-TAPE-SE                              Files: 20/20 (complete)
   Total Size: 31.872 GB (20 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e-/10GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 84/84 (complete)
-  RSE: EIC-XRD                                   Files: 0/84 (incomplete)
+  RSE: EIC-XRD                                   Files: 84/84 (complete)
   RSE: JLAB-TAPE-SE                              Files: 84/84 (complete)
   Total Size: 59.420 GB (84 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e-/20GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 136/136 (complete)
-  RSE: EIC-XRD                                   Files: 0/136 (incomplete)
+  RSE: EIC-XRD                                   Files: 136/136 (complete)
   RSE: JLAB-TAPE-SE                              Files: 136/136 (complete)
   Total Size: 112.124 GB (136 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e-/100MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 14/14 (complete)
-  RSE: EIC-XRD                                   Files: 0/14 (incomplete)
+  RSE: EIC-XRD                                   Files: 14/14 (complete)
   RSE: JLAB-TAPE-SE                              Files: 14/14 (complete)
   Total Size: 2.613 GB (14 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e-/200MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 1/1 (complete)
-  RSE: EIC-XRD                                   Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
   Total Size: 320.605 MB (1 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/e-/500MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 13/13 (complete)
-  RSE: EIC-XRD                                   Files: 0/13 (incomplete)
+  RSE: EIC-XRD                                   Files: 13/13 (complete)
   RSE: JLAB-TAPE-SE                              Files: 13/13 (complete)
   Total Size: 6.045 GB (13 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/gamma/1GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 3/3 (complete)
-  RSE: EIC-XRD                                   Files: 0/3 (incomplete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
   RSE: JLAB-TAPE-SE                              Files: 3/3 (complete)
   Total Size: 1.050 GB (3 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/gamma/2GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 17/17 (complete)
-  RSE: EIC-XRD                                   Files: 12/17 (incomplete)
+  RSE: EIC-XRD                                   Files: 17/17 (complete)
   RSE: JLAB-TAPE-SE                              Files: 17/17 (complete)
   Total Size: 12.580 GB (17 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/gamma/5GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 6/6 (complete)
-  RSE: EIC-XRD                                   Files: 1/6 (incomplete)
+  RSE: EIC-XRD                                   Files: 6/6 (complete)
   RSE: JLAB-TAPE-SE                              Files: 6/6 (complete)
   Total Size: 6.667 GB (6 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/gamma/10GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 16/16 (complete)
-  RSE: EIC-XRD                                   Files: 0/16 (incomplete)
+  RSE: EIC-XRD                                   Files: 16/16 (complete)
   RSE: JLAB-TAPE-SE                              Files: 16/16 (complete)
   Total Size: 15.676 GB (16 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/gamma/20GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 51/51 (complete)
-  RSE: EIC-XRD                                   Files: 40/51 (incomplete)
+  RSE: EIC-XRD                                   Files: 51/51 (complete)
   RSE: JLAB-TAPE-SE                              Files: 51/51 (complete)
   Total Size: 54.116 GB (51 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/gamma/40GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 48/48 (complete)
-  RSE: EIC-XRD                                   Files: 0/48 (incomplete)
+  RSE: EIC-XRD                                   Files: 48/48 (complete)
   RSE: JLAB-TAPE-SE                              Files: 48/48 (complete)
   Total Size: 63.271 GB (48 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/gamma/60GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 69/69 (complete)
-  RSE: EIC-XRD                                   Files: 68/69 (incomplete)
+  RSE: EIC-XRD                                   Files: 69/69 (complete)
   RSE: JLAB-TAPE-SE                              Files: 69/69 (complete)
   Total Size: 122.927 GB (69 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/gamma/100MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 1/1 (complete)
-  RSE: EIC-XRD                                   Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
   Total Size: 203.435 MB (1 files)
 
@@ -256,7 +256,7 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/gamma/500MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 1/1 (complete)
-  RSE: EIC-XRD                                   Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
   Total Size: 668.918 MB (1 files)
 
@@ -268,19 +268,19 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/kaon+/2GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 15/15 (complete)
-  RSE: EIC-XRD                                   Files: 0/15 (incomplete)
+  RSE: EIC-XRD                                   Files: 15/15 (complete)
   RSE: JLAB-TAPE-SE                              Files: 15/15 (complete)
   Total Size: 7.153 GB (15 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/kaon+/5GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 12/12 (complete)
-  RSE: EIC-XRD                                   Files: 0/12 (incomplete)
+  RSE: EIC-XRD                                   Files: 12/12 (complete)
   RSE: JLAB-TAPE-SE                              Files: 12/12 (complete)
   Total Size: 8.025 GB (12 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/kaon+/10GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 11/11 (complete)
-  RSE: EIC-XRD                                   Files: 0/11 (incomplete)
+  RSE: EIC-XRD                                   Files: 11/11 (complete)
   RSE: JLAB-TAPE-SE                              Files: 11/11 (complete)
   Total Size: 6.421 GB (11 files)
 
@@ -298,37 +298,37 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/kaon+/200MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 2/2 (complete)
-  RSE: EIC-XRD                                   Files: 0/2 (incomplete)
+  RSE: EIC-XRD                                   Files: 2/2 (complete)
   RSE: JLAB-TAPE-SE                              Files: 2/2 (complete)
   Total Size: 518.771 MB (2 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/kaon+/500MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 5/5 (complete)
-  RSE: EIC-XRD                                   Files: 0/5 (incomplete)
+  RSE: EIC-XRD                                   Files: 5/5 (complete)
   RSE: JLAB-TAPE-SE                              Files: 5/5 (complete)
   Total Size: 1.316 GB (5 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/kaon-/1GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 14/14 (complete)
-  RSE: EIC-XRD                                   Files: 0/14 (incomplete)
+  RSE: EIC-XRD                                   Files: 14/14 (complete)
   RSE: JLAB-TAPE-SE                              Files: 14/14 (complete)
   Total Size: 3.514 GB (14 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/kaon-/2GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 8/8 (complete)
-  RSE: EIC-XRD                                   Files: 0/8 (incomplete)
+  RSE: EIC-XRD                                   Files: 8/8 (complete)
   RSE: JLAB-TAPE-SE                              Files: 8/8 (complete)
   Total Size: 2.509 GB (8 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/kaon-/5GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 10/10 (complete)
-  RSE: EIC-XRD                                   Files: 8/10 (incomplete)
+  RSE: EIC-XRD                                   Files: 10/10 (complete)
   RSE: JLAB-TAPE-SE                              Files: 10/10 (complete)
   Total Size: 6.040 GB (10 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/kaon-/10GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 22/22 (complete)
-  RSE: EIC-XRD                                   Files: 0/22 (incomplete)
+  RSE: EIC-XRD                                   Files: 22/22 (complete)
   RSE: JLAB-TAPE-SE                              Files: 22/22 (complete)
   Total Size: 11.096 GB (22 files)
 
@@ -340,7 +340,7 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/kaon-/100MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 9/9 (complete)
-  RSE: EIC-XRD                                   Files: 0/9 (incomplete)
+  RSE: EIC-XRD                                   Files: 9/9 (complete)
   RSE: JLAB-TAPE-SE                              Files: 9/9 (complete)
   Total Size: 1.944 GB (9 files)
 
@@ -352,37 +352,37 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/kaon-/500MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 2/2 (complete)
-  RSE: EIC-XRD                                   Files: 0/2 (incomplete)
+  RSE: EIC-XRD                                   Files: 2/2 (complete)
   RSE: JLAB-TAPE-SE                              Files: 2/2 (complete)
   Total Size: 590.908 MB (2 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/neutron/1GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 12/12 (complete)
-  RSE: EIC-XRD                                   Files: 11/12 (incomplete)
+  RSE: EIC-XRD                                   Files: 12/12 (complete)
   RSE: JLAB-TAPE-SE                              Files: 12/12 (complete)
   Total Size: 2.529 GB (12 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/neutron/2GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 4/4 (complete)
-  RSE: EIC-XRD                                   Files: 0/4 (incomplete)
+  RSE: EIC-XRD                                   Files: 4/4 (complete)
   RSE: JLAB-TAPE-SE                              Files: 4/4 (complete)
   Total Size: 1.943 GB (4 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/neutron/5GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 7/7 (complete)
-  RSE: EIC-XRD                                   Files: 0/7 (incomplete)
+  RSE: EIC-XRD                                   Files: 7/7 (complete)
   RSE: JLAB-TAPE-SE                              Files: 7/7 (complete)
   Total Size: 4.799 GB (7 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/neutron/10GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 10/10 (complete)
-  RSE: EIC-XRD                                   Files: 7/10 (incomplete)
+  RSE: EIC-XRD                                   Files: 10/10 (complete)
   RSE: JLAB-TAPE-SE                              Files: 10/10 (complete)
   Total Size: 6.053 GB (10 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/neutron/20GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 46/46 (complete)
-  RSE: EIC-XRD                                   Files: 0/46 (incomplete)
+  RSE: EIC-XRD                                   Files: 46/46 (complete)
   RSE: JLAB-TAPE-SE                              Files: 46/46 (complete)
   Total Size: 19.402 GB (46 files)
 
@@ -394,19 +394,19 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/neutron/200MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 5/5 (complete)
-  RSE: EIC-XRD                                   Files: 0/5 (incomplete)
+  RSE: EIC-XRD                                   Files: 5/5 (complete)
   RSE: JLAB-TAPE-SE                              Files: 5/5 (complete)
   Total Size: 249.376 MB (5 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/neutron/500MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 9/9 (complete)
-  RSE: EIC-XRD                                   Files: 0/9 (incomplete)
+  RSE: EIC-XRD                                   Files: 9/9 (complete)
   RSE: JLAB-TAPE-SE                              Files: 9/9 (complete)
   Total Size: 978.543 MB (9 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi0/1GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 2/2 (complete)
-  RSE: EIC-XRD                                   Files: 0/2 (incomplete)
+  RSE: EIC-XRD                                   Files: 2/2 (complete)
   RSE: JLAB-TAPE-SE                              Files: 2/2 (complete)
   Total Size: 672.729 MB (2 files)
 
@@ -424,7 +424,7 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi0/10GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 22/23 (incomplete)
-  RSE: EIC-XRD                                   Files: 17/23 (incomplete)
+  RSE: EIC-XRD                                   Files: 22/23 (incomplete)
   RSE: JLAB-TAPE-SE                              Files: 22/23 (incomplete)
   Total Size: 22.331 GB (23 files)
 
@@ -436,7 +436,7 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi0/40GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 86/86 (complete)
-  RSE: EIC-XRD                                   Files: 83/86 (incomplete)
+  RSE: EIC-XRD                                   Files: 86/86 (complete)
   RSE: JLAB-TAPE-SE                              Files: 86/86 (complete)
   Total Size: 106.705 GB (86 files)
 
@@ -460,7 +460,7 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi0/500MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 1/1 (complete)
-  RSE: EIC-XRD                                   Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
   Total Size: 749.214 MB (1 files)
 
@@ -472,25 +472,25 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi+/2GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 13/13 (complete)
-  RSE: EIC-XRD                                   Files: 0/13 (incomplete)
+  RSE: EIC-XRD                                   Files: 13/13 (complete)
   RSE: JLAB-TAPE-SE                              Files: 13/13 (complete)
   Total Size: 4.445 GB (13 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi+/5GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 15/15 (complete)
-  RSE: EIC-XRD                                   Files: 0/15 (incomplete)
+  RSE: EIC-XRD                                   Files: 15/15 (complete)
   RSE: JLAB-TAPE-SE                              Files: 15/15 (complete)
   Total Size: 10.553 GB (15 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi+/10GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 27/27 (complete)
-  RSE: EIC-XRD                                   Files: 0/27 (incomplete)
+  RSE: EIC-XRD                                   Files: 27/27 (complete)
   RSE: JLAB-TAPE-SE                              Files: 27/27 (complete)
   Total Size: 18.812 GB (27 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi+/20GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 44/44 (complete)
-  RSE: EIC-XRD                                   Files: 0/44 (incomplete)
+  RSE: EIC-XRD                                   Files: 44/44 (complete)
   RSE: JLAB-TAPE-SE                              Files: 44/44 (complete)
   Total Size: 20.457 GB (44 files)
 
@@ -507,37 +507,37 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi+/500MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 1/1 (complete)
-  RSE: EIC-XRD                                   Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
   RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
   Total Size: 386.549 MB (1 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi-/1GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 19/19 (complete)
-  RSE: EIC-XRD                                   Files: 0/19 (incomplete)
+  RSE: EIC-XRD                                   Files: 19/19 (complete)
   RSE: JLAB-TAPE-SE                              Files: 19/19 (complete)
   Total Size: 4.040 GB (19 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi-/2GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 24/24 (complete)
-  RSE: EIC-XRD                                   Files: 0/24 (incomplete)
+  RSE: EIC-XRD                                   Files: 24/24 (complete)
   RSE: JLAB-TAPE-SE                              Files: 24/24 (complete)
   Total Size: 9.474 GB (24 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi-/5GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 19/19 (complete)
-  RSE: EIC-XRD                                   Files: 0/19 (incomplete)
+  RSE: EIC-XRD                                   Files: 19/19 (complete)
   RSE: JLAB-TAPE-SE                              Files: 19/19 (complete)
   Total Size: 8.880 GB (19 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi-/10GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 40/40 (complete)
-  RSE: EIC-XRD                                   Files: 0/40 (incomplete)
+  RSE: EIC-XRD                                   Files: 40/40 (complete)
   RSE: JLAB-TAPE-SE                              Files: 40/40 (complete)
   Total Size: 20.027 GB (40 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi-/20GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 29/29 (complete)
-  RSE: EIC-XRD                                   Files: 0/29 (incomplete)
+  RSE: EIC-XRD                                   Files: 29/29 (complete)
   RSE: JLAB-TAPE-SE                              Files: 29/29 (complete)
   Total Size: 16.435 GB (29 files)
 
@@ -549,25 +549,25 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi-/200MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 2/2 (complete)
-  RSE: EIC-XRD                                   Files: 0/2 (incomplete)
+  RSE: EIC-XRD                                   Files: 2/2 (complete)
   RSE: JLAB-TAPE-SE                              Files: 2/2 (complete)
   Total Size: 310.713 MB (2 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/pi-/500MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 8/8 (complete)
-  RSE: EIC-XRD                                   Files: 6/8 (incomplete)
+  RSE: EIC-XRD                                   Files: 8/8 (complete)
   RSE: JLAB-TAPE-SE                              Files: 8/8 (complete)
   Total Size: 3.006 GB (8 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/proton/1GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 4/4 (complete)
-  RSE: EIC-XRD                                   Files: 0/4 (incomplete)
+  RSE: EIC-XRD                                   Files: 4/4 (complete)
   RSE: JLAB-TAPE-SE                              Files: 4/4 (complete)
   Total Size: 746.015 MB (4 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/proton/2GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 2/2 (complete)
-  RSE: EIC-XRD                                   Files: 0/2 (incomplete)
+  RSE: EIC-XRD                                   Files: 2/2 (complete)
   RSE: JLAB-TAPE-SE                              Files: 2/2 (complete)
   Total Size: 516.951 MB (2 files)
 
@@ -579,19 +579,19 @@
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/proton/10GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 25/25 (complete)
-  RSE: EIC-XRD                                   Files: 22/25 (incomplete)
+  RSE: EIC-XRD                                   Files: 25/25 (complete)
   RSE: JLAB-TAPE-SE                              Files: 25/25 (complete)
   Total Size: 13.606 GB (25 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/proton/20GeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 34/34 (complete)
-  RSE: EIC-XRD                                   Files: 29/34 (incomplete)
+  RSE: EIC-XRD                                   Files: 34/34 (complete)
   RSE: JLAB-TAPE-SE                              Files: 34/34 (complete)
   Total Size: 19.762 GB (34 files)
 
 === epic:/FULL/26.07.1/epic_craterlake/SINGLE/proton/100MeV/3to50deg ===
   RSE: ASGC-XRD                                  Files: 7/7 (complete)
-  RSE: EIC-XRD                                   Files: 0/7 (incomplete)
+  RSE: EIC-XRD                                   Files: 7/7 (complete)
   RSE: JLAB-TAPE-SE                              Files: 7/7 (complete)
   Total Size: 161.203 MB (7 files)
 
@@ -611,7 +611,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 2.215 TB         Total Files: 3069
+  RSE: EIC-XRD                                   Total Size: 5.503 TB         Total Files: 8414
   RSE: BNL-XRD                                   Total Size: 1.199 TB         Total Files: 3223
   RSE: JLAB-TAPE-SE                              Total Size: 6.702 TB         Total Files: 11637
   RSE: ASGC-XRD                                  Total Size: 5.174 TB         Total Files: 7798
