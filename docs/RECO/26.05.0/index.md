@@ -762,6 +762,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/neutron/1GeV/45to135deg ===
   RSE: JLAB-TAPE-SE                              Files: 16/16 (complete)
+  RSE: EIC-XRD                                   Files: 16/16 (complete)
   Total Size: 18.249 GB (16 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/neutron/1GeV/130to177deg ===
@@ -774,6 +775,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/neutron/2GeV/45to135deg ===
   RSE: JLAB-TAPE-SE                              Files: 16/16 (complete)
+  RSE: EIC-XRD                                   Files: 16/16 (complete)
   Total Size: 38.062 GB (16 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/neutron/2GeV/130to177deg ===
@@ -786,6 +788,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/neutron/5GeV/45to135deg ===
   RSE: JLAB-TAPE-SE                              Files: 43/43 (complete)
+  RSE: EIC-XRD                                   Files: 43/43 (complete)
   Total Size: 78.911 GB (43 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/neutron/5GeV/130to177deg ===
@@ -1248,6 +1251,7 @@
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
+  RSE: EIC-XRD                                   Total Size: 135.222 GB       Total Files: 75
   RSE: BNL-XRD                                   Total Size: 16.676 TB        Total Files: 45460
   RSE: JLAB-TAPE-SE                              Total Size: 116.849 TB       Total Files: 289504
 ```
