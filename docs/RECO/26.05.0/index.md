@@ -434,6 +434,7 @@
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/e-/200MeV/130to177deg ===
   RSE: JLAB-TAPE-SE                              Files: 16/16 (complete)
+  RSE: LANCASTER-XRD                             Files: 16/16 (complete)
   Total Size: 11.618 GB (16 files)
 
 === epic:/RECO/26.05.0/epic_craterlake/SINGLE/e-/500MeV/3to50deg ===
@@ -1253,5 +1254,6 @@
 === CAMPAIGN SUMMARY ===
   RSE: EIC-XRD                                   Total Size: 135.222 GB       Total Files: 75
   RSE: BNL-XRD                                   Total Size: 16.676 TB        Total Files: 45460
+  RSE: LANCASTER-XRD                             Total Size: 11.618 GB        Total Files: 16
   RSE: JLAB-TAPE-SE                              Total Size: 116.849 TB       Total Files: 289504
 ```
