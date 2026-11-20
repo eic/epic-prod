@@ -2064,6 +2064,16 @@
   RSE: JLAB-TAPE-SE                              Files: 1712/1712 (complete)
   Total Size: 118.354 GB (1712 files)
 
+=== epic:/RECO/26.07.3/epic_craterlake/try3/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/3 (incomplete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 611.060 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try3/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 5.006 MB (1 files)
+
 === epic:/RECO/26.07.3/epic_craterlake/try3/SIDIS/pythia6-lhapdf/1.1.0/eAu_EPPS16_noradcor/9x100/x_1e-3to1e-2 ===
   RSE: JLAB-TAPE-SE                              Files: 114/114 (complete)
   RSE: EIC-XRD                                   Files: 114/114 (complete)
@@ -2074,16 +2084,186 @@
   RSE: EIC-XRD                                   Files: 162/162 (complete)
   Total Size: 464.245 GB (162 files)
 
+=== epic:/RECO/26.07.3/epic_craterlake/try4/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 4.425 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try4/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 1.845 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try4/SIDIS/pythia6-lhapdf/1.1.0/eAu_EPPS16_noradcor/9x100/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 6.210 MB (1 files)
+
 === epic:/RECO/26.07.3/epic_craterlake/try4/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
   RSE: JLAB-TAPE-SE                              Files: 3/3 (complete)
   RSE: EIC-XRD                                   Files: 3/3 (complete)
   Total Size: 2.091 GB (3 files)
 
+=== epic:/RECO/26.07.3/epic_craterlake/try5/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 3.638 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try5/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 5.296 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try5/SIDIS/pythia6-lhapdf/1.1.0/eAu_EPPS16_noradcor/9x100/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 4.159 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try5/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 3/3 (complete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 428.033 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try6/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/3 (incomplete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 659.966 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try6/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 5.163 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try6/SIDIS/pythia6-lhapdf/1.1.0/eAu_EPPS16_noradcor/9x100/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 4.450 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try6/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 3/3 (complete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 959.084 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try7/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 4.389 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try7/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/3 (incomplete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 687.626 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try7/SIDIS/pythia6-lhapdf/1.1.0/eAu_EPPS16_noradcor/9x100/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 5.015 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try7/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 3/3 (complete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 632.432 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try8/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/2 (incomplete)
+  RSE: EIC-XRD                                   Files: 2/2 (complete)
+  Total Size: 443.196 MB (2 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try8/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 5.725 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try8/SIDIS/pythia6-lhapdf/1.1.0/eAu_EPPS16_noradcor/9x100/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 4.985 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try8/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 3/3 (complete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 780.716 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try9/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/2 (incomplete)
+  RSE: EIC-XRD                                   Files: 2/2 (complete)
+  Total Size: 425.459 MB (2 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try9/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/78 (incomplete)
+  RSE: EIC-XRD                                   Files: 78/78 (complete)
+  Total Size: 267.661 GB (78 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try9/SIDIS/pythia6-lhapdf/1.1.0/eAu_EPPS16_noradcor/9x100/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/2 (incomplete)
+  RSE: EIC-XRD                                   Files: 2/2 (complete)
+  Total Size: 39.653 MB (2 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try9/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 5.433 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try10/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/3 (incomplete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 557.957 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try10/SIDIS/pythia6-lhapdf/1.1.0/eAu_EPPS16_noradcor/9x100/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/2 (incomplete)
+  RSE: EIC-XRD                                   Files: 2/2 (complete)
+  Total Size: 312.632 MB (2 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try10/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 3/3 (complete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 980.730 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try11/SIDIS/pythia6-lhapdf/1.1.0/eAg_EPPS16_noradcor/9x115/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/73 (incomplete)
+  RSE: EIC-XRD                                   Files: 73/73 (complete)
+  Total Size: 199.395 GB (73 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try11/SIDIS/pythia6-lhapdf/1.1.0/eAu_EPPS16_noradcor/9x100/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/1 (incomplete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 3.483 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try11/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 3/3 (complete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 656.930 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try12/SIDIS/pythia6-lhapdf/1.1.0/eAu_EPPS16_noradcor/9x100/x_1e-3to1e-2 ===
+  RSE: JLAB-TAPE-SE                              Files: 0/108 (incomplete)
+  RSE: EIC-XRD                                   Files: 108/108 (complete)
+  Total Size: 376.357 GB (108 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try12/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 1/1 (complete)
+  RSE: EIC-XRD                                   Files: 1/1 (complete)
+  Total Size: 4.104 MB (1 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try13/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 3/3 (complete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 583.619 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try14/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 3/3 (complete)
+  RSE: EIC-XRD                                   Files: 3/3 (complete)
+  Total Size: 908.494 MB (3 files)
+
+=== epic:/RECO/26.07.3/epic_craterlake/try15/SIDIS/pythia6-lhapdf/1.1.0/ep_noradcor/9x130/x_1e-2to1e-1 ===
+  RSE: JLAB-TAPE-SE                              Files: 2/2 (complete)
+  RSE: EIC-XRD                                   Files: 2/2 (complete)
+  Total Size: 478.962 MB (2 files)
+
 === -----------------------------------------------------------------------------------------------------------------------+-------------- ===
   Total Size: Unknown
 
 === CAMPAIGN SUMMARY ===
-  RSE: EIC-XRD                                   Total Size: 29.285 TB        Total Files: 109735
+  RSE: EIC-XRD                                   Total Size: 30.119 TB        Total Files: 110056
   RSE: BNL-XRD                                   Total Size: 85.386 TB        Total Files: 898697
-  RSE: JLAB-TAPE-SE                              Total Size: 114.671 TB       Total Files: 1008431
+  RSE: JLAB-TAPE-SE                              Total Size: 114.677 TB       Total Files: 1008459
 ```
